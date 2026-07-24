@@ -29,9 +29,16 @@ def _service():
     if token_file.exists():
         creds = Credentials.from_authorized_user_file(str(token_file), SCOPES)
     if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
+        # Refresh headlessly whenever we have a refresh token. This works in CI
+        # and for tokens minted via the OAuth Playground, even if no access
+        # token / expiry is stored in the token file.
+        if creds and creds.refresh_token:
+            try:
+                creds.refresh(Request())
+            except Exception as exc:
+                print(f"[youtube] token refresh failed ({exc}).")
+                creds = None
+        if not creds or not creds.valid:
             flow = InstalledAppFlow.from_client_secrets_file(
                 settings.youtube_client_secret_file, SCOPES
             )
