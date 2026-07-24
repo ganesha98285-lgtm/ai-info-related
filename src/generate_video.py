@@ -9,8 +9,8 @@ Backends (set VIDEO_BACKEND in .env):
                the rendered clips. (Notebook template documented in docs/kaggle.md)
   - "local"  : call a local LTX-2 / ComfyUI HTTP endpoint if you have a GPU.
 
-Every backend takes the SAME reference images (characters/refs/john.png &
-ketty.png) so John & Ketty look identical across scenes.
+Every backend takes the SAME reference images (characters/refs/jon.png &
+katie.png) so Jon & Katie look identical across scenes.
 
 Output: one mp4 per scene in output/<date>/clips/ ; returns ordered clip paths.
 """
@@ -35,14 +35,14 @@ def _has_ffmpeg() -> bool:
 
 def _pick_reference(scene: dict) -> Path | None:
     """Choose which character reference image best fits a scene (simple heuristic)."""
-    john = settings.refs_dir / "john.png"
-    ketty = settings.refs_dir / "ketty.png"
+    jon = settings.refs_dir / "jon.png"
+    katie = settings.refs_dir / "katie.png"
     text = f"{scene.get('visual_prompt','')} {scene.get('narration','')}".lower()
-    if "ketty" in text and "john" not in text and ketty.exists():
-        return ketty
-    if john.exists():
-        return john
-    return ketty if ketty.exists() else None
+    if "katie" in text and "jon" not in text and katie.exists():
+        return katie
+    if jon.exists():
+        return jon
+    return katie if katie.exists() else None
 
 
 def _stub_clip(scene: dict, out_path: Path) -> bool:

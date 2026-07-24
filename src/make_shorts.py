@@ -1,6 +1,7 @@
 """Step 5 — Cut 3-4 vertical (9:16) teaser Shorts from the master vlog.
 
-Each short is a highlight window (~30s) center-cropped to 1080x1920 for
+Each short is a highlight window (~30s) fit into a 1080x1920 (9:16) canvas with
+a soft blurred background (NO cropping — the full scene stays visible) for
 YouTube Shorts / Instagram Reels / Facebook Reels, with a hook caption.
 """
 from __future__ import annotations
@@ -49,7 +50,7 @@ def make_shorts(storyboard_path: Path, count: int = 4) -> list[Path]:
         raise RuntimeError("vlog_master.mp4 missing. Run assemble first.")
 
     storyboard = json.loads(Path(storyboard_path).read_text("utf-8"))
-    title = storyboard.get("title", "John & Ketty")
+    title = storyboard.get("title", "Jon & Katie")
 
     shorts_dir = date_dir / "shorts"
     shorts_dir.mkdir(parents=True, exist_ok=True)
@@ -62,15 +63,24 @@ def make_shorts(storyboard_path: Path, count: int = 4) -> list[Path]:
     for i, start in enumerate(starts):
         hook = hooks[i % len(hooks)].replace(":", "\\:").replace("'", "")
         out = shorts_dir / f"short_{i+1:02d}.mp4"
-        vf = (
-            # crop center to 9:16 then scale to 1080x1920, add hook caption on top
-            f"crop='min(iw,ih*9/16)':'min(ih,iw*16/9)',scale={SHORT_W}:{SHORT_H},"
+        # NO CROP: fit the full 16:9 frame into a 9:16 canvas and fill the empty
+        # top/bottom with a soft blurred copy of the same frame. Nothing from the
+        # original scene, characters, or background is ever cut off.
+        filter_complex = (
+            # blurred background: fill 1080x1920, cover, then blur
+            f"[0:v]scale={SHORT_W}:{SHORT_H}:force_original_aspect_ratio=increase,"
+            f"crop={SHORT_W}:{SHORT_H},boxblur=luma_radius=40:luma_power=1[bg];"
+            # foreground: full frame scaled to fit width, nothing cropped
+            f"[0:v]scale={SHORT_W}:-2[fg];"
+            # overlay fg centered on the blurred bg, then draw the hook caption
+            f"[bg][fg]overlay=(W-w)/2:(H-h)/2,"
             f"drawtext=text='{hook}':fontcolor=white:fontsize=64:box=1:"
-            f"boxcolor=black@0.4:boxborderw=22:x=(w-text_w)/2:y=140"
+            f"boxcolor=black@0.4:boxborderw=22:x=(w-text_w)/2:y=140[v]"
         )
         _run([
             "ffmpeg", "-y", "-ss", str(start), "-i", str(master),
-            "-t", str(SHORT_LEN), "-vf", vf,
+            "-t", str(SHORT_LEN), "-filter_complex", filter_complex,
+            "-map", "[v]", "-map", "0:a?",
             "-c:v", "libx264", "-pix_fmt", "yuv420p",
             "-c:a", "aac", "-r", "25", str(out),
         ])

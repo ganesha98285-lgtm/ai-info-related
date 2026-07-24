@@ -3,41 +3,44 @@
 Use these in Gemini / Imagen / Nano Banana. Generate each character ALONE first
 (these become your reference/profile images), then the DUO shot, then the HOME.
 
-Once you pick your favourite images, SAVE them as `characters/refs/john.png` and
-`characters/refs/ketty.png` — we feed them back as reference images so every
-future video keeps the SAME face (character consistency).
+Once you pick your favourite images, SAVE them as `characters/refs/jon.png` and
+`characters/refs/katie.png` — we feed them back as reference images so every
+future video keeps the SAME face + accessories (character consistency).
 
 ---
 
-## 1) JOHN — profile / reference image
+## 1) JON — profile / reference image
 
 ```
-A cute 3D animated Labrador retriever PUPPY named John, warm golden butter-yellow
+A cute 3D animated Labrador retriever PUPPY named Jon, warm golden butter-yellow
 soft fluffy fur, big round glossy dark-brown expressive eyes, soft floppy ears,
-tiny chubby round puppy body, happy friendly smile with little tongue out,
-sitting pose facing camera, clean soft background.
-Style: cute 3D animated pixar-style, soft rounded shapes, big expressive eyes,
-warm pastel cozy lighting, ultra adorable, high detail, clean render,
-family-friendly. Full body, centered, studio character sheet.
-```
-
-## 2) KETTY — profile / reference image
-
-```
-A cute 3D animated Persian CAT named Ketty, fluffy silver-white cream long
-luxurious fur, classic flat Persian face, big round sparkling blue-green eyes,
-small graceful elegant body, calm classy expression, elegant sitting pose facing
+tiny chubby round puppy body, wearing a brown collar with a gold bone-shaped
+"Jon" name tag, happy friendly smile with little tongue out, sitting pose facing
 camera, clean soft background.
 Style: cute 3D animated pixar-style, soft rounded shapes, big expressive eyes,
 warm pastel cozy lighting, ultra adorable, high detail, clean render,
 family-friendly. Full body, centered, studio character sheet.
 ```
 
-## 3) DUO — John & Ketty together (channel banner / thumbnail base)
+## 2) KATIE — profile / reference image
 
 ```
-A cute 3D animated golden Labrador PUPPY (John) and a fluffy silver-white Persian
-CAT (Ketty) sitting together as best friends inside a cozy miniature cottage
+A cute 3D animated Persian CAT named Katie, fluffy silver-white cream long
+luxurious fur, classic flat Persian face, big round sparkling blue-green eyes,
+wearing a pink bow on her head and a pink heart-shaped "Katie" name tag and a
+cute pink dress, small graceful elegant body, calm classy expression, elegant
+sitting pose facing camera, clean soft background.
+Style: cute 3D animated pixar-style, soft rounded shapes, big expressive eyes,
+warm pastel cozy lighting, ultra adorable, high detail, clean render,
+family-friendly. Full body, centered, studio character sheet.
+```
+
+## 3) DUO — Jon & Katie together (channel banner / thumbnail base)
+
+```
+A cute 3D animated golden Labrador PUPPY (Jon, brown collar with gold bone "Jon"
+tag) and a fluffy silver-white Persian CAT (Katie, pink bow + heart "Katie" tag
++ pink dress) sitting together as best friends inside a cozy miniature cottage
 kitchen, warm wooden interior, tiny pastel kitchen, fairy lights, big round window
 with soft morning sunlight, both looking at camera with adorable happy faces.
 Style: cute 3D animated pixar-style, soft rounded shapes, big expressive eyes,
@@ -59,5 +62,7 @@ setting, ultra adorable, high detail, clean render, family-friendly.
 
 ### Tip for perfect consistency
 1. Generate #1 and #2, pick the best face for each.
-2. In Gemini, upload that image + say: "keep this exact character, now show him
-   cooking breakfast" etc. This locks the face across all future scenes.
+2. In Gemini, upload that image + say: "keep this exact character and accessories,
+   now show him cooking breakfast" etc. This locks the face across all future scenes.
+3. Always keep Jon's **brown collar + bone "Jon" tag** and Katie's **pink bow +
+   heart "Katie" tag** in every prompt.

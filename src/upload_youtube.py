@@ -48,8 +48,15 @@ def upload_video(
     tags: list[str],
     publish_at: dt.datetime | None = None,
     made_for_kids: bool = False,
+    privacy: str = "public",
 ) -> str | None:
-    """Upload one video. Returns the videoId, or None on failure."""
+    """Upload one video. Returns the videoId, or None on failure.
+
+    - If `publish_at` is given, the video is uploaded `private` and YouTube
+      publishes it automatically at that (US peak) time.
+    - Otherwise it publishes immediately with `privacy` ("unlisted" for safe
+      testing, or "public"). Unlisted = only people with the link can see it.
+    """
     from googleapiclient.http import MediaFileUpload
 
     try:
@@ -59,7 +66,7 @@ def upload_video(
         return None
 
     status = {
-        "privacyStatus": "private" if publish_at else "public",
+        "privacyStatus": "private" if publish_at else privacy,
         "selfDeclaredMadeForKids": made_for_kids,
     }
     if publish_at:

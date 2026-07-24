@@ -1,4 +1,4 @@
-"""Central configuration for the John & Ketty vlog studio.
+"""Central configuration for the Jon & Katie vlog studio.
 
 Reads everything from environment variables (loaded from .env locally, or from
 GitHub Secrets in CI). Import `settings` anywhere you need config.
@@ -60,9 +60,24 @@ class Settings:
     meta_ig_user_id: str = os.getenv("META_IG_USER_ID", "")
     meta_fb_page_id: str = os.getenv("META_FB_PAGE_ID", "")
 
+    # --- upload targets / behaviour ---
+    # Comma-separated list of platforms to post to. For the first YouTube-only
+    # test keep this = "youtube". Add "meta" later to also post IG/FB Reels.
+    upload_targets: str = os.getenv("UPLOAD_TARGETS", "youtube")
+    # YouTube privacy for a run: "unlisted" (safe test — only link holders see it),
+    # "private", or "public".
+    youtube_privacy: str = os.getenv("YOUTUBE_PRIVACY", "unlisted")
+    # If "true", uploads are scheduled to US peak times (private + publishAt).
+    # If "false" (default for testing), they publish immediately with the privacy
+    # set above so you can review them right after the run.
+    schedule_to_peak: bool = os.getenv("SCHEDULE_TO_PEAK", "false").lower() == "true"
+
     # --- audience / scheduling ---
     target_timezone: str = os.getenv("TARGET_TIMEZONE", "America/New_York")
-    channel_name: str = os.getenv("CHANNEL_NAME", "Jab Ketty Met John")
+    channel_name: str = os.getenv("CHANNEL_NAME", "Jon & Katie")
+
+    def upload_target_list(self) -> list[str]:
+        return [t.strip().lower() for t in self.upload_targets.split(",") if t.strip()]
 
     def ensure_dirs(self) -> None:
         for d in (self.refs_dir, self.assets_audio_dir, self.output_dir):

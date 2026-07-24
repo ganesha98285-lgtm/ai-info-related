@@ -1,4 +1,4 @@
-"""End-to-end daily pipeline for "Jab Ketty Met John".
+"""End-to-end daily pipeline for "Jon & Katie".
 
 Runs the full flow:
   story -> voice -> video clips -> assemble master vlog -> cut shorts -> upload.
@@ -8,8 +8,10 @@ Usage:
   python -m src.pipeline --once --no-upload      # build videos, skip posting
   python -m src.pipeline --theme "a snowy day"   # force a specific theme
 
-In GitHub Actions, `--once` runs on the daily cron. Uploads schedule themselves
-to US peak times (YouTube via publishAt; Meta via the cron timing).
+In GitHub Actions, `--once` runs on the daily cron. By default this is
+YouTube-only and publishes with YOUTUBE_PRIVACY (unlisted for safe testing).
+Set SCHEDULE_TO_PEAK=true to instead schedule uploads to US peak times, and add
+"meta" to UPLOAD_TARGETS once IG/FB is configured.
 """
 from __future__ import annotations
 
@@ -64,32 +66,46 @@ def run_once(theme: str | None = None, do_upload: bool = True, shorts: int = 4) 
         _write_summary(sb_path.parent, result)
         return result
 
-    # 6) upload — long vlog to YouTube (scheduled to peak), shorts staggered
     title = storyboard.get("title", settings.channel_name)
     desc = storyboard.get("description", "")
     tags = storyboard.get("hashtags", [])
 
-    yt_long = upload_youtube.upload_video(
-        master, title, desc, tags,
-        publish_at=scheduler.long_vlog_publish_time(),
-        made_for_kids=False,
-    )
-    result["uploads"]["youtube_long"] = yt_long
+    targets = settings.upload_target_list()
+    print(f"[pipeline] upload targets = {targets} | "
+          f"schedule_to_peak={settings.schedule_to_peak} | "
+          f"youtube_privacy={settings.youtube_privacy}")
 
-    short_times = scheduler.shorts_publish_times(len(short_paths))
-    result["uploads"]["shorts"] = []
-    for i, sp in enumerate(short_paths):
-        vid = upload_youtube.upload_video(
-            sp, f"{title} #shorts", desc, tags + ["#shorts"],
-            publish_at=short_times[i], made_for_kids=False,
+    # 6) upload — YouTube (default, and the only target for the first test).
+    if "youtube" in targets:
+        peak = settings.schedule_to_peak
+        long_when = scheduler.long_vlog_publish_time() if peak else None
+        yt_long = upload_youtube.upload_video(
+            master, title, desc, tags,
+            publish_at=long_when, made_for_kids=False,
+            privacy=settings.youtube_privacy,
         )
-        result["uploads"]["shorts"].append(vid)
+        result["uploads"]["youtube_long"] = yt_long
 
-    # Meta (IG/FB) — needs a PUBLIC url for each short. See docs/meta.md.
-    # We record the intent here; the GitHub workflow publishes the committed
-    # raw URLs once the files are pushed.
-    caption = upload_meta.caption_from(title, tags)
-    result["uploads"]["meta_caption"] = caption
+        short_times = scheduler.shorts_publish_times(len(short_paths)) if peak else None
+        result["uploads"]["shorts"] = []
+        for i, sp in enumerate(short_paths):
+            vid = upload_youtube.upload_video(
+                sp, f"{title} #shorts", desc, tags + ["#shorts"],
+                publish_at=(short_times[i] if short_times else None),
+                made_for_kids=False, privacy=settings.youtube_privacy,
+            )
+            result["uploads"]["shorts"].append(vid)
+    else:
+        print("[pipeline] 'youtube' not in UPLOAD_TARGETS; skipping YouTube.")
+
+    # Meta (IG/FB) — OFF by default. Enable later by adding "meta" to
+    # UPLOAD_TARGETS. Needs a PUBLIC url for each short (see upload_meta.py).
+    if "meta" in targets:
+        caption = upload_meta.caption_from(title, tags)
+        result["uploads"]["meta_caption"] = caption
+        print("[pipeline] Meta enabled — ensure public video URLs are configured.")
+    else:
+        print("[pipeline] Meta disabled (YouTube-only). Add 'meta' to UPLOAD_TARGETS later.")
 
     _write_summary(sb_path.parent, result)
     print("[pipeline] ✅ done")
@@ -104,7 +120,7 @@ def _write_summary(date_dir: Path, result: dict) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Jab Ketty Met John daily pipeline")
+    ap = argparse.ArgumentParser(description="Jon & Katie daily pipeline")
     ap.add_argument("--once", action="store_true", help="run one full daily cycle")
     ap.add_argument("--theme", default=None, help="force a story theme")
     ap.add_argument("--no-upload", action="store_true", help="build only, no posting")

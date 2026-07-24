@@ -1,6 +1,8 @@
-# 🛠️ Setup Guide — Jab Ketty Met John (100% free)
+# 🛠️ Setup Guide — Jon & Katie (100% free, YouTube-first)
 
-Follow once, then it runs itself daily via GitHub Actions.
+Follow once, then it runs itself daily via GitHub Actions. The first test is
+**YouTube-only** and uploads **unlisted** so you can review before going public.
+Instagram/Facebook can be attached later.
 
 ## 0. Try it locally first (zero keys needed)
 
@@ -16,28 +18,42 @@ pipeline end-to-end for free. Output lands in `output/<date>/`.
 
 ## 1. Character reference images (one time)
 
-1. Open `characters/image-prompts.md`, paste the JOHN and KETTY prompts into
+1. Open `characters/image-prompts.md`, paste the JON and KATIE prompts into
    Gemini / Imagen, generate, and pick your favourites.
-2. Save them as `characters/refs/john.png` and `characters/refs/ketty.png`.
+2. Save them as `characters/refs/jon.png` and `characters/refs/katie.png`.
 
-## 2. Free API keys
+## 2. Free API keys (YouTube-only to start)
 
 | Secret | Where to get it (free) |
 |--------|------------------------|
 | `GEMINI_API_KEY` | https://aistudio.google.com/apikey |
 | `YOUTUBE_CLIENT_SECRET_JSON` | Google Cloud → enable *YouTube Data API v3* → OAuth client (Desktop) |
 | `YOUTUBE_TOKEN_JSON` | run `python -m src.upload_youtube` locally once to authorize; copy `secrets/youtube_token.json` |
-| `META_ACCESS_TOKEN`, `META_IG_USER_ID`, `META_FB_PAGE_ID` | Meta Business + Graph API (IG must be Business/Creator linked to a FB Page) |
-| `KAGGLE_USERNAME`, `KAGGLE_KEY` | kaggle.com → Account → Create API Token (only for the `kaggle` HD backend) |
+
+> Instagram/Facebook (`META_*`) and Kaggle (`KAGGLE_*`) are NOT needed for the
+> first YouTube test — add them later.
 
 Add these under **GitHub repo → Settings → Secrets and variables → Actions**.
-Non-secret tuning (voice, timezone, backend) go under **Variables**:
-`TTS_VOICE`, `NARRATION_MODE`, `VIDEO_BACKEND`, `TARGET_TIMEZONE`, `KAGGLE_KERNEL_SLUG`.
+Non-secret tuning goes under **Variables**:
 
-## 3. Turn on the daily automation
+| Variable | Test value | Meaning |
+|----------|-----------|---------|
+| `VIDEO_BACKEND` | `stub` | cute Ken-Burns animation (upgrade to `kaggle` later) |
+| `UPLOAD_TARGETS` | `youtube` | YouTube only (add `meta` later for IG/FB) |
+| `YOUTUBE_PRIVACY` | `unlisted` | review via link before making public |
+| `SCHEDULE_TO_PEAK` | `false` | publish immediately for testing (set `true` for US peak scheduling) |
+| `TTS_VOICE` | `en-US-AriaNeural` | narration voice |
+| `NARRATION_MODE` | `narrate` | or `silent` |
+| `TARGET_TIMEZONE` | `America/New_York` | used when SCHEDULE_TO_PEAK=true |
 
-The workflow `.github/workflows/daily.yml` runs every day at 12:00 UTC and can
-be triggered manually from the **Actions** tab (with an optional theme).
+## 3. Run the first test
+
+Repo → **Actions** tab → **"Daily Vlog — Jon & Katie"** → **Run workflow**.
+It builds the video and uploads it **unlisted** to your channel — open the link
+from the run logs / your YouTube Studio to review it.
+
+Once happy, set `YOUTUBE_PRIVACY=public` (and optionally `SCHEDULE_TO_PEAK=true`)
+and it will publish daily on the 12:00 UTC cron.
 
 ## 4. Quality ladder (free)
 
