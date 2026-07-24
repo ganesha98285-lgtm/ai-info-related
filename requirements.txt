@@ -11,6 +11,9 @@ edge-tts>=6.1.12
 # Media handling (FFmpeg is called via CLI; these help orchestrate)
 ffmpeg-python>=0.2.0
 
+# Image slicing (crop the character sheet into per-activity scene images)
+Pillow>=10.3.0
+
 # YouTube upload
 google-api-python-client>=2.137.0
 google-auth-oauthlib>=1.2.1

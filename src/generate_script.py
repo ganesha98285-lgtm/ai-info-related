@@ -68,6 +68,7 @@ Return STRICT JSON only, matching this schema:
   "scenes": [
     {{
       "id": 1,
+      "activity": "one of: cooking | garden | fishing | grocery | laptop | travel | cleaning | diary",
       "beat": "wake up | breakfast | activity | outing | snack | wind-down",
       "visual_prompt": "detailed scene prompt",
       "narration": "one warm, short narration sentence",
@@ -76,40 +77,46 @@ Return STRICT JSON only, matching this schema:
     }}
   ]
 }}
-Aim for 7-9 scenes. Every visual_prompt MUST end with this exact text:
+Aim for 7-9 scenes; prefer using the 8 activities above as the scene set so they
+match the character art. Every visual_prompt MUST end with this exact text:
 "{CHAR_LOCK} Style: {STYLE_LOCK}"
 """
 
 
 def _fallback_storyboard(theme: str, today: str) -> dict:
+    # 8 beats mapped 1:1 to the 8 activity panels on the character sheet, so the
+    # day plays as a cute "day in the life" montage of Jon & Katie.
     beats = [
-        ("wake up", "Jon and Katie wake up and stretch in their cozy cottage bed."),
-        ("breakfast", "Katie makes a tiny breakfast while Jon waits, tail wagging."),
-        ("activity", f"Today's big adventure: {theme}."),
-        ("outing", "They head out together into the warm morning light."),
-        ("snack", "A tiny crunchy snack — the best part of the day (ASMR)."),
-        ("wind-down", "Cozy blankets and fairy lights, writing the adventure diary."),
+        ("cooking", "wake up", "Katie cooks a tiny breakfast while Jon waits, tail wagging.", "Cooking together"),
+        ("garden", "activity", "A morning garden stroll with cute little bubble teas.", "Garden walk"),
+        ("fishing", "outing", "Off on a fishing trip in their little wooden boat.", "Fishing trip"),
+        ("grocery", "outing", "Shopping for treats with the tiny grocery cart.", "Grocery run"),
+        ("laptop", "activity", "A cozy work-from-home moment with warm coffee.", "Work from home"),
+        ("travel", "outing", "Sunglasses on, tiny suitcases packed — adventure time!", "Travel day"),
+        ("cleaning", "activity", "Tidying up the cozy cottage together, squeaky clean.", "Cleaning day"),
+        ("diary", "wind-down", "Cuddled up at night, writing their adventure diary.", "Goodnight 💤"),
     ]
     scenes = []
-    for i, (beat, narration) in enumerate(beats, start=1):
+    for i, (activity, beat, narration, caption) in enumerate(beats, start=1):
         scenes.append(
             {
                 "id": i,
+                "activity": activity,
                 "beat": beat,
                 "visual_prompt": (
                     f"Jon the golden Labrador puppy and Katie the silver-white "
-                    f"Persian cat, {beat} scene, {theme}. {CHAR_LOCK} Style: {STYLE_LOCK}"
+                    f"Persian cat, {activity} scene. {CHAR_LOCK} Style: {STYLE_LOCK}"
                 ),
                 "narration": narration,
-                "caption": beat.title(),
+                "caption": caption,
                 "seconds": 7,
             }
         )
     return {
-        "title": f"Jon & Katie: {theme.capitalize()} 🐶🐱",
+        "title": "Jon & Katie: A Cozy Day in the Life 🐶🐱",
         "description": (
-            f"Join Jon the puppy and Katie the cat for {theme}! A cozy, cute daily "
-            f"vlog full of tiny ASMR moments. Best friends, big adventures 💛 New "
+            f"Spend a cozy day with Jon the puppy and Katie the cat — {theme}, "
+            f"and lots of tiny ASMR moments. Best friends, big adventures 💛 New "
             f"video every day!"
         ),
         "hashtags": [
