@@ -82,19 +82,24 @@ def run_ltx(storyboard: dict, refs_dir: Path, clips_dir: Path) -> list[Path]:
         panels = sheet_slicer.slice_sheet(sheet, clips_dir / "_panels")
 
     dtype = torch.float16 if torch.cuda.is_available() else torch.float32
-    print(f"[ltx] loading Lightricks/LTX-Video (dtype={dtype}) ...")
+    print(f"[ltx] loading Lightricks/LTX-Video (dtype={dtype}) ...", flush=True)
+    # low_cpu_mem_usage=False avoids the meta-device "Materializing param..."
+    # path that can hang on Kaggle. LTX-Video (~10GB) fits a 16GB GPU, so we
+    # load it fully onto the GPU (faster + reliable) instead of cpu-offload.
     pipe = LTXImageToVideoPipeline.from_pretrained(
-        "Lightricks/LTX-Video", torch_dtype=dtype
+        "Lightricks/LTX-Video", torch_dtype=dtype, low_cpu_mem_usage=False
     )
-    # Fit the model on a modest (free T4) GPU.
-    try:
-        pipe.enable_model_cpu_offload()
-    except Exception:
-        pipe = pipe.to("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.cuda.is_available():
+        try:
+            pipe = pipe.to("cuda")
+        except Exception as exc:
+            print(f"[ltx] to(cuda) failed ({exc}); using cpu offload.", flush=True)
+            pipe.enable_model_cpu_offload()
     try:
         pipe.vae.enable_tiling()
     except Exception:
         pass
+    print("[ltx] model ready — generating scenes...", flush=True)
 
     clips: list[Path] = []
     scenes = storyboard.get("scenes", [])
