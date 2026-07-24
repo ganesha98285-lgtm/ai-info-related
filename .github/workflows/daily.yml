@@ -3,9 +3,10 @@ name: Daily Vlog — Jon & Katie
 # Runs every day. Cron is in UTC. 12:00 UTC ≈ early morning US, giving the
 # pipeline time to build videos before the afternoon peak-publish slots.
 on:
-  schedule:
-    - cron: "0 12 * * *"
-  workflow_dispatch:        # allow manual runs from the Actions tab
+  # NOTE: GitHub's runner has NO GPU, so it can only make slideshows (stub).
+  # Real motion video + daily posting happens on KAGGLE (see kaggle/README.md).
+  # The daily schedule is therefore DISABLED and manual runs are build-only.
+  workflow_dispatch:        # manual BUILD-ONLY test (never posts)
     inputs:
       shorts_per_day:
         description: "How many shorts on THIS manual run (test = 1)"
@@ -90,8 +91,8 @@ jobs:
           INDIA_TIMEZONE: ${{ vars.INDIA_TIMEZONE || 'Asia/Kolkata' }}
           CHANNEL_NAME: "Jon & Katie"
         run: |
-          EXTRA=""
-          if [ "${{ github.event.inputs.no_upload }}" = "true" ]; then EXTRA="--no-upload"; fi
+          # GitHub runner has no GPU -> BUILD ONLY, never upload (no slideshows).
+          EXTRA="--no-upload"
           if [ -n "${{ github.event.inputs.theme }}" ]; then EXTRA="$EXTRA --theme \"${{ github.event.inputs.theme }}\""; fi
           eval python -m src.pipeline --once $EXTRA
 
