@@ -58,6 +58,9 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           KAGGLE_KERNEL_SLUG: ${{ vars.KAGGLE_KERNEL_SLUG }}
+          # --- content mode (shorts-only until reach grows) ---
+          SHORTS_ONLY: ${{ vars.SHORTS_ONLY || 'true' }}
+          SHORTS_PER_DAY: ${{ vars.SHORTS_PER_DAY || '6' }}
           # --- upload behaviour (YouTube-only for now) ---
           UPLOAD_TARGETS: ${{ vars.UPLOAD_TARGETS || 'youtube' }}
           YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'unlisted' }}
@@ -66,7 +69,10 @@ jobs:
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
+          # --- prime-time markets: 4 shorts USA + 2 shorts India night ---
           TARGET_TIMEZONE: ${{ vars.TARGET_TIMEZONE || 'America/New_York' }}
+          USA_TIMEZONE: ${{ vars.USA_TIMEZONE || 'America/New_York' }}
+          INDIA_TIMEZONE: ${{ vars.INDIA_TIMEZONE || 'Asia/Kolkata' }}
           CHANNEL_NAME: "Jon & Katie"
         run: |
           EXTRA=""

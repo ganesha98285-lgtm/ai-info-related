@@ -28,16 +28,25 @@ def _service():
     creds = None
     if token_file.exists():
         creds = Credentials.from_authorized_user_file(str(token_file), SCOPES)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
+
+    # If we have a refresh token, ALWAYS refresh to mint a fresh access token.
+    # This makes tokens created via the OAuth Playground work headlessly in CI
+    # even when the stored "token" field is empty, stale, or a placeholder.
+    if creds and creds.refresh_token:
+        try:
             creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                settings.youtube_client_secret_file, SCOPES
-            )
-            creds = flow.run_local_server(port=0)
-        token_file.parent.mkdir(parents=True, exist_ok=True)
-        token_file.write_text(creds.to_json(), "utf-8")
+        except Exception as exc:
+            print(f"[youtube] token refresh failed ({exc}).")
+            creds = None
+
+    if not creds or not creds.valid:
+        flow = InstalledAppFlow.from_client_secrets_file(
+            settings.youtube_client_secret_file, SCOPES
+        )
+        creds = flow.run_local_server(port=0)
+
+    token_file.parent.mkdir(parents=True, exist_ok=True)
+    token_file.write_text(creds.to_json(), "utf-8")
     return build("youtube", "v3", credentials=creds)
 
 
