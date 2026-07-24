@@ -177,7 +177,17 @@ def generate_clips(storyboard_path: Path) -> list[Path]:
 
     backend = settings.video_backend.lower()
     print(f"[generate_video] backend = {backend}")
-    if backend == "kaggle":
+    if backend == "ltx":
+        # REAL image-to-video motion (LTX-Video). Meant to run on a GPU
+        # (Kaggle free T4). Falls back to stub if the GPU/model isn't available.
+        try:
+            from src.backends.ltx_generate import run_ltx
+
+            clips = run_ltx(storyboard, settings.refs_dir, clips_dir)
+        except Exception as exc:
+            print(f"[generate_video] LTX backend unavailable ({exc}); using stub.")
+            clips = _render_all_stub(storyboard, clips_dir)
+    elif backend == "kaggle":
         clips = _kaggle_clips(storyboard, clips_dir)
     elif backend == "local":
         clips = _local_clips(storyboard, clips_dir)
