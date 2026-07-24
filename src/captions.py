@@ -81,11 +81,15 @@ def overlay_on_file(clip_path: Path, scene: dict, work_dir: Path) -> None:
     """Burn the dialogue bubble onto an existing clip (used by the LTX backend)."""
     vf = dialogue_vf(scene, work_dir)
     tmp = clip_path.with_suffix(".cap.mp4")
-    res = subprocess.run(
-        ["ffmpeg", "-y", "-i", str(clip_path), "-vf", vf,
-         "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "copy", str(tmp)],
-        capture_output=True, text=True,
-    )
+    try:
+        res = subprocess.run(
+            ["ffmpeg", "-y", "-i", str(clip_path), "-vf", vf,
+             "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "copy", str(tmp)],
+            capture_output=True, text=True, timeout=180,
+        )
+    except subprocess.TimeoutExpired:
+        print("[captions] overlay timed out; keeping clip without bubble.")
+        return
     if res.returncode == 0:
         tmp.replace(clip_path)
     else:
