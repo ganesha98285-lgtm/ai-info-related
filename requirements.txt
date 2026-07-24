@@ -1,0 +1,20 @@
+# Core
+python-dotenv>=1.0.1
+requests>=2.32.0
+
+# Script / story generation (Gemini free tier)
+google-generativeai>=0.8.3
+
+# Voiceover (100% free, no key)
+edge-tts>=6.1.12
+
+# Media handling (FFmpeg is called via CLI; these help orchestrate)
+ffmpeg-python>=0.2.0
+
+# YouTube upload
+google-api-python-client>=2.137.0
+google-auth-oauthlib>=1.2.1
+google-auth-httplib2>=0.2.0
+
+# Scheduling / timezones
+pytz>=2024.1

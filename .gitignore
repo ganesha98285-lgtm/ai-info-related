@@ -1,0 +1,19 @@
+# secrets & env
+.env
+secrets/
+*.json.key
+
+# generated media (kept as CI artifacts, not in git)
+output/
+!output/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# os
+.DS_Store
