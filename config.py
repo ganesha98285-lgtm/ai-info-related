@@ -39,8 +39,19 @@ class Settings:
     gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
 
     # --- voice ---
-    tts_voice: str = os.getenv("TTS_VOICE", "en-US-AriaNeural")
+    tts_voice: str = os.getenv("TTS_VOICE", "en-US-AriaNeural")  # narrator fallback
+    # Distinct voices so it feels like the two characters are talking.
+    tts_voice_jon: str = os.getenv("TTS_VOICE_JON", "en-US-GuyNeural")     # playful male
+    tts_voice_katie: str = os.getenv("TTS_VOICE_KATIE", "en-US-JennyNeural")  # elegant female
     narration_mode: str = os.getenv("NARRATION_MODE", "narrate")  # narrate|silent
+
+    def voice_for(self, speaker: str) -> str:
+        s = (speaker or "").strip().lower()
+        if s == "jon":
+            return self.tts_voice_jon
+        if s == "katie":
+            return self.tts_voice_katie
+        return self.tts_voice
 
     # --- video backend ---
     video_backend: str = os.getenv("VIDEO_BACKEND", "stub")  # kaggle|local|stub

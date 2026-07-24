@@ -113,6 +113,13 @@ def run_ltx(storyboard: dict, refs_dir: Path, clips_dir: Path) -> list[Path]:
                 kwargs["image"] = load_image(str(ref)).resize((FRAME_W, FRAME_H))
             frames = pipe(**kwargs).frames[0]
             export_to_video(frames, str(out), fps=FPS)
+            # Burn the speech bubble (speaker + dialogue) onto the motion clip.
+            try:
+                from src import captions
+
+                captions.overlay_on_file(out, scene, clips_dir)
+            except Exception as exc:
+                print(f"[ltx] caption overlay skipped: {exc}")
             clips.append(out)
         except Exception as exc:
             print(f"[ltx] scene {scene['id']} failed: {exc}")

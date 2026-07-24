@@ -26,7 +26,7 @@ import subprocess
 from pathlib import Path
 
 from config import settings
-from src import sheet_slicer
+from src import captions, sheet_slicer
 
 TARGET_W, TARGET_H = 1920, 1080  # HD landscape master; shorts are cropped later
 
@@ -89,13 +89,9 @@ def _stub_clip(scene: dict, out_path: Path, ref: Path | None) -> bool:
     Uses only FFmpeg (free, no GPU). If no reference image exists, renders a
     solid pastel card so the pipeline still completes end-to-end.
     """
-    seconds = int(scene.get("seconds", 7))
-    caption = (scene.get("caption") or "").replace(":", "\\:").replace("'", "")
-
-    drawtext = (
-        f"drawtext=text='{caption}':fontcolor=white:fontsize=54:"
-        f"box=1:boxcolor=black@0.35:boxborderw=20:x=(w-text_w)/2:y=h-160"
-    )
+    seconds = int(scene.get("seconds", 5))
+    # Speech bubble (speaker + dialogue) + brand handle.
+    drawtext = captions.dialogue_vf(scene, out_path.parent)
 
     if ref and ref.exists():
         # Slow zoom (Ken Burns) on the character image.
