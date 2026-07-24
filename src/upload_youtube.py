@@ -28,23 +28,24 @@ def _service():
     creds = None
     if token_file.exists():
         creds = Credentials.from_authorized_user_file(str(token_file), SCOPES)
+    # If we have a refresh token, ALWAYS refresh to mint a fresh access token.
+    # This makes tokens created via the OAuth Playground work headlessly even
+    # when the stored "token" field is empty, stale, or a placeholder.
+    if creds and creds.refresh_token:
+        try:
+            creds.refresh(Request())
+        except Exception as exc:
+            print(f"[youtube] token refresh failed ({exc}).")
+            creds = None
+
     if not creds or not creds.valid:
-        # Refresh headlessly whenever we have a refresh token. This works in CI
-        # and for tokens minted via the OAuth Playground, even if no access
-        # token / expiry is stored in the token file.
-        if creds and creds.refresh_token:
-            try:
-                creds.refresh(Request())
-            except Exception as exc:
-                print(f"[youtube] token refresh failed ({exc}).")
-                creds = None
-        if not creds or not creds.valid:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                settings.youtube_client_secret_file, SCOPES
-            )
-            creds = flow.run_local_server(port=0)
-        token_file.parent.mkdir(parents=True, exist_ok=True)
-        token_file.write_text(creds.to_json(), "utf-8")
+        flow = InstalledAppFlow.from_client_secrets_file(
+            settings.youtube_client_secret_file, SCOPES
+        )
+        creds = flow.run_local_server(port=0)
+
+    token_file.parent.mkdir(parents=True, exist_ok=True)
+    token_file.write_text(creds.to_json(), "utf-8")
     return build("youtube", "v3", credentials=creds)
 
 
