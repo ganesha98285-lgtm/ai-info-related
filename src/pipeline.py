@@ -1,15 +1,19 @@
-"""End-to-end daily pipeline for "Jab Katie Met Jon".
+"""End-to-end daily pipeline for "Jon & Katie".
 
 Runs the full flow:
   story -> voice -> video clips -> assemble master vlog -> cut shorts -> upload.
+
+Shorts-only for now: we build the master vlog (needed to cut shorts from) but
+only publish the SHORTS — 6/day, 4 to USA prime time + 2 to India night. The
+long-form vlog is added later once the channel's reach grows (SHORTS_ONLY).
 
 Usage:
   python -m src.pipeline --once                 # full run (uses .env config)
   python -m src.pipeline --once --no-upload      # build videos, skip posting
   python -m src.pipeline --theme "a snowy day"   # force a specific theme
 
-In GitHub Actions, `--once` runs on the daily cron. Uploads schedule themselves
-to US peak times (YouTube via publishAt; Meta via the cron timing).
+In GitHub Actions, `--once` runs on the daily cron. When SCHEDULE_TO_PEAK=true,
+uploads schedule themselves to prime times (YouTube via publishAt).
 """
 from __future__ import annotations
 
@@ -30,10 +34,14 @@ from src import (
 )
 
 
-def run_once(theme: str | None = None, do_upload: bool = True, shorts: int = 4) -> dict:
+def run_once(theme: str | None = None, do_upload: bool = True,
+             shorts: int | None = None) -> dict:
     settings.ensure_dirs()
+    shorts = shorts if shorts is not None else settings.shorts_per_day
     print("=" * 60)
     print(f"  {settings.channel_name} — daily pipeline")
+    print(f"  mode: {'SHORTS-ONLY' if settings.shorts_only else 'vlog + shorts'} | "
+          f"shorts/day: {shorts}")
     print("=" * 60)
 
     # 1) story
@@ -75,12 +83,18 @@ def run_once(theme: str | None = None, do_upload: bool = True, shorts: int = 4) 
     if "youtube" in targets:
         # When scheduling to peak: private + publishAt. Else: publish now with
         # the configured privacy (unlisted is the safe default for testing).
-        long_when = scheduler.long_vlog_publish_time() if settings.schedule_to_peak else None
-        yt_long = upload_youtube.upload_video(
-            master, title, desc, tags,
-            publish_at=long_when, privacy=settings.youtube_privacy,
-        )
-        result["uploads"]["youtube_long"] = yt_long
+
+        # Long-form vlog: SKIPPED while shorts-only (added later once reach grows).
+        if not settings.shorts_only:
+            long_when = scheduler.long_vlog_publish_time() if settings.schedule_to_peak else None
+            yt_long = upload_youtube.upload_video(
+                master, title, desc, tags,
+                publish_at=long_when, privacy=settings.youtube_privacy,
+            )
+            result["uploads"]["youtube_long"] = yt_long
+        else:
+            print("[pipeline] shorts-only mode: long vlog built but NOT uploaded "
+                  "(long video comes later once reach grows).")
 
         short_times = (
             scheduler.shorts_publish_times(len(short_paths))
@@ -111,11 +125,12 @@ def _write_summary(date_dir: Path, result: dict) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Jab Katie Met Jon daily pipeline")
+    ap = argparse.ArgumentParser(description="Jon & Katie daily pipeline")
     ap.add_argument("--once", action="store_true", help="run one full daily cycle")
     ap.add_argument("--theme", default=None, help="force a story theme")
     ap.add_argument("--no-upload", action="store_true", help="build only, no posting")
-    ap.add_argument("--shorts", type=int, default=4, help="number of teaser shorts")
+    ap.add_argument("--shorts", type=int, default=None,
+                    help="number of teaser shorts (default: SHORTS_PER_DAY)")
     args = ap.parse_args()
 
     if args.once or True:  # default action is a single run

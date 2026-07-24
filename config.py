@@ -62,7 +62,16 @@ class Settings:
 
     # --- audience / scheduling ---
     target_timezone: str = os.getenv("TARGET_TIMEZONE", "America/New_York")
+    # Two main markets for prime-time scheduling.
+    usa_timezone: str = os.getenv("USA_TIMEZONE", "America/New_York")
+    india_timezone: str = os.getenv("INDIA_TIMEZONE", "Asia/Kolkata")
     channel_name: str = os.getenv("CHANNEL_NAME", "Jon & Katie")
+
+    # --- content mode ---
+    # Shorts-only for now (long-form vlog gets added later once reach grows).
+    shorts_only: bool = os.getenv("SHORTS_ONLY", "true").lower() == "true"
+    # How many teaser shorts to publish per day (4 USA prime + 2 India night).
+    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "6"))
 
     # --- upload behaviour ---
     # Which platforms to post to (comma list). YouTube-only for now.
@@ -70,7 +79,7 @@ class Settings:
     # YouTube privacy when NOT scheduling to peak: public|unlisted|private.
     # "unlisted" is ideal for the first test runs (watch via link, not public).
     youtube_privacy: str = os.getenv("YOUTUBE_PRIVACY", "unlisted")
-    # If true, upload as private + auto-publish at the US peak slot. If false
+    # If true, upload as private + auto-publish at the prime-time slot. If false
     # (default, good for testing), publish immediately with `youtube_privacy`.
     schedule_to_peak: bool = os.getenv("SCHEDULE_TO_PEAK", "false").lower() == "true"
 
