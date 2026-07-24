@@ -58,6 +58,11 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           KAGGLE_KERNEL_SLUG: ${{ vars.KAGGLE_KERNEL_SLUG }}
+          # --- upload behaviour (YouTube-only for now) ---
+          UPLOAD_TARGETS: ${{ vars.UPLOAD_TARGETS || 'youtube' }}
+          YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'unlisted' }}
+          SCHEDULE_TO_PEAK: ${{ vars.SCHEDULE_TO_PEAK || 'false' }}
+          # Instagram/Facebook stay OFF until added to UPLOAD_TARGETS later.
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}

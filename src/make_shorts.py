@@ -1,7 +1,12 @@
 """Step 5 — Cut 3-4 vertical (9:16) teaser Shorts from the master vlog.
 
-Each short is a highlight window (~30s) center-cropped to 1080x1920 for
-YouTube Shorts / Instagram Reels / Facebook Reels, with a hook caption.
+Each short is a highlight window (~30s) fitted to 1080x1920 for YouTube Shorts /
+Instagram Reels / Facebook Reels, with a hook caption.
+
+IMPORTANT (consistency): shorts are literal segments of the SAME master vlog, so
+the background, characters and voice are byte-for-byte identical to the long
+video. We use a *blurred-background fit* (not a crop) so the ENTIRE original
+frame stays visible — nothing is cut off or changed.
 """
 from __future__ import annotations
 
@@ -62,15 +67,21 @@ def make_shorts(storyboard_path: Path, count: int = 4) -> list[Path]:
     for i, start in enumerate(starts):
         hook = hooks[i % len(hooks)].replace(":", "\\:").replace("'", "")
         out = shorts_dir / f"short_{i+1:02d}.mp4"
-        vf = (
-            # crop center to 9:16 then scale to 1080x1920, add hook caption on top
-            f"crop='min(iw,ih*9/16)':'min(ih,iw*16/9)',scale={SHORT_W}:{SHORT_H},"
+        # Blurred-background FIT (no crop): a blurred, zoomed copy of the same
+        # frame fills the 9:16 canvas; the full original frame is centered on top.
+        filter_complex = (
+            f"[0:v]split=2[bg][fg];"
+            f"[bg]scale={SHORT_W}:{SHORT_H}:force_original_aspect_ratio=increase,"
+            f"crop={SHORT_W}:{SHORT_H},boxblur=luma_radius=40:luma_power=1[bgb];"
+            f"[fg]scale={SHORT_W}:{SHORT_H}:force_original_aspect_ratio=decrease[fgs];"
+            f"[bgb][fgs]overlay=(W-w)/2:(H-h)/2,"
             f"drawtext=text='{hook}':fontcolor=white:fontsize=64:box=1:"
-            f"boxcolor=black@0.4:boxborderw=22:x=(w-text_w)/2:y=140"
+            f"boxcolor=black@0.4:boxborderw=22:x=(w-text_w)/2:y=160[v]"
         )
         _run([
             "ffmpeg", "-y", "-ss", str(start), "-i", str(master),
-            "-t", str(SHORT_LEN), "-vf", vf,
+            "-t", str(SHORT_LEN),
+            "-filter_complex", filter_complex, "-map", "[v]", "-map", "0:a?",
             "-c:v", "libx264", "-pix_fmt", "yuv420p",
             "-c:a", "aac", "-r", "25", str(out),
         ])

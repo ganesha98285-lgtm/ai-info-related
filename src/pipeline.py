@@ -64,32 +64,39 @@ def run_once(theme: str | None = None, do_upload: bool = True, shorts: int = 4) 
         _write_summary(sb_path.parent, result)
         return result
 
-    # 6) upload — long vlog to YouTube (scheduled to peak), shorts staggered
     title = storyboard.get("title", settings.channel_name)
     desc = storyboard.get("description", "")
     tags = storyboard.get("hashtags", [])
 
-    yt_long = upload_youtube.upload_video(
-        master, title, desc, tags,
-        publish_at=scheduler.long_vlog_publish_time(),
-        made_for_kids=False,
-    )
-    result["uploads"]["youtube_long"] = yt_long
+    targets = [t.strip().lower() for t in settings.upload_targets.split(",") if t.strip()]
+    print(f"[pipeline] upload targets = {targets}")
 
-    short_times = scheduler.shorts_publish_times(len(short_paths))
-    result["uploads"]["shorts"] = []
-    for i, sp in enumerate(short_paths):
-        vid = upload_youtube.upload_video(
-            sp, f"{title} #shorts", desc, tags + ["#shorts"],
-            publish_at=short_times[i], made_for_kids=False,
+    # 6) upload — YouTube (only platform enabled for now).
+    if "youtube" in targets:
+        # When scheduling to peak: private + publishAt. Else: publish now with
+        # the configured privacy (unlisted is the safe default for testing).
+        long_when = scheduler.long_vlog_publish_time() if settings.schedule_to_peak else None
+        yt_long = upload_youtube.upload_video(
+            master, title, desc, tags,
+            publish_at=long_when, privacy=settings.youtube_privacy,
         )
-        result["uploads"]["shorts"].append(vid)
+        result["uploads"]["youtube_long"] = yt_long
 
-    # Meta (IG/FB) — needs a PUBLIC url for each short. See docs/meta.md.
-    # We record the intent here; the GitHub workflow publishes the committed
-    # raw URLs once the files are pushed.
-    caption = upload_meta.caption_from(title, tags)
-    result["uploads"]["meta_caption"] = caption
+        short_times = (
+            scheduler.shorts_publish_times(len(short_paths))
+            if settings.schedule_to_peak else [None] * len(short_paths)
+        )
+        result["uploads"]["shorts"] = []
+        for i, sp in enumerate(short_paths):
+            vid = upload_youtube.upload_video(
+                sp, f"{title} #shorts", desc, tags + ["#shorts"],
+                publish_at=short_times[i], privacy=settings.youtube_privacy,
+            )
+            result["uploads"]["shorts"].append(vid)
+
+    # Meta (Instagram / Facebook) — disabled until added to UPLOAD_TARGETS.
+    if any(t in targets for t in ("meta", "instagram", "facebook")):
+        result["uploads"]["meta_caption"] = upload_meta.caption_from(title, tags)
 
     _write_summary(sb_path.parent, result)
     print("[pipeline] ✅ done")

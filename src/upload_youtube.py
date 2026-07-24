@@ -47,9 +47,16 @@ def upload_video(
     description: str,
     tags: list[str],
     publish_at: dt.datetime | None = None,
+    privacy: str = "unlisted",
     made_for_kids: bool = False,
 ) -> str | None:
-    """Upload one video. Returns the videoId, or None on failure."""
+    """Upload one video. Returns the videoId, or None on failure.
+
+    - If `publish_at` is given, the video is uploaded as *private* and YouTube
+      auto-publishes it at that time (used for peak-time scheduling).
+    - Otherwise it is published immediately with the given `privacy`
+      (public | unlisted | private). `unlisted` is great for test runs.
+    """
     from googleapiclient.http import MediaFileUpload
 
     try:
@@ -58,12 +65,12 @@ def upload_video(
         print(f"[youtube] auth/setup failed ({exc}); skipping upload.")
         return None
 
-    status = {
-        "privacyStatus": "private" if publish_at else "public",
-        "selfDeclaredMadeForKids": made_for_kids,
-    }
+    status = {"selfDeclaredMadeForKids": made_for_kids}
     if publish_at:
+        status["privacyStatus"] = "private"
         status["publishAt"] = scheduler.rfc3339(publish_at)
+    else:
+        status["privacyStatus"] = privacy
 
     body = {
         "snippet": {

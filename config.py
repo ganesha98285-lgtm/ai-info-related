@@ -64,6 +64,16 @@ class Settings:
     target_timezone: str = os.getenv("TARGET_TIMEZONE", "America/New_York")
     channel_name: str = os.getenv("CHANNEL_NAME", "Jon & Katie")
 
+    # --- upload behaviour ---
+    # Which platforms to post to (comma list). YouTube-only for now.
+    upload_targets: str = os.getenv("UPLOAD_TARGETS", "youtube")
+    # YouTube privacy when NOT scheduling to peak: public|unlisted|private.
+    # "unlisted" is ideal for the first test runs (watch via link, not public).
+    youtube_privacy: str = os.getenv("YOUTUBE_PRIVACY", "unlisted")
+    # If true, upload as private + auto-publish at the US peak slot. If false
+    # (default, good for testing), publish immediately with `youtube_privacy`.
+    schedule_to_peak: bool = os.getenv("SCHEDULE_TO_PEAK", "false").lower() == "true"
+
     def ensure_dirs(self) -> None:
         for d in (self.refs_dir, self.assets_audio_dir, self.output_dir):
             d.mkdir(parents=True, exist_ok=True)
