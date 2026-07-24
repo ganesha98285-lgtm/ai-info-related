@@ -7,6 +7,18 @@ on:
     - cron: "0 12 * * *"
   workflow_dispatch:        # allow manual runs from the Actions tab
     inputs:
+      shorts_per_day:
+        description: "How many shorts on THIS manual run (test = 1)"
+        required: false
+        default: "1"
+      privacy:
+        description: "public / unlisted / private (this manual run)"
+        required: false
+        default: "public"
+      schedule_to_peak:
+        description: "Schedule to prime time? true/false (this manual run)"
+        required: false
+        default: "false"
       theme:
         description: "Optional story theme"
         required: false
@@ -60,11 +72,14 @@ jobs:
           KAGGLE_KERNEL_SLUG: ${{ vars.KAGGLE_KERNEL_SLUG }}
           # --- content mode (shorts-only until reach grows) ---
           SHORTS_ONLY: ${{ vars.SHORTS_ONLY || 'true' }}
-          SHORTS_PER_DAY: ${{ vars.SHORTS_PER_DAY || '6' }}
+          # Manual run -> input (default 1 for a safe test). Daily cron -> 6.
+          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '6' }}
           # --- upload behaviour (YouTube-only for now) ---
           UPLOAD_TARGETS: ${{ vars.UPLOAD_TARGETS || 'youtube' }}
-          YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'unlisted' }}
-          SCHEDULE_TO_PEAK: ${{ vars.SCHEDULE_TO_PEAK || 'false' }}
+          # Manual run -> public + immediate (see it now). Daily cron -> public.
+          YOUTUBE_PRIVACY: ${{ github.event.inputs.privacy || vars.YOUTUBE_PRIVACY || 'public' }}
+          # Manual run -> false (publish now). Daily cron -> true (prime-time schedule).
+          SCHEDULE_TO_PEAK: ${{ github.event.inputs.schedule_to_peak || vars.SCHEDULE_TO_PEAK || 'true' }}
           # Instagram/Facebook stay OFF until added to UPLOAD_TARGETS later.
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
