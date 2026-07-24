@@ -39,10 +39,12 @@ def generate_voiceovers(storyboard_path: Path) -> list[dict]:
             results.append(entry)
             continue
         out_path = audio_dir / f"scene_{sid:02d}.mp3"
+        voice = settings.voice_for(scene.get("speaker"))  # Jon/Katie/narrator voice
+        entry["speaker"] = scene.get("speaker")
         try:
-            asyncio.run(_synthesize(line, settings.tts_voice, out_path))
+            asyncio.run(_synthesize(line, voice, out_path))
             entry["audio"] = str(out_path)
-            print(f"[generate_voice] scene {sid} -> {out_path.name}")
+            print(f"[generate_voice] scene {sid} [{scene.get('speaker','narrator')}/{voice}] -> {out_path.name}")
         except Exception as exc:
             print(f"[generate_voice] scene {sid} TTS failed ({exc}); silent scene.")
         results.append(entry)

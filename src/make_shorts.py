@@ -15,6 +15,7 @@ import subprocess
 from pathlib import Path
 
 from config import settings
+from src import captions
 
 SHORT_W, SHORT_H = 1080, 1920
 SHORT_LEN = 30  # seconds per teaser
@@ -61,12 +62,18 @@ def make_shorts(storyboard_path: Path, count: int = 4) -> list[Path]:
 
     total = _duration(master)
     starts = _highlight_windows(total, count)
-    hooks = ["Wait for it 🐶", "So cute 🥺", "ASMR vibes ✨", "Full vlog on channel 💛"]
+    # ASCII hooks (drawtext has no emoji font). Strong, curiosity-driven.
+    hooks = [
+        "Wait for it...", "So cute!", "You have to see this",
+        "Watch till the end!", "This made my day", "Too adorable!",
+    ]
 
     outputs: list[Path] = []
     for i, start in enumerate(starts):
-        hook = hooks[i % len(hooks)].replace(":", "\\:").replace("'", "")
+        hook = hooks[i % len(hooks)]
         out = shorts_dir / f"short_{i+1:02d}.mp4"
+        # Retention hook (first 3s) + LIKE/SUBSCRIBE CTA (last 3s).
+        hook_cta = captions.shorts_hook_cta_vf(shorts_dir, hook, SHORT_LEN, uid=str(i + 1))
         # Blurred-background FIT (no crop): a blurred, zoomed copy of the same
         # frame fills the 9:16 canvas; the full original frame is centered on top.
         filter_complex = (
@@ -74,9 +81,8 @@ def make_shorts(storyboard_path: Path, count: int = 4) -> list[Path]:
             f"[bg]scale={SHORT_W}:{SHORT_H}:force_original_aspect_ratio=increase,"
             f"crop={SHORT_W}:{SHORT_H},boxblur=luma_radius=40:luma_power=1[bgb];"
             f"[fg]scale={SHORT_W}:{SHORT_H}:force_original_aspect_ratio=decrease[fgs];"
-            f"[bgb][fgs]overlay=(W-w)/2:(H-h)/2,"
-            f"drawtext=text='{hook}':fontcolor=white:fontsize=64:box=1:"
-            f"boxcolor=black@0.4:boxborderw=22:x=(w-text_w)/2:y=160[v]"
+            f"[bgb][fgs]overlay=(W-w)/2:(H-h)/2[ov];"
+            f"[ov]{hook_cta}[v]"
         )
         _run([
             "ffmpeg", "-y", "-ss", str(start), "-i", str(master),
