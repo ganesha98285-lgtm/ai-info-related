@@ -1,4 +1,4 @@
-"""Central configuration for the John & Ketty vlog studio.
+"""Central configuration for the Jon & Katie vlog studio.
 
 Reads everything from environment variables (loaded from .env locally, or from
 GitHub Secrets in CI). Import `settings` anywhere you need config.
@@ -62,7 +62,7 @@ class Settings:
 
     # --- audience / scheduling ---
     target_timezone: str = os.getenv("TARGET_TIMEZONE", "America/New_York")
-    channel_name: str = os.getenv("CHANNEL_NAME", "Jab Ketty Met John")
+    channel_name: str = os.getenv("CHANNEL_NAME", "Jon & Katie")
 
     def ensure_dirs(self) -> None:
         for d in (self.refs_dir, self.assets_audio_dir, self.output_dir):

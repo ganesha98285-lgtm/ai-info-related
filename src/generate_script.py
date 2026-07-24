@@ -17,68 +17,78 @@ from pathlib import Path
 
 from config import settings
 
-# Daily themes so every day feels fresh but familiar.
+# Daily themes — mirror the activities from the character reference sheet so
+# every day feels fresh but familiar to the audience.
 THEMES = [
-    "a cozy rainy day baking cookies indoors",
-    "a sunny morning picnic in the garden",
-    "spring cleaning the tiny cottage together",
-    "making a tiny pancake breakfast (ASMR)",
-    "a little trip to the farmers market",
-    "planting flowers in the miniature garden",
+    "cooking a tiny meal together in the cozy kitchen",
+    "a dressed-up garden stroll with bubble tea",
+    "a fishing trip on a little wooden boat",
+    "grocery shopping with a tiny cart",
+    "a cozy work-from-home day on the laptop",
+    "a travel day with sunglasses and little suitcases",
+    "cleaning and tidying up the cottage together",
+    "a cozy night reading their 'Our Adventure Diary' in bed",
+    "baking cookies on a rainy day",
+    "a picnic in the flower garden",
+    "planting flowers in the little garden",
     "a beach day building tiny sandcastles",
-    "a cozy movie night with popcorn",
-    "John tries to cook and makes a cute mess",
-    "Ketty plans a surprise birthday for John",
-    "a snowy day and warm hot cocoa",
-    "a forest walk collecting little treasures",
 ]
 
 STYLE_LOCK = (
-    "cute 3D animated pixar-style, soft rounded shapes, big expressive eyes, "
-    "warm pastel cozy lighting, miniature cottage setting, ultra adorable, high "
-    "detail, clean render, family-friendly"
+    "ultra-cute fluffy 3D animated render, soft plush fur, big sparkly expressive "
+    "eyes, adorable chubby proportions, warm cozy cottage lighting, cinematic soft "
+    "focus, hyper-detailed, wholesome, family-friendly"
 )
 
-SYSTEM_PROMPT = """You are the head writer for a wholesome, family-friendly
-animated pet-vlog channel called "Jab Ketty Met John".
+# Fixed character look — appended so both stay recognizable in every scene.
+CHAR_LOCK = (
+    "Jon is a golden Labrador puppy wearing a brown collar with a bone 'Jon' tag; "
+    "Katie is a fluffy silver-white Persian cat with a pink bow and a heart 'Katie' "
+    "tag, often in a cute pink dress."
+)
+
+SYSTEM_PROMPT = f"""You are the head writer for a wholesome, family-friendly
+animated pet-vlog brand called "Jon & Katie — Best Friends. Big Adventures."
 
 Characters (keep 100% consistent):
-- JOHN: a cute golden Labrador puppy — excited, foodie, clumsy, always hungry.
-- KETTY: a fluffy silver-white Persian cat — calm, classy, the organized planner.
+- JON: a cute golden Labrador puppy, male. Playful, funny, loyal, foodie. Loves
+  vlogging & exploring — he's the energetic host who holds the camera.
+- KATIE: a fluffy silver-white Persian cat, female, with a pink bow. Elegant,
+  smart, sassy, caring. Loves cooking & shopping — the classy planner.
 
-They live in a cozy miniature cottage and film a daily "day in the life" vlog:
-waking up, cooking tiny meals (ASMR), doing an activity, going on a little outing,
-and winding down. No violence. No dialogue words needed (soft narration only).
+They live in a cozy cottage and film a daily "day in the life" vlog: waking up,
+cooking tiny meals (ASMR), an activity/outing, and winding down. No violence.
+Soft narration only (no dialogue words needed).
 
 Return STRICT JSON only, matching this schema:
-{
+{{
   "title": "catchy YouTube title (<= 70 chars, cute, US audience)",
   "description": "2-3 sentence description",
-  "hashtags": ["#...", ...  up to 8, mix of asmr/cute/animation/petvlog],
+  "hashtags": ["#...", up to 8, mix of asmr/cute/animation/petvlog],
   "scenes": [
-    {
+    {{
       "id": 1,
       "beat": "wake up | breakfast | activity | outing | snack | wind-down",
-      "visual_prompt": "detailed image/video prompt for this scene",
+      "visual_prompt": "detailed scene prompt",
       "narration": "one warm, short narration sentence",
       "caption": "short on-screen caption (<= 6 words)",
       "seconds": 6
-    }
+    }}
   ]
-}
-Aim for 7-9 scenes, total ~40-70 seconds of scene content (we loop/slow for the
-long cut). Every visual_prompt MUST end with the exact style lock text provided.
+}}
+Aim for 7-9 scenes. Every visual_prompt MUST end with this exact text:
+"{CHAR_LOCK} Style: {STYLE_LOCK}"
 """
 
 
 def _fallback_storyboard(theme: str, today: str) -> dict:
     beats = [
-        ("wake up", "John and Ketty wake up and stretch in their cozy bed."),
-        ("breakfast", "Ketty pours tiny cereal while John waits, tail wagging."),
-        ("activity", f"Today's plan: {theme}."),
-        ("outing", "They step outside into the warm morning light."),
+        ("wake up", "Jon and Katie wake up and stretch in their cozy cottage bed."),
+        ("breakfast", "Katie makes a tiny breakfast while Jon waits, tail wagging."),
+        ("activity", f"Today's big adventure: {theme}."),
+        ("outing", "They head out together into the warm morning light."),
         ("snack", "A tiny crunchy snack — the best part of the day (ASMR)."),
-        ("wind-down", "Cozy blankets, fairy lights, and a happy little yawn."),
+        ("wind-down", "Cozy blankets and fairy lights, writing the adventure diary."),
     ]
     scenes = []
     for i, (beat, narration) in enumerate(beats, start=1):
@@ -87,8 +97,8 @@ def _fallback_storyboard(theme: str, today: str) -> dict:
                 "id": i,
                 "beat": beat,
                 "visual_prompt": (
-                    f"John the golden Labrador puppy and Ketty the silver-white "
-                    f"Persian cat, {beat} scene, {theme}. Style: {STYLE_LOCK}"
+                    f"Jon the golden Labrador puppy and Katie the silver-white "
+                    f"Persian cat, {beat} scene, {theme}. {CHAR_LOCK} Style: {STYLE_LOCK}"
                 ),
                 "narration": narration,
                 "caption": beat.title(),
@@ -96,10 +106,11 @@ def _fallback_storyboard(theme: str, today: str) -> dict:
             }
         )
     return {
-        "title": f"John & Ketty: {theme.capitalize()} 🐶🐱",
+        "title": f"Jon & Katie: {theme.capitalize()} 🐶🐱",
         "description": (
-            f"Join John the puppy and Ketty the cat for {theme}! A cozy, cute "
-            f"daily vlog full of tiny ASMR moments. New video every day 💛"
+            f"Join Jon the puppy and Katie the cat for {theme}! A cozy, cute daily "
+            f"vlog full of tiny ASMR moments. Best friends, big adventures 💛 New "
+            f"video every day!"
         ),
         "hashtags": [
             "#cute", "#asmr", "#petvlog", "#animation",
@@ -119,7 +130,7 @@ def _gemini_storyboard(theme: str, today: str) -> dict:
     )
     user = (
         f"Write today's vlog. Date: {today}. Theme of the day: {theme}. "
-        f"Use this exact style lock at the end of every visual_prompt: {STYLE_LOCK}"
+        f"End every visual_prompt with exactly: {CHAR_LOCK} Style: {STYLE_LOCK}"
     )
     resp = model.generate_content(
         user,

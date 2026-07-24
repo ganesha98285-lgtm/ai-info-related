@@ -49,7 +49,7 @@ def make_shorts(storyboard_path: Path, count: int = 4) -> list[Path]:
         raise RuntimeError("vlog_master.mp4 missing. Run assemble first.")
 
     storyboard = json.loads(Path(storyboard_path).read_text("utf-8"))
-    title = storyboard.get("title", "John & Ketty")
+    title = storyboard.get("title", "Jon & Katie")
 
     shorts_dir = date_dir / "shorts"
     shorts_dir.mkdir(parents=True, exist_ok=True)

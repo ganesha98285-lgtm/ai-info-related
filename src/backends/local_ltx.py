@@ -20,7 +20,7 @@ def run_ltx_local(storyboard: dict, refs_dir: Path, clips_dir: Path) -> list[Pat
     clips: list[Path] = []
     for scene in storyboard.get("scenes", []):
         sid = scene["id"]
-        ref_name = "ketty.png" if "ketty" in scene.get("visual_prompt", "").lower() else "john.png"
+        ref_name = "katie.png" if "katie" in scene.get("visual_prompt", "").lower() else "jon.png"
         ref = refs_dir / ref_name
         files = {"image": ref.open("rb")} if ref.exists() else {}
         data = {

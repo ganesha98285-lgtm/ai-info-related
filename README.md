@@ -1,7 +1,7 @@
-# 🐶🐱 John & Ketty — Automated Daily Vlog Studio
+# 🐶🐱 Jon & Katie — Automated Daily Vlog Studio
 
 A **100% free** pipeline that auto-generates a daily animated "day-in-the-life"
-vlog for two cute characters — **John** (Labrador puppy) & **Ketty** (Persian cat)
+vlog for two cute characters — **Jon** (Labrador puppy) & **Katie** (Persian cat)
 — cuts teaser Shorts from it, and auto-posts everything to **YouTube, Instagram
 and Facebook** at the best US time zones.
 
@@ -79,7 +79,7 @@ jab-ketty-met-john/
 ## 🚀 Quick start
 
 1. Generate the two reference images (see `characters/image-prompts.md`) and drop
-   them in `characters/refs/` as `john.png` and `ketty.png`.
+   them in `characters/refs/` as `jon.png` and `katie.png`.
 2. Copy `.env.example` → `.env` and fill in your free API keys.
 3. `pip install -r requirements.txt`
 4. Run one day locally: `python -m src.pipeline --once`

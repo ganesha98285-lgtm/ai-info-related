@@ -36,7 +36,7 @@ def _push_inputs(storyboard: dict, refs_dir: Path, staging: Path) -> None:
     (staging / "storyboard.json").write_text(
         json.dumps(storyboard, ensure_ascii=False), "utf-8"
     )
-    for name in ("john.png", "ketty.png"):
+    for name in ("jon.png", "katie.png"):
         src = refs_dir / name
         if src.exists():
             shutil.copy(src, staging / name)

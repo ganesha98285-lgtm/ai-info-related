@@ -1,1 +1,1 @@
-"""John & Ketty automated vlog studio."""
+"""Jon & Katie automated vlog studio."""

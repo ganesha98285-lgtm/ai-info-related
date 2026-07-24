@@ -1,4 +1,4 @@
-name: Daily Vlog — Jab Ketty Met John
+name: Daily Vlog — Jon & Katie
 
 # Runs every day. Cron is in UTC. 12:00 UTC ≈ early morning US, giving the
 # pipeline time to build videos before the afternoon peak-publish slots.
@@ -62,7 +62,7 @@ jobs:
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
           TARGET_TIMEZONE: ${{ vars.TARGET_TIMEZONE || 'America/New_York' }}
-          CHANNEL_NAME: "Jab Ketty Met John"
+          CHANNEL_NAME: "Jon & Katie"
         run: |
           EXTRA=""
           if [ "${{ github.event.inputs.no_upload }}" = "true" ]; then EXTRA="--no-upload"; fi

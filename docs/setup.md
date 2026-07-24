@@ -1,4 +1,4 @@
-# 🛠️ Setup Guide — Jab Ketty Met John (100% free)
+# 🛠️ Setup Guide — Jab Katie Met Jon (100% free)
 
 Follow once, then it runs itself daily via GitHub Actions.
 
@@ -16,9 +16,9 @@ pipeline end-to-end for free. Output lands in `output/<date>/`.
 
 ## 1. Character reference images (one time)
 
-1. Open `characters/image-prompts.md`, paste the JOHN and KETTY prompts into
+1. Open `characters/image-prompts.md`, paste the JON and KATIE prompts into
    Gemini / Imagen, generate, and pick your favourites.
-2. Save them as `characters/refs/john.png` and `characters/refs/ketty.png`.
+2. Save them as `characters/refs/jon.png` and `characters/refs/katie.png`.
 
 ## 2. Free API keys
 

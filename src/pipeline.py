@@ -1,4 +1,4 @@
-"""End-to-end daily pipeline for "Jab Ketty Met John".
+"""End-to-end daily pipeline for "Jab Katie Met Jon".
 
 Runs the full flow:
   story -> voice -> video clips -> assemble master vlog -> cut shorts -> upload.
@@ -104,7 +104,7 @@ def _write_summary(date_dir: Path, result: dict) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Jab Ketty Met John daily pipeline")
+    ap = argparse.ArgumentParser(description="Jab Katie Met Jon daily pipeline")
     ap.add_argument("--once", action="store_true", help="run one full daily cycle")
     ap.add_argument("--theme", default=None, help="force a story theme")
     ap.add_argument("--no-upload", action="store_true", help="build only, no posting")
