@@ -1,4 +1,13 @@
-# Put your generated reference images here:
-#   john.png   (the Labrador puppy)
-#   ketty.png  (the Persian cat)
+# Put your character reference image(s) here.
+#
+# BEST (recommended): the full character SHEET
+#   sheet.png    <- the Jon & Katie poster with the 8 activity panels
+#                   (cooking, garden, fishing, grocery, laptop, travel,
+#                    cleaning, diary). The pipeline auto-slices these 8 panels
+#                    and uses them as the video scenes.
+#
+# OR single-character images:
+#   jon.png      (the Labrador puppy, alone)
+#   katie.png    (the Persian cat, alone)
+#
 # See ../image-prompts.md for the exact Gemini prompts.

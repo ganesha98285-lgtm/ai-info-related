@@ -9,8 +9,13 @@ Backends (set VIDEO_BACKEND in .env):
                the rendered clips. (Notebook template documented in docs/kaggle.md)
   - "local"  : call a local LTX-2 / ComfyUI HTTP endpoint if you have a GPU.
 
-Every backend takes the SAME reference images (characters/refs/jon.png &
-katie.png) so Jon & Katie look identical across scenes.
+Reference images (characters/refs/):
+  - Best: drop the full character SHEET as `sheet.png`. We auto-slice its 8
+    activity panels (cooking, garden, fishing, grocery, laptop, travel,
+    cleaning, diary) and use them directly as the scene visuals — a cute,
+    varied "day in the life" montage with 100% consistent characters.
+  - Or drop `jon.png` / `katie.png` single-character images (Ken Burns per scene).
+  - Or nothing — a pastel placeholder card is used so the pipeline still runs.
 
 Output: one mp4 per scene in output/<date>/clips/ ; returns ordered clip paths.
 """
@@ -21,8 +26,17 @@ import subprocess
 from pathlib import Path
 
 from config import settings
+from src import sheet_slicer
 
 TARGET_W, TARGET_H = 1920, 1080  # HD landscape master; shorts are cropped later
+
+
+def _load_panels(clips_dir: Path) -> dict[str, Path]:
+    """If a character sheet exists, slice it into 8 activity scene images."""
+    sheet = settings.refs_dir / "sheet.png"
+    if not sheet.exists():
+        return {}
+    return sheet_slicer.slice_sheet(sheet, clips_dir / "_panels")
 
 
 def _has_ffmpeg() -> bool:
@@ -33,8 +47,32 @@ def _has_ffmpeg() -> bool:
         return False
 
 
-def _pick_reference(scene: dict) -> Path | None:
-    """Choose which character reference image best fits a scene (simple heuristic)."""
+def _pick_reference(scene: dict, index: int, panels: dict[str, Path]) -> Path | None:
+    """Choose the best image for a scene.
+
+    Priority:
+      1. A sliced activity panel from the character sheet that matches the
+         scene's activity (or, if unknown, cycled by scene order).
+      2. jon.png / katie.png single-character reference.
+      3. None -> caller renders a pastel placeholder card.
+    """
+    # 1) activity panels from the sheet
+    if panels:
+        text = (
+            f"{scene.get('activity','')} {scene.get('beat','')} "
+            f"{scene.get('visual_prompt','')} {scene.get('narration','')}"
+        ).lower()
+        for act in sheet_slicer.ACTIVITY_ORDER:
+            if act in text and act in panels:
+                return panels[act]
+        # no keyword match -> cycle through the 8 panels by scene order
+        order = [a for a in sheet_slicer.ACTIVITY_ORDER if a in panels]
+        if order:
+            return panels[order[index % len(order)]]
+        if "duo" in panels:
+            return panels["duo"]
+
+    # 2) single-character references
     jon = settings.refs_dir / "jon.png"
     katie = settings.refs_dir / "katie.png"
     text = f"{scene.get('visual_prompt','')} {scene.get('narration','')}".lower()
@@ -45,7 +83,7 @@ def _pick_reference(scene: dict) -> Path | None:
     return katie if katie.exists() else None
 
 
-def _stub_clip(scene: dict, out_path: Path) -> bool:
+def _stub_clip(scene: dict, out_path: Path, ref: Path | None) -> bool:
     """Make a gentle Ken-Burns clip from a reference image + caption overlay.
 
     Uses only FFmpeg (free, no GPU). If no reference image exists, renders a
@@ -53,7 +91,6 @@ def _stub_clip(scene: dict, out_path: Path) -> bool:
     """
     seconds = int(scene.get("seconds", 7))
     caption = (scene.get("caption") or "").replace(":", "\\:").replace("'", "")
-    ref = _pick_reference(scene)
 
     drawtext = (
         f"drawtext=text='{caption}':fontcolor=white:fontsize=54:"
@@ -117,10 +154,15 @@ def _local_clips(storyboard: dict, clips_dir: Path) -> list[Path]:
 
 
 def _render_all_stub(storyboard: dict, clips_dir: Path) -> list[Path]:
+    panels = _load_panels(clips_dir)
+    if panels:
+        print(f"[generate_video] using {len([k for k in panels if k!='duo'])} "
+              f"activity scenes sliced from the character sheet.")
     clips: list[Path] = []
-    for scene in storyboard.get("scenes", []):
+    for i, scene in enumerate(storyboard.get("scenes", [])):
         out = clips_dir / f"scene_{scene['id']:02d}.mp4"
-        if _stub_clip(scene, out):
+        ref = _pick_reference(scene, i, panels)
+        if _stub_clip(scene, out, ref):
             clips.append(out)
     return clips
 
