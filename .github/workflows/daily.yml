@@ -1,11 +1,11 @@
 name: Daily AI Shorts — AI Tool Drop
 
 # Fully automatic and GPU-free: real HD stock footage + AI script + voice.
-# Cron is UTC. 11:00 UTC ≈ early morning US, leaving time to build before the
-# US prime-time publish slots.
+# Cron is UTC. 18:00 UTC ≈ 2:00 PM ET — builds a few hours before the first
+# evening slot (6:00 PM ET), so all 6 shorts are queued for evening → late night.
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:
       shorts_per_day:
@@ -78,7 +78,7 @@ jobs:
           TTS_VOICE: ${{ vars.TTS_VOICE || 'en-US-GuyNeural' }}
           NARRATION_MODE: narrate
           # --- how many + how to publish ---
-          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '10' }}
+          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '6' }}
           # quality + housekeeping
           VIDEO_QUALITY: ${{ vars.VIDEO_QUALITY || 'hd' }}
           VIDEO_CRF: ${{ vars.VIDEO_CRF || '18' }}

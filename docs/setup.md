@@ -36,7 +36,9 @@ Everything runs on GitHub Actions. One-time setup, then it's hands-off.
 
 | Variable | Default | Meaning |
 |----------|---------|---------|
-| `SHORTS_PER_DAY` | `2` | shorts published per day |
+| `SHORTS_PER_DAY` | `6` | shorts/day (US evening → late night slots) |
+| `VIDEO_QUALITY` | `hd` | `hd` = 1080x1920, `4k` = 2160x3840 |
+| `VIDEO_CRF` | `18` | lower = better quality |
 | `YOUTUBE_PRIVACY` | `public` | `unlisted` while testing |
 | `SCHEDULE_TO_PEAK` | `true` | schedule to prime-time slots |
 | `TTS_VOICE` | `en-US-GuyNeural` | try `en-US-AriaNeural`, `en-US-JennyNeural` |

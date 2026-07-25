@@ -93,8 +93,9 @@ class Settings:
     # --- content mode ---
     # Shorts-only for now (long-form vlog gets added later once reach grows).
     shorts_only: bool = os.getenv("SHORTS_ONLY", "true").lower() == "true"
-    # How many shorts per day (5 morning + 5 evening US windows).
-    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "10"))
+    # How many shorts per day (US evening → late-night slots; 6 fits the free
+    # YouTube API quota comfortably).
+    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "6"))
 
     # --- render quality ---
     # "hd" = 1080x1920 (YouTube Shorts native, recommended)

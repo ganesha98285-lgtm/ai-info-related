@@ -1,11 +1,9 @@
-"""Publishing schedule — two US windows only: MORNING and EVENING.
+"""Publishing schedule — US EVENING → LATE NIGHT only (no morning posts).
 
-Data-backed US engagement windows for short-form: the morning commute
-(≈6-9 AM) and evening leisure time (≈6-9 PM), local time.
-So we publish 5 shorts in each window, staggered 45 minutes apart:
+Short-form engagement peaks after work and stays strong late into the night, so
+all 6 daily Shorts are spread across that window in America/New_York local time:
 
-  MORNING (America/New_York): 6:00, 6:45, 7:30, 8:15, 9:00 AM
-  EVENING (America/New_York): 6:00, 6:45, 7:30, 8:15, 9:00 PM
+  6:00 PM · 7:30 PM · 9:00 PM · 10:15 PM · 11:30 PM · 12:45 AM
 
 Times are converted to UTC RFC3339 for the YouTube API's `publishAt`, so
 YouTube itself releases each Short at the right moment.
@@ -18,8 +16,15 @@ import pytz
 
 from config import settings
 
-MORNING_SLOTS = [(6, 0), (6, 45), (7, 30), (8, 15), (9, 0)]
-EVENING_SLOTS = [(18, 0), (18, 45), (19, 30), (20, 15), (21, 0)]
+# Evening → late-night slots (local US time). Order = publishing order.
+EVENING_SLOTS = [
+    (18, 0),    # 6:00 PM  — after work
+    (19, 30),   # 7:30 PM  — prime leisure
+    (21, 0),    # 9:00 PM  — peak scrolling
+    (22, 15),   # 10:15 PM — wind-down
+    (23, 30),   # 11:30 PM — late night
+    (0, 45),    # 12:45 AM — night owls
+]
 
 # Long-form slot (only used if long video is ever enabled).
 LONG_VLOG_SLOT = (15, 0)
@@ -50,19 +55,15 @@ def long_vlog_publish_time() -> dt.datetime:
 
 
 def shorts_publish_times(count: int) -> list[dt.datetime]:
-    """First half of the batch -> morning window, second half -> evening window."""
-    half = (count + 1) // 2
+    """Evening → late-night slots, in order (cycles if count > slot count)."""
     times: list[dt.datetime] = []
     for i in range(count):
-        if i < half:
-            hh, mm = MORNING_SLOTS[i % len(MORNING_SLOTS)]
-        else:
-            hh, mm = EVENING_SLOTS[(i - half) % len(EVENING_SLOTS)]
+        hh, mm = EVENING_SLOTS[i % len(EVENING_SLOTS)]
         times.append(next_slot(hh, mm))
-    return times
+    return sorted(times)
 
 
 if __name__ == "__main__":
-    print("US timezone:", settings.usa_timezone)
+    print("US timezone:", settings.usa_timezone, "(evening → late night only)")
     for i, t in enumerate(shorts_publish_times(settings.shorts_per_day), 1):
         print(f"Short {i:2}: {t.strftime('%a %I:%M %p %Z')}  ->  {rfc3339(t)}")

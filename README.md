@@ -34,14 +34,23 @@ GitHub Actions (daily cron)
 | Upload + schedule | YouTube Data API v3 | free |
 | Orchestration | GitHub Actions | free (no GPU needed) |
 
-## ⏰ Publishing schedule
+## ⏰ Publishing schedule — US evening → late night
 
-6 slots/day are available (`scheduler.py`), tuned for a US-first audience:
+All 6 daily Shorts land in the after-work / late-night window
+(America/New_York). **No morning posts.**
 
-- **USA (America/New_York):** 6:00 PM, 8:00 PM, 10:00 PM, 11:30 PM
-- **India (Asia/Kolkata):** 9:00 PM, 9:45 PM
+| # | Local (ET) | Why |
+|---|-----------|-----|
+| 1 | 6:00 PM | after work |
+| 2 | 7:30 PM | prime leisure |
+| 3 | 9:00 PM | peak scrolling |
+| 4 | 10:15 PM | wind-down |
+| 5 | 11:30 PM | late night |
+| 6 | 12:45 AM | night owls |
 
-`SHORTS_PER_DAY` decides how many are used (default 2).
+The workflow builds at 18:00 UTC (≈2 PM ET), a few hours before the first slot,
+and YouTube releases each Short at its scheduled time (`publishAt`).
+`SHORTS_PER_DAY` (default **6**) controls how many are used.
 
 ## 🚀 Setup (see `docs/setup.md`)
 
