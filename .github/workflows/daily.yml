@@ -87,6 +87,11 @@ jobs:
         env:
           # --- content / AI ---
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Second free writer (console.groq.com, no card). Optional but strongly
+          # recommended: if Gemini is rate-limited, Groq keeps ideas original.
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # A tip idea may be revisited after this long (titles/hooks: never).
+          IDEA_REUSE_DAYS: ${{ vars.IDEA_REUSE_DAYS || '365' }}
           CONTENT_FORMAT: ai_shorts
           # --- free stock footage (real HD video) ---
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}

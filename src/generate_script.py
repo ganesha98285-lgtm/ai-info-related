@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import random
 from pathlib import Path
 
@@ -37,7 +38,7 @@ MAX_FALLBACK_TRIES = 300
 # If the main model is rate-limited, these free models are tried next — separate
 # per-model limits mean the day's videos still get written.
 GEMINI_FALLBACK_MODELS = [
-    m for m in __import__("os").getenv(
+    m for m in os.getenv(
         "GEMINI_FALLBACK_MODELS",
         "gemini-2.0-flash-lite,gemini-1.5-flash,gemini-1.5-flash-8b",
     ).split(",")
@@ -73,13 +74,27 @@ SUBJECTS = [
     "AI browser extensions", "AI mobile apps", "AI for spreadsheets",
 ]
 
+# The fuzzy-distinct title space is roughly subjects x angles, so this list is
+# the strongest lever on how long the offline writer can stay original.
 ANGLES = [
     "tricks nobody uses", "hidden features", "the fastest way to use it",
     "mistakes that waste your time", "how to get paid work with it",
     "settings you should change today", "what it does better than humans",
     "the one prompt that changes everything", "free alternatives that match it",
     "how to save hours a week with it", "what beginners get wrong about it",
-    "how pros actually use it",
+    "how pros actually use it", "the feature they buried in a menu",
+    "why your results look generic", "a five minute setup that pays off",
+    "what to do before you start typing", "the shortcut worth memorising",
+    "how to stop redoing the same work", "when not to use it",
+    "the cheapest way to run it", "how to check its work",
+    "what changed this year", "the workflow that replaced three tools",
+    "how to make it sound like you", "the part that saves the most time",
+    "what to automate first", "how to get consistent output",
+    "the setting that ruins your results", "how to use it offline",
+    "one habit that doubles your output", "how to share it with a team",
+    "the mistake that costs you money", "how to test it in ten minutes",
+    "what to do when it gets it wrong", "the trick for long documents",
+    "how to keep your data private",
 ]
 
 # Plain nouns so they read correctly in every title template ("for {audience}",
@@ -317,7 +332,7 @@ def _fresh_tips(subject: str, data: dict, want: int = 4,
     "do X in Excel" are genuinely different videos, so they are compared as exact
     pairs rather than fuzzily. That gives ~95 subjects x 26 actions = 2400+ beats.
     """
-    used = set(data.get("idea_keys", []))
+    used = history.active_idea_keys(data)
     order = list(range(len(TIP_ACTIONS)))
     random.shuffle(order)
     picked: list[tuple[str, str, list[str], str]] = []
@@ -423,6 +438,67 @@ def _gemini_storyboard(topic: str, today: str, data: dict, attempt: int,
     return sb
 
 
+def _groq_storyboard(topic: str, today: str, data: dict, attempt: int) -> dict:
+    """Second free writer. Groq's free tier needs no card and no billing setup.
+
+    Get a key at console.groq.com and add it as the GROQ_API_KEY secret. This is
+    what keeps genuine novelty going on days when Gemini is rate-limited or down.
+    """
+    import requests
+
+    parts = [f"Date: {today}. Audience: United States.",
+             f"Suggested fresh angle: {topic}"]
+    if brief := history.avoid_brief(data, titles=40, hooks=25):
+        parts.append(brief)
+    if learn := history.learning_brief(data):
+        parts.append(learn)
+    if attempt > 1:
+        parts.append("Your previous draft was too close to something already "
+                     "published. Change the SUBJECT, not just the wording.")
+
+    r = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {os.getenv('GROQ_API_KEY', '')}",
+                 "Content-Type": "application/json"},
+        json={
+            "model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+            "messages": [{"role": "system", "content": SYSTEM_PROMPT},
+                         {"role": "user", "content": "\n\n".join(parts)}],
+            "response_format": {"type": "json_object"},
+            "temperature": 1.0,
+        },
+        timeout=60,
+    )
+    r.raise_for_status()
+    sb = json.loads(r.json()["choices"][0]["message"]["content"])
+    sb.setdefault("meta", {})
+    sb["meta"].update({"date": today, "topic": topic, "generated_by": "groq",
+                       "attempt": attempt})
+    return sb
+
+
+def _groq_pass(theme: str | None, today: str, data: dict,
+               level: int) -> dict | None:
+    if not os.getenv("GROQ_API_KEY", "").strip():
+        return None
+    for attempt in range(1, MAX_GEMINI_TRIES + 1):
+        topic = theme or _fresh_angle(data)
+        try:
+            sb = _groq_storyboard(topic, today, data, attempt)
+        except Exception as exc:
+            print(f"[generate_script] Groq unavailable ({type(exc).__name__})")
+            return None
+        if not sb.get("scenes"):
+            continue
+        ok, why = history.novelty_report(sb, data, level=level)
+        if ok:
+            print(f"[generate_script] fresh script via Groq (try {attempt}): "
+                  f"{sb.get('title', '')[:60]}")
+            return sb
+        print(f"[generate_script] Groq try {attempt} rejected — {why}")
+    return None
+
+
 def _gemini_pass(theme: str | None, today: str, data: dict,
                  level: int) -> dict | None:
     """Try every free Gemini model in turn, at the given strictness level."""
@@ -473,11 +549,13 @@ def generate_storyboard(theme: str | None = None,
     Publishing daily is a hard requirement, so the writer walks down a ladder of
     strictness rather than giving up:
 
-      1. Gemini (all free models), strict     — new title, hook, 70% new ideas
-      2. Offline writer, strict               — same bar, 2400+ (tool x technique) beats
-      3. Gemini, relaxed                      — new title, hook, 40% new ideas
-      4. Offline writer, relaxed
-      5. Gemini / offline, minimum            — new title + new hook, tips may repeat
+      1. Gemini (all free models) -> Groq, strict  — new title, hook, 70% new ideas
+      2. Offline writer, strict                    — (tool x technique) pairs
+      3. Same writers, relaxed                     — 40% new ideas
+      4. Same writers, minimum                     — new title + new hook
+
+    Two independent free LLM providers (Gemini and Groq) mean one being down or
+    rate-limited never forces the offline writer into use.
 
     The title, the hook and the thumbnail look are NEVER allowed to repeat at any
     step. Only an internal tip line can eventually recur, inside an otherwise
@@ -495,6 +573,8 @@ def generate_storyboard(theme: str | None = None,
             print(f"[generate_script] stepping down to {label} "
                   f"(a video must go out today)")
         if sb := _gemini_pass(theme, today, data, level):
+            return sb
+        if sb := _groq_pass(theme, today, data, level):
             return sb
         if sb := _fallback_pass(theme, today, data, level,
                                 allow_used_tips=(level >= 2)):

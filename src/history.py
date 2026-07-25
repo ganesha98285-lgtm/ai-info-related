@@ -70,9 +70,9 @@ def _overlap(a: frozenset, b: frozenset) -> float:
 
 
 def _blank() -> dict:
-    return {"version": 3, "titles": [], "hooks": [], "ideas": [],
-            "idea_keys": [], "hook_keys": [], "clips": {}, "thumb_styles": {},
-            "uploads": []}
+    return {"version": 4, "titles": [], "hooks": [], "ideas": [],
+            "idea_keys": [], "idea_key_dates": {}, "hook_keys": [],
+            "clips": {}, "thumb_styles": {}, "uploads": []}
 
 
 def load() -> dict:
@@ -136,18 +136,45 @@ def idea_used(line: str, data: dict) -> str | None:
     return is_duplicate(line, data["ideas"], IDEA_THRESHOLD)
 
 
+# A tip idea becomes available again after this long. Titles, hooks and
+# thumbnails are unique FOREVER; a teaching point from a year ago is a legitimate
+# evergreen refresh, and this is what stops the idea pool from ever running dry.
+IDEA_REUSE_DAYS = int(__import__("os").getenv("IDEA_REUSE_DAYS", "365"))
+
+
+def active_idea_keys(data: dict, days: int = IDEA_REUSE_DAYS) -> set[str]:
+    """Idea keys still 'in cooldown'. Older ones are free to use again."""
+    dates = data.get("idea_key_dates") or {}
+    if not dates:  # pre-v4 history had no dates: treat all as still in cooldown
+        return set(data.get("idea_keys", []))
+    cutoff = dt.date.today() - dt.timedelta(days=days)
+    active = set()
+    for key, when in dates.items():
+        try:
+            if dt.date.fromisoformat(when) >= cutoff:
+                active.add(key)
+        except (ValueError, TypeError):
+            active.add(key)
+    return active
+
+
 def key_used(key: str, data: dict) -> bool:
-    """Exact-match check for a composed idea key like 'ChatGPT|summarise_doc'.
+    """Exact-match check for a composed idea key like 'chatgpt|7'.
 
     Used by the offline writer: the same technique applied to a DIFFERENT tool is
     a legitimately different video, so those are compared as exact pairs instead
     of fuzzily (which would wrongly flag them as the same sentence).
     """
-    return key in set(data.get("idea_keys", []))
+    return key in active_idea_keys(data)
 
 
 def record_keys(keys: list[str], data: dict) -> None:
+    today = dt.date.today().isoformat()
     data.setdefault("idea_keys", []).extend(k for k in keys if k)
+    dates = data.setdefault("idea_key_dates", {})
+    for k in keys:
+        if k:
+            dates[k] = today
 
 
 # Strictness levels. Level 0 is the ideal; the writer walks down this ladder
