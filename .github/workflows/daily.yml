@@ -30,7 +30,7 @@ on:
         default: "false"
 
 permissions:
-  contents: read
+  contents: write       # needed to commit content/history.json (lifelong memory)
   actions: write        # needed to prune old artifacts
 
 jobs:
@@ -116,11 +116,34 @@ jobs:
           INDIA_TIMEZONE: Asia/Kolkata
           CHANNEL_NAME: ${{ vars.CHANNEL_NAME || 'AI Tool Drop' }}
           BRAND_HANDLE: ${{ vars.BRAND_HANDLE || '@aitooldrop' }}
+          # 28 = Science & Technology (correct category for an AI channel)
+          YOUTUBE_CATEGORY_ID: ${{ vars.YOUTUBE_CATEGORY_ID || '28' }}
         run: |
           EXTRA=""
           if [ "${{ github.event.inputs.no_upload }}" = "true" ]; then EXTRA="--no-upload"; fi
           if [ -n "${{ github.event.inputs.theme }}" ]; then EXTRA="$EXTRA --theme \"${{ github.event.inputs.theme }}\""; fi
           eval python -m src.pipeline --once $EXTRA
+
+      # LIFELONG MEMORY: commit the updated history so the channel never repeats
+      # a topic, hook, idea, clip or thumbnail style. The runner is wiped after
+      # every run, so this file is the only permanent record.
+      - name: Commit channel memory
+        if: always()
+        run: |
+          if [ ! -f content/history.json ]; then
+            echo "no history file produced; nothing to commit"; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/history.json
+          if git diff --cached --quiet; then
+            echo "memory unchanged"; exit 0
+          fi
+          git commit -m "chore(memory): record published topics/hooks/clips [skip ci]"
+          # Rebase on top of anything pushed meanwhile, then push.
+          git pull --rebase --autostash origin ${{ github.ref_name }} || true
+          git push origin HEAD:${{ github.ref_name }}
+          echo "memory committed: $(python -c 'import json;d=json.load(open("content/history.json"));print(len(d["titles"]),"titles",len(d["clips"]),"clips")')"
 
       # Keep only the tiny JSON logs as an artifact (1 day). Videos are already
       # on YouTube, so we never store mp4s -> Actions storage stays near zero.
