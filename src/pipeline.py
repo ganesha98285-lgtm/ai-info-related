@@ -107,17 +107,25 @@ def run_once(theme: str | None = None, do_upload: bool = True,
 
                     story = news_script.pick_story(topics, hist)
                     if story is None:
-                        print("[pipeline] no safe, uncovered story left this run")
-                        break
-                    topics = [t for t in topics if t is not story]
-                    storyboard = news_script.build_storyboard(
-                        story, trending_terms=story.keywords[:3])
-                    if storyboard is None:
-                        continue  # failed the safety gate; try the next story
-                    history.record_story(story.headline, story.urls, hist)
-                    print(f"[pipeline] story: {story.headline[:70]}")
-                    print(f"[pipeline] sources: "
-                          f"{', '.join(sorted(set(story.sources)))}")
+                        # Real news is mostly conflict/politics, which the safety
+                        # gate rejects. Posting daily is non-negotiable, so fall
+                        # back to an evergreen short rather than publishing
+                        # nothing (or publishing something unsafe).
+                        print("[pipeline] no safe trending story available — "
+                              "falling back to an evergreen short so the slot "
+                              "is still filled")
+                        storyboard = generate_script.generate_storyboard(
+                            theme, data=hist)
+                    else:
+                        topics = [t for t in topics if t is not story]
+                        storyboard = news_script.build_storyboard(
+                            story, trending_terms=story.keywords[:3])
+                        if storyboard is None:
+                            continue  # failed the gate; try the next story
+                        history.record_story(story.headline, story.urls, hist)
+                        print(f"[pipeline] story: {story.headline[:70]}")
+                        print(f"[pipeline] sources: "
+                              f"{', '.join(sorted(set(story.sources)))}")
                 else:
                     storyboard = generate_script.generate_storyboard(theme,
                                                                      data=hist)
