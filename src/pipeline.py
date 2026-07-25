@@ -60,19 +60,29 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             continue
         result["shorts"].append(str(final))
 
-        # 5) upload
+        # 5) upload (scheduled to the US morning/evening windows)
         if do_upload:
             title = storyboard.get("title", settings.channel_name)
             if "#shorts" not in title.lower():
                 title = f"{title} #shorts"
+            when = times[i - 1]
             vid = upload_youtube.upload_video(
                 final, title,
                 storyboard.get("description", ""),
                 storyboard.get("hashtags", []) + storyboard.get("keywords", []),
-                publish_at=times[i - 1],
+                publish_at=when,
                 privacy=settings.youtube_privacy,
             )
+            if vid == "QUOTA_EXCEEDED":
+                print("[pipeline] stopping early: YouTube daily quota reached.")
+                break
             result["uploads"].append(vid)
+            if when:
+                print(f"[pipeline] scheduled for {when.strftime('%a %I:%M %p %Z')}")
+
+            # 6) housekeeping — remove the uploaded video + cached footage
+            if vid and settings.cleanup_after_upload:
+                build_short.cleanup_short(final, Path(sb_path).parent)
         else:
             print("[pipeline] --no-upload set; skipping posting.")
 

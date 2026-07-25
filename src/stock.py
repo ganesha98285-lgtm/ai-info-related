@@ -16,9 +16,14 @@ import hashlib
 import random
 from pathlib import Path
 
-import requests
-
 from config import settings
+
+
+def _requests():
+    """Imported lazily so the module loads even before deps are installed."""
+    import requests
+
+    return requests
 
 TIMEOUT = 45
 UA = {"User-Agent": "ai-shorts-pipeline/1.0"}
@@ -29,7 +34,7 @@ def _pexels_search(query: str, per_page: int = 12) -> list[dict]:
     if not settings.pexels_api_key:
         return []
     try:
-        r = requests.get(
+        r = _requests().get(
             "https://api.pexels.com/videos/search",
             params={
                 "query": query,
@@ -65,7 +70,7 @@ def _pixabay_search(query: str, per_page: int = 12) -> list[dict]:
     if not settings.pixabay_api_key:
         return []
     try:
-        r = requests.get(
+        r = _requests().get(
             "https://pixabay.com/api/videos/",
             params={
                 "key": settings.pixabay_api_key,
@@ -95,7 +100,7 @@ def _pixabay_best_file(hit: dict) -> str | None:
 # ─────────────────────────────────── public ──────────────────────────────────
 def _download(url: str, dest: Path) -> bool:
     try:
-        with requests.get(url, stream=True, timeout=180, headers=UA) as r:
+        with _requests().get(url, stream=True, timeout=180, headers=UA) as r:
             if r.status_code != 200:
                 return False
             dest.parent.mkdir(parents=True, exist_ok=True)

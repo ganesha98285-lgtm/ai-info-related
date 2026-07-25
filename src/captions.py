@@ -40,6 +40,11 @@ def write_text(dirpath: Path, name: str, text: str) -> Path:
     return p
 
 
+def font_opt() -> str:
+    """Public helper so other modules can reuse the resolved font."""
+    return _font()
+
+
 def _font() -> str:
     """Prefer an explicit bold font file (more reliable than fontconfig)."""
     for p in (
@@ -111,18 +116,21 @@ def overlay_on_file(clip_path: Path, scene: dict, work_dir: Path) -> None:
         print(f"[captions] overlay failed: {res.stderr[-300:]}")
 
 
-def shorts_hook_cta_vf(work_dir: Path, hook: str, short_len: int, uid: str = "") -> str:
+def shorts_hook_cta_vf(work_dir: Path, hook: str, short_len: int, uid: str = "",
+                       scale: float = 1.0) -> str:
     """Hook in the first 3s (retention) + LIKE/SUBSCRIBE CTA in the last 3s."""
     hook_tf = write_text(work_dir, f"hook_{uid}.txt", wrap(hook or DEFAULT_HOOK, 24))
     cta_tf = write_text(work_dir, f"cta_{uid}.txt", CTA_TEXT)
     brand_tf = write_text(work_dir, f"brand_{uid}.txt", BRAND)
+    s = scale
     hook_dt = _drawtext(
-        hook_tf, fontsize=84, y="h*0.10", color="yellow", boxcolor="black@0.6",
-        enable="lt(t,3)",
+        hook_tf, fontsize=int(84 * s), y="h*0.10", color="yellow",
+        boxcolor="black@0.6", enable="lt(t,3)",
     )
     cta_dt = _drawtext(
-        cta_tf, fontsize=78, y="h*0.16", color="yellow", boxcolor="black@0.65",
-        enable=f"gt(t,{max(short_len - 3, 1)})",
+        cta_tf, fontsize=int(78 * s), y="h*0.16", color="yellow",
+        boxcolor="black@0.65", enable=f"gt(t,{max(short_len - 3, 1)})",
     )
-    brand_dt = _drawtext(brand_tf, fontsize=40, y="h-110", boxcolor="black@0.35")
+    brand_dt = _drawtext(brand_tf, fontsize=int(40 * s), y=f"h-{int(110 * s)}",
+                         boxcolor="black@0.35")
     return hook_dt + "," + cta_dt + "," + brand_dt

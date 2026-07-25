@@ -1,15 +1,14 @@
-"""Prime-time scheduling helper (multi-timezone).
+"""Publishing schedule — two US windows only: MORNING and EVENING.
 
-Shorts are scheduled to the best posting windows for the channel's TWO main
-markets:
-  - USA (America/New_York): 4 shorts — 2 in the evening + 2 at night
-  - India (Asia/Kolkata):   2 shorts — night, between 9:00-10:00 PM IST
-Total = 6 shorts/day.
+Data-backed US engagement windows for short-form: the morning commute
+(≈6-9 AM) and evening leisure time (≈6-9 PM), local time.
+So we publish 5 shorts in each window, staggered 45 minutes apart:
 
-(A long-form vlog slot exists too, but long video is only added later once the
-channel's reach grows — see SHORTS_ONLY in config.)
+  MORNING (America/New_York): 6:00, 6:45, 7:30, 8:15, 9:00 AM
+  EVENING (America/New_York): 6:00, 6:45, 7:30, 8:15, 9:00 PM
 
-All slots are converted to UTC RFC3339 for the YouTube API `publishAt`.
+Times are converted to UTC RFC3339 for the YouTube API's `publishAt`, so
+YouTube itself releases each Short at the right moment.
 """
 from __future__ import annotations
 
@@ -19,52 +18,51 @@ import pytz
 
 from config import settings
 
-# 6 daily short slots as (timezone, hour, minute), in publishing order.
-SHORT_SLOTS = [
-    (settings.usa_timezone, 18, 0),    # USA evening 1  (6:00 PM ET)
-    (settings.usa_timezone, 20, 0),    # USA evening 2  (8:00 PM ET)
-    (settings.usa_timezone, 22, 0),    # USA night 1    (10:00 PM ET)
-    (settings.usa_timezone, 23, 30),   # USA night 2    (11:30 PM ET)
-    (settings.india_timezone, 21, 0),  # India night 1  (9:00 PM IST)
-    (settings.india_timezone, 21, 45), # India night 2  (9:45 PM IST)
-]
+MORNING_SLOTS = [(6, 0), (6, 45), (7, 30), (8, 15), (9, 0)]
+EVENING_SLOTS = [(18, 0), (18, 45), (19, 30), (20, 15), (21, 0)]
 
-# Long-form vlog slot — only used when long video is enabled later.
-LONG_VLOG_SLOT = (settings.usa_timezone, 15, 0)  # 3:00 PM ET
+# Long-form slot (only used if long video is ever enabled).
+LONG_VLOG_SLOT = (15, 0)
 
 
-def next_slot(zone_name: str, hour: int, minute: int,
-              base: dt.datetime | None = None) -> dt.datetime:
-    """Next occurrence of a local HH:MM in `zone_name` (today or tomorrow)."""
-    zone = pytz.timezone(zone_name)
+def _zone():
+    return pytz.timezone(settings.usa_timezone)
+
+
+def next_slot(hour: int, minute: int, base: dt.datetime | None = None) -> dt.datetime:
+    """Next occurrence of a local HH:MM in the US timezone (today or tomorrow)."""
+    zone = _zone()
     now = base.astimezone(zone) if base else dt.datetime.now(zone)
     naive = dt.datetime(now.year, now.month, now.day, hour, minute)
     candidate = zone.localize(naive)
-    if candidate <= now:
+    if candidate <= now + dt.timedelta(minutes=5):  # need a small buffer
         candidate = zone.localize(naive + dt.timedelta(days=1))
     return candidate
 
 
 def rfc3339(when: dt.datetime) -> str:
-    """YouTube API wants UTC RFC3339 (e.g. 2026-07-24T19:00:00Z)."""
+    """YouTube API wants UTC RFC3339 (e.g. 2026-07-25T22:00:00Z)."""
     return when.astimezone(pytz.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def long_vlog_publish_time() -> dt.datetime:
-    zone_name, hour, minute = LONG_VLOG_SLOT
-    return next_slot(zone_name, hour, minute)
+    return next_slot(*LONG_VLOG_SLOT)
 
 
 def shorts_publish_times(count: int) -> list[dt.datetime]:
-    """Return `count` prime-time publish datetimes (cycles slots if needed)."""
+    """First half of the batch -> morning window, second half -> evening window."""
+    half = (count + 1) // 2
     times: list[dt.datetime] = []
     for i in range(count):
-        zone_name, hour, minute = SHORT_SLOTS[i % len(SHORT_SLOTS)]
-        times.append(next_slot(zone_name, hour, minute))
+        if i < half:
+            hh, mm = MORNING_SLOTS[i % len(MORNING_SLOTS)]
+        else:
+            hh, mm = EVENING_SLOTS[(i - half) % len(EVENING_SLOTS)]
+        times.append(next_slot(hh, mm))
     return times
 
 
 if __name__ == "__main__":
-    print("USA tz:", settings.usa_timezone, "| India tz:", settings.india_timezone)
+    print("US timezone:", settings.usa_timezone)
     for i, t in enumerate(shorts_publish_times(settings.shorts_per_day), 1):
-        print(f"Short {i} publish:", t, "->", rfc3339(t))
+        print(f"Short {i:2}: {t.strftime('%a %I:%M %p %Z')}  ->  {rfc3339(t)}")
