@@ -10,6 +10,7 @@ Pure FFmpeg + Python: no GPU, runs on GitHub Actions.
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -25,7 +26,10 @@ else:
     W, H = 1080, 1920
 FPS = 30
 CRF = str(settings.video_crf)
-MIN_SCENE, MAX_SCENE = 1.6, 9.0
+# Tight pacing: only a small breath between lines (was 1.6s minimum + 0.45s
+# padding, which produced audible 1-2s dead gaps between sentences).
+MIN_SCENE, MAX_SCENE = 1.1, 9.0
+SCENE_PAD = float(os.getenv("SCENE_PAD", "0.12"))  # seconds of breath per line
 _S = W / 1080.0  # font scale so text looks identical at any resolution
 
 
@@ -172,7 +176,7 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
     for scene in scenes:
         sid = scene["id"]
         vo = audio_dir / f"scene_{sid:02d}.mp3"
-        seconds = _duration(vo) + 0.45 if vo.exists() else 3.0
+        seconds = _duration(vo) + SCENE_PAD if vo.exists() else 2.5
         seconds = max(MIN_SCENE, min(seconds, MAX_SCENE))
         durations[sid] = seconds
 

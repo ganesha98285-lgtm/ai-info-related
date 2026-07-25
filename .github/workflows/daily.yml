@@ -98,6 +98,9 @@ jobs:
           # --- voice ---
           TTS_VOICE: ${{ vars.TTS_VOICE || 'en-US-GuyNeural' }}
           NARRATION_MODE: narrate
+          # pacing: faster delivery + tiny breath between lines (no dead gaps)
+          TTS_RATE: ${{ vars.TTS_RATE || '+10%' }}
+          SCENE_PAD: ${{ vars.SCENE_PAD || '0.12' }}
           # --- how many + how to publish ---
           SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '6' }}
           # quality + housekeeping
@@ -129,6 +132,8 @@ jobs:
           path: |
             output/**/storyboard.json
             output/**/summary.json
+            output/channel_banner.jpg
+            output/**/thumb_*.jpg
           retention-days: 1
           if-no-files-found: ignore
 

@@ -50,6 +50,25 @@ def _service():
     return build("youtube", "v3", credentials=creds)
 
 
+def set_thumbnail(video_id: str, image: Path) -> bool:
+    """Attach a custom thumbnail to an uploaded video."""
+    from googleapiclient.http import MediaFileUpload
+
+    if not video_id or not image or not Path(image).exists():
+        return False
+    try:
+        yt = _service()
+        yt.thumbnails().set(
+            videoId=video_id,
+            media_body=MediaFileUpload(str(image)),
+        ).execute()
+        print(f"[youtube] thumbnail set for {video_id}")
+        return True
+    except Exception as exc:
+        print(f"[youtube] thumbnail failed ({exc}).")
+        return False
+
+
 def upload_video(
     video_path: str | Path,
     title: str,
