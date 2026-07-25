@@ -311,13 +311,15 @@ def make_voice(scene: dict, out: Path) -> Path:
 # --------------------------------------------------------------------------- #
 # video
 # --------------------------------------------------------------------------- #
-def animate(scene: dict, ref: Path, audio: Path, out: Path,
-            vram_gb: float, steps: int | None) -> bool:
+def animate(scene: dict, ref: Path, audio: Path, out: Path, vram_gb: float,
+            steps: int | None, size: str | None = None) -> bool:
     """Wan2.2 S2V: reference image + audio -> lip-synced clip."""
-    big = vram_gb >= 40  # H100 / A100-80: keep everything on the GPU (much faster)
+    # >=40 GB (RTX 6000 / A100 / H100): keep everything on the GPU — much faster.
+    # 24 GB (L4): offload to CPU and run T5 on CPU so the 14B model still fits.
+    big = vram_gb >= 40
     cmd = (
         f"cd {WAN_DIR} && python generate.py "
-        f"--task s2v-14B --size {S2V_SIZE} --ckpt_dir {S2V_CKPT} "
+        f"--task s2v-14B --size {size or S2V_SIZE} --ckpt_dir {S2V_CKPT} "
         f"--offload_model {'False' if big else 'True'} --convert_model_dtype "
         f"{'' if big else '--t5_cpu '}"
         f'--prompt "{visual_prompt(scene)}" '
@@ -328,6 +330,10 @@ def animate(scene: dict, ref: Path, audio: Path, out: Path,
     rc = sh(cmd, check=False)
     ok = rc == 0 and out.exists() and out.stat().st_size > 50_000
     print(f"[animate] scene {scene['id']} -> {'OK' if ok else 'FAILED'}")
+    if not ok and not big:
+        print("     hint: a 24 GB GPU can run out of memory here. Retry with a "
+              "smaller frame size:\n"
+              "       python lightning/talking_short.py --size 704*544")
     return ok
 
 
@@ -434,6 +440,9 @@ def main() -> None:
     ap.add_argument("--privacy", default=os.getenv("YOUTUBE_PRIVACY", "public"),
                     choices=["public", "unlisted", "private"])
     ap.add_argument("--steps", type=int, default=None)
+    ap.add_argument("--size", default=None,
+                    help=f"generation size (default {S2V_SIZE}). Drop to "
+                         f"'704*544' if a 24 GB GPU runs out of memory.")
     ap.add_argument("--dry-run", action="store_true",
                     help="build the mp4 but do not upload")
     ap.add_argument("--download-only", action="store_true",
@@ -465,7 +474,8 @@ def main() -> None:
     for scene in scenes:
         audio = make_voice(scene, work / f"line_{scene['id']:02d}.mp3")
         raw = work / f"raw_{scene['id']:02d}.mp4"
-        if not animate(scene, refs[scene["speaker"]], audio, raw, vram, args.steps):
+        if not animate(scene, refs[scene["speaker"]], audio, raw, vram,
+                       args.steps, args.size):
             print(f"[skip] scene {scene['id']} could not be animated")
             continue
         fitted = work / f"scene_{scene['id']:02d}.mp4"
