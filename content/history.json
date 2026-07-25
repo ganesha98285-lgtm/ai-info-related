@@ -1,13 +1,48 @@
 {
  "version": 5,
- "titles": [],
- "hooks": [],
- "ideas": [],
+ "titles": [
+  "Strategy now publishes the Bitcoin return threshold below... #shorts"
+ ],
+ "hooks": [
+  "Bitcoin return threshold"
+ ],
+ "ideas": [
+  "Strategy overhauls bitcoin metrics",
+  "To account for senior claims",
+  "Publishes return threshold for restructuring"
+ ],
  "idea_keys": [],
  "idea_key_dates": {},
  "hook_keys": [],
- "clips": {},
- "thumb_styles": {},
- "uploads": [],
- "stories": []
+ "clips": {
+  "px37684848": "2026-07-25",
+  "px35606045": "2026-07-25",
+  "px7947438": "2026-07-25",
+  "px38431825": "2026-07-25",
+  "px35972076": "2026-07-25"
+ },
+ "thumb_styles": {
+  "0-0": 1
+ },
+ "uploads": [
+  {
+   "video_id": "TaPGrPDCNKA",
+   "title": "Strategy now publishes the Bitcoin return threshold below... #shorts",
+   "hook": "Bitcoin return threshold",
+   "date": "2026-07-25",
+   "views": 0,
+   "likes": 0
+  }
+ ],
+ "stories": [
+  {
+   "headline": "Strategy now publishes the Bitcoin return threshold below which it may have to restructure",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcWs4MWcwNnV3SVZWbDZqcnVtWlFURDd3Y3R3WTR6YlpFY3FOb2pyTElaTHMycER0T0FYR0NwSEMyZ0lnMzdwREZrejVvNU9EeXdzd1JkUDI3N1BkUHNvVTJoblRTWnRCTHJRWkxxTUhKdWtTV09LNWlOaVZKSktGVmhTRFI2cUhpbkEzckd1eld0czBzRGhvbnJEN3hEa1A1OS1ESTVtRVRpc2cwSDAyTzBUOFhvTnNmX09r?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUFEUGRXVnhESzE2cWRZcmkwU2stNUt3dWxsYzBhTnhJSGNSR2UxNVFkV3R3V2R4MVdLSHVkTVJCV1BWOHJnYVA3ZktabUk4czk3V09WVExkUFlIVDRNc2p6OXVZeC1raXV0eDlRdVRvbjJkeTJ5Xy1JU2pwelQxQWxLR0FYd0hDVE81ek4zVnZHZ25NNHR4cTU0TzB4bnFMYXdaZWd2MVNUdkdS?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaExtUGFtLWM5V1NaM0MwUHU3WHJuOElwWnZnTVI4dnBUbnhlcVJtMU1PdkRRejFxT0xyaFVkWHI2TVRVRElMcHRzWHFSd2U4T2lxSkpZbGhxMnZQTE1HcVp2RE9QMXE3OVp6eXFMNnB4dXFMeUpmaGxhbWJUcWx4UzU4cEtlNV83aVQ4Q3JIa1VDRWpVaUZJNjZNNDRnNU81ZEhNRlNCY3dPTk1VV25ncy15VVFiZw?oc=5"
+   ],
+   "date": "2026-07-25"
+  }
+ ]
 }
