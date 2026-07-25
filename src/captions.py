@@ -11,9 +11,11 @@ import subprocess
 import textwrap
 from pathlib import Path
 
-BRAND = "@JonAndKatie"
+import os
+
+BRAND = os.getenv("BRAND_HANDLE", "@aitooldrop")
 DEFAULT_HOOK = "Watch till the end!"
-CTA_TEXT = "LIKE  +  SUBSCRIBE"
+CTA_TEXT = "FOLLOW  +  SUBSCRIBE"
 
 
 def sanitize(text: str) -> str:
@@ -38,11 +40,24 @@ def write_text(dirpath: Path, name: str, text: str) -> Path:
     return p
 
 
+def _font() -> str:
+    """Prefer an explicit bold font file (more reliable than fontconfig)."""
+    for p in (
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf",
+        "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+    ):
+        if os.path.exists(p):
+            return f":fontfile='{p}'"
+    return ""
+
+
 def _drawtext(textfile: Path, *, fontsize: int, y: str,
               boxcolor: str = "black@0.6", color: str = "white",
               enable: str | None = None) -> str:
     parts = [
-        f"drawtext=textfile={textfile}",
+        f"drawtext=textfile={textfile}{_font()}",
         f"fontcolor={color}",
         f"fontsize={fontsize}",
         "line_spacing=10",
@@ -100,12 +115,14 @@ def shorts_hook_cta_vf(work_dir: Path, hook: str, short_len: int, uid: str = "")
     """Hook in the first 3s (retention) + LIKE/SUBSCRIBE CTA in the last 3s."""
     hook_tf = write_text(work_dir, f"hook_{uid}.txt", wrap(hook or DEFAULT_HOOK, 24))
     cta_tf = write_text(work_dir, f"cta_{uid}.txt", CTA_TEXT)
+    brand_tf = write_text(work_dir, f"brand_{uid}.txt", BRAND)
     hook_dt = _drawtext(
-        hook_tf, fontsize=72, y="h*0.12", boxcolor="black@0.55",
+        hook_tf, fontsize=84, y="h*0.10", color="yellow", boxcolor="black@0.6",
         enable="lt(t,3)",
     )
     cta_dt = _drawtext(
-        cta_tf, fontsize=70, y="h*0.80", color="yellow", boxcolor="black@0.6",
+        cta_tf, fontsize=78, y="h*0.16", color="yellow", boxcolor="black@0.65",
         enable=f"gt(t,{max(short_len - 3, 1)})",
     )
-    return hook_dt + "," + cta_dt
+    brand_dt = _drawtext(brand_tf, fontsize=40, y="h-110", boxcolor="black@0.35")
+    return hook_dt + "," + cta_dt + "," + brand_dt

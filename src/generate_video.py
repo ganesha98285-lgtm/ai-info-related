@@ -149,6 +149,61 @@ def _local_clips(storyboard: dict, clips_dir: Path) -> list[Path]:
         return _render_all_stub(storyboard, clips_dir)
 
 
+def _render_all_puppet(storyboard: dict, clips_dir: Path) -> list[Path]:
+    """Puppet animation: REAL talking characters (lip-sync), CPU-only, free."""
+    from src import puppet
+
+    sprites = puppet.load_sprites(settings.sprites_dir)
+    if not sprites:
+        raise RuntimeError(
+            f"no sprites found in {settings.sprites_dir} "
+            "(need jon_closed.png/jon_open.png/katie_closed.png/katie_open.png)"
+        )
+    print(f"[generate_video] puppet sprites loaded: {sorted(sprites.keys())}")
+
+    panels = _load_panels(clips_dir)
+    audio_dir = clips_dir.parent / "audio"
+
+    clips: list[Path] = []
+    for i, scene in enumerate(storyboard.get("scenes", [])):
+        out = clips_dir / f"scene_{scene['id']:02d}.mp4"
+        bg = _pick_reference(scene, i, panels)          # activity art as backdrop
+        audio = audio_dir / f"scene_{scene['id']:02d}.mp3"
+        # length follows the narration so the lip-sync always fits the line
+        seconds = float(scene.get("seconds", 5))
+        dur = _audio_duration(audio)
+        if dur > 0:
+            seconds = max(2.5, min(dur + 0.7, 12.0))
+        print(f"[generate_video] puppet scene {scene['id']} "
+              f"({scene.get('speaker','?')}) {seconds:.1f}s bg={bg.name if bg else 'none'}",
+              flush=True)
+        try:
+            if puppet.render_scene(scene, bg, audio, sprites, out, seconds):
+                captions.overlay_on_file(out, scene, clips_dir)
+                clips.append(out)
+                print(f"[generate_video] puppet scene {scene['id']} DONE", flush=True)
+        except Exception as exc:
+            print(f"[generate_video] puppet scene {scene['id']} failed: {exc}", flush=True)
+
+    if not clips:
+        raise RuntimeError("puppet produced no clips")
+    return clips
+
+
+def _audio_duration(path: Path) -> float:
+    if not path.exists():
+        return 0.0
+    res = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=nw=1:nk=1", str(path)],
+        capture_output=True, text=True,
+    )
+    try:
+        return float(res.stdout.strip())
+    except ValueError:
+        return 0.0
+
+
 def _render_all_stub(storyboard: dict, clips_dir: Path) -> list[Path]:
     panels = _load_panels(clips_dir)
     if panels:
@@ -173,7 +228,14 @@ def generate_clips(storyboard_path: Path) -> list[Path]:
 
     backend = settings.video_backend.lower()
     print(f"[generate_video] backend = {backend}")
-    if backend == "ltx":
+    if backend == "puppet":
+        # Talking-puppet animation: real lip-sync + motion, no GPU needed.
+        try:
+            clips = _render_all_puppet(storyboard, clips_dir)
+        except Exception as exc:
+            print(f"[generate_video] puppet unavailable ({exc}); using stub.")
+            clips = _render_all_stub(storyboard, clips_dir)
+    elif backend == "ltx":
         # REAL image-to-video motion (LTX-Video). Meant to run on a GPU
         # (Kaggle free T4). Falls back to stub if the GPU/model isn't available.
         try:

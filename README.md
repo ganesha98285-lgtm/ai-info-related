@@ -1,90 +1,71 @@
-# 🐶🐱 Jon & Katie — Automated Daily Vlog Studio
+# 🤖 AI Tool Drop — Automated Daily AI Shorts
 
-A **100% free** pipeline that auto-generates a daily animated "day-in-the-life"
-vlog for two cute characters — **Jon** (Labrador puppy) & **Katie** (Persian cat)
-— cuts teaser Shorts from it, and auto-posts everything to **YouTube, Instagram
-and Facebook** at the best US time zones.
+A **100% free, GPU-free** pipeline that builds and publishes daily faceless
+YouTube Shorts about **AI tools, tips and hacks** for a **US audience** — and
+runs entirely on **GitHub Actions**.
 
-## 🧱 Architecture (the daily flow)
+Videos look like *proper* videos because every beat is **real HD stock footage**
+(Pexels/Pixabay free APIs), not AI mush and not a slideshow.
 
-```
-                 ┌─────────────────────────────────────────┐
-                 │  GitHub Actions (daily cron, US time)     │
-                 └───────────────────┬─────────────────────┘
-                                     │
-   1. STORY      generate_script.py  │  Gemini (free)  → today's vlog script,
-                                     │                   scene prompts, captions
-                                     ▼
-   2. VOICE      generate_voice.py   │  edge-tts (free) → soft narration audio
-                                     ▼
-   3. VIDEO      generate_video.py   │  LTX-2 / Kaggle free GPU (image-to-video,
-                                     │                   character-consistent) → HD clips
-                                     ▼
-   4. ASSEMBLE   assemble.py         │  FFmpeg (free)  → full HD vlog (music+captions)
-                                     ▼
-   5. SHORTS     make_shorts.py      │  FFmpeg (free)  → 3-4 vertical 30s teasers
-                                     ▼
-   6. UPLOAD     upload_youtube.py   │  YouTube Data API   ┐
-                 upload_meta.py      │  Meta Graph API     ├─ auto-post @ US peak time
-                                     │  (IG Reels + FB)    ┘
-                                     ▼
-                            ✅ Posted everywhere
-```
-
-## 🆓 The Free Stack
-
-| Stage | Tool | Cost | Notes |
-|-------|------|------|-------|
-| Script/story | Google Gemini API | Free tier | daily storyline + scene prompts |
-| Character images | Gemini / Imagen | Free tier | one-time reference images |
-| Voiceover | edge-tts | 100% free | no API key needed |
-| ASMR/music | Freesound / royalty-free | Free | local library in `assets/audio` |
-| Video generation | LTX-2 (open source) on Kaggle/Colab free GPU | Free | image-to-video, HD |
-| Upscale to HD | Real-ESRGAN | Free | 1080p polish |
-| Assembly / editing | FFmpeg | Free | stitch, captions, shorts |
-| Upload YouTube | YouTube Data API v3 | Free | OAuth |
-| Upload IG/FB | Meta Graph API | Free | business account |
-| Orchestration | GitHub Actions | Free | daily cron |
-
-## 📁 Project Structure
+## 🧱 The daily flow
 
 ```
-jab-ketty-met-john/
-├── README.md
-├── requirements.txt
-├── .env.example
-├── config.py                 # central config (reads env vars)
-├── characters/
-│   ├── character-bible.md     # single source of truth for both characters
-│   └── image-prompts.md       # Gemini prompts for reference images
-│   └── refs/                  # <- put your chosen reference images here
-├── content/
-│   └── daily-vlog-format.md   # daily story structure
-├── src/
-│   ├── generate_script.py
-│   ├── generate_voice.py
-│   ├── generate_video.py
-│   ├── assemble.py
-│   ├── make_shorts.py
-│   ├── upload_youtube.py
-│   ├── upload_meta.py
-│   ├── scheduler.py           # US peak-time logic
-│   └── pipeline.py            # runs the whole daily flow
-├── assets/
-│   └── audio/                 # royalty-free music + ASMR sfx
-├── output/                    # generated videos land here
-└── .github/workflows/daily.yml
+GitHub Actions (daily cron)
+   │
+   1. SCRIPT   generate_script.py  Gemini (free) → hook + 4-6 value beats + CTA
+   │                               + viral title, SEO description, hashtags
+   2. VOICE    generate_voice.py   edge-tts (free) → narration per line
+   3. FOOTAGE  stock.py            Pexels / Pixabay (free) → real HD clips
+   4. BUILD    build_short.py      FFmpeg → 1080x1920 short: footage + bold
+   │                               captions + hook (0-3s) + FOLLOW CTA (last 3s)
+   │                               + background music
+   5. UPLOAD   upload_youtube.py   YouTube Data API → auto-post
+   6. TIMING   scheduler.py        US prime time (+ India night slots)
 ```
 
-## 🚀 Quick start
+## 🆓 Free stack
 
-1. Generate the two reference images (see `characters/image-prompts.md`) and drop
-   them in `characters/refs/` as `jon.png` and `katie.png`.
-2. Copy `.env.example` → `.env` and fill in your free API keys.
-3. `pip install -r requirements.txt`
-4. Run one day locally: `python -m src.pipeline --once`
-5. Push to GitHub, add secrets, and the daily workflow takes over.
+| Stage | Tool | Cost |
+|-------|------|------|
+| Script + SEO | Google Gemini | free tier |
+| Voiceover | edge-tts | free, no key |
+| HD footage | Pexels + Pixabay APIs | free |
+| Editing / render | FFmpeg | free |
+| Upload + schedule | YouTube Data API v3 | free |
+| Orchestration | GitHub Actions | free (no GPU needed) |
 
-> ⚠️ **Honest note:** free GPU time (Kaggle ~30h/week) means we target **1 short
-> HD vlog (3-5 min) + 3-4 teaser shorts per day** — not a 30-min video. This is
-> the realistic sweet spot for daily free automation and fast channel growth.
+## ⏰ Publishing schedule
+
+6 slots/day are available (`scheduler.py`), tuned for a US-first audience:
+
+- **USA (America/New_York):** 6:00 PM, 8:00 PM, 10:00 PM, 11:30 PM
+- **India (Asia/Kolkata):** 9:00 PM, 9:45 PM
+
+`SHORTS_PER_DAY` decides how many are used (default 2).
+
+## 🚀 Setup (see `docs/setup.md`)
+
+1. Add GitHub secrets: `GEMINI_API_KEY`, `PEXELS_API_KEY`, `YOUTUBE_TOKEN_JSON`.
+2. **Actions → Daily AI Shorts → Run workflow** (defaults to 1 *unlisted* short
+   so you can review it).
+3. Happy with it? Leave the cron on — it publishes daily at prime time.
+
+## 📁 Structure
+
+```
+config.py                 central config (env vars)
+src/generate_script.py    AI-niche script + hook + SEO
+src/generate_voice.py     edge-tts narration
+src/stock.py              free HD stock footage (Pexels/Pixabay)
+src/build_short.py        FFmpeg → finished 9:16 short
+src/captions.py           bold captions, hook + CTA overlays
+src/scheduler.py          US/India prime-time slots
+src/upload_youtube.py     YouTube upload (+ scheduled publish)
+src/pipeline.py           runs the whole daily flow
+.github/workflows/daily.yml
+```
+
+> Note: the earlier Jon & Katie cartoon experiment (LTX/puppet) is kept in
+> `src/backends/` and `characters/` for reference, but the active format is the
+> AI-tools shorts above — it's the one that is genuinely free, automatic, HD,
+> and viable for US growth.
