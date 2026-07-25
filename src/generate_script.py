@@ -25,44 +25,84 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import random
 from pathlib import Path
 
 from config import settings
 from src import history
 
-MAX_GEMINI_TRIES = 4
+MAX_GEMINI_TRIES = 3
 MAX_FALLBACK_TRIES = 300
+
+# If the main model is rate-limited, these free models are tried next — separate
+# per-model limits mean the day's videos still get written.
+GEMINI_FALLBACK_MODELS = [
+    m for m in os.getenv(
+        "GEMINI_FALLBACK_MODELS",
+        "gemini-2.0-flash-lite,gemini-1.5-flash,gemini-1.5-flash-8b",
+    ).split(",")
+]
 
 # --------------------------------------------------------------------------- #
 # combinatorial idea space (fallback only — Gemini is the primary writer)
 # --------------------------------------------------------------------------- #
 SUBJECTS = [
+    # named tools
     "ChatGPT", "Claude", "Gemini", "Perplexity", "NotebookLM", "ElevenLabs",
     "Midjourney", "Canva AI", "CapCut AI", "Gamma", "Notion AI", "Otter",
     "Descript", "Runway", "Suno", "Grammarly AI", "Zapier AI", "Make.com",
     "Cursor", "GitHub Copilot", "Excel Copilot", "Google AI Studio",
+    "Copilot in Word", "Copilot in PowerPoint", "Firefly", "Photoshop AI",
+    "Premiere AI", "Figma AI", "Framer AI", "Wix AI", "Shopify Magic",
+    "HeyGen", "Synthesia", "Fliki", "Opus Clip", "Veed", "Riverside AI",
+    "Krisp", "Fathom", "Granola", "Mem", "Obsidian AI", "Todoist AI",
+    "ClickUp AI", "Asana AI", "Trello AI", "Slack AI", "Teams Copilot",
+    "Gmail smart reply", "Google Sheets AI", "Looker Studio AI", "Airtable AI",
+    "Replit AI", "Windsurf", "Codeium", "Tabnine", "v0", "Bolt",
+    "Hugging Face", "Ollama", "LM Studio", "Whisper", "Stable Diffusion",
+    "Flux", "Ideogram", "Recraft", "Leonardo AI", "Pika", "Luma AI",
+    # capability areas
     "AI agents", "AI voice cloning", "AI thumbnails", "AI subtitles",
     "AI resume tools", "AI research tools", "AI note takers",
     "AI presentation tools", "AI spreadsheet tools", "AI email writers",
     "AI photo editors", "AI logo makers", "AI translation tools",
     "AI study tools", "AI coding assistants", "AI meeting summaries",
-    "prompt engineering", "AI automation workflows",
+    "AI customer support", "AI invoicing tools", "AI job search tools",
+    "AI interview prep", "AI social media tools", "AI SEO tools",
+    "prompt engineering", "AI automation workflows", "local AI models",
+    "AI browser extensions", "AI mobile apps", "AI for spreadsheets",
 ]
 
+# The fuzzy-distinct title space is roughly subjects x angles, so this list is
+# the strongest lever on how long the offline writer can stay original.
 ANGLES = [
     "tricks nobody uses", "hidden features", "the fastest way to use it",
     "mistakes that waste your time", "how to get paid work with it",
     "settings you should change today", "what it does better than humans",
     "the one prompt that changes everything", "free alternatives that match it",
     "how to save hours a week with it", "what beginners get wrong about it",
-    "how pros actually use it",
+    "how pros actually use it", "the feature they buried in a menu",
+    "why your results look generic", "a five minute setup that pays off",
+    "what to do before you start typing", "the shortcut worth memorising",
+    "how to stop redoing the same work", "when not to use it",
+    "the cheapest way to run it", "how to check its work",
+    "what changed this year", "the workflow that replaced three tools",
+    "how to make it sound like you", "the part that saves the most time",
+    "what to automate first", "how to get consistent output",
+    "the setting that ruins your results", "how to use it offline",
+    "one habit that doubles your output", "how to share it with a team",
+    "the mistake that costs you money", "how to test it in ten minutes",
+    "what to do when it gets it wrong", "the trick for long documents",
+    "how to keep your data private",
 ]
 
+# Plain nouns so they read correctly in every title template ("for {audience}",
+# "Why {audience} get ... wrong", etc.).
 AUDIENCES = [
-    "for beginners", "for students", "for freelancers", "for small business",
-    "for content creators", "for job seekers", "for developers",
-    "for busy professionals", "for side hustles", "for teachers",
+    "beginners", "students", "freelancers", "small business owners",
+    "content creators", "job seekers", "developers", "busy professionals",
+    "side hustlers", "teachers",
 ]
 
 HOOK_TEMPLATES = [
@@ -84,6 +124,19 @@ HOOK_TEMPLATES = [
     "This changes how you should think about {subject}.",
     "Do not open {subject} again until you see this.",
     "The reason your {subject} results feel generic.",
+    "{subject} does this in seconds. Most people take an hour.",
+    "Save this before you touch {subject} again.",
+    "Nobody is talking about what {subject} just made possible.",
+    "I was paying for software {subject} already does.",
+    "This took me months to figure out about {subject}.",
+    "Watch what happens when you ask {subject} this.",
+    "Everyone uses {subject}. Almost nobody uses this part.",
+    "Here is the {subject} shortcut I use every single day.",
+    "You are two clicks away from a better {subject} result.",
+    "Try this in {subject} tonight and thank me tomorrow.",
+    "The fastest {subject} workflow I have found so far.",
+    "Why your {subject} output looks like everyone else's.",
+    "This one line makes {subject} ten times more useful.",
 ]
 
 # Value beats are composed as (subject x action), giving ~40 x 26 = 1000+
@@ -206,54 +259,100 @@ Return STRICT JSON only:
 
 # --------------------------------------------------------------------------- #
 def _fresh_angle(data: dict) -> str:
-    """Pick a subject x angle x audience combination never used before."""
+    """Pick a subject x angle x audience combination never used before.
+
+    Deliberately an O(1) exact-set check, not the fuzzy matcher: this runs
+    hundreds of times per draft, and the expensive fuzzy comparison happens once
+    per finished draft in novelty_report.
+    Space: ~95 subjects x 12 angles x 10 audiences = 11,400 combinations.
+    """
+    used = set(data.get("titles", []))
     for _ in range(MAX_FALLBACK_TRIES):
-        subject = random.choice(SUBJECTS)
-        angle = random.choice(ANGLES)
-        audience = random.choice(AUDIENCES)
-        topic = f"{subject}: {angle} {audience}"
-        if not history.topic_used(topic, data):
+        topic = (f"{random.choice(SUBJECTS)}: {random.choice(ANGLES)} "
+                 f"for {random.choice(AUDIENCES)}")
+        if any(_title_for(topic, t) not in used
+               for t in range(len(TITLE_TEMPLATES))):
             return topic
-    print("[generate_script] WARNING: the built-in angle space is running low — "
-          "set GEMINI_API_KEY for unlimited fresh ideas.")
+    print("[generate_script] NOTE: the built-in angle space is running low — "
+          "GEMINI_API_KEY gives unlimited fresh ideas.")
     return f"{random.choice(SUBJECTS)}: {random.choice(ANGLES)}"
 
 
-def _fresh_hook(subject: str, data: dict) -> str:
-    templates = HOOK_TEMPLATES[:]
-    random.shuffle(templates)
-    for t in templates:
-        hook = t.format(subject=subject)
-        if not history.hook_used(hook, data):
-            return hook
-    return random.choice(templates).format(subject=subject)
+def _fresh_hook(subject: str, data: dict) -> tuple[str, str]:
+    """(hook line, hook key). The (tool, template) pair is what must be unique."""
+    used = set(data.get("hook_keys", []))
+    order = list(range(len(HOOK_TEMPLATES)))
+    random.shuffle(order)
+    for i in order:
+        key = f"{subject.lower()}|h{i}"
+        if key not in used:
+            return HOOK_TEMPLATES[i].format(subject=subject), key
+    i = random.choice(order)
+    return HOOK_TEMPLATES[i].format(subject=subject), f"{subject.lower()}|h{i}"
 
 
-def _fresh_tips(subject: str, data: dict,
-                want: int = 4) -> list[tuple[str, str, list[str]]]:
-    """Value beats (subject + action) whose wording has never been used before."""
-    pool = TIP_ACTIONS[:]
-    random.shuffle(pool)
-    picked: list[tuple[str, str, list[str]]] = []
-    seen_now: list[str] = []
-    for action, cap, kw in pool:
-        line = f"{subject} can {action}."
-        if history.idea_used(line, data):
+# Offline titles are composed from these so they don't all read the same shape
+# ("Subject: angle audience"), which the fuzzy matcher would flag as repeats.
+TITLE_TEMPLATES = [
+    "{subject}: {angle} for {audience} 🤖",
+    "The {subject} trick {audience} keep missing",
+    "{subject}: {angle} (most people miss this)",
+    "Nobody shows {audience} this in {subject}",
+    "{subject} can do this, and {audience} should know",
+    "Steal this {subject} workflow, {audience}",
+    "Why {audience} get {subject} wrong",
+    "{subject} in 30 seconds: {angle}",
+    "This is the {subject} part {audience} never open",
+    "{audience}: your {subject} setup is missing this",
+    "{angle} — the {subject} way",
+    "What {audience} should try in {subject} tonight",
+]
+
+
+def _title_for(topic: str, template_index: int = 0) -> str:
+    """Map an angle to a title. Kept in one place so the O(1) check matches."""
+    subject, _, rest = topic.partition(":")
+    angle, _, audience = rest.strip().partition(" for ")
+    tpl = TITLE_TEMPLATES[template_index % len(TITLE_TEMPLATES)]
+    title = tpl.format(subject=subject.strip(),
+                       angle=(angle or "the fast way").strip(),
+                       audience=(audience or "beginners").strip())
+    return title[0].upper() + title[1:] if title else title
+
+
+def _idea_key(subject: str, action_index: int) -> str:
+    return f"{subject.lower()}|{action_index}"
+
+
+def _fresh_tips(subject: str, data: dict, want: int = 4,
+                allow_used: bool = False) -> list[tuple[str, str, list[str], str]]:
+    """Value beats for this subject that have never been used before.
+
+    A (tool, technique) PAIR is the unit of uniqueness — "do X in Notion" and
+    "do X in Excel" are genuinely different videos, so they are compared as exact
+    pairs rather than fuzzily. That gives ~95 subjects x 26 actions = 2400+ beats.
+    """
+    used = history.active_idea_keys(data)
+    order = list(range(len(TIP_ACTIONS)))
+    random.shuffle(order)
+    picked: list[tuple[str, str, list[str], str]] = []
+    for i in order:
+        action, cap, kw = TIP_ACTIONS[i]
+        key = _idea_key(subject, i)
+        if not allow_used and key in used:
             continue
-        if history.is_duplicate(line, seen_now, history.IDEA_THRESHOLD):
-            continue
-        picked.append((line, cap, kw))
-        seen_now.append(line)
+        picked.append((f"{subject} can {action}.", cap, kw, key))
         if len(picked) == want:
             break
     return picked
 
 
-def _fallback_storyboard(topic: str, today: str, data: dict) -> dict | None:
-    """Compose a storyboard offline. Returns None if it cannot be made unique."""
+def _fallback_storyboard(topic: str, today: str, data: dict,
+                         allow_used_tips: bool = False) -> dict | None:
+    """Compose a storyboard offline. Returns None if this subject is used up."""
     subject = topic.split(":")[0].strip() or "ChatGPT"
-    hook = _fresh_hook(subject, data)
-    tips = _fresh_tips(subject, data, want=4)
+    hook, hook_key = _fresh_hook(subject, data)
+    tips = _fresh_tips(subject, data, want=4, allow_used=allow_used_tips)
     if len(tips) < 3:
         return None  # this subject is used up; caller will try another
 
@@ -264,7 +363,7 @@ def _fallback_storyboard(topic: str, today: str, data: dict) -> dict | None:
             ["ai robot", "laptop typing", "technology", "server room",
              "phone screen", "city night", "data screen"], 3),
     }]
-    for i, (line, cap, kw) in enumerate(tips, start=2):
+    for i, (line, cap, kw, _key) in enumerate(tips, start=2):
         scenes.append({"id": i, "role": "value", "narration": line,
                        "caption": cap, "stock_keywords": kw})
     scenes.append({
@@ -273,8 +372,20 @@ def _fallback_storyboard(topic: str, today: str, data: dict) -> dict | None:
         "stock_keywords": ["phone scrolling", "city night"],
     })
 
+    # Pick the title wording that is actually still unused (fuzzy-checked), so
+    # two videos never share a title even when the angles are related.
+    title = next(
+        (t for t in (_title_for(topic, i) for i in
+                     random.sample(range(len(TITLE_TEMPLATES)),
+                                   len(TITLE_TEMPLATES)))
+         if not history.topic_used(t, data)),
+        None,
+    )
+    if title is None:
+        return None  # every wording for this angle is taken; caller tries another
+
     return {
-        "title": f"{topic[:80]} 🤖",
+        "title": title,
         "description": (
             f"{topic.capitalize()} — practical AI tips you can use today.\n"
             "New AI tools, prompts and hacks every single day.\n"
@@ -287,16 +398,18 @@ def _fallback_storyboard(topic: str, today: str, data: dict) -> dict | None:
             "ai tools 2026", "ai productivity", "ai for beginners", "ai hacks",
         ],
         "scenes": scenes,
-        "meta": {"date": today, "topic": topic, "generated_by": "fallback"},
+        "meta": {"date": today, "topic": topic, "generated_by": "fallback",
+                 "idea_keys": [t[3] for t in tips], "hook_key": hook_key},
     }
 
 
-def _gemini_storyboard(topic: str, today: str, data: dict, attempt: int) -> dict:
+def _gemini_storyboard(topic: str, today: str, data: dict, attempt: int,
+                       model_name: str | None = None) -> dict:
     import google.generativeai as genai
 
     genai.configure(api_key=settings.gemini_api_key)
     model = genai.GenerativeModel(
-        settings.gemini_model, system_instruction=SYSTEM_PROMPT
+        model_name or settings.gemini_model, system_instruction=SYSTEM_PROMPT
     )
     parts = [
         f"Date: {today}. Audience: United States.",
@@ -319,54 +432,176 @@ def _gemini_storyboard(topic: str, today: str, data: dict, attempt: int) -> dict
     )
     sb = json.loads(resp.text)
     sb.setdefault("meta", {})
-    sb["meta"].update({"date": today, "topic": topic, "generated_by": "gemini",
+    sb["meta"].update({"date": today, "topic": topic,
+                       "generated_by": model_name or settings.gemini_model,
                        "attempt": attempt})
     return sb
 
 
-def generate_storyboard(theme: str | None = None,
-                        data: dict | None = None) -> dict:
-    """Build a storyboard that is guaranteed new against the channel history."""
-    today = dt.date.today().isoformat()
-    data = data if data is not None else history.load()
+def _groq_storyboard(topic: str, today: str, data: dict, attempt: int) -> dict:
+    """Second free writer. Groq's free tier needs no card and no billing setup.
 
-    if settings.gemini_api_key:
+    Get a key at console.groq.com and add it as the GROQ_API_KEY secret. This is
+    what keeps genuine novelty going on days when Gemini is rate-limited or down.
+    """
+    import requests
+
+    parts = [f"Date: {today}. Audience: United States.",
+             f"Suggested fresh angle: {topic}"]
+    if brief := history.avoid_brief(data, titles=40, hooks=25):
+        parts.append(brief)
+    if learn := history.learning_brief(data):
+        parts.append(learn)
+    if attempt > 1:
+        parts.append("Your previous draft was too close to something already "
+                     "published. Change the SUBJECT, not just the wording.")
+
+    r = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {os.getenv('GROQ_API_KEY', '')}",
+                 "Content-Type": "application/json"},
+        json={
+            "model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+            "messages": [{"role": "system", "content": SYSTEM_PROMPT},
+                         {"role": "user", "content": "\n\n".join(parts)}],
+            "response_format": {"type": "json_object"},
+            "temperature": 1.0,
+        },
+        timeout=60,
+    )
+    r.raise_for_status()
+    sb = json.loads(r.json()["choices"][0]["message"]["content"])
+    sb.setdefault("meta", {})
+    sb["meta"].update({"date": today, "topic": topic, "generated_by": "groq",
+                       "attempt": attempt})
+    return sb
+
+
+def _groq_pass(theme: str | None, today: str, data: dict,
+               level: int) -> dict | None:
+    if not os.getenv("GROQ_API_KEY", "").strip():
+        return None
+    for attempt in range(1, MAX_GEMINI_TRIES + 1):
+        topic = theme or _fresh_angle(data)
+        try:
+            sb = _groq_storyboard(topic, today, data, attempt)
+        except Exception as exc:
+            print(f"[generate_script] Groq unavailable ({type(exc).__name__})")
+            return None
+        if not sb.get("scenes"):
+            continue
+        ok, why = history.novelty_report(sb, data, level=level)
+        if ok:
+            print(f"[generate_script] fresh script via Groq (try {attempt}): "
+                  f"{sb.get('title', '')[:60]}")
+            return sb
+        print(f"[generate_script] Groq try {attempt} rejected — {why}")
+    return None
+
+
+def _gemini_pass(theme: str | None, today: str, data: dict,
+                 level: int) -> dict | None:
+    """Try every free Gemini model in turn, at the given strictness level."""
+    if not settings.gemini_api_key:
+        return None
+    models = [settings.gemini_model] + [
+        m.strip() for m in GEMINI_FALLBACK_MODELS if m.strip()
+        and m.strip() != settings.gemini_model
+    ]
+    for model_name in models:
         for attempt in range(1, MAX_GEMINI_TRIES + 1):
             topic = theme or _fresh_angle(data)
             try:
-                sb = _gemini_storyboard(topic, today, data, attempt)
+                sb = _gemini_storyboard(topic, today, data, attempt, model_name)
             except Exception as exc:
-                print(f"[generate_script] Gemini failed ({exc}); using fallback.")
+                print(f"[generate_script] {model_name} unavailable ({type(exc).__name__}); "
+                      f"trying the next writer")
                 break
             if not sb.get("scenes"):
                 continue
-            ok, why = history.novelty_report(sb, data)
+            ok, why = history.novelty_report(sb, data, level=level)
             if ok:
-                print(f"[generate_script] fresh script (attempt {attempt}): "
-                      f"{sb.get('title', '')[:70]}")
+                print(f"[generate_script] fresh script via {model_name} "
+                      f"(try {attempt}): {sb.get('title', '')[:60]}")
                 return sb
-            print(f"[generate_script] attempt {attempt} rejected — {why}")
-    else:
-        print("[generate_script] No GEMINI_API_KEY; using the built-in "
-              "combinatorial writer (still de-duplicated).")
+            print(f"[generate_script] {model_name} try {attempt} rejected — {why}")
+    return None
 
-    # Fallback: keep composing until the novelty check passes.
-    last_reason = "no draft produced"
-    for _ in range(40):
-        sb = _fallback_storyboard(theme or _fresh_angle(data), today, data)
+
+def _fallback_pass(theme: str | None, today: str, data: dict, level: int,
+                   allow_used_tips: bool) -> dict | None:
+    """Offline combinatorial writer at the given strictness level."""
+    for _ in range(15):
+        sb = _fallback_storyboard(theme or _fresh_angle(data), today, data,
+                                  allow_used_tips=allow_used_tips)
         if sb is None:
-            last_reason = "subject's ideas are all used up"
-            continue
-        ok, last_reason = history.novelty_report(sb, data)
+            continue  # that subject is used up, try another
+        ok, _why = history.novelty_report(sb, data, level=level)
         if ok:
             return sb
+    return None
 
-    # Never publish a repeat. Skipping this short is better than repeating.
+
+def generate_storyboard(theme: str | None = None,
+                        data: dict | None = None) -> dict:
+    """Produce today's storyboard. A video is ALWAYS produced.
+
+    Publishing daily is a hard requirement, so the writer walks down a ladder of
+    strictness rather than giving up:
+
+      1. Gemini (all free models) -> Groq, strict  — new title, hook, 70% new ideas
+      2. Offline writer, strict                    — (tool x technique) pairs
+      3. Same writers, relaxed                     — 40% new ideas
+      4. Same writers, minimum                     — new title + new hook
+
+    Two independent free LLM providers (Gemini and Groq) mean one being down or
+    rate-limited never forces the offline writer into use.
+
+    The title, the hook and the thumbnail look are NEVER allowed to repeat at any
+    step. Only an internal tip line can eventually recur, inside an otherwise
+    completely new video — and that is logged.
+    """
+    today = dt.date.today().isoformat()
+    data = data if data is not None else history.load()
+
+    if not settings.gemini_api_key:
+        print("[generate_script] No GEMINI_API_KEY; using the built-in "
+              "combinatorial writer (still fully de-duplicated).")
+
+    for level, _required, label in history.LEVELS:
+        if level > 0:
+            print(f"[generate_script] stepping down to {label} "
+                  f"(a video must go out today)")
+        if sb := _gemini_pass(theme, today, data, level):
+            return sb
+        if sb := _groq_pass(theme, today, data, level):
+            return sb
+        if sb := _fallback_pass(theme, today, data, level,
+                                allow_used_tips=(level >= 2)):
+            if level >= 2:
+                print("[generate_script] NOTE: title and hook are new, but some "
+                      "tips have appeared before. Add SUBJECTS/TIP_ACTIONS or "
+                      "keep GEMINI_API_KEY working to avoid this.")
+            return sb
+
+    # Absolute last resort so a posting slot is never missed. Tips may repeat
+    # here, but the TITLE is still verified unique before it goes out.
+    for _ in range(400):
+        subject, angle = random.choice(SUBJECTS), random.choice(ANGLES)
+        audience = random.choice(AUDIENCES)
+        sb = _fallback_storyboard(f"{subject}: {angle} for {audience}", today,
+                                  data, allow_used_tips=True)
+        if sb is None:
+            continue
+        if history.topic_used(sb["title"], data):
+            continue
+        print("[generate_script] NOTE: idea pools are exhausted, so this video "
+              "reuses tip wording — its title, hook and thumbnail are still "
+              "unique. Add SUBJECTS/TIP_ACTIONS or restore Gemini access.")
+        return sb
     raise RuntimeError(
-        f"could not produce a NEW script ({last_reason}). Nothing was published. "
-        f"Fix: set GEMINI_API_KEY for unlimited fresh ideas, or add more entries "
-        f"to SUBJECTS / TIP_ACTIONS in src/generate_script.py. "
-        f"History so far: {history.stats(data)}"
+        "every title wording is used up — add SUBJECTS/ANGLES/TITLE_TEMPLATES "
+        f"or restore Gemini access. {history.stats(data)}"
     )
 
 
