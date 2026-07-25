@@ -1,76 +1,94 @@
-# ⚡ Lightning AI — talking characters on a free GPU (no credit card)
+# ⚡ Lightning AI — talking Jon & Katie, straight to YouTube
 
-Goal: Jon & Katie actually **talking with lip-sync**, generated on a free cloud
-GPU, with **no card on file**.
+Goal: Jon & Katie actually **talking with lip-sync**, rendered on a Lightning AI
+GPU, published to YouTube by the same command. No files to download, no manual
+review step — if you don't like the result, delete it in YouTube Studio.
 
-## Cost & capacity (honest)
+## Credits: what one 30-second short really costs
 
-| Item | Reality |
-|------|---------|
-| Card required | **No** — phone verification only |
-| Free GPU time | ~**20-80 hours/month** depending on the current plan |
-| Can it charge you? | **No card = no charge.** When hours run out it just stops |
-| Talking clip (5s, S2V-14B) | ~3-8 min of GPU |
-| One 30s short (≈6 clips) | ~25-45 min of GPU |
-| So per month | ≈ **1-3 talking shorts/day** |
+Lightning shows a **per-hour** rate. We only use a fraction of an hour, so
+`cost = rate × time`.
 
-Everything else (script, voices, captions, hooks, upload, scheduling) already
-runs free on GitHub Actions — the GPU is only needed for the talking clips.
+| GPU | Rate/hour | Time for one short | **Cost per short** | Shorts from 15 credits |
+|-----|-----------|--------------------|--------------------|------------------------|
+| T4 (16 GB) | 0.55 | ~3 h (model doesn't fit well) | ❌ ~1.71 | ~8 |
+| L4 (24 GB) | 1.11 | ~42 min | ~0.78 | ~19 |
+| A100 (40 GB) | 3.32 | ~19 min | ~1.06 | ~14 |
+| **H100 (80 GB)** | 3.82 | **~12 min** | **~0.76** | **~19** |
 
-## Step 1 — make ONE test clip first (do this before any automation)
+**H100 wins**: same cost as the cheap options but ~3.5× faster, and it has
+80 GB so the 14B model runs without slow CPU offloading.
 
-1. Sign up at [lightning.ai](https://lightning.ai) → verify your phone. No card.
-2. Create a **Studio** → in the machine selector pick a **GPU** (T4/L4/A10G).
-3. Open the Studio **terminal** (in the browser) and run:
+Two one-time costs to know about:
+
+* Moving the Studio from AWS to Lightning cloud (needed for H100): **~1.01 credits**
+* First model download (~40–60 GB): billed GPU time, roughly **1.5–2.5 credits**
+  on H100. Cached afterwards — **keep the Studio alive** and later runs skip it.
+
+No card on file means it can never charge you; when credits run out it stops.
+
+## Setup (once)
+
+1. In the Studio, pick **H100**, turn **Interruptible** on, click **Request**
+   (confirm the cloud move).
+2. Open the **Terminal** and clone the repo:
 
    ```bash
    git clone https://github.com/ganesha98285-lgtm/jab-ketty-met-john
    cd jab-ketty-met-john
-
-   # fast sanity check — motion only, no lip-sync (light 5B model)
-   python lightning/talking_test.py --mode i2v
-
-   # the real thing — audio-driven LIP-SYNC (heavy 14B model)
-   python lightning/talking_test.py --mode s2v
+   sudo apt-get install -y ffmpeg      # only if ffmpeg is missing
    ```
 
-4. Download `talking_test_i2v.mp4` / `talking_test_s2v.mp4` from the Lightning
-   file browser and **watch it**.
+3. Give it your YouTube token — the **same JSON** you put in GitHub Secrets as
+   `YOUTUBE_TOKEN_JSON`:
 
-**Then tell me what you saw.** If the quality is good we wire it into the daily
-pipeline. If it looks bad, we stop there — no more wasted hours.
+   ```bash
+   export YOUTUBE_TOKEN_JSON='{"token":"","refresh_token":"...","token_uri":"https://oauth2.googleapis.com/token","client_id":"...","client_secret":"...","scopes":["https://www.googleapis.com/auth/youtube.upload"]}'
+   ```
 
-## What the test does
+   (Or create the file `secrets/youtube_token.json` with that JSON.)
 
-- Clones the official [Wan2.2](https://github.com/Wan-Video/Wan2.2) repo.
-- `--mode i2v` → **Wan2.2-TI2V-5B**: light model, validates motion + speed.
-- `--mode s2v` → **Wan2.2-S2V-14B**: audio-driven talking model (real lip-sync).
-- Uses your existing `characters/refs/jon.png` (or `sheet.png`) as the character
-  and generates Jon's voice line with free `edge-tts`.
-- Runs with `--offload_model --convert_model_dtype --t5_cpu` so it also fits
-  smaller GPUs (slower, but it fits).
+## Run it — builds and publishes in one command
 
-## Known risks (so there are no surprises)
-
-- **Big download:** S2V-14B weights are tens of GB. First run is slow; the Studio
-  keeps them cached for later runs.
-- **Animal faces:** these models are trained mostly on humans. On a cartoon
-  puppy/cat face the lip-sync may look off — that is the #1 thing to judge in
-  the test clip.
-- **Untested by me:** I have no GPU/account here, so the first run may need one
-  or two fixes. Send me the error text and I'll patch it.
-
-## Step 2 — automation (only after the test looks good)
-
-Once you approve the quality, the daily flow becomes:
-
-```
-GitHub Actions (free)            Lightning GPU (free hours)
-  script + voices + SEO   ──►    talking clips (lip-sync)
-        ▲                              │
-        └──── captions, hooks, assembly, YouTube upload ◄──┘
+```bash
+python lightning/talking_short.py
 ```
 
-I'll add a `lightning/daily_job.py` that runs the whole batch on the GPU box and
-uploads straight to YouTube, plus a scheduled trigger — so you don't touch a
-terminal daily.
+Flags:
+
+| Flag | Effect |
+|------|--------|
+| `--scenes 4` | fewer lines → cheaper and faster |
+| `--privacy unlisted` | publish quietly instead of public |
+| `--steps 20` | fewer diffusion steps → faster, slightly softer |
+| `--dry-run` | build the mp4 but skip the upload |
+
+## What it does
+
+1. **Pre-flight** — checks ffmpeg, the YouTube token and the reference images
+   **before** touching the GPU, so a setup mistake never burns credits.
+2. Picks the day's dialogue (rotates daily), hook first, CTA last.
+3. `edge-tts` voices each line — Jon male, Katie female — and trims the silence
+   that used to cause 1–2 s dead pauses.
+4. **Wan2.2 S2V-14B** animates the speaker's reference image *driven by that
+   audio* → real lip-sync, not a slideshow.
+5. Each clip is fitted to 1080×1920 (nothing cropped), gets a speech bubble.
+6. Clips joined; yellow hook burned on the first 3 s, SUBSCRIBE CTA on the last 3 s.
+7. **Quality gate** (size / duration / not-blank) → upload + custom thumbnail.
+   If the gate fails, nothing is published.
+
+## Honest limitations
+
+* Audio-driven avatar models are trained mostly on **human** faces. Jon is a
+  puppy and Katie is a cat, so mouth movement can look off. That is a model
+  limitation, not a settings bug — judge the first upload with your own eyes.
+* Interruptible machines are 50–80 % cheaper but can be reclaimed mid-run. If
+  that happens, re-run the command (weights stay cached).
+* The daily stock-footage shorts pipeline on GitHub Actions still costs **0
+  credits** and is unaffected by any of this.
+
+## `talking_test.py` (optional)
+
+A cheaper single-clip probe (`--mode i2v` uses the light 5B model,
+`--mode s2v` the heavy lip-sync one). Useful only if you want to sanity-check
+quality before spending credits on a full short.
