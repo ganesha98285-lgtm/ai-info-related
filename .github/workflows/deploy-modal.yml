@@ -1,0 +1,61 @@
+name: Deploy Modal GPU app
+
+# One-click deploy of modal_app.py from GitHub — no terminal / no local install.
+# Needs secrets MODAL_TOKEN_ID and MODAL_TOKEN_SECRET (Modal dashboard →
+# Settings → API Tokens → New token). Run this once, and again whenever
+# modal_app.py changes.
+on:
+  workflow_dispatch:
+    inputs:
+      test_after_deploy:
+        description: "Generate a test clip after deploying? (true/false)"
+        required: false
+        default: "true"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check Modal tokens
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          if [ -z "$MODAL_TOKEN_ID" ] || [ -z "$MODAL_TOKEN_SECRET" ]; then
+            echo "::error::Add MODAL_TOKEN_ID and MODAL_TOKEN_SECRET secrets first."
+            exit 1
+          fi
+
+      - name: Install Modal
+        run: pip install --quiet modal
+
+      - name: Deploy app
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: modal deploy modal_app.py
+
+      - name: Generate a test clip
+        if: ${{ github.event.inputs.test_after_deploy != 'false' }}
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          modal run modal_app.py || echo "::warning::Test clip failed (check Modal credits)."
+          ls -lh modal_test_clip.mp4 2>/dev/null || true
+
+      - name: Upload test clip
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: modal-test-clip
+          path: modal_test_clip.mp4
+          retention-days: 1
+          if-no-files-found: ignore

@@ -13,24 +13,31 @@ straight from GitHub Actions, unlike notebook services.
 
 Beyond that the pipeline just uses stock footage, so nothing breaks.
 
-## One-time setup (10 min)
+## ⚠️ Important: the $30 needs a payment method
 
-1. **Sign up** at [modal.com](https://modal.com) (free, Google login).
-2. On your laptop:
-   ```bash
-   pip install modal
-   modal setup                 # opens browser, links the account
-   modal deploy modal_app.py   # deploys the GPU video generator
-   ```
-   Test it:
-   ```bash
-   modal run modal_app.py      # writes modal_test_clip.mp4
-   ```
-3. Create an API token: Modal dashboard → **Settings → API Tokens → New token**.
-4. Add to **GitHub → Settings → Secrets → Actions**:
+Modal shows `$0 of $30/mo in free credits — add a payment method to unlock the
+rest`. **Without a card on file you get $0**, so the GPU path simply won't run
+and the pipeline will use stock footage instead. Add a card only if you're happy
+with that trade-off (and set a spend limit in Modal → Settings).
+
+Stock footage (Pexels) stays the main engine either way: free, no card, unlimited.
+
+## One-time setup — no terminal needed
+
+1. **Sign up** at [modal.com](https://modal.com) (Google login). In onboarding pick
+   **Personal** and **Inference (Image/Video)**.
+2. Add a payment method (only if you want the $30 credits to be usable).
+3. Dashboard → **Settings → API Tokens → New token** → copy both values.
+4. **GitHub → Settings → Secrets → Actions** → add:
    - `MODAL_TOKEN_ID`
    - `MODAL_TOKEN_SECRET`
-5. Turn it on: **Variables** → `AI_BROLL` = `true`.
+5. **Actions → "Deploy Modal GPU app" → Run workflow** — this deploys
+   `modal_app.py` for you and generates a test clip (downloadable as an
+   artifact). No local install required.
+6. Turn it on for daily runs: **Variables** → `AI_BROLL` = `true`.
+
+> Alternative if you prefer a terminal: `pip install modal && modal setup &&
+> modal deploy modal_app.py`.
 
 ## How it behaves
 
