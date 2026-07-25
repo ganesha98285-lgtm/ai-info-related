@@ -30,6 +30,10 @@ from src import (
 )
 from src.backends import modal_video
 
+# Each daily slot is retried with a fresh script/footage before it is given up
+# on, so the channel keeps its posting promise even when one attempt fails.
+ATTEMPTS_PER_SHORT = int(__import__("os").getenv("ATTEMPTS_PER_SHORT", "3"))
+
 
 def run_once(theme: str | None = None, do_upload: bool = True,
              shorts: int | None = None) -> dict:
@@ -69,32 +73,56 @@ def run_once(theme: str | None = None, do_upload: bool = True,
     for i in range(1, count + 1):
         print(f"\n──── SHORT {i}/{count} ────", flush=True)
 
-        # 1) script — checked against the whole channel history before use
-        storyboard = generate_script.generate_storyboard(theme, data=hist)
-        history.record_storyboard(storyboard, hist)  # claim it immediately
-        sb_path = generate_script.save_storyboard(storyboard)
-        if i > 1:  # keep each short's assets separate
-            sb_path = _isolate(sb_path, i, storyboard)
+        # Posting every day is a hard requirement, so each slot gets several
+        # attempts (a fresh script + fresh footage each time) before giving up.
+        final, storyboard, sb_path = None, None, None
+        for attempt in range(1, ATTEMPTS_PER_SHORT + 1):
+            if attempt > 1:
+                print(f"[pipeline] retry {attempt}/{ATTEMPTS_PER_SHORT} "
+                      f"for short {i}", flush=True)
 
-        # 2) voice (one mp3 per line)
-        generate_voice.generate_voiceovers(sb_path)
+            # 1) script — checked against the whole channel history before use
+            try:
+                storyboard = generate_script.generate_storyboard(theme, data=hist)
+            except Exception as exc:
+                print(f"[pipeline] script generation failed: {exc}")
+                continue
+            history.record_storyboard(storyboard, hist)  # claim it immediately
+            sb_path = generate_script.save_storyboard(storyboard)
+            if i > 1:  # keep each short's assets separate
+                sb_path = _isolate(sb_path, i, storyboard)
 
-        # 3+4) stock footage + build the finished vertical short
-        try:
-            final = build_short.build_short(sb_path, index=i, hist=hist)
-        except Exception as exc:
-            print(f"[pipeline] short {i} failed: {exc}")
+            # 2) voice (one mp3 per line)
+            try:
+                generate_voice.generate_voiceovers(sb_path)
+            except Exception as exc:
+                print(f"[pipeline] voice failed: {exc}")
+                continue
+
+            # 3+4) stock footage + build the finished vertical short
+            try:
+                candidate = build_short.build_short(sb_path, index=i, hist=hist)
+            except Exception as exc:
+                print(f"[pipeline] build failed: {exc}")
+                continue
+
+            # 4b) QUALITY GATE — never publish a blank/broken video
+            ok, why = build_short.validate_video(candidate)
+            print(f"[pipeline] quality check: {why}")
+            if not ok:
+                print(f"[pipeline] rejected ({why}); trying again")
+                continue
+
+            final = candidate
+            break
+
+        if final is None:
+            print(f"[pipeline] ❌ short {i} could not be produced after "
+                  f"{ATTEMPTS_PER_SHORT} attempts")
             failures += 1
+            history.save(hist)
             continue
         result["shorts"].append(str(final))
-
-        # 4b) QUALITY GATE — never publish a blank/broken video
-        ok, why = build_short.validate_video(final)
-        print(f"[pipeline] quality check: {why}")
-        if not ok:
-            print(f"[pipeline] ❌ short {i} rejected ({why}); not uploading.")
-            failures += 1
-            continue
 
         # 5) upload (scheduled to the US evening → late-night windows)
         if do_upload:

@@ -27,6 +27,7 @@ import datetime as dt
 import json
 import re
 from difflib import SequenceMatcher
+from functools import lru_cache
 from pathlib import Path
 
 from config import settings
@@ -45,19 +46,33 @@ _STOP = {"the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "is",
          "are", "you", "your", "with", "that", "this", "it", "my", "me"}
 
 
+@lru_cache(maxsize=100_000)
 def _norm(text: str) -> str:
     """Lowercase, strip punctuation and filler words for fair comparison."""
     words = re.findall(r"[a-z0-9]+", (text or "").lower())
     return " ".join(w for w in words if w not in _STOP)
 
 
+@lru_cache(maxsize=100_000)
+def _tokens(text: str) -> frozenset:
+    return frozenset(_norm(text).split())
+
+
 def _similar(a: str, b: str) -> float:
     return SequenceMatcher(None, a, b).ratio()
 
 
+def _overlap(a: frozenset, b: frozenset) -> float:
+    """Cheap Jaccard pre-filter so we only run the costly matcher when needed."""
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
 def _blank() -> dict:
-    return {"version": 1, "titles": [], "hooks": [], "ideas": [],
-            "clips": {}, "thumb_styles": {}, "uploads": []}
+    return {"version": 3, "titles": [], "hooks": [], "ideas": [],
+            "idea_keys": [], "hook_keys": [], "clips": {}, "thumb_styles": {},
+            "uploads": []}
 
 
 def load() -> dict:
@@ -89,11 +104,21 @@ def stats(data: dict | None = None) -> str:
 # duplicate detection
 # --------------------------------------------------------------------------- #
 def is_duplicate(text: str, pool: list[str], threshold: float) -> str | None:
-    """Return the matching past entry if `text` is too close to something used."""
+    """Return the matching past entry if `text` is too close to something used.
+
+    Two-stage for speed: a set-overlap pre-filter rejects most candidates in
+    microseconds, and only the plausible ones go through SequenceMatcher. This
+    keeps the check fast even after thousands of published videos.
+    """
     n = _norm(text)
     if not n:
         return None
+    toks = _tokens(text)
+    # Roughly the minimum word overlap a real duplicate must have.
+    min_overlap = max(0.25, threshold - 0.30)
     for past in pool:
+        if _overlap(toks, _tokens(past)) < min_overlap:
+            continue
         if _similar(n, _norm(past)) >= threshold:
             return past
     return None
@@ -111,8 +136,47 @@ def idea_used(line: str, data: dict) -> str | None:
     return is_duplicate(line, data["ideas"], IDEA_THRESHOLD)
 
 
-def novelty_report(storyboard: dict, data: dict) -> tuple[bool, str]:
-    """Is this storyboard genuinely new? Returns (ok, reason)."""
+def key_used(key: str, data: dict) -> bool:
+    """Exact-match check for a composed idea key like 'ChatGPT|summarise_doc'.
+
+    Used by the offline writer: the same technique applied to a DIFFERENT tool is
+    a legitimately different video, so those are compared as exact pairs instead
+    of fuzzily (which would wrongly flag them as the same sentence).
+    """
+    return key in set(data.get("idea_keys", []))
+
+
+def record_keys(keys: list[str], data: dict) -> None:
+    data.setdefault("idea_keys", []).extend(k for k in keys if k)
+
+
+# Strictness levels. Level 0 is the ideal; the writer walks down this ladder
+# only if it cannot produce anything better, because publishing every day is a
+# hard requirement. Title, hook and thumbnail are NEVER allowed to repeat at any
+# level — only an internal tip line may repeat inside an otherwise-new video.
+LEVELS = [
+    (0, 0.70, "strict: new title, new hook, 70% new ideas"),
+    (1, 0.40, "relaxed: new title, new hook, 40% new ideas"),
+    (2, 0.00, "minimum: new title + new hook (tips may repeat)"),
+]
+
+
+def novelty_report(storyboard: dict, data: dict,
+                   level: int = 0) -> tuple[bool, str]:
+    """Is this storyboard new enough at the given strictness level?
+
+    Two comparison modes, because they are different situations:
+
+    * An LLM-written script can be genuinely original, so its title, hook and
+      ideas are compared FUZZILY — a reworded repeat is rejected.
+    * The offline writer composes from templates, so unique WORDING cannot last
+      forever. There, uniqueness is enforced on the exact (tool, template) pair:
+      the same technique or hook shape applied to a different tool is a different
+      video. Wording patterns may echo, which is why this path is only a backstop
+      for days when the LLM is unavailable.
+    """
+    meta = storyboard.get("meta", {})
+    offline = meta.get("generated_by") == "fallback"
     title = storyboard.get("title", "")
     scenes = storyboard.get("scenes", [])
     hook = next((s.get("narration") for s in scenes
@@ -120,19 +184,29 @@ def novelty_report(storyboard: dict, data: dict) -> tuple[bool, str]:
     values = [s.get("narration", "") for s in scenes
               if s.get("role") not in ("hook", "cta")]
 
+    # Non-negotiable in both modes and at every level: a title never repeats.
     dup = topic_used(title, data)
     if dup:
         return False, f"title already used ('{dup[:50]}')"
+
+    if offline:
+        hk = meta.get("hook_key")
+        if hk and hk in set(data.get("hook_keys", [])):
+            return False, "this tool + hook combination was already used"
+        # _fresh_tips already guarantees the (tool, technique) pairs are new.
+        return True, "offline: new title + new tool/hook pair"
+
     dup = hook_used(hook, data)
     if dup:
         return False, f"hook already used ('{dup[:50]}')"
 
-    if values:
+    required = next((r for lvl, r, _ in LEVELS if lvl == level), 0.0)
+    if values and required > 0:
         fresh = [v for v in values if not idea_used(v, data)]
-        if len(fresh) < max(1, int(len(values) * 0.7)):
+        if len(fresh) < max(1, int(len(values) * required)):
             return False, (f"only {len(fresh)}/{len(values)} ideas are new "
-                           f"(need 70%)")
-    return True, "all new"
+                           f"(need {int(required * 100)}%)")
+    return True, next((d for lvl, _, d in LEVELS if lvl == level), "ok")
 
 
 # --------------------------------------------------------------------------- #
@@ -151,8 +225,10 @@ def record_storyboard(storyboard: dict, data: dict) -> None:
             data["hooks"].append(line)
         elif role != "cta":
             data["ideas"].append(line)
-    if s_cap := storyboard.get("meta", {}).get("hook_caption"):
-        data["hooks"].append(s_cap)
+    meta = storyboard.get("meta", {})
+    record_keys(meta.get("idea_keys", []), data)
+    if hk := meta.get("hook_key"):
+        data.setdefault("hook_keys", []).append(hk)
 
 
 def used_clip_ids(data: dict) -> set[str]:
