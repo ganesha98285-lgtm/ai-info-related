@@ -53,6 +53,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Fail fast: without a stock provider every video would be blank.
+      - name: Check required secrets
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+        run: |
+          fail=0
+          if [ -z "$PEXELS_API_KEY" ] && [ -z "$PIXABAY_API_KEY" ]; then
+            echo "::error::No stock footage key. Add PEXELS_API_KEY (free: pexels.com/api)."
+            fail=1
+          fi
+          if [ -z "$YOUTUBE_TOKEN_JSON" ]; then
+            echo "::warning::YOUTUBE_TOKEN_JSON missing - uploads will be skipped."
+          fi
+          exit $fail
+
       - name: Restore YouTube token
         env:
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
@@ -74,6 +91,10 @@ jobs:
           # --- free stock footage (real HD video) ---
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          # --- optional: AI b-roll on Modal's free GPU credits ---
+          AI_BROLL: ${{ vars.AI_BROLL || 'false' }}
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
           # --- voice ---
           TTS_VOICE: ${{ vars.TTS_VOICE || 'en-US-GuyNeural' }}
           NARRATION_MODE: narrate

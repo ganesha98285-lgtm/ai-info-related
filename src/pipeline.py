@@ -23,8 +23,10 @@ from src import (
     generate_script,
     generate_voice,
     scheduler,
+    stock,
     upload_youtube,
 )
+from src.backends import modal_video
 
 
 def run_once(theme: str | None = None, do_upload: bool = True,
@@ -36,7 +38,17 @@ def run_once(theme: str | None = None, do_upload: bool = True,
     print(f"  shorts this run: {count} | upload: {do_upload}")
     print("=" * 60)
 
+    # PRE-FLIGHT: refuse to run at all if we can't fetch real footage.
+    if not stock.have_keys() and not modal_video.available():
+        raise SystemExit(
+            "\n[pipeline] ABORT: no footage source configured.\n"
+            "  Set the GitHub secret PEXELS_API_KEY (free: pexels.com/api)\n"
+            "  and/or PIXABAY_API_KEY. Without it every video would be blank,\n"
+            "  so nothing will be built or uploaded.\n"
+        )
+
     result: dict = {"shorts": [], "uploads": []}
+    failures = 0
     times = (scheduler.shorts_publish_times(count)
              if settings.schedule_to_peak else [None] * count)
 
@@ -57,10 +69,19 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             final = build_short.build_short(sb_path, index=i)
         except Exception as exc:
             print(f"[pipeline] short {i} failed: {exc}")
+            failures += 1
             continue
         result["shorts"].append(str(final))
 
-        # 5) upload (scheduled to the US morning/evening windows)
+        # 4b) QUALITY GATE — never publish a blank/broken video
+        ok, why = build_short.validate_video(final)
+        print(f"[pipeline] quality check: {why}")
+        if not ok:
+            print(f"[pipeline] ❌ short {i} rejected ({why}); not uploading.")
+            failures += 1
+            continue
+
+        # 5) upload (scheduled to the US evening → late-night windows)
         if do_upload:
             title = storyboard.get("title", settings.channel_name)
             if "#shorts" not in title.lower():
@@ -88,7 +109,13 @@ def run_once(theme: str | None = None, do_upload: bool = True,
 
         _write_summary(Path(sb_path).parent, result)
 
-    print(f"\n[pipeline] ✅ done — {len(result['shorts'])} short(s) built")
+    built = len(result["shorts"])
+    print(f"\n[pipeline] done — {built} built, {failures} rejected/failed")
+    if built == 0:
+        raise SystemExit(
+            "[pipeline] ABORT: no valid short was produced (nothing uploaded)."
+        )
+    print("[pipeline] ✅ success")
     return result
 
 
