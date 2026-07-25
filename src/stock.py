@@ -1,0 +1,153 @@
+"""Free HD stock-footage fetcher (Pexels, with Pixabay fallback).
+
+This is what makes the shorts look like a PROPER video instead of a slideshow:
+every beat is real 1080p+ footage, picked by keywords from the script.
+
+Both APIs are free (just need a free key):
+  * Pexels  -> https://www.pexels.com/api/   (PEXELS_API_KEY)
+  * Pixabay -> https://pixabay.com/api/docs/ (PIXABAY_API_KEY)
+
+Licensing: both allow free commercial use without attribution, but YouTube
+monetization needs YOUR script/voice/edit on top (which this pipeline does).
+"""
+from __future__ import annotations
+
+import hashlib
+import random
+from pathlib import Path
+
+import requests
+
+from config import settings
+
+TIMEOUT = 45
+UA = {"User-Agent": "ai-shorts-pipeline/1.0"}
+
+
+# ─────────────────────────────────── Pexels ──────────────────────────────────
+def _pexels_search(query: str, per_page: int = 12) -> list[dict]:
+    if not settings.pexels_api_key:
+        return []
+    try:
+        r = requests.get(
+            "https://api.pexels.com/videos/search",
+            params={
+                "query": query,
+                "per_page": per_page,
+                "orientation": "portrait",  # best for 9:16 shorts
+                "size": "medium",
+            },
+            headers={"Authorization": settings.pexels_api_key, **UA},
+            timeout=TIMEOUT,
+        )
+        if r.status_code != 200:
+            print(f"[stock] pexels {r.status_code}: {r.text[:120]}")
+            return []
+        return r.json().get("videos", []) or []
+    except Exception as exc:
+        print(f"[stock] pexels failed ({exc})")
+        return []
+
+
+def _pexels_best_file(video: dict) -> str | None:
+    """Pick the highest-quality file that is still <= 1920 tall-ish (HD)."""
+    files = [f for f in video.get("video_files", []) if f.get("link")]
+    if not files:
+        return None
+    hd = [f for f in files if (f.get("height") or 0) >= 1080]
+    pool = hd or files
+    pool.sort(key=lambda f: (f.get("height") or 0))
+    return pool[len(pool) // 2 if hd else -1]["link"]
+
+
+# ────────────────────────────────── Pixabay ──────────────────────────────────
+def _pixabay_search(query: str, per_page: int = 12) -> list[dict]:
+    if not settings.pixabay_api_key:
+        return []
+    try:
+        r = requests.get(
+            "https://pixabay.com/api/videos/",
+            params={
+                "key": settings.pixabay_api_key,
+                "q": query,
+                "per_page": max(3, per_page),
+                "video_type": "all",
+            },
+            headers=UA,
+            timeout=TIMEOUT,
+        )
+        if r.status_code != 200:
+            return []
+        return r.json().get("hits", []) or []
+    except Exception as exc:
+        print(f"[stock] pixabay failed ({exc})")
+        return []
+
+
+def _pixabay_best_file(hit: dict) -> str | None:
+    vids = hit.get("videos") or {}
+    for key in ("large", "medium", "small"):
+        if vids.get(key, {}).get("url"):
+            return vids[key]["url"]
+    return None
+
+
+# ─────────────────────────────────── public ──────────────────────────────────
+def _download(url: str, dest: Path) -> bool:
+    try:
+        with requests.get(url, stream=True, timeout=180, headers=UA) as r:
+            if r.status_code != 200:
+                return False
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            with open(dest, "wb") as f:
+                for chunk in r.iter_content(1 << 16):
+                    if chunk:
+                        f.write(chunk)
+        return dest.exists() and dest.stat().st_size > 40_000
+    except Exception as exc:
+        print(f"[stock] download failed ({exc})")
+        return False
+
+
+def fetch_clip(keywords: list[str], out_dir: Path, used: set[str]) -> Path | None:
+    """Download one HD stock clip matching any of the keywords.
+
+    `used` holds already-used clip ids so a video never repeats the same shot.
+    """
+    queries = [k for k in (keywords or []) if k] or ["technology"]
+    random.shuffle(queries)
+
+    for q in queries:
+        # Pexels first (better quality + portrait filter), then Pixabay.
+        for video in _pexels_search(q):
+            vid = f"px{video.get('id')}"
+            if vid in used:
+                continue
+            link = _pexels_best_file(video)
+            if not link:
+                continue
+            dest = out_dir / f"{vid}.mp4"
+            if _download(link, dest):
+                used.add(vid)
+                print(f"[stock] '{q}' -> pexels {vid}")
+                return dest
+
+        for hit in _pixabay_search(q):
+            vid = f"pb{hit.get('id')}"
+            if vid in used:
+                continue
+            link = _pixabay_best_file(hit)
+            if not link:
+                continue
+            dest = out_dir / f"{vid}.mp4"
+            if _download(link, dest):
+                used.add(vid)
+                print(f"[stock] '{q}' -> pixabay {vid}")
+                return dest
+
+    print(f"[stock] no clip found for {queries[:3]}")
+    return None
+
+
+def cache_key(text: str) -> str:
+    return hashlib.md5(text.encode("utf-8")).hexdigest()[:10]

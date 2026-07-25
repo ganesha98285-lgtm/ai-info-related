@@ -1,27 +1,27 @@
-name: Daily Vlog — Jon & Katie
+name: Daily AI Shorts — AI Tool Drop
 
-# Runs every day. Cron is in UTC. 12:00 UTC ≈ early morning US, giving the
-# pipeline time to build videos before the afternoon peak-publish slots.
+# Fully automatic and GPU-free: real HD stock footage + AI script + voice.
+# Cron is UTC. 11:00 UTC ≈ early morning US, leaving time to build before the
+# US prime-time publish slots.
 on:
-  # NOTE: GitHub's runner has NO GPU, so it can only make slideshows (stub).
-  # Real motion video + daily posting happens on KAGGLE (see kaggle/README.md).
-  # The daily schedule is therefore DISABLED and manual runs are build-only.
-  workflow_dispatch:        # manual BUILD-ONLY test (never posts)
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
     inputs:
       shorts_per_day:
-        description: "How many shorts on THIS manual run (test = 1)"
+        description: "How many shorts on THIS run (test = 1)"
         required: false
         default: "1"
       privacy:
-        description: "public / unlisted / private (this manual run)"
+        description: "public / unlisted / private (this run)"
         required: false
-        default: "public"
+        default: "unlisted"
       schedule_to_peak:
-        description: "Schedule to prime time? true/false (this manual run)"
+        description: "Schedule to prime time? true/false (this run)"
         required: false
         default: "false"
       theme:
-        description: "Optional story theme"
+        description: "Optional angle, e.g. 'free ai tools for students'"
         required: false
         default: ""
       no_upload:
@@ -32,7 +32,7 @@ on:
 jobs:
   make-and-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -42,64 +42,61 @@ jobs:
           python-version: "3.11"
 
       - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Restore secrets (YouTube token + Meta)
+      - name: Restore YouTube token
         env:
-          YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
         run: |
           mkdir -p secrets
-          if [ -n "$YOUTUBE_CLIENT_SECRET_JSON" ]; then
-            echo "$YOUTUBE_CLIENT_SECRET_JSON" > secrets/youtube_client_secret.json
-          fi
           if [ -n "$YOUTUBE_TOKEN_JSON" ]; then
             echo "$YOUTUBE_TOKEN_JSON" > secrets/youtube_token.json
+          fi
+          if [ -n "$YOUTUBE_CLIENT_SECRET_JSON" ]; then
+            echo "$YOUTUBE_CLIENT_SECRET_JSON" > secrets/youtube_client_secret.json
           fi
 
       - name: Run daily pipeline
         env:
+          # --- content / AI ---
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          TTS_VOICE: ${{ vars.TTS_VOICE || 'en-US-AriaNeural' }}
-          NARRATION_MODE: ${{ vars.NARRATION_MODE || 'narrate' }}
-          VIDEO_BACKEND: ${{ vars.VIDEO_BACKEND || 'stub' }}
-          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
-          KAGGLE_KERNEL_SLUG: ${{ vars.KAGGLE_KERNEL_SLUG }}
-          # --- content mode (shorts-only until reach grows) ---
-          SHORTS_ONLY: ${{ vars.SHORTS_ONLY || 'true' }}
-          # Manual run -> input (default 1 for a safe test). Daily cron -> 6.
-          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '6' }}
-          # --- upload behaviour (YouTube-only for now) ---
-          UPLOAD_TARGETS: ${{ vars.UPLOAD_TARGETS || 'youtube' }}
-          # Manual run -> public + immediate (see it now). Daily cron -> public.
+          CONTENT_FORMAT: ai_shorts
+          # --- free stock footage (real HD video) ---
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          # --- voice ---
+          TTS_VOICE: ${{ vars.TTS_VOICE || 'en-US-GuyNeural' }}
+          NARRATION_MODE: narrate
+          # --- how many + how to publish ---
+          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '2' }}
           YOUTUBE_PRIVACY: ${{ github.event.inputs.privacy || vars.YOUTUBE_PRIVACY || 'public' }}
-          # Manual run -> false (publish now). Daily cron -> true (prime-time schedule).
           SCHEDULE_TO_PEAK: ${{ github.event.inputs.schedule_to_peak || vars.SCHEDULE_TO_PEAK || 'true' }}
-          # Instagram/Facebook stay OFF until added to UPLOAD_TARGETS later.
-          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
-          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
-          META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
-          # --- prime-time markets: 4 shorts USA + 2 shorts India night ---
-          TARGET_TIMEZONE: ${{ vars.TARGET_TIMEZONE || 'America/New_York' }}
-          USA_TIMEZONE: ${{ vars.USA_TIMEZONE || 'America/New_York' }}
-          INDIA_TIMEZONE: ${{ vars.INDIA_TIMEZONE || 'Asia/Kolkata' }}
-          CHANNEL_NAME: "Jon & Katie"
+          UPLOAD_TARGETS: youtube
+          # --- audience timing ---
+          TARGET_TIMEZONE: America/New_York
+          USA_TIMEZONE: America/New_York
+          INDIA_TIMEZONE: Asia/Kolkata
+          CHANNEL_NAME: ${{ vars.CHANNEL_NAME || 'AI Tool Drop' }}
+          BRAND_HANDLE: ${{ vars.BRAND_HANDLE || '@aitooldrop' }}
         run: |
-          # GitHub runner has no GPU -> BUILD ONLY, never upload (no slideshows).
-          EXTRA="--no-upload"
+          EXTRA=""
+          if [ "${{ github.event.inputs.no_upload }}" = "true" ]; then EXTRA="--no-upload"; fi
           if [ -n "${{ github.event.inputs.theme }}" ]; then EXTRA="$EXTRA --theme \"${{ github.event.inputs.theme }}\""; fi
           eval python -m src.pipeline --once $EXTRA
 
-      - name: Upload artifacts (videos + summary)
+      - name: Upload artifacts (built shorts)
         uses: actions/upload-artifact@v4
         with:
-          name: daily-output
-          path: output/**
+          name: daily-shorts
+          path: |
+            output/**/shorts/*.mp4
+            output/**/storyboard.json
+            output/**/summary.json
           retention-days: 7
           if-no-files-found: ignore

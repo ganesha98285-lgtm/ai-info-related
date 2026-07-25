@@ -30,6 +30,7 @@ class Settings:
     root: Path = ROOT
     characters_dir: Path = field(default_factory=lambda: _path("characters"))
     refs_dir: Path = field(default_factory=lambda: _path("characters/refs"))
+    sprites_dir: Path = field(default_factory=lambda: _path("characters/sprites"))
     content_dir: Path = field(default_factory=lambda: _path("content"))
     assets_audio_dir: Path = field(default_factory=lambda: _path("assets/audio"))
     output_dir: Path = field(default_factory=lambda: _path("output"))
@@ -37,6 +38,15 @@ class Settings:
     # --- gemini ---
     gemini_api_key: str = os.getenv("GEMINI_API_KEY", "")
     gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+
+    # --- content format / niche ---
+    # "ai_shorts" = faceless AI-tools shorts built from real HD stock footage
+    # (fully automatic, CPU-only, runs on GitHub Actions)
+    content_format: str = os.getenv("CONTENT_FORMAT", "ai_shorts")
+
+    # --- stock footage (free APIs) ---
+    pexels_api_key: str = os.getenv("PEXELS_API_KEY", "")
+    pixabay_api_key: str = os.getenv("PIXABAY_API_KEY", "")
 
     # --- voice ---
     tts_voice: str = os.getenv("TTS_VOICE", "en-US-AriaNeural")  # narrator fallback
@@ -54,7 +64,9 @@ class Settings:
         return self.tts_voice
 
     # --- video backend ---
-    video_backend: str = os.getenv("VIDEO_BACKEND", "stub")  # kaggle|local|stub
+    # puppet = talking-puppet animation (real lip-sync, CPU only) <- recommended
+    # ltx/kaggle/local = AI image-to-video (needs a GPU), stub = Ken Burns
+    video_backend: str = os.getenv("VIDEO_BACKEND", "puppet")
     kaggle_username: str = os.getenv("KAGGLE_USERNAME", "")
     kaggle_key: str = os.getenv("KAGGLE_KEY", "")
 
@@ -76,13 +88,13 @@ class Settings:
     # Two main markets for prime-time scheduling.
     usa_timezone: str = os.getenv("USA_TIMEZONE", "America/New_York")
     india_timezone: str = os.getenv("INDIA_TIMEZONE", "Asia/Kolkata")
-    channel_name: str = os.getenv("CHANNEL_NAME", "Jon & Katie")
+    channel_name: str = os.getenv("CHANNEL_NAME", "AI Tool Drop")
 
     # --- content mode ---
     # Shorts-only for now (long-form vlog gets added later once reach grows).
     shorts_only: bool = os.getenv("SHORTS_ONLY", "true").lower() == "true"
-    # How many teaser shorts to publish per day (4 USA prime + 2 India night).
-    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "6"))
+    # How many shorts to publish per day (slots: 4 USA prime + 2 India night).
+    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "2"))
 
     # --- upload behaviour ---
     # Which platforms to post to (comma list). YouTube-only for now.
