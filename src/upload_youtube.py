@@ -50,6 +50,38 @@ def _service():
     return build("youtube", "v3", credentials=creds)
 
 
+def get_stats(video_ids: list[str]) -> dict[str, dict]:
+    """Views/likes for past uploads, so the pipeline can learn what worked.
+
+    Cheap on quota: videos.list costs 1 unit per call (50 ids each) versus 1600
+    for a single upload.
+    """
+    if not video_ids:
+        return {}
+    try:
+        yt = _service()
+    except Exception as exc:
+        print(f"[youtube] stats auth failed ({exc}).")
+        return {}
+
+    out: dict[str, dict] = {}
+    for i in range(0, len(video_ids), 50):
+        chunk = [v for v in video_ids[i:i + 50] if v]
+        try:
+            resp = yt.videos().list(part="statistics",
+                                    id=",".join(chunk)).execute()
+        except Exception as exc:
+            print(f"[youtube] stats fetch failed ({exc}).")
+            break
+        for item in resp.get("items", []):
+            st = item.get("statistics", {})
+            out[item["id"]] = {
+                "views": int(st.get("viewCount", 0) or 0),
+                "likes": int(st.get("likeCount", 0) or 0),
+            }
+    return out
+
+
 def set_thumbnail(video_id: str, image: Path) -> bool:
     """Attach a custom thumbnail to an uploaded video."""
     from googleapiclient.http import MediaFileUpload
@@ -105,7 +137,9 @@ def upload_video(
             "title": title[:100],
             "description": description,
             "tags": [t.lstrip("#") for t in tags][:15],
-            "categoryId": "15",  # Pets & Animals
+            # 28 = Science & Technology (right for an AI channel). Override with
+            # YOUTUBE_CATEGORY_ID, e.g. 24 Entertainment, 22 People & Blogs.
+            "categoryId": str(settings.youtube_category_id),
         },
         "status": status,
     }

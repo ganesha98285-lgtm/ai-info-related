@@ -16,7 +16,7 @@ import subprocess
 from pathlib import Path
 
 from config import settings
-from src import captions, stock
+from src import captions, history, stock
 from src.backends import modal_video
 
 # Render size: HD 1080x1920 (Shorts native) or 4K 2160x3840.
@@ -147,8 +147,14 @@ def _music() -> Path | None:
     return None
 
 
-def build_short(storyboard_path: Path, index: int = 1) -> Path:
-    """Build one finished short. Returns the mp4 path."""
+def build_short(storyboard_path: Path, index: int = 1,
+                hist: dict | None = None) -> Path:
+    """Build one finished short. Returns the mp4 path.
+
+    `hist` is the channel's lifelong memory (content/history.json). When given,
+    every stock clip it has ever used is excluded, so no footage is ever seen
+    twice on the channel, and newly picked clips are recorded into it.
+    """
     date_dir = Path(storyboard_path).parent
     sb = json.loads(Path(storyboard_path).read_text("utf-8"))
     scenes = sb.get("scenes", [])
@@ -168,7 +174,11 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
             "and/or PIXABAY_API_KEY. Refusing to build a footage-less video."
         )
 
-    used: set[str] = set()
+    # Lifelong clip de-duplication: start from every clip the channel has used.
+    used: set[str] = set(history.used_clip_ids(hist)) if hist else set()
+    reusable: set[str] = history.oldest_clips(hist) if hist else set()
+    if hist:
+        print(f"[build] excluding {len(used)} previously used clips")
     clips: list[Path] = []
     durations: dict[int, float] = {}
     with_footage = 0
@@ -186,7 +196,10 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
         if modal_video.available():
             src = modal_video.fetch_clip(scene, stock_dir, seconds=int(seconds))
         if src is None:
-            src = stock.fetch_clip(scene.get("stock_keywords") or [], stock_dir, used)
+            src = stock.fetch_clip(scene.get("stock_keywords") or [], stock_dir,
+                                   used, reusable)
+            if src is not None and hist is not None:
+                history.record_clip(src.stem, hist)
 
         out = work / f"s_{sid:02d}.mp4"
         kind = "ai" if (src and src.name.startswith("ai_")) else ("stock" if src else "card")

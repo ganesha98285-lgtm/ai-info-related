@@ -77,6 +77,9 @@ class Settings:
     youtube_token_file: str = os.getenv(
         "YOUTUBE_TOKEN_FILE", "secrets/youtube_token.json"
     )
+    # YouTube category: 28 = Science & Technology (correct for an AI channel).
+    # 24 = Entertainment, 22 = People & Blogs, 15 = Pets & Animals.
+    youtube_category_id: int = int(os.getenv("YOUTUBE_CATEGORY_ID", "28"))
 
     # --- meta ---
     meta_access_token: str = os.getenv("META_ACCESS_TOKEN", "")

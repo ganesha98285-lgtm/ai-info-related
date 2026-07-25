@@ -114,43 +114,59 @@ def _download(url: str, dest: Path) -> bool:
         return False
 
 
-def fetch_clip(keywords: list[str], out_dir: Path, used: set[str]) -> Path | None:
-    """Download one HD stock clip matching any of the keywords.
-
-    `used` holds already-used clip ids so a video never repeats the same shot.
-    """
-    queries = [k for k in (keywords or []) if k] or ["technology"]
-    random.shuffle(queries)
-
+def _candidates(queries: list[str]) -> list[tuple[str, str, str]]:
+    """(clip_id, download_url, query) for every result across all queries."""
+    out: list[tuple[str, str, str]] = []
     for q in queries:
         # Pexels first (better quality + portrait filter), then Pixabay.
         for video in _pexels_search(q):
-            vid = f"px{video.get('id')}"
-            if vid in used:
-                continue
             link = _pexels_best_file(video)
-            if not link:
-                continue
-            dest = out_dir / f"{vid}.mp4"
-            if _download(link, dest):
-                used.add(vid)
-                print(f"[stock] '{q}' -> pexels {vid}")
-                return dest
-
+            if link:
+                out.append((f"px{video.get('id')}", link, q))
         for hit in _pixabay_search(q):
-            vid = f"pb{hit.get('id')}"
-            if vid in used:
-                continue
             link = _pixabay_best_file(hit)
-            if not link:
-                continue
-            dest = out_dir / f"{vid}.mp4"
+            if link:
+                out.append((f"pb{hit.get('id')}", link, q))
+    return out
+
+
+def fetch_clip(keywords: list[str], out_dir: Path, used: set[str],
+               reusable: set[str] | None = None) -> Path | None:
+    """Download one HD stock clip matching any of the keywords.
+
+    `used` = every clip id the CHANNEL has ever used (seeded from
+    content/history.json) plus the ones picked earlier in this video, so no shot
+    is ever repeated while fresh supply exists. New picks are added to it.
+
+    `reusable` = clip ids last used long enough ago that reusing one is the least
+    bad option when a keyword pool is genuinely exhausted. Any such reuse is
+    logged loudly rather than hidden.
+    """
+    queries = [k for k in (keywords or []) if k] or ["technology"]
+    random.shuffle(queries)
+    cands = _candidates(queries)
+
+    # Pass 1 — strictly never-used clips.
+    for cid, link, q in cands:
+        if cid in used:
+            continue
+        dest = out_dir / f"{cid}.mp4"
+        if _download(link, dest):
+            used.add(cid)
+            print(f"[stock] '{q}' -> {'pexels' if cid[:2] == 'px' else 'pixabay'} {cid}")
+            return dest
+
+    # Pass 2 — nothing new left for these keywords: reuse the oldest clip.
+    for cid, link, q in cands:
+        if reusable and cid in reusable:
+            dest = out_dir / f"{cid}.mp4"
             if _download(link, dest):
-                used.add(vid)
-                print(f"[stock] '{q}' -> pixabay {vid}")
+                used.add(cid)
+                print(f"[stock] ⚠ keyword pool exhausted for '{q}' — reusing "
+                      f"long-unused clip {cid}. Broaden stock_keywords to avoid this.")
                 return dest
 
-    print(f"[stock] no clip found for {queries[:3]}")
+    print(f"[stock] no unused clip found for {queries[:3]}")
     return None
 
 

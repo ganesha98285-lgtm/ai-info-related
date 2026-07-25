@@ -27,11 +27,53 @@ def _run(cmd: list[str], what: str) -> bool:
     return True
 
 
+# Thumbnail variety: no two thumbnails on the channel should look the same.
+# LAYOUTS control where/how the hook sits; PALETTES control the colours. The
+# source frame is also grabbed at a different timestamp each time, so even the
+# same layout+palette pair never produces a visually identical image.
+# 6 layouts x 8 palettes = 48 distinct looks, tracked in content/history.json.
+LAYOUTS = [
+    # (band_y, band_h, text_y, fontsize, x_expr)
+    (0.60, 0.40, 0.63, 104, "(w-text_w)/2"),   # classic bottom, centred
+    (0.00, 0.34, 0.05, 100, "(w-text_w)/2"),   # top band, centred
+    (0.62, 0.38, 0.66, 96, "60"),              # bottom band, left aligned
+    (0.30, 0.40, 0.36, 108, "(w-text_w)/2"),   # centre band
+    (0.55, 0.45, 0.58, 88, "w-text_w-60"),     # bottom band, right aligned
+    (0.66, 0.34, 0.70, 118, "(w-text_w)/2"),   # low band, extra large
+]
+
+PALETTES = [
+    # (text colour, band colour+alpha, border colour, brightness, saturation)
+    ("yellow", "black@0.55", "black", -0.06, 1.25),
+    ("white", "0x0B1220@0.70", "black", -0.10, 1.15),
+    ("0x00E0FF", "black@0.60", "black", -0.08, 1.30),
+    ("0xFFD166", "0x1A0B2E@0.65", "black", -0.05, 1.20),
+    ("0xFF5A5F", "black@0.50", "white", -0.04, 1.35),
+    ("0x7CFFB2", "0x06231A@0.65", "black", -0.09, 1.22),
+    ("white", "0xB3000F@0.55", "black", -0.03, 1.28),
+    ("0xFFFFFF", "0x123B7A@0.62", "0x001133", -0.07, 1.18),
+]
+
+
 def make_thumbnail(video: Path, hook: str, out: Path,
-                   grab_at: float = 1.5) -> Path | None:
-    """Grab a frame from the short and stamp a big hook on it."""
+                   grab_at: float | None = None,
+                   style: tuple[int, int] | None = None) -> Path | None:
+    """Grab a frame from the short and stamp a big hook on it.
+
+    `style` = (layout index, palette index), normally supplied by
+    src.history.next_thumb_style() so the least-used look is chosen every time.
+    `grab_at` defaults to a rotating timestamp so the background frame differs.
+    """
     work = out.parent
     work.mkdir(parents=True, exist_ok=True)
+
+    layout_i, palette_i = style if style else (0, 0)
+    band_y, band_h, text_y, fsize, x_expr = LAYOUTS[layout_i % len(LAYOUTS)]
+    fg, band, border, bright, sat = PALETTES[palette_i % len(PALETTES)]
+
+    if grab_at is None:
+        # Rotate the grabbed frame so the background is never the same shot.
+        grab_at = 1.0 + 0.9 * ((layout_i * len(PALETTES) + palette_i) % 7)
 
     top = captions.wrap(hook or "WATCH THIS", width=16).upper()
     top_tf = captions.write_text(work, "thumb_top.txt", top)
@@ -39,25 +81,27 @@ def make_thumbnail(video: Path, hook: str, out: Path,
     f = captions.font_opt()
 
     vf = (
-        # fill 16:9 from the vertical video, blur the sides, keep subject centered
+        # fill 16:9 from the vertical video, keep the subject centred
         f"scale={THUMB_W}:{THUMB_H}:force_original_aspect_ratio=increase,"
-        f"crop={THUMB_W}:{THUMB_H},eq=brightness=-0.06:saturation=1.25,"
-        # dark band behind the text for contrast
-        f"drawbox=x=0:y=ih*0.60:w=iw:h=ih*0.40:color=black@0.55:t=fill,"
-        f"drawtext=textfile={top_tf}{f}:fontcolor=yellow:fontsize=104:"
-        f"line_spacing=12:borderw=8:bordercolor=black:"
-        f"x=(w-text_w)/2:y=h*0.63,"
+        f"crop={THUMB_W}:{THUMB_H},eq=brightness={bright}:saturation={sat},"
+        # contrast band behind the text
+        f"drawbox=x=0:y=ih*{band_y}:w=iw:h=ih*{band_h}:color={band}:t=fill,"
+        f"drawtext=textfile={top_tf}{f}:fontcolor={fg}:fontsize={fsize}:"
+        f"line_spacing=12:borderw=8:bordercolor={border}:"
+        f"x={x_expr}:y=h*{text_y},"
         f"drawtext=textfile={brand_tf}{f}:fontcolor=white:fontsize=44:"
         f"box=1:boxcolor=black@0.5:boxborderw=16:x=w-text_w-40:y=40"
     )
     ok = _run(
-        ["ffmpeg", "-y", "-ss", str(grab_at), "-i", str(video), "-vframes", "1",
-         "-vf", vf, "-q:v", "2", str(out)],
+        ["ffmpeg", "-y", "-ss", f"{grab_at:.2f}", "-i", str(video),
+         "-vframes", "1", "-vf", vf, "-q:v", "2", str(out)],
         "thumbnail",
     )
     if not ok or not out.exists():
         return None
-    print(f"[thumb] thumbnail -> {out} ({out.stat().st_size/1000:.0f} KB)")
+    print(f"[thumb] thumbnail -> {out.name} "
+          f"(layout {layout_i}, palette {palette_i}, frame @{grab_at:.1f}s, "
+          f"{out.stat().st_size/1000:.0f} KB)")
     return out
 
 

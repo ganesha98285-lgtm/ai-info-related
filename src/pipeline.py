@@ -22,6 +22,7 @@ from src import (
     build_short,
     generate_script,
     generate_voice,
+    history,
     scheduler,
     stock,
     thumbnail,
@@ -48,6 +49,18 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             "  so nothing will be built or uploaded.\n"
         )
 
+    # LIFELONG MEMORY: everything ever published, so nothing repeats.
+    hist = history.load()
+    print(f"[pipeline] memory: {history.stats(hist)}")
+    # LEARNING: refresh view counts so the writer knows which style performed
+    # best (style is reused, ideas never are).
+    if do_upload:
+        history.refresh_stats(hist)
+        if best := history.top_performers(hist, 3):
+            print("[pipeline] top performers so far:")
+            for u in best:
+                print(f"          {u['views']:>7} views — {u['title'][:60]}")
+
     result: dict = {"shorts": [], "uploads": []}
     failures = 0
     times = (scheduler.shorts_publish_times(count)
@@ -56,8 +69,9 @@ def run_once(theme: str | None = None, do_upload: bool = True,
     for i in range(1, count + 1):
         print(f"\n──── SHORT {i}/{count} ────", flush=True)
 
-        # 1) script
-        storyboard = generate_script.generate_storyboard(theme)
+        # 1) script — checked against the whole channel history before use
+        storyboard = generate_script.generate_storyboard(theme, data=hist)
+        history.record_storyboard(storyboard, hist)  # claim it immediately
         sb_path = generate_script.save_storyboard(storyboard)
         if i > 1:  # keep each short's assets separate
             sb_path = _isolate(sb_path, i, storyboard)
@@ -67,7 +81,7 @@ def run_once(theme: str | None = None, do_upload: bool = True,
 
         # 3+4) stock footage + build the finished vertical short
         try:
-            final = build_short.build_short(sb_path, index=i)
+            final = build_short.build_short(sb_path, index=i, hist=hist)
         except Exception as exc:
             print(f"[pipeline] short {i} failed: {exc}")
             failures += 1
@@ -100,15 +114,22 @@ def run_once(theme: str | None = None, do_upload: bool = True,
                 break
             result["uploads"].append(vid)
 
-            # Viral thumbnail from a real frame + the hook text.
+            # Viral thumbnail from a real frame + the hook text. The layout and
+            # palette come from the least-used combination, so no two thumbnails
+            # on the channel look alike.
             if vid:
+                history.record_upload(vid, storyboard, hist)
                 hook_caption = next(
                     (s.get("caption") for s in storyboard.get("scenes", [])
                      if s.get("role") == "hook"),
                     storyboard.get("title", ""),
                 )
+                style = history.next_thumb_style(
+                    hist, len(thumbnail.LAYOUTS), len(thumbnail.PALETTES)
+                )
                 thumb = thumbnail.make_thumbnail(
-                    final, hook_caption, Path(sb_path).parent / f"thumb_{i:02d}.jpg"
+                    final, hook_caption,
+                    Path(sb_path).parent / f"thumb_{i:02d}.jpg", style=style,
                 )
                 if thumb:
                     upload_youtube.set_thumbnail(vid, thumb)
@@ -121,6 +142,8 @@ def run_once(theme: str | None = None, do_upload: bool = True,
         else:
             print("[pipeline] --no-upload set; skipping posting.")
 
+        # Persist memory after every short so a crash never loses what was used.
+        history.save(hist)
         _write_summary(Path(sb_path).parent, result)
 
     # Channel banner (generated once per run; upload it in YouTube Studio).
@@ -130,6 +153,9 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             result["banner"] = str(banner)
     except Exception as exc:
         print(f"[pipeline] banner generation skipped ({exc})")
+
+    hist_file = history.save(hist)
+    print(f"[pipeline] memory saved -> {hist_file} ({history.stats(hist)})")
 
     built = len(result["shorts"])
     print(f"\n[pipeline] done — {built} built, {failures} rejected/failed")
