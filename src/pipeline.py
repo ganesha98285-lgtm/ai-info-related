@@ -39,8 +39,10 @@ def run_once(theme: str | None = None, do_upload: bool = True,
              shorts: int | None = None) -> dict:
     settings.ensure_dirs()
     count = shorts if shorts is not None else settings.shorts_per_day
+    mode = ("viral news (real trending stories)"
+            if settings.content_format == "viral_news" else "evergreen AI shorts")
     print("=" * 60)
-    print(f"  {settings.channel_name} — daily AI shorts pipeline")
+    print(f"  {settings.channel_name} — {mode}")
     print(f"  shorts this run: {count} | upload: {do_upload}")
     print("=" * 60)
 
@@ -65,10 +67,27 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             for u in best:
                 print(f"          {u['views']:>7} views — {u['title'][:60]}")
 
+    # VIRAL NEWS MODE: fetch what is trending right now, once per run.
+    news_mode = settings.content_format == "viral_news"
+    topics: list = []
+    if news_mode:
+        from src import news_script, trends
+
+        topics = trends.top_topics(limit=max(8, count * 4))
+        if not topics:
+            raise SystemExit("[pipeline] ABORT: no trending topics could be "
+                             "fetched (network/source issue). Nothing published.")
+        print(f"[pipeline] {len(topics)} confirmed trending stories available")
+
     result: dict = {"shorts": [], "uploads": []}
     failures = 0
+    # News is time-sensitive: publish immediately so it lands while the story is
+    # still hot. Peak-time scheduling only makes sense for evergreen content.
+    if news_mode and settings.schedule_to_peak:
+        print("[pipeline] news mode: publishing immediately instead of "
+              "scheduling to peak (freshness beats timing for news)")
     times = (scheduler.shorts_publish_times(count)
-             if settings.schedule_to_peak else [None] * count)
+             if settings.schedule_to_peak and not news_mode else [None] * count)
 
     for i in range(1, count + 1):
         print(f"\n──── SHORT {i}/{count} ────", flush=True)
@@ -81,9 +100,27 @@ def run_once(theme: str | None = None, do_upload: bool = True,
                 print(f"[pipeline] retry {attempt}/{ATTEMPTS_PER_SHORT} "
                       f"for short {i}", flush=True)
 
-            # 1) script — checked against the whole channel history before use
+            # 1) script
             try:
-                storyboard = generate_script.generate_storyboard(theme, data=hist)
+                if news_mode:
+                    from src import news_script
+
+                    story = news_script.pick_story(topics, hist)
+                    if story is None:
+                        print("[pipeline] no safe, uncovered story left this run")
+                        break
+                    topics = [t for t in topics if t is not story]
+                    storyboard = news_script.build_storyboard(
+                        story, trending_terms=story.keywords[:3])
+                    if storyboard is None:
+                        continue  # failed the safety gate; try the next story
+                    history.record_story(story.headline, story.urls, hist)
+                    print(f"[pipeline] story: {story.headline[:70]}")
+                    print(f"[pipeline] sources: "
+                          f"{', '.join(sorted(set(story.sources)))}")
+                else:
+                    storyboard = generate_script.generate_storyboard(theme,
+                                                                     data=hist)
             except Exception as exc:
                 print(f"[pipeline] script generation failed: {exc}")
                 continue

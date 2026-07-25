@@ -42,15 +42,55 @@ TOPIC_THRESHOLD = 0.72
 HOOK_THRESHOLD = 0.70
 IDEA_THRESHOLD = 0.78
 
-_STOP = {"the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "is",
-         "are", "you", "your", "with", "that", "this", "it", "my", "me"}
+_STOP = {
+    "the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "is",
+    "are", "you", "your", "with", "that", "this", "it", "my", "me",
+    # Filler verbs/nouns that news headlines swap freely. Ignoring them makes
+    # comparison focus on the ENTITIES, so "Bitcoin tops 90,000" and "Bitcoin
+    # surges past 90,000" are recognised as the same story.
+    "tops", "top", "surges", "surge", "breaks", "break", "jumps", "jump",
+    "hits", "hit", "beats", "beat", "soars", "climbs", "falls", "drops",
+    "plunges", "rises", "slides", "gains", "loses", "price", "prices",
+    "dollars", "dollar", "usd", "after", "amid", "over", "past", "new",
+    "report", "reports", "says", "said", "announces", "announced", "reveals",
+    "record", "amid", "ahead", "sees", "set", "sets", "amid", "now", "today",
+}
+
+
+# News writes the same entity many ways. Folding the common abbreviations makes
+# "BTC breaks 90k" match "Bitcoin surges past 90,000".
+ALIASES = {
+    "btc": "bitcoin", "eth": "ethereum", "sol": "solana", "doge": "dogecoin",
+    "nvda": "nvidia", "aapl": "apple", "msft": "microsoft", "goog": "google",
+    "tsla": "tesla", "amzn": "amazon", "crypto": "cryptocurrency",
+    "cryptocurrencies": "cryptocurrency", "stocks": "stock", "shares": "stock",
+    "markets": "market", "prices": "price", "ai": "artificialintelligence",
+    "90k": "90000", "100k": "100000", "k": "",
+}
+
+
+def _fold_numbers(text: str) -> str:
+    """Make numbers comparable: '90,000' and '90k' both become '90000'."""
+    t = re.sub(r"(?<=\d)[,\s](?=\d{3}\b)", "", text)        # 90,000 -> 90000
+    t = re.sub(r"\b(\d+(?:\.\d+)?)\s*k\b",
+               lambda m: str(int(float(m.group(1)) * 1_000)), t, flags=re.I)
+    t = re.sub(r"\b(\d+(?:\.\d+)?)\s*m\b",
+               lambda m: str(int(float(m.group(1)) * 1_000_000)), t, flags=re.I)
+    return t
 
 
 @lru_cache(maxsize=100_000)
 def _norm(text: str) -> str:
-    """Lowercase, strip punctuation and filler words for fair comparison."""
-    words = re.findall(r"[a-z0-9]+", (text or "").lower())
-    return " ".join(w for w in words if w not in _STOP)
+    """Lowercase, strip punctuation/filler words and fold aliases + numbers."""
+    words = re.findall(r"[a-z0-9]+", _fold_numbers(text or "").lower())
+    out = []
+    for w in words:
+        if w in _STOP:
+            continue
+        w = ALIASES.get(w, w)
+        if w:
+            out.append(w)
+    return " ".join(out)
 
 
 @lru_cache(maxsize=100_000)
@@ -70,9 +110,9 @@ def _overlap(a: frozenset, b: frozenset) -> float:
 
 
 def _blank() -> dict:
-    return {"version": 4, "titles": [], "hooks": [], "ideas": [],
+    return {"version": 5, "titles": [], "hooks": [], "ideas": [],
             "idea_keys": [], "idea_key_dates": {}, "hook_keys": [],
-            "clips": {}, "thumb_styles": {}, "uploads": []}
+            "clips": {}, "thumb_styles": {}, "uploads": [], "stories": []}
 
 
 def load() -> dict:
@@ -256,6 +296,74 @@ def record_storyboard(storyboard: dict, data: dict) -> None:
     record_keys(meta.get("idea_keys", []), data)
     if hk := meta.get("hook_key"):
         data.setdefault("hook_keys", []).append(hk)
+
+
+# --------------------------------------------------------------------------- #
+# news stories — never cover the same story twice
+# --------------------------------------------------------------------------- #
+STORY_THRESHOLD = 0.62   # headlines about one story vary a lot in wording
+
+
+STORY_OVERLAP = 0.45     # share of the SHORTER headline's meaningful words
+# Subject-level matching only applies inside this window. A Bitcoin story today
+# must not repeat this week's Bitcoin story, but next month's genuinely new
+# Bitcoin story is fair game — news moves on.
+STORY_WINDOW_DAYS = int(__import__("os").getenv("STORY_WINDOW_DAYS", "7"))
+
+
+def _coverage(a: frozenset, b: frozenset) -> float:
+    """Shared words as a share of the shorter headline (catches rewordings)."""
+    if not a or not b:
+        return 0.0
+    return len(a & b) / min(len(a), len(b))
+
+
+def story_used(headline: str, urls: list[str], data: dict) -> bool:
+    """Has this story already been covered? Three checks, cheapest first.
+
+    News headlines get reworded constantly ("Bitcoin tops $90k" vs "BTC breaks
+    90,000"), so text similarity alone is not enough:
+      1. exact source URL  -> the same article (blocked forever)
+      2. fuzzy headline     -> the same wording  (within the recent window)
+      3. word coverage      -> the same EVENT told differently (recent window)
+    """
+    stories = data.get("stories", [])
+    if not stories:
+        return False
+
+    # The same article can never be posted twice, no matter how old.
+    seen_urls = {u for s in stories for u in (s.get("urls") or [])}
+    if any(u and u in seen_urls for u in (urls or [])):
+        return True
+
+    cutoff = dt.date.today() - dt.timedelta(days=STORY_WINDOW_DAYS)
+    recent: list[str] = []
+    for s in stories:
+        try:
+            if dt.date.fromisoformat(s.get("date", "")) >= cutoff:
+                recent.append(s.get("headline", ""))
+        except ValueError:
+            recent.append(s.get("headline", ""))
+    if not recent:
+        return False
+
+    if is_duplicate(headline, recent, STORY_THRESHOLD) is not None:
+        return True
+
+    toks = _tokens(headline)
+    if len(toks) >= 3:
+        for old in recent:
+            if _coverage(toks, _tokens(old)) >= STORY_OVERLAP:
+                return True
+    return False
+
+
+def record_story(headline: str, urls: list[str], data: dict) -> None:
+    data.setdefault("stories", []).append({
+        "headline": headline,
+        "urls": [u for u in (urls or []) if u][:4],
+        "date": dt.date.today().isoformat(),
+    })
 
 
 def used_clip_ids(data: dict) -> set[str]:

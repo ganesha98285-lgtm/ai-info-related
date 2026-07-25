@@ -42,6 +42,9 @@ class Settings:
     # --- content format / niche ---
     # "ai_shorts" = faceless AI-tools shorts built from real HD stock footage
     # (fully automatic, CPU-only, runs on GitHub Actions)
+    # "viral_news" = whatever is genuinely trending right now (Google Trends /
+    #                News / Reddit / Wikipedia), safety-filtered, HD stock footage
+    # "ai_shorts"  = evergreen AI tools/tips shorts
     content_format: str = os.getenv("CONTENT_FORMAT", "ai_shorts")
 
     # --- stock footage (free APIs) ---
