@@ -16,6 +16,7 @@ from pathlib import Path
 
 from config import settings
 from src import captions, stock
+from src.backends import modal_video
 
 # Render size: HD 1080x1920 (Shorts native) or 4K 2160x3840.
 if settings.video_quality.lower() in ("4k", "uhd", "2160"):
@@ -155,9 +156,18 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
     stock_dir = date_dir / "stock"
     audio_dir = date_dir / "audio"
 
+    # HARD PRE-FLIGHT: without a stock provider (or Modal AI b-roll) every scene
+    # would be a blank card, which must never reach YouTube.
+    if not stock.have_keys() and not modal_video.available():
+        raise RuntimeError(
+            "No stock provider configured — set PEXELS_API_KEY (free) "
+            "and/or PIXABAY_API_KEY. Refusing to build a footage-less video."
+        )
+
     used: set[str] = set()
     clips: list[Path] = []
     durations: dict[int, float] = {}
+    with_footage = 0
 
     for scene in scenes:
         sid = scene["id"]
@@ -166,15 +176,32 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
         seconds = max(MIN_SCENE, min(seconds, MAX_SCENE))
         durations[sid] = seconds
 
-        src = stock.fetch_clip(scene.get("stock_keywords") or [], stock_dir, used)
+        # Premium path first: AI-generated b-roll on Modal's GPU (if enabled),
+        # otherwise real HD stock footage.
+        src = None
+        if modal_video.available():
+            src = modal_video.fetch_clip(scene, stock_dir, seconds=int(seconds))
+        if src is None:
+            src = stock.fetch_clip(scene.get("stock_keywords") or [], stock_dir, used)
+
         out = work / f"s_{sid:02d}.mp4"
+        kind = "ai" if (src and src.name.startswith("ai_")) else ("stock" if src else "card")
         print(f"[build] scene {sid} ({scene.get('role','value')}) "
-              f"{seconds:.1f}s footage={'yes' if src else 'card'}", flush=True)
+              f"{seconds:.1f}s source={kind}", flush=True)
         if _scene_clip(src, seconds, scene, work, out):
             clips.append(out)
+            if src:
+                with_footage += 1
 
     if not clips:
         raise RuntimeError("no scene clips were built")
+
+    # Require real footage on most scenes, otherwise it's the blank-video case.
+    if with_footage < max(2, int(len(scenes) * 0.6)):
+        raise RuntimeError(
+            f"only {with_footage}/{len(scenes)} scenes got real footage — "
+            "refusing to publish a mostly-blank video (check stock API keys/quota)"
+        )
 
     silent = work / "_silent.mp4"
     if not _concat(clips, silent):
@@ -224,6 +251,48 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
     size_mb = final.stat().st_size / 1e6 if final.exists() else 0
     print(f"[build] short ready -> {final} ({total:.1f}s, {W}x{H}, {size_mb:.1f} MB)")
     return final
+
+
+def validate_video(path: Path, min_seconds: float = 8.0) -> tuple[bool, str]:
+    """Final safety net: make sure the video is real, moving, non-blank content.
+
+    Checks:
+      * file exists and has a sane size
+      * duration is long enough
+      * has a video stream at the expected resolution
+      * frames are not mostly black/blank (ffmpeg blackframe detection)
+    """
+    if not path.exists():
+        return False, "file missing"
+    size_mb = path.stat().st_size / 1e6
+    if size_mb < 0.3:
+        return False, f"file too small ({size_mb:.2f} MB)"
+
+    dur = _duration(path)
+    if dur < min_seconds:
+        return False, f"too short ({dur:.1f}s)"
+
+    probe = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0",
+         "-show_entries", "stream=width,height,nb_frames",
+         "-of", "default=nw=1", str(path)],
+        capture_output=True, text=True,
+    )
+    if "width=" not in probe.stdout:
+        return False, "no video stream"
+
+    # Count near-black frames; a blank/failed render is overwhelmingly black.
+    res = subprocess.run(
+        ["ffmpeg", "-v", "info", "-i", str(path),
+         "-vf", "blackframe=amount=95:threshold=32", "-f", "null", "-"],
+        capture_output=True, text=True,
+    )
+    black_hits = res.stderr.count("Parsed_blackframe")
+    approx_frames = max(int(dur * FPS), 1)
+    if black_hits > approx_frames * 0.5:
+        return False, f"mostly blank ({black_hits}/{approx_frames} black frames)"
+
+    return True, f"ok ({dur:.1f}s, {size_mb:.1f} MB)"
 
 
 def cleanup_short(final: Path, date_dir: Path) -> None:

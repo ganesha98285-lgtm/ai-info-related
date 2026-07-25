@@ -156,3 +156,8 @@ def fetch_clip(keywords: list[str], out_dir: Path, used: set[str]) -> Path | Non
 
 def cache_key(text: str) -> str:
     return hashlib.md5(text.encode("utf-8")).hexdigest()[:10]
+
+
+def have_keys() -> bool:
+    """True if at least one stock provider is configured."""
+    return bool(settings.pexels_api_key or settings.pixabay_api_key)
