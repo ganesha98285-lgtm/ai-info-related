@@ -360,15 +360,41 @@ def build_storyboard(topic, trending_terms: list[str] | None = None) -> dict | N
     }
 
 
+# Categories that are both advertiser-friendly and well paid. Preferred when
+# choosing between several safe stories.
+PREFERRED = ["crypto", "market", "tech", "business", "science", "world"]
+
+
 def pick_story(topics: list, hist: dict) -> object | None:
-    """First trending story that is safe AND has not been covered before."""
+    """Best story that is safe AND not already covered.
+
+    Not simply "the first one": every candidate is safety-checked first, then
+    ranked by category value and how many sources confirmed it. Real news is
+    heavy on conflict and politics, so most candidates get rejected — this walks
+    the whole list instead of giving up after the top few.
+    """
+    safe: list[tuple[int, int, float, object]] = []
+    skipped_unsafe = skipped_seen = 0
+
     for t in topics:
         if history.story_used(t.headline, t.urls, hist):
-            print(f"[news] already covered: {t.headline[:60]}")
+            skipped_seen += 1
             continue
         ok, why = safety.is_publishable(t.headline, t.summary)
         if not ok:
-            print(f"[news] unsafe: {t.headline[:60]} -> {why}")
+            skipped_unsafe += 1
+            print(f"[news] unsafe: {t.headline[:58]} -> {why[:52]}")
             continue
-        return t
-    return None
+        cat = categorise(f"{t.headline} {t.summary}")
+        rank = PREFERRED.index(cat) if cat in PREFERRED else len(PREFERRED)
+        safe.append((rank, -t.source_count, -t.score, t))
+
+    print(f"[news] candidates: {len(safe)} safe, {skipped_unsafe} unsafe, "
+          f"{skipped_seen} already covered")
+    if not safe:
+        return None
+    safe.sort(key=lambda x: (x[0], x[1], x[2]))
+    best = safe[0][3]
+    print(f"[news] picked [{categorise(best.headline)}] "
+          f"{best.source_count} source(s): {best.headline[:60]}")
+    return best

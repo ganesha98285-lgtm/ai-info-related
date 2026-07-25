@@ -29,13 +29,24 @@ LANG = os.getenv("TRENDS_LANG", "en")
 MIN_SOURCES = int(os.getenv("MIN_TREND_SOURCES", "2"))
 
 # Subreddits chosen for reach + advertiser-friendly subject matter.
+# Subreddits deliberately weighted to safe, high-CPM subjects. r/worldnews is
+# excluded: it is dominated by war and tragedy, which the safety gate rejects
+# anyway, so including it just starves the pipeline.
 SUBREDDITS = [s.strip() for s in os.getenv(
     "TREND_SUBREDDITS",
-    "worldnews,technology,CryptoCurrency,stocks,science,UpliftingNews",
+    "technology,CryptoCurrency,stocks,investing,science,gadgets,"
+    "Futurology,artificial,space,business",
 ).split(",") if s.strip()]
 
-# Google News topic feeds worth watching (high CPM subjects first).
-NEWS_TOPICS = ["BUSINESS", "TECHNOLOGY", "SCIENCE", "WORLD"]
+# Google News topic feeds. WORLD is excluded for the same reason as r/worldnews.
+NEWS_TOPICS = ["BUSINESS", "TECHNOLOGY", "SCIENCE"]
+
+# Targeted searches for the subjects that are both safe and well paid.
+NEWS_SEARCHES = [s.strip() for s in os.getenv(
+    "TREND_SEARCHES",
+    "bitcoin,cryptocurrency,stock market,artificial intelligence,"
+    "tech layoffs,earnings,startup funding,space launch",
+).split(",") if s.strip()]
 
 _STOP = {
     "the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "is", "are",
@@ -132,10 +143,14 @@ def google_trends() -> list[Signal]:
 def google_news() -> list[Signal]:
     """Breaking headlines, plus the high-value topic feeds."""
     out: list[Signal] = []
-    feeds = [f"https://news.google.com/rss?hl={LANG}-{GEO}&gl={GEO}"
-             f"&ceid={GEO}:{LANG}"]
-    feeds += [f"https://news.google.com/rss/headlines/section/topic/{t}"
-              f"?hl={LANG}-{GEO}&gl={GEO}&ceid={GEO}:{LANG}" for t in NEWS_TOPICS]
+    # Topic feeds + targeted searches only. The generic "top headlines" feed is
+    # skipped on purpose: it is mostly conflict and politics, which the safety
+    # gate rejects, leaving nothing to publish.
+    feeds = [f"https://news.google.com/rss/headlines/section/topic/{t}"
+             f"?hl={LANG}-{GEO}&gl={GEO}&ceid={GEO}:{LANG}" for t in NEWS_TOPICS]
+    feeds += [f"https://news.google.com/rss/search?q="
+              f"{q.replace(' ', '+')}&hl={LANG}-{GEO}&gl={GEO}&ceid={GEO}:{LANG}"
+              for q in NEWS_SEARCHES]
     for feed in feeds:
         xml = _get(feed)
         if not xml:
@@ -286,13 +301,14 @@ def top_topics(limit: int = 10, min_sources: int | None = None) -> list[Topic]:
 
     clustered = _cluster(signals)
     confirmed = [t for t in clustered if t.source_count >= need]
-    if not confirmed and clustered:
-        print(f"[trends] nothing hit {need} sources; falling back to the "
-              f"strongest single-source stories")
-        confirmed = clustered
+    singles = [t for t in clustered if t.source_count < need]
+    # Multi-source stories first, then the strongest single-source ones as
+    # backup. The safety gate rejects a lot of real news, so the caller needs a
+    # deep list to walk through rather than just the top few.
+    ranked = confirmed + singles
     print(f"[trends] {len(clustered)} clusters, {len(confirmed)} confirmed "
-          f"(>= {need} sources)")
-    return confirmed[:limit]
+          f"(>= {need} sources), {len(singles)} single-source backups")
+    return ranked[:limit]
 
 
 if __name__ == "__main__":
