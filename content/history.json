@@ -1,15 +1,41 @@
 {
  "version": 5,
  "titles": [
-  "Strategy now publishes the Bitcoin return threshold below... #shorts"
+  "Strategy now publishes the Bitcoin return threshold below... #shorts",
+  "Markets News, July 24, 2026: Major Indexes Close Lower for the... #shorts",
+  "Artificial intelligence will drive an unprecedented... #shorts",
+  "‘Big Tech is desperate’: Amazon engineers are calling out the... #shorts",
+  "No, OpenAI's models didn't go 'rogue' when they broke into... #shorts",
+  "This is the world’s most advanced robotic servicing... #shorts",
+  "Noah Maclauchlan Facts: 10 Things To Know About The US Junior... #shorts"
  ],
  "hooks": [
-  "Bitcoin return threshold"
+  "Bitcoin return threshold",
+  "Markets close lower",
+  "AI impacts natural gas",
+  "Amazon spending big",
+  "OpenAI models breached",
+  "Advanced robotic satellite",
+  "Noah Maclauchlan in golf spotlight"
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
   "To account for senior claims",
-  "Publishes return threshold for restructuring"
+  "Publishes return threshold for restructuring",
+  "Major indexes dropped",
+  "Chip stocks also declined",
+  "Investor warns of deficit",
+  "Cathie Wood's Ark Invest weighs in",
+  "Amazon spent $200 billion",
+  "After cutting 30,000 jobs",
+  "New layoffs in AI division",
+  "Hugging Face was affected",
+  "Incident lasted days",
+  "OpenAI and Hugging Face partner",
+  "World's most advanced",
+  "CNN reports on it",
+  "Noah Maclauchlan is a US Junior Amateur finalist",
+  "He is making headlines in the golf world"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -19,16 +45,60 @@
   "px35606045": "2026-07-25",
   "px7947438": "2026-07-25",
   "px38431825": "2026-07-25",
-  "px35972076": "2026-07-25"
+  "px35972076": "2026-07-25",
+  "px8348727": "2026-07-25",
+  "px37676204": "2026-07-25",
+  "px35280159": "2026-07-25",
+  "px38410501": "2026-07-25",
+  "px10967336": "2026-07-25",
+  "px8480284": "2026-07-25",
+  "px7413780": "2026-07-25",
+  "px13801277": "2026-07-25",
+  "px7579943": "2026-07-25",
+  "px7579576": "2026-07-25",
+  "px7065806": "2026-07-25",
+  "px7687957": "2026-07-25",
+  "px6799745": "2026-07-25",
+  "px6266253": "2026-07-25",
+  "px8125749": "2026-07-25",
+  "px8720746": "2026-07-25",
+  "px7659711": "2026-07-25",
+  "px35535614": "2026-07-25",
+  "px18308550": "2026-07-25",
+  "px15811516": "2026-07-25",
+  "px7599981": "2026-07-25",
+  "px35245798": "2026-07-25",
+  "px27768771": "2026-07-25",
+  "px37030686": "2026-07-25",
+  "px31566291": "2026-07-25",
+  "px36673526": "2026-07-25"
  },
  "thumb_styles": {
-  "0-0": 1
+  "0-0": 1,
+  "0-1": 1,
+  "0-2": 1
  },
  "uploads": [
   {
    "video_id": "TaPGrPDCNKA",
    "title": "Strategy now publishes the Bitcoin return threshold below... #shorts",
    "hook": "Bitcoin return threshold",
+   "date": "2026-07-25",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "4HBJkeVTXvc",
+   "title": "‘Big Tech is desperate’: Amazon engineers are calling out the... #shorts",
+   "hook": "Amazon spending big",
+   "date": "2026-07-25",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "6iZnBsl8sXg",
+   "title": "Noah Maclauchlan Facts: 10 Things To Know About The US Junior... #shorts",
+   "hook": "Noah Maclauchlan in golf spotlight",
    "date": "2026-07-25",
    "views": 0,
    "likes": 0
@@ -41,6 +111,59 @@
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcWs4MWcwNnV3SVZWbDZqcnVtWlFURDd3Y3R3WTR6YlpFY3FOb2pyTElaTHMycER0T0FYR0NwSEMyZ0lnMzdwREZrejVvNU9EeXdzd1JkUDI3N1BkUHNvVTJoblRTWnRCTHJRWkxxTUhKdWtTV09LNWlOaVZKSktGVmhTRFI2cUhpbkEzckd1eld0czBzRGhvbnJEN3hEa1A1OS1ESTVtRVRpc2cwSDAyTzBUOFhvTnNmX09r?oc=5",
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUFEUGRXVnhESzE2cWRZcmkwU2stNUt3dWxsYzBhTnhJSGNSR2UxNVFkV3R3V2R4MVdLSHVkTVJCV1BWOHJnYVA3ZktabUk4czk3V09WVExkUFlIVDRNc2p6OXVZeC1raXV0eDlRdVRvbjJkeTJ5Xy1JU2pwelQxQWxLR0FYd0hDVE81ek4zVnZHZ25NNHR4cTU0TzB4bnFMYXdaZWd2MVNUdkdS?oc=5",
     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaExtUGFtLWM5V1NaM0MwUHU3WHJuOElwWnZnTVI4dnBUbnhlcVJtMU1PdkRRejFxT0xyaFVkWHI2TVRVRElMcHRzWHFSd2U4T2lxSkpZbGhxMnZQTE1HcVp2RE9QMXE3OVp6eXFMNnB4dXFMeUpmaGxhbWJUcWx4UzU4cEtlNV83aVQ4Q3JIa1VDRWpVaUZJNjZNNDRnNU81ZEhNRlNCY3dPTk1VV25ncy15VVFiZw?oc=5"
+   ],
+   "date": "2026-07-25"
+  },
+  {
+   "headline": "Markets News, July 24, 2026: Major Indexes Close Lower for the Week After Mixed Session on Friday as Chip Stocks Drop",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTk13M3pUcWJqOTl1dlJ0NVFVWVVJT2FMdUhQeFgtcWEzRFFhZmExUXhiZ1ZnUjZobXlpVFZTYzlEVG5meHUzb2VlanNOOEJlSlB2T2doM2M2TlhLYUs5RlZ3c2hWUGJwOGkxOTZuTHB2bUNKVmFPcFlLWjdoTGpLQThaZndBcmFYZmlMUDRFRV9wX1QtYkk3cXB4SklmVjRBaTVISXczVXF3dDVqU0HSAbMBQVVfeXFMTXg3aGk5ZGhnOHFVYmdpUVlKc1lmUXVWNzc1REJ3S2hfTUw1RWpETldjVkU3TFNPNTZOYk80cjdWRXBfOV9ibkVnbW04TFBYMHo4ZDhnR1RnMkpxcjRZMXNPYWdqeXJlN012Ti0wZHFZRk5oeE51aVB5X2h0d3VnU1lyN05FZmdVMndHaDZpUWlyVTRWc3lEaTFVVUxJdjQ3QlFxTkluNUtpcmFkbkFEdUQzM2s?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR2tWbVJtMWx2RWs1OFZfMmx6V2syMGpvUnR0dGRNUTZEYVZ5TUhBd2FfS25GZWpyZlhrVm9GV0lTcFViVGFoLUItX18tTmRTaHJoZFFjekFVUWlHVlRjdFFkdHhLRjAxNDZkSjB2aWJJUlhoMXRxTlRwbXhOSjhjdEFhYXpfcU9RTHlXMXh3?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxPemxtNjdvSUQtNHVlWGpDN2V5T2xna01JQWxEc2NyNEM1MkJKeHdFMW1sOUlFRV8wSm9pSjAtVk1VMUFyYTdlRnQwTWFJSHhUUkdpSXNpUXg3dllRWDY3RWEyV0tEbVFJUXJrekVlVVNtX0RMc1dWZFhxNmtBeFZWc0plODkxNnBVVnRaTjVFT3NRMmwyUGE4X0NBMkMwejIxQ2hz?oc=5",
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aZlBmU2cwMGNIbkowQTdKR29pTFhSWmtQQUdlS0YyUFZFMl94YVJLc244MWxUWlZ0VnJyNlZvOG9yM241ODRXOXo1V3VaYy11cmZJZ3Z4bjA1SzFYenoyMVRYcXQwQ3hoOGxtR3ItMG95ZThIZExmTmN3?oc=5"
+   ],
+   "date": "2026-07-25"
+  },
+  {
+   "headline": "Artificial intelligence will drive an unprecedented natural-gas deficit, this investor warns. Here are the stocks to buy before the crunch.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZjB3UnloVXhsVTM0NkxVRGk5TzZCdkZfT2UtRXVDb3RaYjhteHdBcU5aSmIwOWE1MWZ2X1NfZlZiY1NVWXVnSFotTmxlTkJyWFo2Wm9YUnkzYUI1aTFYeGtiSUQyZzR0OGp3OXJBeGJZVFA2RHEtSlFBRG5fUW5nTnBZWndmRTZBaWVaeFl3MVFpRGFHc3JMZ0VZUkJybTlG?oc=5",
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcnZXVjlGOFpJcnJWbVY4QngzR0x0bzlmUDNzUVQtcG9PbW5rWUd1b20tcnVuelR4ZzdXbFZtWXN6MmtmWFpPYk03R0NHNTBFNUZQMzZBQXBCYkR6Nk1uUEJRSGZsTDhnclhSdUg4TWJ5eGlpQXBiNk96MG52Y0F2QmNnZklsWW9Jd1ZzcFdhMUJTdlh3T1E?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQLTQwaDQ4bFlvZnVnRjdGemZzcGdQV0ZuRkpWell0UlRWNWJLZzRwVnJvUmVDRHQ3cVNIdHh0MVhPM0pzb2F5MjMwTm9xWElOVDlZVVFWZmVPQldfUEZHYkZDTjkxQlkxQXdwSjQ3Y3UzZUhUOUFnY0dUYUVJUHN6RGdjUWFZU3FMd0d0a0NLRU9XcHRURGJmRlZKS0VJajdsYTRMME9TcEk5dURoRVY2RnNxTkkxZVNfN1VtUnhmV2oyQ2VWeDcta0dURHhmUXBFU0dTbENndmFldHozVHM4XzJPX3FEOGF3cU83aWRrTkJvS19teVVXMjA1UzNGUUEzRnBIMXFwMVU?oc=5",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTkI3dGVQc25iUFRMUWhObUZVYmlsQjFmbXc4VFNoZ24xbWlNRnJKYmRiNG96TlRQd0xvSEFNVmpUenlwT3NfUE5hLVdQUDkySWQ3b2pyRldQc2owSVgxNnA0YTRZN0Z6elpvd1BpdGp2bUhjZmV3NlpSRWhMVUNydmZIeEQ4Ul82eF96N1hLZ1Fwal9sVWhKcVFoMlY2VGNRejN4WjItb1ZhVVBLNjFGemg2UVhjcWFURmFDZHZfWmlnS2M?oc=5"
+   ],
+   "date": "2026-07-25"
+  },
+  {
+   "headline": "‘Big Tech is desperate’: Amazon engineers are calling out the tech giant for its $200 billion in data center spending after slashing 30,000 workers",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOalpRQkNtZjFObXk5SEsyN3o4ZG40LVNqbnFfekJUcjYtWWY4WWxBeUZDZ0lKM2hNTHVCVWR1SElrRDR2dHFoOFdpTGd2Nmgxcm9LNlJvMXowYkVmOWdGazVyc0QwQ21EZ3dhUXBYUGJtaW03bWgzbzBHZ2VGZWs4NF9qc0dIVTJnZVJQRVZuRG0zSjhXWmxlcXk5ZXFCVEQ1bVBUOUN0WUxaajlyTGdVdEhfY3FiSXQxcW5UeHM3V2VQTFlvZk9xX3BmZC1sQzhXTkxGbUxrU21BZXpPMVhxR3NtQW41NkRhZjh1Q21wN2ZJNHNrRllFVGpCQXY5WndJdlJZczktcHpXcF9ScHFzYVFnajZUc3BxNUVlb0VJSlYyWkZBRG5VVldDUEZLRFgxOUg3ZEQ2ZlRLaEpEeHNWQ2NYSEhwbkVReGR1Y1hsbE5seEY4aWN0NlZ4RFRLZHJoTExFOVNiOA?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdzNlcDVXRkRFZ0wwdW9TS3BKUUdIdEZGbUdtOHlWS2VxRGlWSVlHUWNIWlAwdUhWY09hVGJKUVpQR2xvYUx3MGptWndVLUVIU3ZDSFoxMVpOdlZWb1Z3NkY4cXJXeWJWWXJ2MlZfR2xOZjAtb2ZIRTVFTng3eDQyWEpMOVFEV2Q30gGOAUFVX3lxTE4yeG5iOEg0TzFzOWVzcUUtaHdPNVo3QzFvZ05udE1rMFgyeDhwUjl5SHZuczNhTDVuWGhTdWdOSHk4UHFrOVMweU9HREM5YUFlZnE5eUxTMmEtNEtmbjdmQXNqQjYtSWRmaXZhbVF0a3BrTDJzS1Vwc0ZhY3FkalZtVVoxM3ZRdFl6QkREMkE?oc=5",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbGhhYkRlM25pM0haZUZrVEV1bUxxelgtR1JEYzRJa3FZTEZJY3UzdEZ6eWZDNEQ3YmEtTXY1QUFRdlk0U2hsS1Juek55MnBNVHlBVFFNMkFDd0JrY2VGRXZGWHdHNEplMWs0dGlYZnJibjVTam12NGpSdDA3Q2dxcUFTODBieEU0bnpqQkVQcE1TNkNleVcwa2g4ZkE?oc=5"
+   ],
+   "date": "2026-07-25"
+  },
+  {
+   "headline": "No, OpenAI's models didn't go 'rogue' when they broke into Hugging Face. Here's what really happened.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ3dheGFSdFkteWhIa3hhS1FpVlVQSVpXcV9VLXJqZHZQY19CaTJhNF91VGphR1U3VlBMMnFiN2dQTXAyRGo0TldWV1JHMDFhdl8zcHg3MzBLTE9Ya1dnanNVQjVlYUVNZktFVWdpR3BLZDRJUlBtZW03UUk2NlVDZkpNam5fQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcVdPWUdmRUFvQjRla2xDNEhQVldiT1V3Q2YtcUd4TjUyU0pzOHZyR0xjTjJnOVh0WmJqT21xVmV5MHh1ZEktcXJLWkhSMDBNMGkzT0Q4M2ZLYTROSkVXSWZGVTlUV3hPdW5EY1N0TEdEMS1fYVg3T0E5WXgtWGVJWDQ4WjBrWmJNLWlBZUYwVEFTV0FlWXY1akllZ0RnRlhjRV9QVWV4TjR2djhLTC1RX2R5c193TnZGTWpaNGlkemE2WUhwNlZ5VnZFd0JNeThZSW1La0piSVhzM3RMMGl6dWxlWlA4MDJS?oc=5"
+   ],
+   "date": "2026-07-25"
+  },
+  {
+   "headline": "This is the world’s most advanced robotic servicing satellite—that we know about",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTRBV3Q3Qk50MmJFSDlEb3pNTEFjaEIzcGFQajdORVdEclNPT1Q4bER0TkUxYlRwLXpPa3I2MG1KTEZnMk1PMU8xZHRvd2JTWVR3R0tTeEsyVTRkS0V5UGlGclVKOXg4dDl2emxUODlkM2pBWWZVSXpvNi0wTk81bmJaLTk2Mjd1a2sycU1oZVQzNzN4cEJzeg?oc=5",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZktuVEtFMzdyTk1pYkxPX0JkUTdRMENoVHJaeTNVWkJBcFhJTmFlOGRmVFVwQllkNnk5M3Nadk5mMHFBOFZnRU9DeFY2eUdUbTJRcXhNZFpMeF9SVVlDRHl2dExRb05CZ043Wk5zWi05aU92MVZTcktmSjhDMFNOZkJpUnFVRGNOUWtSeEJsQkhTUm9vYVlISVJWSzJ1cmpYNTJfZFFEekFTV2pHRTJidWtIM3lhWTlHQmc?oc=5"
+   ],
+   "date": "2026-07-25"
+  },
+  {
+   "headline": "Noah Maclauchlan Facts: 10 Things To Know About The US Junior Amateur Finalist",
+   "urls": [
+    "https://www.golfmonthly.com/tour/noah-maclauchlan-golfer-facts",
+    "https://golf.com/news/star-amateur-14-under-saturday-us-junior-amateur-final/"
    ],
    "date": "2026-07-25"
   }
