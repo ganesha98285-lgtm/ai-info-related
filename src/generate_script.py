@@ -35,13 +35,35 @@ TOPICS = [
     "AI tools for small business owners",
 ]
 
+# Scroll-stopping hooks (spoken). Rotated daily so the feed never repeats.
 HOOKS = [
     "Stop scrolling - this AI tool is insane.",
     "You are using ChatGPT wrong. Here is the fix.",
     "This free AI tool does 3 hours of work in 3 minutes.",
-    "Nobody talks about this AI tool. It is free.",
+    "Nobody talks about this AI tool, and it is free.",
     "3 AI tools you will wish you knew sooner.",
     "This AI hack saved me 10 hours this week.",
+    "Delete these 3 apps. AI does it better now.",
+    "If you still type this by hand, watch closely.",
+    "This is the AI tool companies do not want you to find.",
+    "I tried 50 AI tools. These are the only 3 worth it.",
+    "Your boss will think you worked all night.",
+    "Free AI tools that feel illegal to know.",
+]
+
+# Short ON-SCREEN hook text (big yellow, first 3 seconds).
+HOOK_CAPTIONS = [
+    "WATCH THIS", "DO NOT SCROLL", "SAVE THIS", "FREE AI TOOL",
+    "THIS IS INSANE", "TRY THIS TODAY", "AI HACK",
+]
+
+# Hashtag pool: a fixed core (search intent) + rotating extras (reach).
+CORE_TAGS = ["#shorts", "#ai", "#aitools", "#chatgpt"]
+EXTRA_TAGS = [
+    "#artificialintelligence", "#aitips", "#productivity", "#tech",
+    "#automation", "#aiforbeginners", "#techtips", "#futuretech",
+    "#chatgpttips", "#workhacks", "#sidehustle", "#viral", "#fyp",
+    "#aitools2026", "#learnai", "#promptengineering",
 ]
 
 CTAS = [
@@ -100,7 +122,8 @@ def _fallback_storyboard(topic: str, today: str) -> dict:
 
     scenes = [{
         "id": 1, "role": "hook", "narration": hook,
-        "caption": "WATCH THIS", "stock_keywords": ["ai robot", "laptop typing", "technology"],
+        "caption": random.choice(HOOK_CAPTIONS),
+        "stock_keywords": ["ai robot", "laptop typing", "technology"],
     }]
     for i, (role, line, cap, kw) in enumerate(beats, start=2):
         scenes.append({"id": i, "role": role, "narration": line,
@@ -118,10 +141,7 @@ def _fallback_storyboard(topic: str, today: str) -> dict:
             "Subscribe so you never miss the next AI drop.\n"
             "#ai #aitools #chatgpt #shorts #productivity"
         ),
-        "hashtags": [
-            "#shorts", "#ai", "#aitools", "#chatgpt", "#artificialintelligence",
-            "#productivity", "#tech", "#aitips", "#automation", "#fyp",
-        ],
+        "hashtags": CORE_TAGS + random.sample(EXTRA_TAGS, 7),
         "keywords": [
             "best ai tools", "free ai tools", "chatgpt tips", "ai tools 2026",
             "ai productivity tools", "ai for beginners", "ai hacks",

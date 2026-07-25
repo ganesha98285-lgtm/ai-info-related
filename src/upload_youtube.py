@@ -99,5 +99,10 @@ def upload_video(
         print(f"[youtube] uploaded {Path(str(video_path)).name} -> {vid}{when}")
         return vid
     except Exception as exc:
+        msg = str(exc)
+        if "quotaExceeded" in msg or "uploadLimitExceeded" in msg:
+            # Daily YouTube API quota is finite; stop cleanly instead of looping.
+            print("[youtube] DAILY QUOTA REACHED — remaining shorts will be skipped.")
+            return "QUOTA_EXCEEDED"
         print(f"[youtube] upload failed ({exc}).")
         return None

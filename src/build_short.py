@@ -10,14 +10,22 @@ Pure FFmpeg + Python: no GPU, runs on GitHub Actions.
 from __future__ import annotations
 
 import json
+import shutil
 import subprocess
 from pathlib import Path
 
 from config import settings
 from src import captions, stock
 
-W, H, FPS = 1080, 1920, 30
+# Render size: HD 1080x1920 (Shorts native) or 4K 2160x3840.
+if settings.video_quality.lower() in ("4k", "uhd", "2160"):
+    W, H = 2160, 3840
+else:
+    W, H = 1080, 1920
+FPS = 30
+CRF = str(settings.video_crf)
 MIN_SCENE, MAX_SCENE = 1.6, 9.0
+_S = W / 1080.0  # font scale so text looks identical at any resolution
 
 
 def _run(cmd: list[str], what: str) -> bool:
@@ -47,9 +55,10 @@ def _scene_clip(src: Path | None, seconds: float, scene: dict,
     cap = captions.wrap(scene.get("caption") or "", width=18 if big else 22)
     cap_tf = captions.write_text(work, f"cap_{scene['id']:02d}.txt", cap)
     draw = (
-        f"drawtext=textfile={cap_tf}:fontcolor=white:fontsize={92 if big else 76}:"
-        f"line_spacing=14:box=1:boxcolor=black@0.55:boxborderw=30:"
-        f"x=(w-text_w)/2:y=h*{0.70 if big else 0.74}"
+        f"drawtext=textfile={cap_tf}{captions.font_opt()}:fontcolor=white:"
+        f"fontsize={int((92 if big else 76) * _S)}:"
+        f"line_spacing={int(14 * _S)}:box=1:boxcolor=black@0.55:"
+        f"boxborderw={int(30 * _S)}:x=(w-text_w)/2:y=h*{0.70 if big else 0.74}"
     )
 
     if src and src.exists():
@@ -69,7 +78,7 @@ def _scene_clip(src: Path | None, seconds: float, scene: dict,
             cmd += ["-stream_loop", str(loops)]
         cmd += ["-i", str(src), "-t", f"{seconds:.2f}",
                 "-filter_complex", vf, "-map", "[v]",
-                "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                "-c:v", "libx264", "-preset", "veryfast", "-crf", CRF,
                 "-pix_fmt", "yuv420p", "-r", str(FPS), "-an", str(out)]
     else:
         # graceful fallback: clean gradient card so a run never dies
@@ -86,7 +95,7 @@ def _concat(clips: list[Path], out: Path) -> bool:
     lst.write_text("".join(f"file '{c.resolve()}'\n" for c in clips), "utf-8")
     return _run(
         ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst),
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", CRF,
          "-pix_fmt", "yuv420p", "-r", str(FPS), str(out)],
         "concat",
     )
@@ -177,7 +186,7 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
 
     hook = next((s.get("caption") for s in scenes if s.get("role") == "hook"), "")
     overlay = captions.shorts_hook_cta_vf(work, hook or captions.DEFAULT_HOOK,
-                                          int(total), uid=str(index))
+                                          int(total), uid=str(index), scale=_S)
 
     shorts_dir = date_dir / "shorts"
     shorts_dir.mkdir(parents=True, exist_ok=True)
@@ -202,12 +211,30 @@ def build_short(storyboard_path: Path, index: int = 1) -> Path:
     cmd += ["-filter_complex", fc, "-map", "[v]"]
     cmd += ["-map", "[a]"] if af else []
     cmd += ["-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "veryfast",
-            "-crf", "20", "-pix_fmt", "yuv420p", "-r", str(FPS)]
+            "-crf", CRF, "-pix_fmt", "yuv420p", "-r", str(FPS)]
     cmd += ["-c:a", "aac", "-shortest"] if af else []
     cmd += [str(final)]
 
     if not _run(cmd, "final mux"):
         raise RuntimeError("final mux failed")
 
-    print(f"[build] short ready -> {final} ({total:.1f}s)")
+    # housekeeping: intermediate scene clips are large and no longer needed
+    shutil.rmtree(work, ignore_errors=True)
+
+    size_mb = final.stat().st_size / 1e6 if final.exists() else 0
+    print(f"[build] short ready -> {final} ({total:.1f}s, {W}x{H}, {size_mb:.1f} MB)")
     return final
+
+
+def cleanup_short(final: Path, date_dir: Path) -> None:
+    """Delete the uploaded mp4 + cached footage so storage never fills up."""
+    try:
+        if final.exists():
+            final.unlink()
+        shutil.rmtree(date_dir / "stock", ignore_errors=True)
+        shutil.rmtree(date_dir / "audio", ignore_errors=True)
+        for p in date_dir.glob("work_*"):
+            shutil.rmtree(p, ignore_errors=True)
+        print(f"[build] cleaned up local files for {final.name}")
+    except Exception as exc:
+        print(f"[build] cleanup skipped: {exc}")

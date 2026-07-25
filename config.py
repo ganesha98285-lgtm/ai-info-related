@@ -93,8 +93,21 @@ class Settings:
     # --- content mode ---
     # Shorts-only for now (long-form vlog gets added later once reach grows).
     shorts_only: bool = os.getenv("SHORTS_ONLY", "true").lower() == "true"
-    # How many shorts to publish per day (slots: 4 USA prime + 2 India night).
-    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "2"))
+    # How many shorts per day (US evening → late-night slots; 6 fits the free
+    # YouTube API quota comfortably).
+    shorts_per_day: int = int(os.getenv("SHORTS_PER_DAY", "6"))
+
+    # --- render quality ---
+    # "hd" = 1080x1920 (YouTube Shorts native, recommended)
+    # "4k" = 2160x3840 (heavier render; only worth it if footage is 4K)
+    video_quality: str = os.getenv("VIDEO_QUALITY", "hd")
+    # x264 quality: lower = better. 18 is visually near-lossless for shorts.
+    video_crf: int = int(os.getenv("VIDEO_CRF", "18"))
+
+    # --- housekeeping ---
+    # Delete generated video/footage files after a successful upload so the
+    # repo/runner storage never fills up.
+    cleanup_after_upload: bool = os.getenv("CLEANUP_AFTER_UPLOAD", "true").lower() == "true"
 
     # --- upload behaviour ---
     # Which platforms to post to (comma list). YouTube-only for now.

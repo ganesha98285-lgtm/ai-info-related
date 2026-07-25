@@ -1,11 +1,11 @@
 name: Daily AI Shorts — AI Tool Drop
 
 # Fully automatic and GPU-free: real HD stock footage + AI script + voice.
-# Cron is UTC. 11:00 UTC ≈ early morning US, leaving time to build before the
-# US prime-time publish slots.
+# Cron is UTC. 18:00 UTC ≈ 2:00 PM ET — builds a few hours before the first
+# evening slot (6:00 PM ET), so all 6 shorts are queued for evening → late night.
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:
       shorts_per_day:
@@ -29,10 +29,14 @@ on:
         required: false
         default: "false"
 
+permissions:
+  contents: read
+  actions: write        # needed to prune old artifacts
+
 jobs:
   make-and-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -74,7 +78,11 @@ jobs:
           TTS_VOICE: ${{ vars.TTS_VOICE || 'en-US-GuyNeural' }}
           NARRATION_MODE: narrate
           # --- how many + how to publish ---
-          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '2' }}
+          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '6' }}
+          # quality + housekeeping
+          VIDEO_QUALITY: ${{ vars.VIDEO_QUALITY || 'hd' }}
+          VIDEO_CRF: ${{ vars.VIDEO_CRF || '18' }}
+          CLEANUP_AFTER_UPLOAD: "true"
           YOUTUBE_PRIVACY: ${{ github.event.inputs.privacy || vars.YOUTUBE_PRIVACY || 'public' }}
           SCHEDULE_TO_PEAK: ${{ github.event.inputs.schedule_to_peak || vars.SCHEDULE_TO_PEAK || 'true' }}
           UPLOAD_TARGETS: youtube
@@ -90,13 +98,39 @@ jobs:
           if [ -n "${{ github.event.inputs.theme }}" ]; then EXTRA="$EXTRA --theme \"${{ github.event.inputs.theme }}\""; fi
           eval python -m src.pipeline --once $EXTRA
 
-      - name: Upload artifacts (built shorts)
+      # Keep only the tiny JSON logs as an artifact (1 day). Videos are already
+      # on YouTube, so we never store mp4s -> Actions storage stays near zero.
+      - name: Upload run log (tiny, 1 day)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: daily-shorts
+          name: run-log-${{ github.run_number }}
           path: |
-            output/**/shorts/*.mp4
             output/**/storyboard.json
             output/**/summary.json
-          retention-days: 7
+          retention-days: 1
           if-no-files-found: ignore
+
+      # Wipe every generated file from the runner (videos, footage, audio).
+      - name: Clean workspace
+        if: always()
+        run: |
+          rm -rf output secrets
+          df -h / | tail -1
+
+      # Delete artifacts older than 1 day so storage can never fill up.
+      - name: Prune old artifacts
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CUTOFF=$(date -u -d '1 day ago' +%s)
+          gh api --paginate "repos/${{ github.repository }}/actions/artifacts" \
+            --jq '.artifacts[] | "\(.id) \(.created_at)"' | while read -r id created; do
+              ts=$(date -u -d "$created" +%s 2>/dev/null || echo 0)
+              if [ "$ts" -lt "$CUTOFF" ]; then
+                gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/$id" \
+                  && echo "deleted artifact $id"
+              fi
+            done
