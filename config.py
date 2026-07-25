@@ -113,8 +113,7 @@ class Settings:
     # Which platforms to post to (comma list). YouTube-only for now.
     upload_targets: str = os.getenv("UPLOAD_TARGETS", "youtube")
     # YouTube privacy when NOT scheduling to peak: public|unlisted|private.
-    # "unlisted" is ideal for the first test runs (watch via link, not public).
-    youtube_privacy: str = os.getenv("YOUTUBE_PRIVACY", "unlisted")
+    youtube_privacy: str = os.getenv("YOUTUBE_PRIVACY", "public")
     # If true, upload as private + auto-publish at the prime-time slot. If false
     # (default, good for testing), publish immediately with `youtube_privacy`.
     schedule_to_peak: bool = os.getenv("SCHEDULE_TO_PEAK", "false").lower() == "true"

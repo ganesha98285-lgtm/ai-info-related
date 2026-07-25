@@ -15,7 +15,7 @@ on:
       privacy:
         description: "public / unlisted / private (this run)"
         required: false
-        default: "unlisted"
+        default: "public"
       schedule_to_peak:
         description: "Schedule to prime time? true/false (this run)"
         required: false
