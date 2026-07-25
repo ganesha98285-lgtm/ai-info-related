@@ -139,8 +139,13 @@ def visual_prompt(scene: dict) -> str:
         else "a cute fluffy white Persian cat named Katie wearing a pink bow and "
              "a pink dress"
     )
+    # Framing matters a lot for lip-sync quality: audio-driven models track the
+    # mouth region, so a close head-and-shoulders shot syncs far better than a
+    # small full-body figure.
     return (
-        f"{who} talking to the camera while {scene['activity']}, gentle head "
+        f"close-up portrait of {who}, head and shoulders filling the frame, "
+        f"facing the camera directly, mouth clearly visible, talking to the "
+        f"camera while {scene['activity']} in the background, gentle head "
         f"movement, expressive eyes, natural mouth movement, cinematic, {STYLE}"
     )
 
@@ -185,10 +190,12 @@ def preflight(dry_run: bool) -> dict[str, Path]:
         if not have(b):
             problems.append(f"{b} not found. Install it: `sudo apt-get install -y ffmpeg`")
 
+    # *_face.png first: a close-up head shot gives noticeably better lip-sync
+    # than a small full-body figure, because the model tracks the mouth region.
     refs: dict[str, Path] = {}
     for name, candidates in {
-        "Jon": ("jon.png", "john.png"),
-        "Katie": ("katie.png", "katty.png"),
+        "Jon": ("jon_face.png", "john_face.png", "jon.png", "john.png"),
+        "Katie": ("katie_face.png", "katty_face.png", "katie.png", "katty.png"),
     }.items():
         for c in candidates:
             p = ROOT / "characters" / "refs" / c
@@ -233,6 +240,10 @@ def preflight(dry_run: bool) -> dict[str, Path]:
 
     for k, v in refs.items():
         print(f"[ok] {k} reference -> {v.relative_to(ROOT)}")
+        if "_face" not in v.name:
+            print(f"     ^ NOTE: this is not a close-up head shot. Adding "
+                  f"characters/refs/{k.lower()}_face.png (head & shoulders, "
+                  f"facing camera) measurably improves lip-sync.")
     print("[ok] ffmpeg present")
     if not dry_run:
         print("[ok] YouTube token looks complete")
@@ -425,7 +436,18 @@ def main() -> None:
     ap.add_argument("--steps", type=int, default=None)
     ap.add_argument("--dry-run", action="store_true",
                     help="build the mp4 but do not upload")
+    ap.add_argument("--download-only", action="store_true",
+                    help="only fetch the model weights, then exit. Run this on "
+                         "the FREE CPU machine so the ~40-60 GB download costs "
+                         "0 credits, then switch to the GPU and run normally.")
     args = ap.parse_args()
+
+    if args.download_only:
+        print("=== DOWNLOAD ONLY — run me on the free CPU machine ===")
+        ensure_model()
+        print("\n✅ weights cached. Now switch this Studio to the H100 and run:\n"
+              "   python lightning/talking_short.py")
+        return
 
     started = dt.datetime.now()
     refs = preflight(args.dry_run)
