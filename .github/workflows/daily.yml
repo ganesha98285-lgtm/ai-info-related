@@ -1,11 +1,15 @@
-name: Daily AI Shorts — AI Tool Drop
+name: Daily Shorts — trending news (auto)
 
 # Fully automatic and GPU-free: real HD stock footage + AI script + voice.
 # Cron is UTC. 18:00 UTC ≈ 2:00 PM ET — builds a few hours before the first
 # evening slot (6:00 PM ET), so all 6 shorts are queued for evening → late night.
+# Viral-news mode runs 3x/day so stories are still hot when they publish.
+# 16:00 UTC = 12pm ET, 20:00 UTC = 4pm ET, 00:00 UTC = 8pm ET (US afternoon ->
+# evening). 2 shorts per run = 6/day, which is exactly the free YouTube quota.
 on:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 16,20 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       shorts_per_day:
@@ -90,9 +94,20 @@ jobs:
           # Second free writer (console.groq.com, no card). Optional but strongly
           # recommended: if Gemini is rate-limited, Groq keeps ideas original.
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # --- viral news mode ---
+          # Real trending stories (Google Trends/News, Reddit, Wikipedia).
+          # Set CONTENT_FORMAT=ai_shorts to go back to evergreen AI tips.
+          TRENDS_GEO: ${{ vars.TRENDS_GEO || 'US' }}
+          TRENDS_LANG: ${{ vars.TRENDS_LANG || 'en' }}
+          # A story must appear in at least this many independent sources.
+          MIN_TREND_SOURCES: ${{ vars.MIN_TREND_SOURCES || '2' }}
+          # Politics is OFF by default: low ad rates + strike risk.
+          ALLOW_POLITICS: ${{ vars.ALLOW_POLITICS || 'false' }}
+          # Don't re-cover the same story within this many days.
+          STORY_WINDOW_DAYS: ${{ vars.STORY_WINDOW_DAYS || '7' }}
           # A tip idea may be revisited after this long (titles/hooks: never).
           IDEA_REUSE_DAYS: ${{ vars.IDEA_REUSE_DAYS || '365' }}
-          CONTENT_FORMAT: ai_shorts
+          CONTENT_FORMAT: ${{ vars.CONTENT_FORMAT || 'viral_news' }}
           # --- free stock footage (real HD video) ---
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -107,7 +122,8 @@ jobs:
           TTS_RATE: ${{ vars.TTS_RATE || '+10%' }}
           SCENE_PAD: ${{ vars.SCENE_PAD || '0.12' }}
           # --- how many + how to publish ---
-          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '6' }}
+          # Per RUN (news mode runs 3x/day) -> 2 x 3 = 6/day = free quota.
+          SHORTS_PER_DAY: ${{ github.event.inputs.shorts_per_day || vars.SHORTS_PER_DAY || '2' }}
           # quality + housekeeping
           VIDEO_QUALITY: ${{ vars.VIDEO_QUALITY || 'hd' }}
           VIDEO_CRF: ${{ vars.VIDEO_CRF || '18' }}
@@ -121,8 +137,9 @@ jobs:
           INDIA_TIMEZONE: Asia/Kolkata
           CHANNEL_NAME: ${{ vars.CHANNEL_NAME || 'AI Tool Drop' }}
           BRAND_HANDLE: ${{ vars.BRAND_HANDLE || '@aitooldrop' }}
-          # 28 = Science & Technology (correct category for an AI channel)
-          YOUTUBE_CATEGORY_ID: ${{ vars.YOUTUBE_CATEGORY_ID || '28' }}
+          # 25 = News & Politics (correct for a trending-news channel).
+          # Use 28 (Science & Technology) if you switch back to ai_shorts.
+          YOUTUBE_CATEGORY_ID: ${{ vars.YOUTUBE_CATEGORY_ID || '25' }}
         run: |
           EXTRA=""
           if [ "${{ github.event.inputs.no_upload }}" = "true" ]; then EXTRA="--no-upload"; fi
