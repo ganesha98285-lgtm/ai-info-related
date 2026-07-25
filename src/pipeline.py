@@ -24,6 +24,7 @@ from src import (
     generate_voice,
     scheduler,
     stock,
+    thumbnail,
     upload_youtube,
 )
 from src.backends import modal_video
@@ -98,6 +99,19 @@ def run_once(theme: str | None = None, do_upload: bool = True,
                 print("[pipeline] stopping early: YouTube daily quota reached.")
                 break
             result["uploads"].append(vid)
+
+            # Viral thumbnail from a real frame + the hook text.
+            if vid:
+                hook_caption = next(
+                    (s.get("caption") for s in storyboard.get("scenes", [])
+                     if s.get("role") == "hook"),
+                    storyboard.get("title", ""),
+                )
+                thumb = thumbnail.make_thumbnail(
+                    final, hook_caption, Path(sb_path).parent / f"thumb_{i:02d}.jpg"
+                )
+                if thumb:
+                    upload_youtube.set_thumbnail(vid, thumb)
             if when:
                 print(f"[pipeline] scheduled for {when.strftime('%a %I:%M %p %Z')}")
 
@@ -108,6 +122,14 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             print("[pipeline] --no-upload set; skipping posting.")
 
         _write_summary(Path(sb_path).parent, result)
+
+    # Channel banner (generated once per run; upload it in YouTube Studio).
+    try:
+        banner = thumbnail.make_banner(settings.output_dir / "channel_banner.jpg")
+        if banner:
+            result["banner"] = str(banner)
+    except Exception as exc:
+        print(f"[pipeline] banner generation skipped ({exc})")
 
     built = len(result["shorts"])
     print(f"\n[pipeline] done — {built} built, {failures} rejected/failed")

@@ -11,14 +11,50 @@ import asyncio
 import json
 from pathlib import Path
 
+import os
+
 from config import settings
+
+# Faster, punchier delivery (edge-tts rate string, e.g. "+10%").
+RATE = os.getenv("TTS_RATE", "+10%")
 
 
 async def _synthesize(text: str, voice: str, out_path: Path) -> None:
     import edge_tts
 
-    communicate = edge_tts.Communicate(text, voice)
+    # Slightly faster delivery = punchier shorts, better retention.
+    communicate = edge_tts.Communicate(text, voice, rate=RATE)
     await communicate.save(str(out_path))
+
+
+def _trim_silence(path: Path) -> None:
+    """Strip the leading/trailing silence edge-tts adds.
+
+    This is what caused the ~1-2s dead pauses between lines in the published
+    shorts: every clip carried its own silent head and tail.
+    """
+    import subprocess
+
+    tmp = path.with_suffix(".trim.mp3")
+    af = (
+        # remove silence at the start, then reverse-trim the tail
+        "silenceremove=start_periods=1:start_silence=0.02:start_threshold=-45dB,"
+        "areverse,"
+        "silenceremove=start_periods=1:start_silence=0.02:start_threshold=-45dB,"
+        "areverse"
+    )
+    try:
+        res = subprocess.run(
+            ["ffmpeg", "-y", "-v", "error", "-i", str(path), "-af", af,
+             "-c:a", "libmp3lame", "-q:a", "4", str(tmp)],
+            capture_output=True, text=True, timeout=120,
+        )
+        if res.returncode == 0 and tmp.exists() and tmp.stat().st_size > 1000:
+            tmp.replace(path)
+        else:
+            tmp.unlink(missing_ok=True)
+    except Exception as exc:
+        print(f"[generate_voice] silence trim skipped ({exc})")
 
 
 def generate_voiceovers(storyboard_path: Path) -> list[dict]:
@@ -43,6 +79,7 @@ def generate_voiceovers(storyboard_path: Path) -> list[dict]:
         entry["speaker"] = scene.get("speaker")
         try:
             asyncio.run(_synthesize(line, voice, out_path))
+            _trim_silence(out_path)
             entry["audio"] = str(out_path)
             print(f"[generate_voice] scene {sid} [{scene.get('speaker','narrator')}/{voice}] -> {out_path.name}")
         except Exception as exc:
