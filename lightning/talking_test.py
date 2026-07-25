@@ -84,6 +84,9 @@ def pick_reference() -> Path:
     """Use the Jon reference image if present, else the sliced sheet panel."""
     for p in (Path("characters/sprites/jon_closed.png"),
               Path("characters/refs/jon.png"),
+              Path("characters/refs/john.png"),
+              Path("characters/refs/katie.png"),
+              Path("characters/refs/katty.png"),
               Path("characters/refs/sheet.png")):
         if p.exists():
             print(f"[ok] reference image: {p}")
