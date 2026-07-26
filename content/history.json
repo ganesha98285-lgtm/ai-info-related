@@ -7,7 +7,11 @@
   "‘Big Tech is desperate’: Amazon engineers are calling out the... #shorts",
   "No, OpenAI's models didn't go 'rogue' when they broke into... #shorts",
   "This is the world’s most advanced robotic servicing... #shorts",
-  "Noah Maclauchlan Facts: 10 Things To Know About The US Junior... #shorts"
+  "Noah Maclauchlan Facts: 10 Things To Know About The US Junior... #shorts",
+  "Apple Sued by Customers Who Lost Combined $1.8 Million Through... #shorts",
+  "Launch preview: SpaceX ready for 2nd attempt to launch... #shorts",
+  "Cheaper, open and intelligent: Chinese AI models gain ground,... #shorts",
+  "Warren Buffett Says Alphabet Is More Likely to Win Than 95% of... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -16,7 +20,11 @@
   "Amazon spending big",
   "OpenAI models breached",
   "Advanced robotic satellite",
-  "Noah Maclauchlan in golf spotlight"
+  "Noah Maclauchlan in golf spotlight",
+  "Apple sued over fake app",
+  "SpaceX Launch",
+  "Chinese AI models rise",
+  "Warren Buffett on Alphabet"
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -35,7 +43,17 @@
   "World's most advanced",
   "CNN reports on it",
   "Noah Maclauchlan is a US Junior Amateur finalist",
-  "He is making headlines in the golf world"
+  "He is making headlines in the golf world",
+  "Customers lost $1.8 million",
+  "Through fake Bitcoin wallet",
+  "Second attempt",
+  "After engine work",
+  "Next-gen satellites",
+  "Cheaper and open models",
+  "Gaining ground in the US",
+  "Alphabet has a high chance of winning",
+  "Buffett doesn't like it as much",
+  "Berkshire Hathaway has a big investment"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -71,12 +89,31 @@
   "px27768771": "2026-07-25",
   "px37030686": "2026-07-25",
   "px31566291": "2026-07-25",
-  "px36673526": "2026-07-25"
+  "px36673526": "2026-07-25",
+  "px8731590": "2026-07-26",
+  "px5849632": "2026-07-26",
+  "px6266439": "2026-07-26",
+  "px35978366": "2026-07-26",
+  "px7106859": "2026-07-26",
+  "px6520437": "2026-07-26",
+  "px18102448": "2026-07-26",
+  "px28846361": "2026-07-26",
+  "px19162466": "2026-07-26",
+  "px8682969": "2026-07-26",
+  "px33315117": "2026-07-26",
+  "px18672144": "2026-07-26",
+  "px6624858": "2026-07-26",
+  "px7580431": "2026-07-26",
+  "px6931577": "2026-07-26",
+  "px7579567": "2026-07-26",
+  "px7580287": "2026-07-26",
+  "px28883548": "2026-07-26"
  },
  "thumb_styles": {
   "0-0": 1,
   "0-1": 1,
-  "0-2": 1
+  "0-2": 1,
+  "0-3": 1
  },
  "uploads": [
   {
@@ -100,6 +137,14 @@
    "title": "Noah Maclauchlan Facts: 10 Things To Know About The US Junior... #shorts",
    "hook": "Noah Maclauchlan in golf spotlight",
    "date": "2026-07-25",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "FZdfdNxFyGo",
+   "title": "Warren Buffett Says Alphabet Is More Likely to Win Than 95% of... #shorts",
+   "hook": "Warren Buffett on Alphabet",
+   "date": "2026-07-26",
    "views": 0,
    "likes": 0
   }
@@ -166,6 +211,41 @@
     "https://golf.com/news/star-amateur-14-under-saturday-us-junior-amateur-final/"
    ],
    "date": "2026-07-25"
+  },
+  {
+   "headline": "Apple Sued by Customers Who Lost Combined $1.8 Million Through Fake Bitcoin Wallet in App Store",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQjNWQUpYX1Q3ZEVJU2ZuYzBkSUxhYlpveC12Z1VaM0JuRTNyTTdRNUtDem9pR1JmV0NxcjVJNHZtSE03NUs1QnMyWVRNOVVtS3luMVI1Yk1KNGxXbExYR1A5a0c0NUgzTlVaTlVONEFhVlR0dDVFcjh2RXYydUxMMktJb05fWVR1?oc=5",
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTXlUc1RHSTFUNXF3dDZxbExJSUNQaU5QUTNlcVZrNzBWdm9OdXBpWDdXdU10b3JEMTJzSC1lNTQzQmxFQ1MwTnJsV0RtYXdPc1RCWkNkMXkxaFZqV0R4eG1GbUpFRnF2RTUwNzBmZy05aWVFQ2Q1dUdHTEt3NkdRT3dicVZTNWc4Nk50LVJELTlxcDgzTGIwdFQ3SlJNVkM5NEJMTFhUaVF2MkFuX0tXSDhpMkVNRk5DVmg5SEpTQTg2bUM2QzlhMV9DSm0?oc=5"
+   ],
+   "date": "2026-07-26"
+  },
+  {
+   "headline": "Launch preview: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzE3eHhwWnhJb3dmcWkwWVdsUElYLVVZUjM0cE9CaUdvalBQSFFjZWdzdURVNi16YWdWNjhlVVUzRVMybGppMDYtY2VUcGwxZU0zVFJiSFVXVzVuUEp5aGU3clZCd2VHRlZzajdITEV2dzdLa3FaZ05JMWhGVThnYXZsSEpsN0E2a3pNUE53UnNBSnVxVzBIWlNGa3p1SEtnMWRxeEZIMW1OZHpjMk52T01nencwbUU?oc=5",
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaFpBdmNHcWNfdDBXa0F2bGJabjdGRnZfWk0zRm1WSzRHV01VX25hQXI4VWdWNGh4ZTc4VUhtNS0yMVU3R0VmYUtRNm5JdFlLZ21tbGV2ek44RDdtOUhVOE1GbFhVV2Rsd0toa09WeHA3SzRyc0oxUms1OUlvV3IzWEdUT0tCRWwyMHU3UHRocmVNQldPNEhrb3ZaU3oxakdINFRld191OXVtQ1NfMDBxeVBmcjZwZTRnbWVUMmE0djQwS0dXakJrSmtkbVI4c2ZQSTNDLUJkbGxXX3M?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd0w1WG1YemVFbHNiUzJLLWVxZTF4cUlnTWVaSXNCTlIxMk5GTElfVE1hdWZBZlFicjB1aTRnZVpkR2lEeG1sMkgydHBfSUh2VURYOVEtTWdrdEw2WFVxeDJsa2xCUHZ1N3laQnpfd3pmakpxajM5TWtOTlpxcTBkMzdfTjhnNVlzek40TDF3?oc=5",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVW9SQXp5Q0pJSXd5eEpkNHB5aXBUaHlGMjhzTXRUeGlfQ3prNVZRSnAxMVVtY3g3MllwTWs3OHNXaU5fQjN0ODYtR2NldURhNzF5bDdiYWQtS24waTE1N214YjUyS21pSUQ2MmcyN0ZrQVg1SmJnNXBkNno2OTZYWkg1d0xjRmlJSndTdmUtYUJ3Vjk3cmFwMTFYOFlMT2xUSTh5SVJn?oc=5"
+   ],
+   "date": "2026-07-26"
+  },
+  {
+   "headline": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdm5uUXhNOEcyUXB6LWVpNDJ3UkJZclpja1ctcFdYclhjenJISmRRZGZTT2hoTDFXa2NuQlVzdGRRYmJWTWRCelg1M3hzWnR4WjBRZThDNjRmckw5c2paZU9pZ282ZVJXeTR6SWxhSG9qdkFUdlkyWUdZRDNPVUVBZGthbExxWThEdW5DWEk1NmJCQUJzT0E?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0tzQWRTUldfRzViemRTbXpHNFlLU1l2QzNkRmE0OFZxTkh4WkRtZThGSGRQaWNHMGhzZ01oVE5jeGUyYkNkMDJTTDV3Q1Ayb3l4cjFDOU1QcmVPeFNFLXItcFVESVJtZ1U5ZE1NUkc4Mkw1RTBDR3JDZGJkNXdraEFTZ213RHhIOG5vOTNLTk9fenJPNnFDM2RFY01uUHBGVklDckhsOXJ6UG1wNC1BWDhPYjk0LVU?oc=5",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWttSERubEN5MHdjMEoyazlrNkh4eHhLa1A2eFd4a0NFTVhGNWRrMWFCaXBUNVhqMm0xZldrX0VySl83X2ZvbDJiRXlmeTFlb3prMm9YR2FGZzhkNGJBSGJXblBDZl9vRUFRM25XQk90VWs0MTNmclBpQk1fcXBoZEhEaDTSAYoBQVVfeXFMT0twd3NYUkJVVUdCa0hYMHFOSWw0X0pOYURNdHMwSVJVcmdBZlh0Q2ZoUHhCUVZtMDN4Wi1nMWFoVEh4M2lRM1J1dXRBS2N1WThnMW55WklWVjBTR1NaLTdFOF9fSXJkUU1IeEtXbWUySFVIVmV0UVVkZWFKeHVGM24zLWpiWEVEem5R?oc=5"
+   ],
+   "date": "2026-07-26"
+  },
+  {
+   "headline": "Warren Buffett Says Alphabet Is More Likely to Win Than 95% of Wall Street — But Adds ‘I Don’t Like It as",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTU9nTFBocUo2Z2FydFZsY0dWdy11Y1hHbU5tNkYyLTRoSVluTnpnY2lDNk1IY3Rmbnhqd2pYS0xubVFXV1dXZFcyaXl4elFKbng0RnQ3Zm5Kd21vSWxHQWIzMXhrblJtTnJEdXNTRWktS1N1c1dIdkhXWS1zeEFobnJqcGE3SXJqZ2kyQnhkQmo2Yno2eFBRN3JvOHJiTGxUczQxWjhjVS1kN3V6VS1XYzluZUlDUnp6NHJJVS1XUENzbWdNenFaMk1BOEQtSTVTOV9oWGkwN2M3NTZMLVpxOHBkbFBYbld2dGlvd1hiTTFlYWJFVGFhVkZxcF9seUVzRWt1cmthTQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUFYaE1xaFRzalhQdWRXZ1d5dEpsQWlsVzBfS1V6RU52aG5reW8wRnZYdFk0LV93RVdxOFIzYnhteDM5RnBkOURtYWhpWXhJNjVmUkoxczRHVVFnbU1KQzFlaTQ4bVJ2MldmbGhhcU1kY2hIVndoaEY3ZXF1T2xocGM5TkNxM2FsY2hpcXltckJHQ0xSb0Rybm5BamN1Nmpfay1ObzF1d1I?oc=5"
+   ],
+   "date": "2026-07-26"
   }
  ]
 }
