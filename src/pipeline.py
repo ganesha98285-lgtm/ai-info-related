@@ -94,17 +94,16 @@ def run_once(theme: str | None = None, do_upload: bool = True,
 
         # Posting every day is a hard requirement, so each slot gets several
         # attempts (a fresh script + fresh footage each time) before giving up.
-        final, storyboard, sb_path = None, None, None
+        final, storyboard, sb_path, made_from = None, None, None, None
         for attempt in range(1, ATTEMPTS_PER_SHORT + 1):
             if attempt > 1:
                 print(f"[pipeline] retry {attempt}/{ATTEMPTS_PER_SHORT} "
                       f"for short {i}", flush=True)
 
+            story = None
             # 1) script
             try:
                 if news_mode:
-                    from src import news_script
-
                     story = news_script.pick_story(topics, hist)
                     if story is None:
                         # Real news is mostly conflict/politics, which the safety
@@ -122,7 +121,6 @@ def run_once(theme: str | None = None, do_upload: bool = True,
                             story, trending_terms=story.keywords[:3])
                         if storyboard is None:
                             continue  # failed the gate; try the next story
-                        history.record_story(story.headline, story.urls, hist)
                         print(f"[pipeline] story: {story.headline[:70]}")
                         print(f"[pipeline] sources: "
                               f"{', '.join(sorted(set(story.sources)))}")
@@ -132,7 +130,6 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             except Exception as exc:
                 print(f"[pipeline] script generation failed: {exc}")
                 continue
-            history.record_storyboard(storyboard, hist)  # claim it immediately
             sb_path = generate_script.save_storyboard(storyboard)
             if i > 1:  # keep each short's assets separate
                 sb_path = _isolate(sb_path, i, storyboard)
@@ -159,6 +156,7 @@ def run_once(theme: str | None = None, do_upload: bool = True,
                 continue
 
             final = candidate
+            made_from = story
             break
 
         if final is None:
@@ -167,6 +165,7 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             failures += 1
             history.save(hist)
             continue
+
         result["shorts"].append(str(final))
 
         # 5) upload (scheduled to the US evening → late-night windows)
@@ -185,12 +184,27 @@ def run_once(theme: str | None = None, do_upload: bool = True,
             if vid == "QUOTA_EXCEEDED":
                 print("[pipeline] stopping early: YouTube daily quota reached.")
                 break
-            result["uploads"].append(vid)
+            if not vid:
+                # Never let this pass quietly: the video was built but is NOT on
+                # the channel, and the run used to still report success.
+                print(f"[pipeline] ❌ short {i} was built but the upload FAILED "
+                      f"— it is not on the channel (see [youtube] error above)")
+            else:
+                result["uploads"].append(vid)
 
             # Viral thumbnail from a real frame + the hook text. The layout and
             # palette come from the least-used combination, so no two thumbnails
             # on the channel look alike.
             if vid:
+                # Lifelong memory records what was PUBLISHED, so the topic,
+                # title and hook are claimed only now. Claiming them before the
+                # upload burned them on every failed attempt, which is why 7 of
+                # the first 11 topics can never be covered again despite never
+                # having reached the channel.
+                if made_from is not None:
+                    history.record_story(made_from.headline, made_from.urls,
+                                         hist)
+                history.record_storyboard(storyboard, hist)
                 history.record_upload(vid, storyboard, hist)
                 hook_caption = next(
                     (s.get("caption") for s in storyboard.get("scenes", [])
@@ -231,10 +245,21 @@ def run_once(theme: str | None = None, do_upload: bool = True,
     print(f"[pipeline] memory saved -> {hist_file} ({history.stats(hist)})")
 
     built = len(result["shorts"])
-    print(f"\n[pipeline] done — {built} built, {failures} rejected/failed")
+    posted = len(result["uploads"])
+    print(f"\n[pipeline] done — {built} built, {posted} posted, "
+          f"{failures} rejected/failed")
     if built == 0:
         raise SystemExit(
             "[pipeline] ABORT: no valid short was produced (nothing uploaded)."
+        )
+    # A green workflow run must mean "something reached the channel". Without
+    # this, every upload could fail and the run still finished successfully,
+    # which is exactly how an empty channel went unnoticed.
+    if do_upload and posted == 0:
+        raise SystemExit(
+            f"[pipeline] FAIL: {built} short(s) were built but NONE reached "
+            f"YouTube. Check the [youtube] lines above for the real error "
+            f"(auth, quota or API audit)."
         )
     print("[pipeline] ✅ success")
     return result
