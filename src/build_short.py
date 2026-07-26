@@ -28,8 +28,17 @@ FPS = 30
 CRF = str(settings.video_crf)
 # Tight pacing: only a small breath between lines (was 1.6s minimum + 0.45s
 # padding, which produced audible 1-2s dead gaps between sentences).
-MIN_SCENE, MAX_SCENE = 1.1, 9.0
+# MAX_SCENE must stay comfortably above the longest narration line, because the
+# voice track lays each mp3 down in full: clamping a scene shorter than its own
+# audio pushes that audio into the next scene and it gets cut by -shortest.
+# A 20-word line is ~7s, and narration is capped at 220 chars (~35 words).
+MIN_SCENE, MAX_SCENE = 1.1, 15.0
 SCENE_PAD = float(os.getenv("SCENE_PAD", "0.12"))  # seconds of breath per line
+# HARD FLOOR: a short below this is never published. Scene length is driven
+# entirely by the narration audio, so the real fix lives in the script writer
+# (src/news_script.py enforces a spoken-word budget); this is the safety net
+# that catches anything which still slips through.
+MIN_SHORT_SECONDS = float(os.getenv("MIN_SHORT_SECONDS", "25"))
 _S = W / 1080.0  # font scale so text looks identical at any resolution
 
 
@@ -186,8 +195,11 @@ def build_short(storyboard_path: Path, index: int = 1,
     for scene in scenes:
         sid = scene["id"]
         vo = audio_dir / f"scene_{sid:02d}.mp3"
-        seconds = _duration(vo) + SCENE_PAD if vo.exists() else 2.5
-        seconds = max(MIN_SCENE, min(seconds, MAX_SCENE))
+        raw = _duration(vo) + SCENE_PAD if vo.exists() else 2.5
+        if raw > MAX_SCENE:
+            print(f"[build] WARNING scene {sid} narration is {raw:.1f}s but "
+                  f"scenes are capped at {MAX_SCENE:.0f}s — its tail will be cut")
+        seconds = max(MIN_SCENE, min(raw, MAX_SCENE))
         durations[sid] = seconds
 
         # Premium path first: AI-generated b-roll on Modal's GPU (if enabled),
@@ -225,6 +237,11 @@ def build_short(storyboard_path: Path, index: int = 1,
         raise RuntimeError("concat failed")
 
     total = _duration(silent)
+    if total < MIN_SHORT_SECONDS:
+        # Not fatal here — validate_video() is the gate that rejects it — but say
+        # it loudly, because the cause is always too little narration text.
+        print(f"[build] WARNING total is only {total:.1f}s, below the "
+              f"{MIN_SHORT_SECONDS:.0f}s floor (narration too short)")
     vo = _voice_track(audio_dir / "voice_manifest.json", durations, work / "_vo.m4a")
     music = _music()
 
@@ -270,15 +287,18 @@ def build_short(storyboard_path: Path, index: int = 1,
     return final
 
 
-def validate_video(path: Path, min_seconds: float = 8.0) -> tuple[bool, str]:
+def validate_video(path: Path,
+                   min_seconds: float | None = None) -> tuple[bool, str]:
     """Final safety net: make sure the video is real, moving, non-blank content.
 
     Checks:
       * file exists and has a sane size
-      * duration is long enough
+      * duration is long enough (>= MIN_SHORT_SECONDS, default 25s)
       * has a video stream at the expected resolution
       * frames are not mostly black/blank (ffmpeg blackframe detection)
     """
+    if min_seconds is None:
+        min_seconds = MIN_SHORT_SECONDS
     if not path.exists():
         return False, "file missing"
     size_mb = path.stat().st_size / 1e6

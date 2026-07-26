@@ -82,6 +82,47 @@ def get_stats(video_ids: list[str]) -> dict[str, dict]:
     return out
 
 
+def _verify_visibility(yt, video_id: str, requested: str) -> None:
+    """Read back what YouTube actually did with the upload (costs 1 quota unit).
+
+    A successful `videos.insert` does NOT mean the video is visible. YouTube
+    silently forces uploads to `private` when the API project has not passed its
+    compliance audit, and it can reject a video outright after processing. Both
+    cases used to look like a clean success in the logs, so the channel appeared
+    empty with no explanation anywhere.
+    """
+    try:
+        resp = yt.videos().list(part="status", id=video_id).execute()
+    except Exception as exc:
+        print(f"[youtube] visibility check skipped ({exc}).")
+        return
+
+    items = resp.get("items") or []
+    if not items:
+        print(f"[youtube] WARNING {video_id} is not readable back — it may have "
+              f"been removed immediately after upload.")
+        return
+
+    st = items[0].get("status", {})
+    actual = st.get("privacyStatus")
+    upload_status = st.get("uploadStatus")
+    reason = st.get("rejectionReason") or st.get("failureReason")
+
+    if upload_status in ("rejected", "failed"):
+        print(f"[youtube] WARNING {video_id} uploadStatus={upload_status}"
+              f"{f' reason={reason}' if reason else ''}")
+    if actual and actual != requested:
+        print(f"[youtube] WARNING requested privacy '{requested}' but YouTube "
+              f"reports '{actual}' for {video_id}.")
+        if actual == "private":
+            print("[youtube] This is usually the API compliance audit: uploads "
+                  "from an unaudited Google Cloud project are locked to private "
+                  "and cannot be made public through the API.")
+    else:
+        print(f"[youtube] visibility confirmed: {actual} "
+              f"(uploadStatus={upload_status})")
+
+
 def set_thumbnail(video_id: str, image: Path) -> bool:
     """Attach a custom thumbnail to an uploaded video."""
     from googleapiclient.http import MediaFileUpload
@@ -150,6 +191,8 @@ def upload_video(
         vid = resp.get("id")
         when = f" (publishes {status.get('publishAt')})" if publish_at else ""
         print(f"[youtube] uploaded {Path(str(video_path)).name} -> {vid}{when}")
+        if vid:
+            _verify_visibility(yt, vid, status["privacyStatus"])
         return vid
     except Exception as exc:
         msg = str(exc)
