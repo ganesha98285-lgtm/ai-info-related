@@ -19,7 +19,9 @@
   "Everyone expected a Bitcoin investing boom. Why it never came #shorts",
   "'Blue Lagoon' star Christopher Atkins says alcohol cost him... #shorts",
   "After Losing 40% Of His Net Worth In A Month, Elon Musk... #shorts",
-  "Stock Market Today: S&P 500 and Nasdaq set to decline amid... #shorts"
+  "Stock Market Today: S&P 500 and Nasdaq set to decline amid... #shorts",
+  "Bitcoin, Ethereum, XRP, Dogecoin Plummet Even as SEC Chair... #shorts",
+  "Bitcoin falls to $63,000 as Fed decision looms, Clarity Act... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -40,7 +42,9 @@
   "A Bitcoin investing boom was expected but never arrived.",
   "Christopher Atkins reveals what cost him a major role.",
   "Elon Musk is attempting to raise funds after a significant loss.",
-  "The S&P 500 and Nasdaq are set to decline amid a tech sell-off."
+  "The S&P 500 and Nasdaq are set to decline amid a tech sell-off.",
+  "Bitcoin and other cryptocurrencies have plummeted in value.",
+  "Bitcoin has fallen to sixty-three thousand dollars."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -127,7 +131,22 @@
   "South Korea's Kospi index has plunged more than 10% amid heavy selling.",
   "The sell-off is largely driven by investors ditching chip stocks and AI-related companies.",
   "Investors are also waiting for the consumer confidence report and earnings from Visa and Coca-Cola.",
-  "Stock Market Today: S&P 500 and Nasdaq set to decline amid tech sell-off; Dow to start steady; consumer confidence report, Visa and Coca-Cola results on tap"
+  "Stock Market Today: S&P 500 and Nasdaq set to decline amid tech sell-off; Dow to start steady; consumer confidence report, Visa and Coca-Cola results on tap",
+  "Ethereum, XRP, and Dogecoin have also seen significant drops.",
+  "Despite this, SEC Chair Paul Atkins sees a crypto bill advancing.",
+  "An analyst believes a big move for Bitcoin is just around the corner.",
+  "Meanwhile, Boeing has posted a wider loss than expected in its quarterly results.",
+  "The company is spending big to meet the deadline for the new Air Force One.",
+  "Bitcoin, Ethereum, XRP, Dogecoin Plummet Even as SEC Chair Paul Atkins Sees Crypto Bill Advancing: Analyst Says BTC's Big Move 'Just Around the Corner'",
+  "The new Air Force One just got a big update - and price tag &nbsp;&nbsp; CNN Boeing posts stronger Q2 on higher deliveries, narrower loss and record $715B backlog &nbsp;&nbsp; KOMO Boeing posts wider loss than expected a",
+  "The Fed decision is looming and impacting bitcoin's value.",
+  "The Clarity Act hopes are fading for bitcoin investors.",
+  "This change in bitcoin's price is significant for investors.",
+  "Reports say the Fed decision will affect the entire market.",
+  "Bitcoin's price will likely continue to fluctuate in response.",
+  "Bitcoin falls to $63,000 as Fed decision looms, Clarity Act hopes fade",
+  "Bitcoin falls to $63,000 as Fed decision looms, Clarity Act hopes fade &nbsp;&nbsp; Yahoo Finance",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -261,7 +280,24 @@
   "px6153469": "2026-07-28",
   "px6781912": "2026-07-28",
   "px7448490": "2026-07-28",
-  "px6115070": "2026-07-28"
+  "px6115070": "2026-07-28",
+  "px37640488": "2026-07-28",
+  "px37685002": "2026-07-28",
+  "px20452930": "2026-07-28",
+  "px35544532": "2026-07-28",
+  "px6120110": "2026-07-28",
+  "px19666133": "2026-07-28",
+  "px38470559": "2026-07-28",
+  "px8817001": "2026-07-28",
+  "px5076630": "2026-07-28",
+  "px33402723": "2026-07-28",
+  "px37789217": "2026-07-28",
+  "px31636967": "2026-07-28",
+  "px8348716": "2026-07-28",
+  "px18558569": "2026-07-28",
+  "px10141043": "2026-07-28",
+  "px8369956": "2026-07-28",
+  "px7362704": "2026-07-28"
  },
  "thumb_styles": {
   "0-0": 1,
@@ -275,7 +311,9 @@
   "1-0": 1,
   "1-1": 1,
   "1-2": 1,
-  "1-3": 1
+  "1-3": 1,
+  "1-4": 1,
+  "1-5": 1
  },
  "uploads": [
   {
@@ -370,6 +408,22 @@
    "video_id": "Ga2oKZeGQuU",
    "title": "Stock Market Today: S&P 500 and Nasdaq set to decline amid... #shorts",
    "hook": "The S&P 500 and Nasdaq are set to decline amid a tech sell-off.",
+   "date": "2026-07-28",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "k7AiVA_s-bo",
+   "title": "Bitcoin, Ethereum, XRP, Dogecoin Plummet Even as SEC Chair... #shorts",
+   "hook": "Bitcoin and other cryptocurrencies have plummeted in value.",
+   "date": "2026-07-28",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "UChizu112aw",
+   "title": "Bitcoin falls to $63,000 as Fed decision looms, Clarity Act... #shorts",
+   "hook": "Bitcoin has fallen to sixty-three thousand dollars.",
    "date": "2026-07-28",
    "views": 0,
    "likes": 0
@@ -546,6 +600,24 @@
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxORTVfS1k5YmFzZ2hFQWJuUDZUNnViT1E0aW5UVW5FMmRmbVJUcmpZTmZuMmhOXzgyWHZQeEczRzhIV1dWVHNPaUpDT2JvY2pUMG05VUxuc0FTbXFUeFBRMlNBc1h0bzk4Nm9IYVRQbHZPT1g1N0dUdlUxRHVtS2VEcmpNMVE3LThYdTNBUnFwQkxlakNtMnJRaHd0alliQ2Nfb0NVZlR3?oc=5",
     "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrVi1aVEdDbG9nbWhkOEh4UU1LaDJESThkODBGOWhMVzlZWlJoTlBHMW8yclp4c1NnWTVUQzJlSG1DR0d3OWsteG9Bbzh1b2RTaHEwbHZrR09fZlNCUjNIMmxnaWVxaTA0SkxPMXQwV0pnM19WTVln0gF8QVVfeXFMTlhfZHYzbTFqZEV0a0FESjdWNXhZX0YzUDk4UHBEQjZjZFNzblRYV2VUZlVHUDk5UmhhMEJhbFcyX29lY0xfdnhVenF6dURyUGNkaE9Rbjc1dld6RjU4c2ZEdzRYSGhwWUxnLXo5TnpBbWxzMG1MdUFiVUkxYg?oc=5",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMkZsQXlQVWtDVFpoZFFSUndsZzdOUTk4U2FUS3BlZ2NWZ3pVczhfcTBZbTJqZzEyRXVIdlhJZ2o3SGNqUnl2anRJTjlBTmpNRDg2clIzeVpSV2pBWTVRWGZzdkVSaUIyWHpNQm9mWVFTMm1fcjBCT1lYTFoyWXJkRGRsMG8zaVNMYWdnb0hBOGJIMDAzUVVETjBRT2dteWZ6YVVldUw5VHprdw?oc=5"
+   ],
+   "date": "2026-07-28"
+  },
+  {
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Plummet Even as SEC Chair Paul Atkins Sees Crypto Bill Advancing: Analyst Says BTC's Big Move 'Just Around the Corner'",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kcUcxWEpfTGVNT3JiSUdSaWJzeWJmRmlya0ZNamZQc2FKSlUxMzh6ZUlVZzhHM0R0aVBnMG1RVU82Tnd3cEZKUWlkV1FhRm5ZMEZlTGRJYnB1NE9ZZ3FCMjVURWUyZ3hIT0E5dHc4b2U5a0tsNEE?oc=5",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmY2ckxLMDhORU5yQWRBWHVKVmZlWlRpdlE4M3ZVcm5EdWRwQlVvem5lWXB6VlJvOTAyVy1HamRBdFFWZ3B4TnFOWl9nV0ZzNnlyMnZ2bjRYLUp2NnU1eXFSck1uMVBTUGttMjhoVTNBTC1ORC13eHBPYVA1cHJhNVNQa0NvLTIyLTNpLUJDVU5zZGpLU19fb3JxUG5EbWJwSXpYcQ?oc=5",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmY2ckxLMDhORU5yQWRBWHVKVmZlWlRpdlE4M3ZVcm5EdWRwQlVvem5lWXB6VlJvOTAyVy1HamRBdFFWZ3B4TnFOWl9nV0ZzNnlyMnZ2bjRYLUp2NnU1eXFSck1uMVBTUGttMjhoVTNBTC1ORC13eHBPYVA1cHJhNVNQa0NvLTIyLTNpLUJDVU5zZGpLU19fb3JxUG5EbWJwSXpYcQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlNjJCOGdjTFRwX2ZVcWR2dWxmOUxkaWRYSHFtNndwM2ZMeU5wbkQ4dEdOOXluQ09KYkkxNE9lTHhmQmR0cVJqX0oxbnBMUkVBeW9ETkNuNnkzVWFPRlhSakY4Wl9UaUU?oc=5"
+   ],
+   "date": "2026-07-28"
+  },
+  {
+   "headline": "Bitcoin falls to $63,000 as Fed decision looms, Clarity Act hopes fade",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZklCdFk1cDhsWDJSSGxZMERPcVotRGF0VFRfZkNjc2h4cHVjQTBGalVNVmtJOG1OOThhdHp1ZXhwOG9TVzNGbjR3dDFpQlJsYXViT0tkMHBXbnVrOGxrTURCcnZFQlBpdjhlTEVmTTFsVkpLZ3phbUI2b2NPWEt4YmNWcEV0Z0Y1TXpjNjJGczF0UzJ3ZHVoOE45cktVeGhOaGFYZVhEOW41bFgzVjVMOWtQbFhDR1EyWWZrOFpXWVh2QQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5"
    ],
    "date": "2026-07-28"
   }
