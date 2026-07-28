@@ -17,7 +17,9 @@
   "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's... #shorts",
   "Opinion: Is your AI data-center stock vulnerable to voter... #shorts",
   "Everyone expected a Bitcoin investing boom. Why it never came #shorts",
-  "'Blue Lagoon' star Christopher Atkins says alcohol cost him... #shorts"
+  "'Blue Lagoon' star Christopher Atkins says alcohol cost him... #shorts",
+  "After Losing 40% Of His Net Worth In A Month, Elon Musk... #shorts",
+  "Stock Market Today: S&P 500 and Nasdaq set to decline amid... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -36,7 +38,9 @@
   "This is the busiest week of the quarter for markets.",
   "Nvidia is in talks with OpenAI to guarantee financing for a data center.",
   "A Bitcoin investing boom was expected but never arrived.",
-  "Christopher Atkins reveals what cost him a major role."
+  "Christopher Atkins reveals what cost him a major role.",
+  "Elon Musk is attempting to raise funds after a significant loss.",
+  "The S&P 500 and Nasdaq are set to decline amid a tech sell-off."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -110,7 +114,20 @@
   "'Blue Lagoon' star Christopher Atkins says alcohol cost him iconic 'Footloose' role before getting sober",
   "Sir Christopher Edward Nolan is a British and American filmmaker.",
   "Known for his Hollywood blockbusters with complex storytelling, Nolan is considered a leading filmmaker of the 21st century.",
-  "His films have earned over $6 billion worldwide, making him the fourth-highest-grossing film director of all time."
+  "His films have earned over $6 billion worldwide, making him the fourth-highest-grossing film director of all time.",
+  "Elon Musk lost 40% of his net worth in one month.",
+  "He is trying to raise $4 billion for another company.",
+  "This comes as Chinese RAM company CXMT debuts on the market.",
+  "CXMT made a $484 billion stock market debut.",
+  "These events are significant in the current market landscape.",
+  "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company",
+  "Chinese RAM company CXMT makes a $484 billion stock market debut &nbsp;&nbsp; The Verge",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "U.S. stock futures have slipped due to the sell-off in tech stocks.",
+  "South Korea's Kospi index has plunged more than 10% amid heavy selling.",
+  "The sell-off is largely driven by investors ditching chip stocks and AI-related companies.",
+  "Investors are also waiting for the consumer confidence report and earnings from Visa and Coca-Cola.",
+  "Stock Market Today: S&P 500 and Nasdaq set to decline amid tech sell-off; Dow to start steady; consumer confidence report, Visa and Coca-Cola results on tap"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -228,7 +245,23 @@
   "px6325125": "2026-07-27",
   "px11335976": "2026-07-27",
   "px7579559": "2026-07-27",
-  "px8946986": "2026-07-27"
+  "px8946986": "2026-07-27",
+  "px19343053": "2026-07-28",
+  "px7580284": "2026-07-28",
+  "px8141297": "2026-07-28",
+  "px8828867": "2026-07-28",
+  "px6120116": "2026-07-28",
+  "px37215129": "2026-07-28",
+  "px31332119": "2026-07-28",
+  "px34433115": "2026-07-28",
+  "px35771140": "2026-07-28",
+  "px3626154": "2026-07-28",
+  "px8348327": "2026-07-28",
+  "px5716235": "2026-07-28",
+  "px6153469": "2026-07-28",
+  "px6781912": "2026-07-28",
+  "px7448490": "2026-07-28",
+  "px6115070": "2026-07-28"
  },
  "thumb_styles": {
   "0-0": 1,
@@ -240,7 +273,9 @@
   "0-6": 1,
   "0-7": 1,
   "1-0": 1,
-  "1-1": 1
+  "1-1": 1,
+  "1-2": 1,
+  "1-3": 1
  },
  "uploads": [
   {
@@ -320,6 +355,22 @@
    "title": "'Blue Lagoon' star Christopher Atkins says alcohol cost him... #shorts",
    "hook": "Christopher Atkins reveals what cost him a major role.",
    "date": "2026-07-27",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "HCWH7DShWMw",
+   "title": "After Losing 40% Of His Net Worth In A Month, Elon Musk... #shorts",
+   "hook": "Elon Musk is attempting to raise funds after a significant loss.",
+   "date": "2026-07-28",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Ga2oKZeGQuU",
+   "title": "Stock Market Today: S&P 500 and Nasdaq set to decline amid... #shorts",
+   "hook": "The S&P 500 and Nasdaq are set to decline amid a tech sell-off.",
+   "date": "2026-07-28",
    "views": 0,
    "likes": 0
   }
@@ -477,6 +528,26 @@
     "https://en.wikipedia.org/wiki/Christopher_Nolan"
    ],
    "date": "2026-07-27"
+  },
+  {
+   "headline": "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company",
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/losing-40-net-worth-month-104746993.html",
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvdEhYSHJwU3dlTnZfbW10eTZNR0tqQmFCdkdxMkp5QWdSX1JGQXc2MlV0YkFsOVBfZnFySGFYVzQwcHpZOXZiRE1kOHQ1Y3VldHZCSUkyZV9LU2pCSkxULUpvNmR5QXFlcFU4cnJpWjNqQzhjYjZTaWl3?oc=5",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjk4RnRsWmR2YTlaSlViRmdEaUFoRVB1akJQZFlKOXFIUTZFeERqODBKM195N0dFRldtOWN4dXVxaWcyNTViQ050OVZIbXpkaFpSeVFYbmY5QWRDbmdMVlhRVExNRFlkbkc2SmlLSEtmdTk3d2FiT05hVm5td3hXVWx1dTNrRGQzSWdMWEtPYldlUV9NTUVCWEFzQ0cwUjg4RWZZT2VkaURYM1pCWUNza0ljeHQ1b2F0ZDR2RDZJVkFZQnM?oc=5",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5"
+   ],
+   "date": "2026-07-28"
+  },
+  {
+   "headline": "Stock Market Today: S&P 500 and Nasdaq set to decline amid tech sell-off; Dow to start steady; consumer confidence report, Visa and Coca-Cola results on tap",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrVi1aVEdDbG9nbWhkOEh4UU1LaDJESThkODBGOWhMVzlZWlJoTlBHMW8yclp4c1NnWTVUQzJlSG1DR0d3OWsteG9Bbzh1b2RTaHEwbHZrR09fZlNCUjNIMmxnaWVxaTA0SkxPMXQwV0pnM19WTVln0gF8QVVfeXFMTlhfZHYzbTFqZEV0a0FESjdWNXhZX0YzUDk4UHBEQjZjZFNzblRYV2VUZlVHUDk5UmhhMEJhbFcyX29lY0xfdnhVenF6dURyUGNkaE9Rbjc1dld6RjU4c2ZEdzRYSGhwWUxnLXo5TnpBbWxzMG1MdUFiVUkxYg?oc=5",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxORTVfS1k5YmFzZ2hFQWJuUDZUNnViT1E0aW5UVW5FMmRmbVJUcmpZTmZuMmhOXzgyWHZQeEczRzhIV1dWVHNPaUpDT2JvY2pUMG05VUxuc0FTbXFUeFBRMlNBc1h0bzk4Nm9IYVRQbHZPT1g1N0dUdlUxRHVtS2VEcmpNMVE3LThYdTNBUnFwQkxlakNtMnJRaHd0alliQ2Nfb0NVZlR3?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrVi1aVEdDbG9nbWhkOEh4UU1LaDJESThkODBGOWhMVzlZWlJoTlBHMW8yclp4c1NnWTVUQzJlSG1DR0d3OWsteG9Bbzh1b2RTaHEwbHZrR09fZlNCUjNIMmxnaWVxaTA0SkxPMXQwV0pnM19WTVln0gF8QVVfeXFMTlhfZHYzbTFqZEV0a0FESjdWNXhZX0YzUDk4UHBEQjZjZFNzblRYV2VUZlVHUDk5UmhhMEJhbFcyX29lY0xfdnhVenF6dURyUGNkaE9Rbjc1dld6RjU4c2ZEdzRYSGhwWUxnLXo5TnpBbWxzMG1MdUFiVUkxYg?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMkZsQXlQVWtDVFpoZFFSUndsZzdOUTk4U2FUS3BlZ2NWZ3pVczhfcTBZbTJqZzEyRXVIdlhJZ2o3SGNqUnl2anRJTjlBTmpNRDg2clIzeVpSV2pBWTVRWGZzdkVSaUIyWHpNQm9mWVFTMm1fcjBCT1lYTFoyWXJkRGRsMG8zaVNMYWdnb0hBOGJIMDAzUVVETjBRT2dteWZ6YVVldUw5VHprdw?oc=5"
+   ],
+   "date": "2026-07-28"
   }
  ]
 }
