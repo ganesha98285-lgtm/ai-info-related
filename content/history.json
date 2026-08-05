@@ -51,7 +51,9 @@
   "NASA's Nancy Grace Roman Space Telescope, launching on a... #shorts",
   "Spider-Man: Brand New Day #shorts",
   "SpaceX Starship Flight 12 launch updates: Starship V3 Ship... #shorts",
-  "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at... #shorts"
+  "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at... #shorts",
+  "Stock Market Today: Dow Rises With Hormuz Deal Development But... #shorts",
+  "Stock Market Today: Dow rises 400 points, but S&P 500's gains... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -104,7 +106,9 @@
   "NASA's Nancy Grace Roman Space Telescope is launching soon.",
   "A new Spider-Man film is coming to theaters in 2026.",
   "SpaceX stock has fallen after the company's first earnings report.",
-  "The Dow and S&P 500 have closed at fresh record highs."
+  "The Dow and S&P 500 have closed at fresh record highs.",
+  "The Dow is rising due to a Hormuz deal development.",
+  "The Dow has risen 400 points, but other indexes are mixed."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -428,7 +432,23 @@
   "This event will be the biggest solar eclipse since 1999.",
   "Other notable skywatching events in August include a meteor shower.",
   "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at fresh records, Nasdaq books best 4-day stretch in over a year; Oil below $80 a barrel",
-  "Where in the West Country to see the biggest solar eclipse since 1999 &nbsp;&nbsp; BBC The tiny Spanish village where darkness will fall twice in one night &nbsp;&nbsp; BBC Total solar eclipse Aug."
+  "Where in the West Country to see the biggest solar eclipse since 1999 &nbsp;&nbsp; BBC The tiny Spanish village where darkness will fall twice in one night &nbsp;&nbsp; BBC Total solar eclipse Aug.",
+  "The Nasdaq is sagging despite the overall market trend.",
+  "SanDisk stock is sinking after a revenue forecast miss.",
+  "The revenue forecast fell short of expectations.",
+  "Astera Labs stock is also experiencing a decline.",
+  "Market developments are being closely watched by investors.",
+  "Stock Market Today: Dow Rises With Hormuz Deal Development But Nasdaq Sags; Astera Labs Skids (Live Coverage)",
+  "SanDisk stock sinks as revenue forecast falls short of expectations &nbsp;&nbsp; finance.yahoo.com",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "The S&P 500's gains were erased and the Nasdaq turned red.",
+  "The chip sector pulled back, affecting the market's overall performance.",
+  "AMD shares fell after earnings, despite a 50% revenue increase.",
+  "AMD's data center sales doubled, but investors expected more.",
+  "SpaceX and AMD shares also fell after their earnings reports.",
+  "Stock Market Today: Dow rises 400 points, but S&P 500's gains are erased and Nasdaq turns red as chip sector pulls back; SpaceX, AMD shares fall after earnings",
+  "'This was not an exceptional result': Why AMD stock tanked 5% after earnings &nbsp;&nbsp; finance.yahoo.com AMD Revenue Rockets 50%: 2 Undervalued Chip Stocks With Long-Term EPS Growth +100% &nbsp;&nbsp; Seeking Alpha AM"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -822,7 +842,22 @@
   "px20360283": "2026-08-05",
   "px35461866": "2026-08-05",
   "px12627234": "2026-08-05",
-  "px5537824": "2026-08-05"
+  "px5537824": "2026-08-05",
+  "px8480681": "2026-08-05",
+  "px30730786": "2026-08-05",
+  "px6782251": "2026-08-05",
+  "px8381577": "2026-08-05",
+  "px38860073": "2026-08-05",
+  "px5899599": "2026-08-05",
+  "px8113148": "2026-08-05",
+  "px37430971": "2026-08-05",
+  "px12458041": "2026-08-05",
+  "px8798276": "2026-08-05",
+  "px36175909": "2026-08-05",
+  "px4841217": "2026-08-05",
+  "px38860085": "2026-08-05",
+  "px7735913": "2026-08-05",
+  "px6698945": "2026-08-05"
  },
  "thumb_styles": {
   "0-0": 1,
@@ -868,7 +903,9 @@
   "5-0": 1,
   "5-1": 1,
   "5-2": 1,
-  "5-3": 1
+  "5-3": 1,
+  "5-4": 1,
+  "5-5": 1
  },
  "uploads": [
   {
@@ -1219,6 +1256,22 @@
    "video_id": "_1VUIiT9MmU",
    "title": "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at... #shorts",
    "hook": "The Dow and S&P 500 have closed at fresh record highs.",
+   "date": "2026-08-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "3GbbFyuv2Nw",
+   "title": "Stock Market Today: Dow Rises With Hormuz Deal Development But... #shorts",
+   "hook": "The Dow is rising due to a Hormuz deal development.",
+   "date": "2026-08-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "zZHOV5Ws-F8",
+   "title": "Stock Market Today: Dow rises 400 points, but S&P 500's gains... #shorts",
+   "hook": "The Dow has risen 400 points, but other indexes are mixed.",
    "date": "2026-08-05",
    "views": 0,
    "likes": 0
@@ -1691,6 +1744,26 @@
     "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUFFMVjExMGJ1aFZ5Z0Q5TjVNdkhXbWpjV2pqbUhtLTVmNFl1Sk12djdEdkFVYmlaTG5mbjYzNGxlbF81eFZSYWFHZEZSUGZNYmZCQUZwcGxZWjk3Rk9BaWpDVTd6Q3g0N3dFblZpdmVMX2E4Q1NkOGRKRzNmODZCUml5WExpLTZfZHhIMERQRVVlVWJWX1d1YmNnUXFGVGRidGJCTEEzMHl5enJ1U0R5OTRiWGpPN1MzdUptV2NLR3lpV1pvUDNxamxOczhkRFpzUFdSU2Y1VXlidw?oc=5",
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXNLQTg4UjVsZURIX3lDeVN0MHJGcUFfUU4zWDl3REF2QlgyR053RU80UjJMcUhsc0xweHMwMVhMb2dVX0xCYVd5cVg3UjU4Und4NE42ZDk2eXNwR2lmOTQzZlZFYWhBclRjNmxkeVFJRVVlWGZJRHZ1STUyMzVTVm8tQmVXQlBWVm9SNkRoWFpJMnlXLTdtMWh2Qk1EN1k?oc=5",
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wb3FUbTM2Xzg0NlEwWmNjY3pXb25IeFRKX1haRzVjYTlzTlh3RUdMdENEdVhVWmN6VzFDSElwYlpXRENRUFd1MjN2WGpiSEMtNEpPbG04Qmw3c2RTdlpRVVBHTVJ4akk?oc=5"
+   ],
+   "date": "2026-08-05"
+  },
+  {
+   "headline": "Stock Market Today: Dow Rises With Hormuz Deal Development But Nasdaq Sags; Astera Labs Skids (Live Coverage)",
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/article/sandisk-stock-sinks-as-revenue-forecast-falls-short-of-expectations-163703465.html",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYWlWLVZzUlhwR0dnVlBmX0xDN3RqSm9PVzFIU0ozY0tiUWJtRDM4YUxIbHVyUDlJU0k5MDVpS3NDU3FoZ3IyYzQyQmlYTXlGMDVKZTJfdEhtMWtpdC1WMDZ0MV9fc29ST0drR2swZFdTbkpmVmtoTkhWMnNJYzZ3d25qdHZpaF9nYXRUcUVzWDNja3VLWHVqem9XVzlXMk4wQzNvdlhwejlsZkdLQ0I3MUFCRHRoVWtzYlRLUm1rS1hqZXVBVDJSNnZjSQ?oc=5",
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VR2lGdWZOTXRCTmJYSEVGVlFEelVEcFdBTWozb3U2SGgtbldyTnA1ZGdTSWhvU2JVVGYwRmFwUVpib2NRM0JodGFXRkdYOXNCWjc0ZF9rQWRQR0wtemphYmotYnJoM0lSbm50UA?oc=5",
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQU1BOS1E0Rnh1MjR5bzJaekFjNFZVSFdrT3R3Vl84czd0Y1Q2ZlcwQzcxdTg2MlotX2hxQmNCVTFvNWpydmNYTlhTS0JLVWVZVExybTZLX2wxeEdHSmFYR3RUN2ozUnFVWTd4dUQtNUs?oc=5"
+   ],
+   "date": "2026-08-05"
+  },
+  {
+   "headline": "Stock Market Today: Dow rises 400 points, but S&P 500's gains are erased and Nasdaq turns red as chip sector pulls back; SpaceX, AMD shares fall after earnings",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRnpDbmF1ZzlBRXRNaV94ODZreVE3VE0zRUkzWk1PMV9xblR6NmJ5aGwwYlFoTGU5NVRZY0cyclRWMDFRc1IzNnM1UHdqeW1FQjBqVHVmeXRObE9FTE56UjJUVGtSaFdCZ3VvRlQyalQxeEdoTTNOckhTYnJOYlBBNWVyUzFvbUtNazctYmdid3ZBUGpWNEJycVNkR29UajVMRkM4YjZiaEhFb2JRaDlWa05SN0xBYnR4aDF5UW5mLTZJZmYxYXgyUA?oc=5",
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdDZ5ZGNEdW5BOC0zYkxWVVh0Q1lmcHRkN19FT2JWaEw0ZVlOUnNXMDlQNFVPQndFd0lPX2ZpbzJueGNDNE81THJQZV9pV2RVN1BlMGdUcXI4bUJZN0M0ekZ6TnRpZFFQOGxYbmlzbTdLNVJkSGVkWmpsSjNIR1cxc01SbUJuNm51ck00aUJxZlFqWkpQQVAzclUtaDhhVm9tQmVvY3lQX0EyM000TTJmRGVzVGJ1TjdLZEduVVVoTFZuNzlv?oc=5",
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXhIT1E2YnR5cUVEeFZ6Wl9FOFVUMnFkOUlPSzY1UU9sR1lUQmlPQUFuTEp5LUNrSVliN0d6dEVlMS0zbldYNFBaSWt6VUxzSV9lOGJ4NGVwSURfLWJhSU1BMER6NXRodURTYm9fRFlyM3ZCSlVKenVmR2FzX2hNSDBaY3NPQ2pvT0tVN2ZFNC16R0V0SlVpWUIyV29ZQU44ZWZZRWtMOTloeWtVMVdoTC1lZF93T1lQeFhMRFFmWS1wNUtxR2c?oc=5",
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2hmWFJaNHVja2hCTFpKUm4zbjRqSUduQ25tT05RMU5WenZFa0hQUVN5TzdLSFlpRzdrSExVSzdUUnZ2YUhKZVhLeHpVUUtsNVo2NmNoUmR5MF84cnppekxXZGs4aS1ZOF9WZTNyQ2dtYTg3Mk1iVW5Ja3BTR04ycjQwN3dlWGNBZlRN?oc=5"
    ],
    "date": "2026-08-05"
   }
