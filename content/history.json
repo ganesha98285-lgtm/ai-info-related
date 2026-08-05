@@ -49,7 +49,9 @@
   "Commentary: An abandoned SpaceX rocket is about to crash into... #shorts",
   "Saline Co. Sheriff’s Office said AI was used to edit evidence... #shorts",
   "NASA's Nancy Grace Roman Space Telescope, launching on a... #shorts",
-  "Spider-Man: Brand New Day #shorts"
+  "Spider-Man: Brand New Day #shorts",
+  "SpaceX Starship Flight 12 launch updates: Starship V3 Ship... #shorts",
+  "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -100,7 +102,9 @@
   "Palantir stock has jumped after the company reported strong earnings.",
   "The Saline Co. Sheriff's Office is facing online backlash over an edited evidence photo.",
   "NASA's Nancy Grace Roman Space Telescope is launching soon.",
-  "A new Spider-Man film is coming to theaters in 2026."
+  "A new Spider-Man film is coming to theaters in 2026.",
+  "SpaceX stock has fallen after the company's first earnings report.",
+  "The Dow and S&P 500 have closed at fresh record highs."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -410,7 +414,21 @@
   "The film follows Spider-Man: No Way Home, which was released in 2021.",
   "Spider-Man: Brand New Day",
   "Spider-Man: Brand New Day is a 2026 American superhero film based on the Marvel Comics character Spider-Man.",
-  "Produced by Columbia Pictures, Marvel Studios, and Pascal Pictures, and distributed by Sony Pictures Releasing, it is the 38th film in the Marvel Cinematic Universe (MCU) and the fourth film in the MCU Spider-Man film se"
+  "Produced by Columbia Pictures, Marvel Studios, and Pascal Pictures, and distributed by Sony Pictures Releasing, it is the 38th film in the Marvel Cinematic Universe (MCU) and the fourth film in the MCU Spider-Man film se",
+  "The report revealed huge plans for artificial intelligence spending.",
+  "SpaceX revenues have surged, but heavy spending has rattled investors.",
+  "The company's stock has slid after the earnings report was released.",
+  "SpaceX has also made headlines with its Starship V3 Ship recently.",
+  "The Starship made a planned fiery splashdown in the Indian Ocean.",
+  "SpaceX Starship Flight 12 launch updates: Starship V3 Ship makes fiery splashdown in Indian Ocean as planned",
+  "SpaceX shares sink after first earnings report reveals huge AI spending plans &nbsp;&nbsp; BBC SpaceX dives 10% after AI spending surge rattles investors &nbsp;&nbsp; CNBC SpaceX Reports Soaring Revenue and Heavy Spendin",
+  "The Nasdaq has also booked its best 4-day stretch in over a year.",
+  "Oil prices have fallen below $80 a barrel.",
+  "Meanwhile, a total solar eclipse is approaching on August 12, 2026.",
+  "This event will be the biggest solar eclipse since 1999.",
+  "Other notable skywatching events in August include a meteor shower.",
+  "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at fresh records, Nasdaq books best 4-day stretch in over a year; Oil below $80 a barrel",
+  "Where in the West Country to see the biggest solar eclipse since 1999 &nbsp;&nbsp; BBC The tiny Spanish village where darkness will fall twice in one night &nbsp;&nbsp; BBC Total solar eclipse Aug."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -790,7 +808,21 @@
   "px7233635": "2026-08-04",
   "px8745497": "2026-08-04",
   "px19193257": "2026-08-04",
-  "px15439515": "2026-08-04"
+  "px15439515": "2026-08-04",
+  "px5716233": "2026-08-05",
+  "px9794868": "2026-08-05",
+  "px7947488": "2026-08-05",
+  "px7106746": "2026-08-05",
+  "px8475056": "2026-08-05",
+  "px30419090": "2026-08-05",
+  "px9564065": "2026-08-05",
+  "px6799753": "2026-08-05",
+  "px34607660": "2026-08-05",
+  "px35816567": "2026-08-05",
+  "px20360283": "2026-08-05",
+  "px35461866": "2026-08-05",
+  "px12627234": "2026-08-05",
+  "px5537824": "2026-08-05"
  },
  "thumb_styles": {
   "0-0": 1,
@@ -834,7 +866,9 @@
   "4-6": 1,
   "4-7": 1,
   "5-0": 1,
-  "5-1": 1
+  "5-1": 1,
+  "5-2": 1,
+  "5-3": 1
  },
  "uploads": [
   {
@@ -1170,6 +1204,22 @@
    "title": "Spider-Man: Brand New Day #shorts",
    "hook": "A new Spider-Man film is coming to theaters in 2026.",
    "date": "2026-08-04",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "dUM0y3nc3Cc",
+   "title": "SpaceX Starship Flight 12 launch updates: Starship V3 Ship... #shorts",
+   "hook": "SpaceX stock has fallen after the company's first earnings report.",
+   "date": "2026-08-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "_1VUIiT9MmU",
+   "title": "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at... #shorts",
+   "hook": "The Dow and S&P 500 have closed at fresh record highs.",
+   "date": "2026-08-05",
    "views": 0,
    "likes": 0
   }
@@ -1623,6 +1673,26 @@
     "https://en.wikipedia.org/wiki/Spider-Man%3A_No_Way_Home"
    ],
    "date": "2026-08-04"
+  },
+  {
+   "headline": "SpaceX Starship Flight 12 launch updates: Starship V3 Ship makes fiery splashdown in Indian Ocean as planned",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wbjR2NmVoNEx2eWFOWDhUWm9CbnYxZDktb3ZpVXRPdFRSUDRqZUZtOXhLeTloSGhuQ3VLR1dqdFpUSndpcEtrT0xRSUtRczAtOTRJV3R2djBIZw?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSTZtOVVpRWNacHhjaWI1Q1NNVnpCN1FQdnBMblNLRGxfTXpfekx0RlB2VjBEY01Xd2M0MXI2R0toXzcySUpnWk9wVG9Ta0w3aE5QVGNReW5fU2l4TEVTSUFRbTg3VjAwbk05VXdMSS0yNUtfSE5YbFdGVlJDVjY1cXhPZ1ktTmZrZnJRRDRoRHZfTWNqN0Q5Ty1JelRvSnlXRF9ZQXRMS2xRWVZNRGMzWEVPRmRnYmtLemRiR1dlMzRYY2E4bUwtSUhfTllkS1RRN1VjdVhR?oc=5",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdmd2UnJyc0lXU1hJaWlyVC1sZFNkb1Vfa2ZxRlFGS0ZCQXgtUTdwU2pTWE5IRS1pWkZzaTBoeGRTeHZLa2JtN0JUZDZ5b2wyajRXNG9ZVjVhMEdKZzdrelM0UHYtZFNSOWtIWjZBeThRbl9LWVRueEVRUHludHpuRkxXSE9hZ2t6djB1NDdid2pSUWVwT0FvaWQ1X0dOc0dkZjBkYnVjd2pPaUJ4aWRvWFo3OU9aakxsUWRNNA?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXBFbFF6bHV5ZWdJTzNFVERZczNwWDU5UjNCdS12Rm05ZW0wekxPYml1UUhhUmhSUl9jaHZBOWxWbkZiNmlXSzR6MlJKTkhMcXN5NjRGQnJlcWthMUNQQWZ6WlB3YmFZMk5wbTB3cmhRaWdBZEJIZ3lpTUlDWC1Yd0ctLWhNajA?oc=5"
+   ],
+   "date": "2026-08-05"
+  },
+  {
+   "headline": "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at fresh records, Nasdaq books best 4-day stretch in over a year; Oil below $80 a barrel",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zMlIyRGtMbXlabGg3U0hyMmNTS2ROaGM2b09QcnBRekYwOG9XR0NjYjRnemUtM053MTlpWnBxaHE4Q2kyejhiTV9SLUJIdm96NWtMdWRucTI4Zw?oc=5",
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUFFMVjExMGJ1aFZ5Z0Q5TjVNdkhXbWpjV2pqbUhtLTVmNFl1Sk12djdEdkFVYmlaTG5mbjYzNGxlbF81eFZSYWFHZEZSUGZNYmZCQUZwcGxZWjk3Rk9BaWpDVTd6Q3g0N3dFblZpdmVMX2E4Q1NkOGRKRzNmODZCUml5WExpLTZfZHhIMERQRVVlVWJWX1d1YmNnUXFGVGRidGJCTEEzMHl5enJ1U0R5OTRiWGpPN1MzdUptV2NLR3lpV1pvUDNxamxOczhkRFpzUFdSU2Y1VXlidw?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXNLQTg4UjVsZURIX3lDeVN0MHJGcUFfUU4zWDl3REF2QlgyR053RU80UjJMcUhsc0xweHMwMVhMb2dVX0xCYVd5cVg3UjU4Und4NE42ZDk2eXNwR2lmOTQzZlZFYWhBclRjNmxkeVFJRVVlWGZJRHZ1STUyMzVTVm8tQmVXQlBWVm9SNkRoWFpJMnlXLTdtMWh2Qk1EN1k?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wb3FUbTM2Xzg0NlEwWmNjY3pXb25IeFRKX1haRzVjYTlzTlh3RUdMdENEdVhVWmN6VzFDSElwYlpXRENRUFd1MjN2WGpiSEMtNEpPbG04Qmw3c2RTdlpRVVBHTVJ4akk?oc=5"
+   ],
+   "date": "2026-08-05"
   }
  ]
 }
