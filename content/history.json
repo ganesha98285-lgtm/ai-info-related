@@ -53,7 +53,9 @@
   "SpaceX Starship Flight 12 launch updates: Starship V3 Ship... #shorts",
   "Stock Market News, Aug. 4, 2026: Dow and S&P 500 close at... #shorts",
   "Stock Market Today: Dow Rises With Hormuz Deal Development But... #shorts",
-  "Stock Market Today: Dow rises 400 points, but S&P 500's gains... #shorts"
+  "Stock Market Today: Dow rises 400 points, but S&P 500's gains... #shorts",
+  "A high school dropout’s nuclear startup just landed $1B from... #shorts",
+  "SpaceX launches 3 giant BlueBird direct-to-cell satellites on... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -108,7 +110,9 @@
   "SpaceX stock has fallen after the company's first earnings report.",
   "The Dow and S&P 500 have closed at fresh record highs.",
   "The Dow is rising due to a Hormuz deal development.",
-  "The Dow has risen 400 points, but other indexes are mixed."
+  "The Dow has risen 400 points, but other indexes are mixed.",
+  "A high school dropout's startup just landed a major investment.",
+  "SpaceX has launched three giant BlueBird satellites on a Falcon 9 rocket."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -448,7 +452,22 @@
   "AMD's data center sales doubled, but investors expected more.",
   "SpaceX and AMD shares also fell after their earnings reports.",
   "Stock Market Today: Dow rises 400 points, but S&P 500's gains are erased and Nasdaq turns red as chip sector pulls back; SpaceX, AMD shares fall after earnings",
-  "'This was not an exceptional result': Why AMD stock tanked 5% after earnings &nbsp;&nbsp; finance.yahoo.com AMD Revenue Rockets 50%: 2 Undervalued Chip Stocks With Long-Term EPS Growth +100% &nbsp;&nbsp; Seeking Alpha AM"
+  "'This was not an exceptional result': Why AMD stock tanked 5% after earnings &nbsp;&nbsp; finance.yahoo.com AMD Revenue Rockets 50%: 2 Undervalued Chip Stocks With Long-Term EPS Growth +100% &nbsp;&nbsp; Seeking Alpha AM",
+  "The startup received one billion dollars from Sequoia.",
+  "The investment values the startup at six billion dollars.",
+  "Sequoia's leaders plan a new era with ten billion dollars.",
+  "This investment is part of Sequoia's new era plans.",
+  "The startup's founder is a high school dropout.",
+  "A high school dropout’s nuclear startup just landed $1B from Sequoia at a $6B valuation",
+  "Armed With $10 Billion, Sequoia’s Leaders Plan Its New Era &nbsp;&nbsp; Bloomberg.com",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The launch is part of a direct-to-cell satellite project.",
+  "A four-ton SpaceX rocket stage has hit the moon.",
+  "Reports say a new crater is likely to form after the impact.",
+  "NASA will attempt to observe the rocket part's lunar impact.",
+  "The collision is thought to be unintentional.",
+  "SpaceX launches 3 giant BlueBird direct-to-cell satellites on Falcon 9 rocket (video)",
+  "A Four-Ton SpaceX Rocket Stage Hit the Moon, but Almost No One Saw It &nbsp;&nbsp; The New York Times New crater likely to form after SpaceX rocket slams into the moon &nbsp;&nbsp; CNN NASA Will Attempt to Observe Rocket"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -857,7 +876,25 @@
   "px4841217": "2026-08-05",
   "px38860085": "2026-08-05",
   "px7735913": "2026-08-05",
-  "px6698945": "2026-08-05"
+  "px6698945": "2026-08-05",
+  "px6914681": "2026-08-06",
+  "px38870378": "2026-08-06",
+  "px7983988": "2026-08-06",
+  "px7279594": "2026-08-06",
+  "px6498262": "2026-08-06",
+  "px30844675": "2026-08-06",
+  "px8501985": "2026-08-06",
+  "px6755165": "2026-08-06",
+  "px5925286": "2026-08-06",
+  "px9787494": "2026-08-06",
+  "px7106858": "2026-08-06",
+  "px34995393": "2026-08-06",
+  "px34842060": "2026-08-06",
+  "px37029016": "2026-08-06",
+  "px28846365": "2026-08-06",
+  "px7169894": "2026-08-06",
+  "px9127866": "2026-08-06",
+  "px35705407": "2026-08-06"
  },
  "thumb_styles": {
   "0-0": 1,
@@ -905,7 +942,9 @@
   "5-2": 1,
   "5-3": 1,
   "5-4": 1,
-  "5-5": 1
+  "5-5": 1,
+  "5-6": 1,
+  "5-7": 1
  },
  "uploads": [
   {
@@ -1273,6 +1312,22 @@
    "title": "Stock Market Today: Dow rises 400 points, but S&P 500's gains... #shorts",
    "hook": "The Dow has risen 400 points, but other indexes are mixed.",
    "date": "2026-08-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "OuTixY8k9qQ",
+   "title": "A high school dropout’s nuclear startup just landed $1B from... #shorts",
+   "hook": "A high school dropout's startup just landed a major investment.",
+   "date": "2026-08-06",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "KfehY0dLHJ4",
+   "title": "SpaceX launches 3 giant BlueBird direct-to-cell satellites on... #shorts",
+   "hook": "SpaceX has launched three giant BlueBird satellites on a Falcon 9 rocket.",
+   "date": "2026-08-06",
    "views": 0,
    "likes": 0
   }
@@ -1766,6 +1821,26 @@
     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2hmWFJaNHVja2hCTFpKUm4zbjRqSUduQ25tT05RMU5WenZFa0hQUVN5TzdLSFlpRzdrSExVSzdUUnZ2YUhKZVhLeHpVUUtsNVo2NmNoUmR5MF84cnppekxXZGs4aS1ZOF9WZTNyQ2dtYTg3Mk1iVW5Ja3BTR04ycjQwN3dlWGNBZlRN?oc=5"
    ],
    "date": "2026-08-05"
+  },
+  {
+   "headline": "A high school dropout’s nuclear startup just landed $1B from Sequoia at a $6B valuation",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPekVpOV9WWE1ka1pXZUdwMFJ5dnZ3ZjNHcWlFdmo5b3VhckxZamZrQWkxODNGU0c5VnliZGQ5MjVzV2VnRU9HVmdXOTB2MW5uVFp6Yy1YVDdHa2JaM1NoNkt1TWZlakN1UUdsT0o0WnAzSlUwQlEzWV9jSlVZVjlQTXpyQVpiY1lCMUhGZWdSMk5CSW15Nlc3Wmc2Z0NjYjdaZWc?oc=5",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkxkTjc4RnZDN2U5WUhYaHc5TEhIQjJVTGdvNkZNeEZhTFhpM1g4c2pKdUVjTFlyaDRDV1l2XzBRVE5xSDhqdExJVERBcEtkNlZtQ2hKYlVFVzh3RE1mMWx1Ym9JV0diWnJMVEFySkFRUy1jVUpDQnUyQlJkSWp6cWdLMlhLQVh0ejVabmc5YjB4LVNaUTdQSFJBYUVhZHhkTEE4TGpoRFNrSHh5SXVrWjZqVUY?oc=5",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbjNmV21PRTJlU0Uza0tULVFqc2JBLTJhUjdLNV90c1RaVEJ0QWhxZkp0LUhWdHV2SlpDS2ljeWpveFJFOHlnbHE0WmZMQ21TcU90N3k1LVctbnVKbkZTcDVjRTJXUWVlTS1RWmwwd1FldzRXQWZtancwdlFIWDd4cW9aZlV1dVZtZWpEbE1uYTV4NWJIWktOTFR5ZXBtTFdmcDhrdFJKNk5XR3djZzBoR3Fycw?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTXg1cVpyTm1xeGpKRTBPQm5nV2tSMHBZMWFJd1VkRDYyMDl5Y1ZXaXo1S214YnNIYWVXdkxPNTBURFZNSkFNNEZMM21jU3ZVSEpmbnFFWG1GVlYxTElKZVdQenhpdlROWHJOUlZjRi1paWdCT1NFY19yc29hckh0bjgwWnZQMk11bUVDck5DQXd3VVVKOU9zYmRlMGRiMzFoOUJOY1lUV2w4NDZ3?oc=5"
+   ],
+   "date": "2026-08-06"
+  },
+  {
+   "headline": "SpaceX launches 3 giant BlueBird direct-to-cell satellites on Falcon 9 rocket (video)",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNHpocGRvMUhXeUlQR1ExRTBQTS1PRjNORDVnMGZpeEJ1WS13RHJJYm94RWpBeGp0MVJWYUpXX1AtT3pETXNKZGp1QkU1REl5WDBBWTBIclBpN1Z3WUJiX0x2QnFrai1GVS12MGFVT1M3MXhqSllJNERNQXFtNXlkalE5OV9Pdw?oc=5",
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxONlFmSVV1bGJKVi1UY1ZzRzA0bkp1ZkplS2VmeDZBdFlSRnBFQWpNRlA3QjBmN1d0RHJnWjk4aU5UU19PQ1dlQnlQSDhVZDg2MV90Z3Jma2U5NS1pcWx5Z2xWZ1hrVVFjRFpWRlJ1UzVhclV5NkpKX1VvSGFUV3dkbWJZUHRsOFFMMWNLeDdmLVRsQ005UUh0MzBuenVna0JvZHg4OHV1WTFzZjZhTkoxSkpuNHNhRUZ3ZDlpZklhQzFUTjBnWHBpX19BNXNuVzQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUUl2Z3NBaEZTNDJ3bEdoSXZtcWxTNV9tWUQtUzlhd1FaRHd6QkQ2ZktCb0ZYblA4TGlNclg0U0FBdFNZeXl3aXg3cm40MVJIOE1sa2NWVV9iR3ZhUWJLWEdaLU1teWRKTlUxbEV5Ykl0NlEzQ1lJdHdhYlVCY2VLbncyS0g4ZGtUMndfUmhuVk9laU44YkRxcWU5T2RhbkJwRnhsUWFiOUdqdGFvZTRxNEJIenRKYmYzMzh3VnVHcmE?oc=5",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbXRLVTJGQVNvNV92dlZwOVlDSXdyUXgzZVBQaTJfdkNvOEtJTEh2eHQtY3lsdnBFM3pic2Zkb0JxU2dCaEFhbEhhOGhUdUNXcDdMT0ctbk1NZHFJNXZRN1JkUG0taWRKUHgyWURZZGc0NVFQZHdobU5vcVVUSFFpaDBabGJrcVdfX1FEbm8xeDM5T3RGSzJPdU9odw?oc=5"
+   ],
+   "date": "2026-08-06"
   }
  ]
 }
