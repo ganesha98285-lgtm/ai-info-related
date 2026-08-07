@@ -59,7 +59,9 @@
   "Layoffs at Illinois Institute of Technology in Chicago raise... #shorts",
   "Tech layoffs 2026: Tracking all of the job losses across... #shorts",
   "Crypto billionaire says he made $15 billion last year with... #shorts",
-  "Airbnb stock soars 9% on earnings and revenue beat, strong... #shorts"
+  "Airbnb stock soars 9% on earnings and revenue beat, strong... #shorts",
+  "Tether: a $200 billion crypto company you can’t look inside -... #shorts",
+  "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -120,7 +122,9 @@
   "Concerns are rising among students at the Illinois Institute of Technology.",
   "Tech layoffs are ongoing in 2026 across several major companies.",
   "A crypto billionaire reportedly made billions last year.",
-  "Airbnb stock has risen after releasing its latest earnings report."
+  "Airbnb stock has risen after releasing its latest earnings report.",
+  "A two hundred billion dollar crypto company is under scrutiny.",
+  "A low-cost Vanguard ETF has gained 11% over 4 days."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -508,7 +512,23 @@
   "Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter",
   "Restaurant Brands International earnings beat as Burger King's U.S.",
   "business soars &nbsp;&nbsp; CNBC",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The company in question is Tether, a major player in crypto.",
+  "Tether is a two hundred billion dollar company with limited transparency.",
+  "The International Consortium of Investigative Journalists is looking into Tether.",
+  "The investigation is ongoing, with no conclusions drawn yet.",
+  "The story is still developing, with more information to come.",
+  "Tether: a $200 billion crypto company you can’t look inside - International Consortium of Investigative Journalists",
+  "NASA grants Voyager 2 probe another year of power with risky 'Big Bang' maneuver.",
+  "Now, will it work for Voyager 1?",
+  "&nbsp;&nbsp; Live Science ‘Big Bang’ fix boosts Voyager 2’s mission in interstellar space &nbsp;&nbsp; CNN NASA Engineers Help Prolong Voyager 2’s Science Mission &nbsp;&nbsp; NASA Science (.gov) How NASA is powering the",
+  "The gain is due to a combined 33% weighting in major tech stocks.",
+  "Nvidia, Microsoft, Micron, and Broadcom are the key stocks driving this growth.",
+  "This development comes as new tech products are being released and reviewed.",
+  "The Samsung Galaxy Watch9 is one such product gaining attention.",
+  "Despite preorder perks ending, the Galaxy Watch9 remains at its lowest price.",
+  "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+  "I tested the new Samsung Galaxy Watch9: The health tracker’s most exciting features &nbsp;&nbsp; New York Post What’s New With Galaxy Watch9?"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -968,15 +988,35 @@
   "px5077072": "2026-08-07",
   "px31967557": "2026-08-07",
   "px35847571": "2026-08-07",
-  "px5743047": "2026-08-07"
+  "px5743047": "2026-08-07",
+  "px8087014": "2026-08-07",
+  "px3139885": "2026-08-07",
+  "px6528839": "2026-08-07",
+  "px6668760": "2026-08-07",
+  "px7581230": "2026-08-07",
+  "px34535564": "2026-08-07",
+  "px10449873": "2026-08-07",
+  "px6282166": "2026-08-07",
+  "px7652110": "2026-08-07",
+  "px27823299": "2026-08-07",
+  "px6282147": "2026-08-07",
+  "px37021581": "2026-08-07",
+  "px38870327": "2026-08-07",
+  "px4668636": "2026-08-07",
+  "px7578614": "2026-08-07",
+  "px8041944": "2026-08-07",
+  "px17808312": "2026-08-07",
+  "px7669201": "2026-08-07",
+  "px6278834": "2026-08-07",
+  "px18291332": "2026-08-07"
  },
  "thumb_styles": {
   "0-0": 2,
   "0-1": 2,
   "0-2": 2,
   "0-3": 2,
-  "0-4": 1,
-  "0-5": 1,
+  "0-4": 2,
+  "0-5": 2,
   "0-6": 1,
   "0-7": 1,
   "1-0": 1,
@@ -1433,6 +1473,22 @@
    "video_id": "MyHU41lIjEw",
    "title": "Airbnb stock soars 9% on earnings and revenue beat, strong... #shorts",
    "hook": "Airbnb stock has risen after releasing its latest earnings report.",
+   "date": "2026-08-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "tW2_lbPQI6c",
+   "title": "Tether: a $200 billion crypto company you can’t look inside -... #shorts",
+   "hook": "A two hundred billion dollar crypto company is under scrutiny.",
+   "date": "2026-08-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "gRE9vx4CQkA",
+   "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4... #shorts",
+   "hook": "A low-cost Vanguard ETF has gained 11% over 4 days.",
    "date": "2026-08-07",
    "views": 0,
    "likes": 0
@@ -1985,6 +2041,24 @@
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb2ZjZDYycEhMNE4xMmJVR0FBVDllV2FZN0xpekE3ak93LUVSTDZ6RTY1bk1NLURlRU9OYzdtTjRha2xvX2dYdjNGa3hsMUVEYUhka0RXYnJEaEtlZlkwNU1ZVWJoLWlhVHQwNFhlUXFDUWZaZnEwVndMRktUakc3T0kzV1daV3B5RTRPeXN30gGTAUFVX3lxTE1nbGg3elJ3cWpPVUNuMVVhQ3VfQUdDVHBSalhlNExxQmVlX2ktREV3Z3F4UzhUSXhwd1RfT3FBSjNqQVc3Ry1rUTdHTUpXSEhMXzZCZ3ByU1p5QjJaa1l0aGJNWkFDaVhwYnRkdEY1SFZZeFY1STdzUmowZFdMYWt6c2I2UEFEQ3E1SG5uM09KQ0ZsYw?oc=5",
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZzd6MHhTVDNUb2NvNmU1eU4xbmVvZWk5TGhJSlFsVXRIVXRzSWZHMExCZUpvd2lBUUNvdzlKMDlVMW5zYk1hTFgzUE9KQTVNei1LbjVZYkdrcmR6Z05hdmZDSERQTWdrVzh2RV9pRV9NbDVoaWpjdE1SdUszMkhKMVAyWHVHLTZoMlE?oc=5",
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU2dFZXlZbWtIOXdvdWthcnlXNFlkZkxHbTlhd25rUm1BM3M3ODNQaUZHc0NvOEd5aE41TktndE1oWUhXem1TYVJMYWVxQ19hM0VaaGJrVTV0RVB0SGxjYXlReF80VF9RU2RfM2ctZmtRNDlsdUlCY2VWd3oxamFLbXlmdjN4Zw?oc=5"
+   ],
+   "date": "2026-08-07"
+  },
+  {
+   "headline": "Tether: a $200 billion crypto company you can’t look inside - International Consortium of Investigative Journalists",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSDBqd3FnVVFkRFlnTVhrd0hKRkFTeWpya3pLQW1uN09jeW0wQzFZM0RiM0VQcHlOR1M5QU5CcjRSNWhDUlNJckIzcWYzZnctNU01eWZBNzhVWnA5cG5Kdlk3WGZ0ME9RVXdGMHdfbDdGLU1pX05WcURoZFNObUt3MEtmWngxbXZteXd3djFmN1lBOGNneGpzNlNEMDhOS1lWUEgtS0VOQzZjd2ltSGgyZzBSTzJscVNYRm9OQ05Tam9EWllMT2UxOUtTTjBpQmZoUVdzRjE5d1R3QWZidEJ4STZxWTN0bEM4N1JMLUJzbXRjN3M?oc=5",
+    "https://news.google.com/rss/articles/CBMikgJBVV95cUxOaXlyYmhrbWpuaGNJOXlLWlJZMjdZaW9uMmRmeHBRTllJLUsycUZWOS1TcVJ1aEN2X05pSzNnbXk1Rjd6QzVJNXVDU3FvYmc3YXBIcjBGcWlnNFZnd1UtODhhQWVxdlgxX041ZDZsZERWU3ZaRjBwU2JTQXBySjZrNlZ3bTlZc0otRmlYbUNBV1NESU1QNDItR3E1cExfSHZvM093VnFPdDdhOVVVNkhGUEM0cjNoeDR0TmFaT3lHblVzRUE3c3V6R1huTUhiTVFWMDcyaGgxOXNZd2F5R011OWpCbUJrUWFNVTBVWDFCcTNZV2FFMno0MXg2NGRyUXFYckJDY1c4VXhhdjhaMEUxZFRn?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdjE2V3JmSDZCR1NFVUtuVzRGN3hNNUljT0hwWGZNVWpOZ0dDdDZFeGFpR1Q4R1VfRk14MXJpeU14RExFNnB0YzNfQ2dTNW9VbG1vd3NGTWxpeVRrRTU3WnhYSUphNXNaLXJWSDFyendiOGdQcnM1aTJXaWVsbUd2czdOYlA1YmVQeTZ4cEJtYkNVY1Zhdzc0SkdR?oc=5"
+   ],
+   "date": "2026-08-07"
+  },
+  {
+   "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObUdaei1NZWFpaVR2WldFeUl1UW5UREk4TFR5WkJVckg4N2M5aGpZSWQ5RVFUOFhtOXQ5Q2lSTEx4VklmeDAyLTFaaHk2ampIdGg5VTZUYW5SN1ctS01mMnYtOXRaaS1rTXlYN2VtVldILVphbkgtRWVxZHRFd1BCcmpNU1d5RE5CTjczLWRkSlh2ZGxELUl4VzEzaWRaYW9EUVdKOGlKUkg?oc=5",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlkxOTliLVVweGo0cGZXaUFaMnJGcEpmMGtaY1hjeURvRDJGY3k5RXNiY25DU01BZGJOLWo2LU1fOVRwczNvR0xXZ0FPX0xHeEMzLUZHeDMwWG9Jei12Zk80Q1YtQ2ltODdEbXNNeElKRDZLT2c2cmwxb3Z2S0w0TVd6aGljSTBndEdLVnpvZXpZTnhhckhVc0U1SVNsSDlGNEdkblVsckZ5VnJ2YjdVelh6RmFoRXRBQnc?oc=5",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM0lRcWhKYkZjSlJLakpFakRiTllNeV8xZTFuNy1Na1dXWi1KMnlibEdzbUV6VWdLTXNzeDVGOGJFeEhvVkFPWXVJNFRMZUtpN3JoSnRsa2k3MGVRS0FRUE5aYV9FMnB5dDd4SHZzTXJ5aUZ4ZFJnQWdYU3pxdWp3M081Z1VRTE9odUd6YURpNDBpSmd1LWd1Ug?oc=5"
    ],
    "date": "2026-08-07"
   }
