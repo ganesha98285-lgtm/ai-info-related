@@ -57,7 +57,9 @@
   "A high school dropout’s nuclear startup just landed $1B from... #shorts",
   "SpaceX launches 3 giant BlueBird direct-to-cell satellites on... #shorts",
   "Layoffs at Illinois Institute of Technology in Chicago raise... #shorts",
-  "Tech layoffs 2026: Tracking all of the job losses across... #shorts"
+  "Tech layoffs 2026: Tracking all of the job losses across... #shorts",
+  "Crypto billionaire says he made $15 billion last year with... #shorts",
+  "Airbnb stock soars 9% on earnings and revenue beat, strong... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -116,7 +118,9 @@
   "A high school dropout's startup just landed a major investment.",
   "SpaceX has launched three giant BlueBird satellites on a Falcon 9 rocket.",
   "Concerns are rising among students at the Illinois Institute of Technology.",
-  "Tech layoffs are ongoing in 2026 across several major companies."
+  "Tech layoffs are ongoing in 2026 across several major companies.",
+  "A crypto billionaire reportedly made billions last year.",
+  "Airbnb stock has risen after releasing its latest earnings report."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -487,6 +491,23 @@
   "Reports are available on websites such as seattletimes.com.",
   "Tech layoffs 2026: Tracking all of the job losses across Microsoft, Meta, Oracle, Samsung and others",
   "Another round of tech layoffs hit Seattle workers &nbsp;&nbsp; seattletimes.com",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The billionaire made $15 billion with the help of ChatGPT.",
+  "Bitcoin's low price volatility does not necessarily mean low risk.",
+  "The billionaire has a rule for those who want to make it big in crypto.",
+  "Reports say the crypto market can be unpredictable and risky.",
+  "Crypto investors are looking for ways to navigate the market safely.",
+  "Crypto billionaire says he made $15 billion last year with ChatGPT—and has one rule for those who want make it big",
+  "Bitcoin’s (BTC) low price volatility doesn’t necessarily mean low risk: Crypto Daily &nbsp;&nbsp; CoinDesk",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The company's stock soared 9% due to strong earnings and revenue.",
+  "Airbnb also provided strong guidance for the third quarter.",
+  "Restaurant Brands International also reported an earnings beat.",
+  "Burger King's U.S. business was a key factor in the earnings beat.",
+  "These earnings reports are important for the overall market trend.",
+  "Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter",
+  "Restaurant Brands International earnings beat as Burger King's U.S.",
+  "business soars &nbsp;&nbsp; CNBC",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
@@ -932,13 +953,28 @@
   "px8937986": "2026-08-07",
   "px10758012": "2026-08-07",
   "px8266177": "2026-08-07",
-  "px35634601": "2026-08-07"
+  "px35634601": "2026-08-07",
+  "px8370547": "2026-08-07",
+  "px38779837": "2026-08-07",
+  "px38901937": "2026-08-07",
+  "px4708366": "2026-08-07",
+  "px5849606": "2026-08-07",
+  "px36200421": "2026-08-07",
+  "px9305780": "2026-08-07",
+  "px28580728": "2026-08-07",
+  "px5995589": "2026-08-07",
+  "px4676745": "2026-08-07",
+  "px6282191": "2026-08-07",
+  "px5077072": "2026-08-07",
+  "px31967557": "2026-08-07",
+  "px35847571": "2026-08-07",
+  "px5743047": "2026-08-07"
  },
  "thumb_styles": {
   "0-0": 2,
   "0-1": 2,
-  "0-2": 1,
-  "0-3": 1,
+  "0-2": 2,
+  "0-3": 2,
   "0-4": 1,
   "0-5": 1,
   "0-6": 1,
@@ -1381,6 +1417,22 @@
    "video_id": "64CpwrnraKw",
    "title": "Tech layoffs 2026: Tracking all of the job losses across... #shorts",
    "hook": "Tech layoffs are ongoing in 2026 across several major companies.",
+   "date": "2026-08-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "X0T7CU43zqc",
+   "title": "Crypto billionaire says he made $15 billion last year with... #shorts",
+   "hook": "A crypto billionaire reportedly made billions last year.",
+   "date": "2026-08-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "MyHU41lIjEw",
+   "title": "Airbnb stock soars 9% on earnings and revenue beat, strong... #shorts",
+   "hook": "Airbnb stock has risen after releasing its latest earnings report.",
    "date": "2026-08-07",
    "views": 0,
    "likes": 0
@@ -1913,6 +1965,26 @@
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS3VIMXUzN29pa201ck1UOTJHSDY0TDRLY2hKQno0V3R2WUl4T1BRNEZjQVQwU0pBcS1HRmotUGc0enh2VFNGcS1yMVpHYVFJU3J0WEdKcnk5czNLUkxjUWk4NXhfUHVsajMyM1g4VG5Wa016VFlmaW0zRENpRmFGV005aUc4OUk1RVVEUnhBQW52NnlFWnJiRF8wdUxYREVZMjJETGRGQVlLQkpybEVaM2ZUN2VDTEpU?oc=5",
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeVI0cjc1dEo3OWZKSktlenY5Nmo0b2RmVFkxbDlqZWdHdFhNLUVZOEZXUWJkYm1HWF9oOTcyeC1id2t0N0lGYy1rNzRJaTRWelh6cFBKd2xIRzhSZEREb1BDX21rRkloMVlrSnBlTjFEX1FyM3hMT3VWdFFZcUFiakNDNUhpMXJxNXpBaGtFQzhCdFVHdWJsQjVPX2FKdzRVREFPeWVwQ25BUDFUMlJN0gG0AUFVX3lxTE0ycWgyT0w1WXBEM2t1eDNmclNQaGpVaGZLaEl0bmYyMnY3YXZ1Z3VIVWVjZDBDQmhfNlNoczhOVDJadXZweDZJRFpYR0pCX3JZZlVUai1TN3ZPWk9TZ0lPVlBzT1NIRGQxd3ZZdU9tOTdEMjY4ZThVbmZHUmJHX25Cd0tRMy1WQXd5X3l3RTVGTmQ0N2FoNk5YdmtWYVd5d0NaSloxdFk0eHBPOFczamVoOEQxYg?oc=5",
     "https://news.google.com/rss/articles/CBMitwJBVV95cUxNUVd2TE0tSTRIVnpsRWVrRVl4ejVQenhPSXhEM3MtakZTTG9jOG9BZ1l1Wk80UTBnMThUZWstX1NnN3N4amV3UVFLYXJZdUNwdnpJYlkyQm1lazZ4UEJvbnZuTFI4dkFHcGh0Sll1M09aekNuSUNIV1E5OHVVRkZVeTQxbEN2bUU1ZWN4V0RUWXdYR0NkS0FPalRaekRWYTJCUWVuV0V1d2lrYUVHelczck9KUEJZTENlN2pjS3dkazU1Sm1UaHdmdnFBNC1jYXZxSzhza2haeE1Ta3RUUzRJYW5zTGxUMDA1cm1QMFBCNWVQQmRId25OWkpOQTBZUEhxMTRYUlVwYnU1bjZRLTJmSkZfWVFxeUVsQ255dGZGMGdOWVNqclBFWEE3WGlHTzg0OUNEZkVYcw?oc=5"
+   ],
+   "date": "2026-08-07"
+  },
+  {
+   "headline": "Crypto billionaire says he made $15 billion last year with ChatGPT—and has one rule for those who want make it big",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb1l3dmZ5QjZpU25kVXI0VjBmUnZmR3BvYTFzVDJJZElJZ2JPb09Ib00xTFVpVVphODdhUTlMNmJUSmVpT00wVFh0LXZHdUlJUnlNQXp1a1B5YVBSaWhsSDQwNVcwbXQ2ci0zbFMzSElQUW5HcnByU0w5R05jLXBLekpsc3VmRGg2Sy04aTRQbWJYOHU3akV5Q0lRa2lTWEh5SWlRRjlZYUE?oc=5",
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd0dsVWFKOEF5eS0ybEQxaWROelBxeWpwRDBxVVpvV0QwZEQ5NFp3QkJrSGNobEJSRU5xSlQ4czRrY1pub213TmFzNWZnNDJrbFFUZW5xTy1QUi1IN21YWjF6OU4wQ0h6eUgxRlpuYVp5ZXpSZ0syQkw0a1lmUy1rQk5yUFRRTkd4eVRsRkM5Z0lCcHpFTzRBRTZsSEdGRzBIa3NoZjJkVjAtZ3ZEeXJXRVBPc3hIcEU0TTBwNXFVTjNuSHA3R1dWQVQtWDNiYTJCcVhMOVAySF9pTGtuTHd4V3RsekRvN3c?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdE5mbTVIR0VIRmFQa2h3UzNybzZTc2RFQzhQVTRQcDVnYWZTLWR1RzNGbWFvOGVGVzE2OVJyNkZkUzBlcGJZV3VmVWdFN0pTa2JoNjBhcmZidE1EYVN3SVR4U2hmOTROOHNiZ1lEMGd0Y3RvY3Q1ZHJ3UjFzc0ZDaGdOa09aN2xNSDhhaU9wVlJ0Skt1cHN4TzFNWDhtMF8ybk5OcHZLZlk1ZWJIQ3ZBSQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNcXNRR0ZXTEZ5RG1EOENkM2lJbEEwMWstbDNtQUtTX2RCZ1J5Q2paa25ENF9nUHhNOGUwUHlfbUNSRDMyOEJUcDBJOUJsR0E2cGxBbkRwdnlYMzlBT3NHdFcwU3A4VlFxQk1SVC1iV1JOcTZGQU9xMnlUcVRZeHk0czBqV0lZS0lBdGJuWEpVNnoxS3NPMVZRQ25Lak5qT2FIQ2J2VWZJblhoV2ZRT2VCemVFMzdvU3l2aEx2YmJRWmNGSWdsOHNHQ1U3VG5MTDBkOXk4NjNXR1RHZDY1YkZXeTdLV2RydEFhdjQ2NHRoX1pvbTQ?oc=5"
+   ],
+   "date": "2026-08-07"
+  },
+  {
+   "headline": "Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter",
+   "urls": [
+    "https://www.wsj.com/business/hospitality/burger-kings-new-whopper-strikes-a-blow-in-fast-food-burger-wars-3e4a47b5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb2ZjZDYycEhMNE4xMmJVR0FBVDllV2FZN0xpekE3ak93LUVSTDZ6RTY1bk1NLURlRU9OYzdtTjRha2xvX2dYdjNGa3hsMUVEYUhka0RXYnJEaEtlZlkwNU1ZVWJoLWlhVHQwNFhlUXFDUWZaZnEwVndMRktUakc3T0kzV1daV3B5RTRPeXN30gGTAUFVX3lxTE1nbGg3elJ3cWpPVUNuMVVhQ3VfQUdDVHBSalhlNExxQmVlX2ktREV3Z3F4UzhUSXhwd1RfT3FBSjNqQVc3Ry1rUTdHTUpXSEhMXzZCZ3ByU1p5QjJaa1l0aGJNWkFDaVhwYnRkdEY1SFZZeFY1STdzUmowZFdMYWt6c2I2UEFEQ3E1SG5uM09KQ0ZsYw?oc=5",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZzd6MHhTVDNUb2NvNmU1eU4xbmVvZWk5TGhJSlFsVXRIVXRzSWZHMExCZUpvd2lBUUNvdzlKMDlVMW5zYk1hTFgzUE9KQTVNei1LbjVZYkdrcmR6Z05hdmZDSERQTWdrVzh2RV9pRV9NbDVoaWpjdE1SdUszMkhKMVAyWHVHLTZoMlE?oc=5",
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU2dFZXlZbWtIOXdvdWthcnlXNFlkZkxHbTlhd25rUm1BM3M3ODNQaUZHc0NvOEd5aE41TktndE1oWUhXem1TYVJMYWVxQ19hM0VaaGJrVTV0RVB0SGxjYXlReF80VF9RU2RfM2ctZmtRNDlsdUlCY2VWd3oxamFLbXlmdjN4Zw?oc=5"
    ],
    "date": "2026-08-07"
   }
