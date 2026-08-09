@@ -71,7 +71,8 @@
   "Chris Brown & Usher’s Raymond & Brown Tour at MetLife Stadium:... #shorts",
   "Prediction: This Will Be the Cryptocurrency XRP's Price by... #shorts",
   "Bank of America says the midterm elections could be a major... #shorts",
-  "SpaceX Florida rocket launch. What time does Falcon 9 lift... #shorts"
+  "SpaceX Florida rocket launch. What time does Falcon 9 lift... #shorts",
+  "After a $130 Million Hack of Coldcard, Money Is Flowing Into... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -144,7 +145,8 @@
   "A major concert tour has kicked off at MetLife Stadium.",
   "A big price move is predicted for cryptocurrency XRP by late 2027.",
   "Bank of America says midterm elections could impact the stock market.",
-  "SpaceX is preparing for a rocket launch in Florida."
+  "SpaceX is preparing for a rocket launch in Florida.",
+  "A major hack has led to a significant flow of money into bitcoin ETFs."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -624,7 +626,12 @@
   "A South Korean satellite captured images of the crater left on the moon.",
   "NASA will attempt to observe the rocket part's lunar impact.",
   "SpaceX Florida rocket launch. What time does Falcon 9 lift off? - Daytona Beach News-Journal",
-  "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket &nbsp;&nbsp; WIRED South Korean satellite captures before and after views of SpaceX rocket’s moon crash &nbsp;&nbsp; AP News NASA Will Attempt t"
+  "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket &nbsp;&nbsp; WIRED South Korean satellite captures before and after views of SpaceX rocket’s moon crash &nbsp;&nbsp; AP News NASA Will Attempt t",
+  "The hack targeted Coldcard and resulted in a loss of $130 million.",
+  "This development is happening amidst other tech news, including Google's upcoming launches.",
+  "Google's Pixel 11 and Pixel 11 Pro Fold are among the anticipated releases.",
+  "The flow of money into bitcoin ETFs may be a response to the perceived security of these funds.",
+  "Investors are looking for the best bitcoin ETF to buy, given the current market conditions."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -1223,7 +1230,26 @@
   "px38096973": "2026-08-09",
   "px17683439": "2026-08-09",
   "px7010253": "2026-08-09",
-  "px7196327": "2026-08-09"
+  "px7196327": "2026-08-09",
+  "px8716997": "2026-08-09",
+  "px15728690": "2026-08-09",
+  "px6266260": "2026-08-09",
+  "px5716227": "2026-08-09",
+  "px5377683": "2026-08-09",
+  "px6598659": "2026-08-09",
+  "px3805871": "2026-08-09",
+  "px13895129": "2026-08-09",
+  "px7563874": "2026-08-09",
+  "px8344347": "2026-08-09",
+  "px37116402": "2026-08-09",
+  "px36633828": "2026-08-09",
+  "px7547770": "2026-08-09",
+  "px8554093": "2026-08-09",
+  "px7600045": "2026-08-09",
+  "px8114942": "2026-08-09",
+  "px7550648": "2026-08-09",
+  "px6573992": "2026-08-09",
+  "px17781721": "2026-08-09"
  },
  "thumb_styles": {
   "0-0": 2,
@@ -1242,7 +1268,7 @@
   "1-5": 2,
   "1-6": 2,
   "1-7": 2,
-  "2-0": 1,
+  "2-0": 2,
   "2-1": 1,
   "2-2": 1,
   "2-3": 1,
@@ -1784,6 +1810,14 @@
    "video_id": "W4kpvV3RN3g",
    "title": "SpaceX Florida rocket launch. What time does Falcon 9 lift... #shorts",
    "hook": "SpaceX is preparing for a rocket launch in Florida.",
+   "date": "2026-08-09",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "7Vv474EA7V8",
+   "title": "After a $130 Million Hack of Coldcard, Money Is Flowing Into... #shorts",
+   "hook": "A major hack has led to a significant flow of money into bitcoin ETFs.",
    "date": "2026-08-09",
    "views": 0,
    "likes": 0
@@ -2450,6 +2484,16 @@
     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVkw2bU1WVlczVzJseVR0U3BkdTZYdERlN05GWXFmZHRyaXFvVXF2RWJjb0E5QU5zLWRpMEQtS2NwQVdkOURWWlFzeGRiUXdkNWkyenZ4R1lNMnFpbDhrYkctVzhMbWM0SHdScEl3Y2ZTTVJ2dFBjaDl1V1pveDV6djR4a3lseHFnTEJXM2phS2tYTThVVmtFbzFoQnNpQVA4UExsWjBEUmYyYlBPN0l1Y04ybXFQNnBFZ1lqZ215dk9rRHlNdGJuc0R0aWIzMktWV21DekJB?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HbWFvSC1NS00yV25ac0REcDIwbWpLSkwxTlo5b0tWRm1CWVAzeTBHYlY2LVVMZ1dZd3pkLTFkQ3FGVE1Cd3VBNmlrWGhReUZqZGpFaUFJelpWQQ?oc=5",
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMDl3R0VJVUtsVEpmQ3FYbFVPZHFzYjc4Y0ZMbF9iYk9nODd2OEdKMWNXbUR4aHJ3a2JLY1ZIemZpd3Nzd09TTjJJZjZBXzg0ek90R05fVDM5cnFSc284eTVjWTh4TFNvTEdjOHEtRVFlNnhGaWNEY2huYW1EX21acGVWVVhJdGFSNmFmLUVxR2pEQXEtcEdWRVhQVURGak8wQ3FpaTI5dGRPRVF0TGg3MWpNbnphRHNfalpyWTY0NzRXeHlENDV4VTFPTkhiVWh3THpER0RLV3RHeUZFN09fQg?oc=5"
+   ],
+   "date": "2026-08-09"
+  },
+  {
+   "headline": "After a $130 Million Hack of Coldcard, Money Is Flowing Into Bitcoin ETFs. Here's the Best Bitcoin ETF to Buy Right Now.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWnNFYXB1WDJabkZxOTFYcThHWmFjRzhLMHowQVA3ZWNQaU1mUDBldWd0TnRqVUpTZUJyYXB4dDh0azBBSnNtQ2dFeTFyQlFwLU1CdUJld1BQX0JPU2lJVTl3dU9CcGxUc1hCc2QwTEd1Rld0b0ZEQmtBUUQ2cnNfRENxMzNaaDMtaXdiaVVka1l3NjdOaF9qR1hRQmhGUjRaOENMUTlheFhtb3ZCOUQxOE5HYkZibEczQnpENmRZdExUMmJBaV85Ui1PRWlVOERxUFF6NEFB?oc=5",
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjZXJKMDFSQm9nQ0EteDNxRU5Nc1pocWlLRjFCUGlBclhHSVR2TTBNWXI2MjZiakwzVEhVQlc4djhEcTA0cF9HNWZjS0EzRXZ1bDJiRzhsTDNOVE9oOXVEdjUyVnoza1gwNUdWemszdnlpYVljZjlHSg?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPck53RjROTWNWZVBXMDFlWlF3MHlYYzdWY2hYWjh0T2l6N0czZDhrc0dEb1lIcmxwdXhwc0Z2RHlXQWhLZDlHbHl2Q1lpc2hrSGN1Wm1rc2NLRmFNcEhJQno0VXRESlM4REEwVERiSUdIYlRaYTlObVlxOERNVm1EYm5zOHBtY0Rpdi1yanNiSTFiMXVQRnQ1dVVCRTROcDgzU0RiSFZfUFQ0Q3NfQmRyOHJ6V2s4dw?oc=5",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVVd2ZGZMRHU4OW5qRmpQWDFXX0h4N0I1Y180VzI2VWxLNnBVNTl0NWxmd2Zkc1R0N3c2ek5CODBJWUhucGd1VktEOEZQOEpNeERjYmFpVVAzdVhablA3alM3ZFBkd1Mwc0VSNll3dnZRSmRYWU1wMV9ScjFDS1ltRy1SVGcyYVlMVlNicXFzZEdtX0ZETmVqdw?oc=5"
    ],
    "date": "2026-08-09"
   }
