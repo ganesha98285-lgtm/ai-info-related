@@ -70,7 +70,8 @@
   "Berkshire earnings rose last quarter and CEO Greg Abel is... #shorts",
   "Chris Brown & Usher’s Raymond & Brown Tour at MetLife Stadium:... #shorts",
   "Prediction: This Will Be the Cryptocurrency XRP's Price by... #shorts",
-  "Bank of America says the midterm elections could be a major... #shorts"
+  "Bank of America says the midterm elections could be a major... #shorts",
+  "SpaceX Florida rocket launch. What time does Falcon 9 lift... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -142,7 +143,8 @@
   "Berkshire Hathaway's earnings have risen in the last quarter.",
   "A major concert tour has kicked off at MetLife Stadium.",
   "A big price move is predicted for cryptocurrency XRP by late 2027.",
-  "Bank of America says midterm elections could impact the stock market."
+  "Bank of America says midterm elections could impact the stock market.",
+  "SpaceX is preparing for a rocket launch in Florida."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -616,7 +618,13 @@
   "The statements from Bank of America and Palantir CEO are being reported by Yahoo Finance.",
   "Bank of America says the midterm elections could be a major turning point for the stock market",
   "Palantir CEO drops 11-word bombshell for stock market investors &nbsp;&nbsp; Yahoo Finance",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The launch will feature a Falcon 9 rocket lifting off.",
+  "This comes after a SpaceX rocket unintentionally crashed into the moon.",
+  "A South Korean satellite captured images of the crater left on the moon.",
+  "NASA will attempt to observe the rocket part's lunar impact.",
+  "SpaceX Florida rocket launch. What time does Falcon 9 lift off? - Daytona Beach News-Journal",
+  "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket &nbsp;&nbsp; WIRED South Korean satellite captures before and after views of SpaceX rocket’s moon crash &nbsp;&nbsp; AP News NASA Will Attempt t"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -1188,7 +1196,34 @@
   "px3627092": "2026-08-09",
   "px35745321": "2026-08-09",
   "px5925192": "2026-08-09",
-  "px8847372": "2026-08-09"
+  "px8847372": "2026-08-09",
+  "px36108266": "2026-08-09",
+  "px7106935": "2026-08-09",
+  "px36961921": "2026-08-09",
+  "px29450494": "2026-08-09",
+  "px28760951": "2026-08-09",
+  "px8540005": "2026-08-09",
+  "px5722113": "2026-08-09",
+  "px8062336": "2026-08-09",
+  "px7681475": "2026-08-09",
+  "px8523642": "2026-08-09",
+  "px7432024": "2026-08-09",
+  "px7350953": "2026-08-09",
+  "px29267591": "2026-08-09",
+  "px7308225": "2026-08-09",
+  "px8125752": "2026-08-09",
+  "px5083552": "2026-08-09",
+  "px25935025": "2026-08-09",
+  "px5083550": "2026-08-09",
+  "px33734507": "2026-08-09",
+  "px9903168": "2026-08-09",
+  "px36265959": "2026-08-09",
+  "px8328091": "2026-08-09",
+  "px12330879": "2026-08-09",
+  "px38096973": "2026-08-09",
+  "px17683439": "2026-08-09",
+  "px7010253": "2026-08-09",
+  "px7196327": "2026-08-09"
  },
  "thumb_styles": {
   "0-0": 2,
@@ -1206,7 +1241,7 @@
   "1-4": 2,
   "1-5": 2,
   "1-6": 2,
-  "1-7": 1,
+  "1-7": 2,
   "2-0": 1,
   "2-1": 1,
   "2-2": 1,
@@ -1741,6 +1776,14 @@
    "video_id": "MBxBiURTF6w",
    "title": "Bank of America says the midterm elections could be a major... #shorts",
    "hook": "Bank of America says midterm elections could impact the stock market.",
+   "date": "2026-08-09",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "W4kpvV3RN3g",
+   "title": "SpaceX Florida rocket launch. What time does Falcon 9 lift... #shorts",
+   "hook": "SpaceX is preparing for a rocket launch in Florida.",
    "date": "2026-08-09",
    "views": 0,
    "likes": 0
@@ -2397,6 +2440,16 @@
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlhBejhhZWNUdDRiX05LWHFRaGJhX0ltazRRWTFPZWdvazNWX0U1WDg4NmpIb0swb1dsR21KTzg2MUc5Z21ORnJXdWFxX2xybjdsOG1lUnV4aWs3TWw3QmR5TUFfMDZ5Qkc5WVhxSWVXT2dUZDVneUxqRms3V1dBeDJvUzJtT1R4Z01NYlZNbXBBNnVBWWdF?oc=5",
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdGpSMkdEbDBlUU1nTHZNSFJUb0wybHdjSTIyY2RMS28wN05oaGc4M3JRY3BRWVBhdDMzdUIzMHV5cko2RHVaWllsYTlxSWFkN3duWWF1NWptUmwxUlhjSTZTcXIxYlF4cFdrZlViaWRjRXlnNE9WUGNFNmNGRndwMVFHWFg?oc=5",
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxORWYyYUlCbV9RRktBcTZzM2N6X2JReTJmWkdtY2E2LUNncmM4WXNMbXBlOFpfc3RlT3kxbXc1ZkpYLXF0XzUtV09BOWpiZENncUE1S3pKTnBHM2d6WVhicnFCbEtIYlY2UGNhZHNvLWpPVDJWQ1BlLXFRWDdYWTJzcnl1VF9kNUtLa3hYZ2FFeUU3c0NwUzk5YVhUNjdyTEFxVWJ5TQ?oc=5"
+   ],
+   "date": "2026-08-09"
+  },
+  {
+   "headline": "SpaceX Florida rocket launch. What time does Falcon 9 lift off? - Daytona Beach News-Journal",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE85VUpiNU1vTm1hcUVlMmN1bFQySUhMNmdrQS0yWlF1d21MWEJuSVpDVm5yQ244Ykx6cFBveDBaS3d1MWtzWngxcTNkOWlSV0ZyTlQ3WlV0SXJRbVdaX2FyN2NmdU9RYVVNbG83MFhrcjhvbXRWaFE?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVkw2bU1WVlczVzJseVR0U3BkdTZYdERlN05GWXFmZHRyaXFvVXF2RWJjb0E5QU5zLWRpMEQtS2NwQVdkOURWWlFzeGRiUXdkNWkyenZ4R1lNMnFpbDhrYkctVzhMbWM0SHdScEl3Y2ZTTVJ2dFBjaDl1V1pveDV6djR4a3lseHFnTEJXM2phS2tYTThVVmtFbzFoQnNpQVA4UExsWjBEUmYyYlBPN0l1Y04ybXFQNnBFZ1lqZ215dk9rRHlNdGJuc0R0aWIzMktWV21DekJB?oc=5",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HbWFvSC1NS00yV25ac0REcDIwbWpLSkwxTlo5b0tWRm1CWVAzeTBHYlY2LVVMZ1dZd3pkLTFkQ3FGVE1Cd3VBNmlrWGhReUZqZGpFaUFJelpWQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMDl3R0VJVUtsVEpmQ3FYbFVPZHFzYjc4Y0ZMbF9iYk9nODd2OEdKMWNXbUR4aHJ3a2JLY1ZIemZpd3Nzd09TTjJJZjZBXzg0ek90R05fVDM5cnFSc284eTVjWTh4TFNvTEdjOHEtRVFlNnhGaWNEY2huYW1EX21acGVWVVhJdGFSNmFmLUVxR2pEQXEtcEdWRVhQVURGak8wQ3FpaTI5dGRPRVF0TGg3MWpNbnphRHNfalpyWTY0NzRXeHlENDV4VTFPTkhiVWh3THpER0RLV3RHeUZFN09fQg?oc=5"
    ],
    "date": "2026-08-09"
   }
