@@ -74,7 +74,9 @@
   "SpaceX Florida rocket launch. What time does Falcon 9 lift... #shorts",
   "After a $130 Million Hack of Coldcard, Money Is Flowing Into... #shorts",
   "Between August 03 and August 08, 2026, as many as 23 Indian... #shorts",
-  "SpaceX launches 24 Starlink satellites to orbit from... #shorts"
+  "SpaceX launches 24 Starlink satellites to orbit from... #shorts",
+  "Chinese launch startup Orienspace targets IPO, secures funding... #shorts",
+  "Former NBA star Enes Kanter Freedom writes letter to WNBA... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -150,7 +152,9 @@
   "SpaceX is preparing for a rocket launch in Florida.",
   "A major hack has led to a significant flow of money into bitcoin ETFs.",
   "Indian startups have raised a significant amount in funding recently.",
-  "SpaceX has launched a new batch of satellites into orbit."
+  "SpaceX has launched a new batch of satellites into orbit.",
+  "Chinese launch startup Orienspace is targeting an IPO.",
+  "Former NBA player Enes Kanter Freedom has made a surprising move."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -649,7 +653,20 @@
   "The Falcon 9 rocket was used for the Saturday morning launch.",
   "SpaceX launches 24 Starlink satellites to orbit from California (video)",
   "SpaceX launches 24 Starlink satellites to orbit from California (video) &nbsp;&nbsp; space.com SpaceX Florida rocket launch: What time is Cape Canaveral liftoff?",
-  "&nbsp;&nbsp; Florida Today SpaceX West Coast launch surge continues with Starlink mission &nbsp;&nbsp; Spaceflight Now UPDATE: SpaceX Falcon 9 rocket launches Saturday Morning &nbsp;&nbsp; ksby.com SpaceX to launch 29 St"
+  "&nbsp;&nbsp; Florida Today SpaceX West Coast launch surge continues with Starlink mission &nbsp;&nbsp; Spaceflight Now UPDATE: SpaceX Falcon 9 rocket launches Saturday Morning &nbsp;&nbsp; ksby.com SpaceX to launch 29 St",
+  "Orienspace has secured funding for its reusable Gravity-2 rocket.",
+  "SpaceX has also been working on reusable rocket technology.",
+  "SpaceX recently launched 24 Starlink satellites to orbit from California.",
+  "SpaceX has been flying the same Falcon 9 booster multiple times.",
+  "Reusability is a key aspect of rocket technology development.",
+  "Chinese launch startup Orienspace targets IPO, secures funding for reusable Gravity-2 rocket",
+  "SpaceX scrubs planned Monday launch of its Falcon 9 rocket; targets Tuesday morning &nbsp;&nbsp; Spaceflight Now SpaceX Florida rocket launch: What time is Cape Canaveral liftoff?",
+  "&nbsp;&nbsp; Florida Today SpaceX launches 24 Starlink satellites to orbit from California (video) &nbsp;&nbsp; Space SpaceX Will Fly the Same Falcon 9 Booster for an 18th Time Monday: Why Reusability Is Its",
+  "He has written a letter to the WNBA to declare for the 2027 draft.",
+  "Enes Kanter Freedom is a former professional basketball player with 11 NBA seasons.",
+  "He was born in Switzerland to Kurdish parents and raised in Turkey.",
+  "Freedom was selected as the third overall pick of the 2011 NBA draft by the Utah Jazz.",
+  "The WNBA has not yet commented on Enes Kanter Freedom's draft declaration."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -1283,7 +1300,22 @@
   "px19661436": "2026-08-10",
   "px8327087": "2026-08-10",
   "px9127884": "2026-08-10",
-  "px3062958": "2026-08-10"
+  "px3062958": "2026-08-10",
+  "px36917523": "2026-08-10",
+  "px7106861": "2026-08-10",
+  "px15336322": "2026-08-10",
+  "px29266990": "2026-08-10",
+  "px7106672": "2026-08-10",
+  "px7413785": "2026-08-10",
+  "px8087073": "2026-08-10",
+  "px5473803": "2026-08-10",
+  "px6282190": "2026-08-10",
+  "px10340767": "2026-08-10",
+  "px34445230": "2026-08-10",
+  "px34359956": "2026-08-10",
+  "px7431504": "2026-08-10",
+  "px7945823": "2026-08-10",
+  "px8847883": "2026-08-10"
  },
  "thumb_styles": {
   "0-0": 2,
@@ -1305,8 +1337,8 @@
   "2-0": 2,
   "2-1": 2,
   "2-2": 2,
-  "2-3": 1,
-  "2-4": 1,
+  "2-3": 2,
+  "2-4": 2,
   "2-5": 1,
   "2-6": 1,
   "2-7": 1,
@@ -1868,6 +1900,22 @@
    "video_id": "iIVHyG6eKAc",
    "title": "SpaceX launches 24 Starlink satellites to orbit from... #shorts",
    "hook": "SpaceX has launched a new batch of satellites into orbit.",
+   "date": "2026-08-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "sFTWNyj3vjk",
+   "title": "Chinese launch startup Orienspace targets IPO, secures funding... #shorts",
+   "hook": "Chinese launch startup Orienspace is targeting an IPO.",
+   "date": "2026-08-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "7DByERpae4I",
+   "title": "Former NBA star Enes Kanter Freedom writes letter to WNBA... #shorts",
+   "hook": "Former NBA player Enes Kanter Freedom has made a surprising move.",
    "date": "2026-08-10",
    "views": 0,
    "likes": 0
@@ -2562,6 +2610,24 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ2JmV0F5OGlZcVRYdGw2TGF2SWFoSFNPYlQtRk1SQ05MYXd1VWlqekhKQ1pXTmJBS0JqVmN1Qkp3U052X0RaU0pGZERhSTNaR1N1T00yLW9vcnpVbUFFTkhQOWhya1pEcVVwMFJveDBYYk14SUU2NnVXX0dEOHBQd082MTBrR1M2MUYtQTRITDBQRTNsRXhiWkx6Mm9xMUx3aHNSU2kwYk1INkxoSk00?oc=5",
     "https://en.wikipedia.org/wiki/William_Orbit"
+   ],
+   "date": "2026-08-10"
+  },
+  {
+   "headline": "Chinese launch startup Orienspace targets IPO, secures funding for reusable Gravity-2 rocket",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZDdBbjVmcFVmQ3dkN0hlWk9RZ0hYTFZEREVFeHdqRjlQNjBjV1dqbVIzTWk1NlRLU1FVM181SDBWR0xNUEd5cmNmMU9XZmU4NVhscnRPMWZQM19MVjJEQll2OE54akwwMmxrVWIzZ1VYZGk1NmNiUGV3UE1rR0gzeUdGanhfYXJvY1Z6c09tdEMyb282ck81blhJT0lINzZhb3lxbnJhVmVRTXNfQ2dNV0x6cS1UbUkweWR4MEdsT19yQ01DVmFYV2hzNjg5ejA?oc=5",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFNwbUt4d0lLTzI5M1VMXzNBVFpTZDNnYjAzQndDcldDX3F3eUNnUXBxeVFOeTZyZXFrbDBkN0JoUVg3ZmYxdURYQnNUTjEyZ1podkNKMkMzTGgySmk0d1VwcjJCRUdES2UxakJIcG9YNVMyVE5IcWx0ZEhSVWJoLWF3NlRaUmpKblhzOVRCNXNSZTlXZ2ZjS3VpeWxrZjFMa1VCSUdXb19RX3FWUmMwZWpVX2Q?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPamJWRGRrWkk3NmtPeThEZGRfaFh0M0tpbmY2MlhDQ1JqWklSWTdVNWJXQkFILTRGOWlZcXRHVUdybnR1Wno4U3Z5cEN0ajEyQUhZb0JMTFlUYXN2cTZ2c2JtczV4MFM2VzRCWld2blhkMkFaOUdqS3h1Zko3SUlCQmZWZjJvUjE5?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMmhiUEZQdFdha0t1VC11T29nTHBhUkQxN0EwWW1tVFd4c3UzeW40Nmc0OFUwMDRZQkpndUNJWmZiS0M2XzdsTTNJb3NKODk5X2hiQ1VPbkRxM3gtY1Z5QkNHRUd6cEJnNklsN2VTa2lod2ZVd1ZyRkJ5enJfWEhhbGFYOGs4TG1JNFB3NS14RHBVWTVrRU5GaE85Z0F0OFdSU2kzUFJFVG1Edw?oc=5"
+   ],
+   "date": "2026-08-10"
+  },
+  {
+   "headline": "Former NBA star Enes Kanter Freedom writes letter to WNBA officially declaring for 2027 draft",
+   "urls": [
+    "https://www.foxnews.com/outkick-sports/former-nba-star-enes-kanter-freedom-writes-letter-wnba-officially-declaring-2027-draft",
+    "https://en.wikipedia.org/wiki/Enes_Kanter_Freedom"
    ],
    "date": "2026-08-10"
   }
