@@ -82,7 +82,9 @@
   "MoneySimpler Launches Web3 App Supporting Gold, Cryptocurrency... #shorts",
   "Simon Property Group Q2 Earnings Call Highlights #shorts",
   "The stock market may be doing so well that it's causing more... #shorts",
-  "Public Voting Opens Sept. 1 for the North Carolina Small... #shorts"
+  "Public Voting Opens Sept. 1 for the North Carolina Small... #shorts",
+  "Russia’s Central Bank approves Bitcoin, Ethereum, and USDT for... #shorts",
+  "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -166,7 +168,9 @@
   "MoneySimpler has launched a new Web3 app with multiple trading options.",
   "Simon Property Group has released its Q2 earnings call highlights.",
   "The stock market's strong performance may be causing some workers to drop out of the labor force.",
-  "Public voting is set to open on September 1st for a startup competition."
+  "Public voting is set to open on September 1st for a startup competition.",
+  "Russia's Central Bank has approved certain cryptocurrencies for exchange trading.",
+  "A new iPhone and Mac app has been released by SpaceXAI and Cursor."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -722,7 +726,22 @@
   "Voting will begin on September 1st, and the public can participate.",
   "Meanwhile, tech reviews are also making headlines, including the Motorola Moto Watch.",
   "Public Voting Opens Sept. 1 for the North Carolina Small Business Center Network's Inaugural 'Startup Showdown'",
-  "Motorola Moto Watch (2026) Review: Looks Can Be Deceiving &nbsp;&nbsp; engadget.com"
+  "Motorola Moto Watch (2026) Review: Looks Can Be Deceiving &nbsp;&nbsp; engadget.com",
+  "The approved cryptocurrencies include Bitcoin, Ethereum, and USDT.",
+  "There will be limits for retail investors in the exchange trading.",
+  "Other cryptocurrencies, such as XRP, are also being watched by traders.",
+  "Traders are eyeing a potential bitcoin price of $70,000.",
+  "The news is being reported by CoinDesk and other crypto news outlets.",
+  "Russia’s Central Bank approves Bitcoin, Ethereum, and USDT for exchange trading — with limits for retail investors",
+  "XRP, ETH price news: Ripple-linked token leads drop as traders eye $70,000 bitcoin &nbsp;&nbsp; CoinDesk",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The app is called Grok Bot and it is available for iPhone and Mac.",
+  "Meanwhile, Samsung is working on its One UI 9.0 update.",
+  "The One UI 9.0 update will be available for every Galaxy phone and tablet.",
+  "The Galaxy Watch 8 Classic's One UI 9 Watch beta is also available on test servers.",
+  "Additionally, the Galaxy Watch Ultra2 and Galaxy Watch9 support Gemini.",
+  "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor",
+  "Samsung One UI 9.0 update: Here’s everything you need to know &nbsp;&nbsp; Gizmochina Galaxy Watch 8 Classic’s One UI 9 Watch beta appears on test servers &nbsp;&nbsp; Android Central Every Galaxy phone and tablet eligib"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -1411,7 +1430,24 @@
   "px6772980": "2026-08-11",
   "px7480854": "2026-08-11",
   "px7983985": "2026-08-11",
-  "px7693043": "2026-08-11"
+  "px7693043": "2026-08-11",
+  "px29539685": "2026-08-11",
+  "px8370595": "2026-08-11",
+  "px7413793": "2026-08-11",
+  "px20608173": "2026-08-11",
+  "px7580269": "2026-08-11",
+  "px5082599": "2026-08-11",
+  "px7579664": "2026-08-11",
+  "px9017833": "2026-08-11",
+  "px7821798": "2026-08-11",
+  "px13441334": "2026-08-11",
+  "px8632598": "2026-08-11",
+  "px38902001": "2026-08-11",
+  "px7382319": "2026-08-11",
+  "px17808237": "2026-08-11",
+  "px8026540": "2026-08-11",
+  "px8819486": "2026-08-11",
+  "px3946211": "2026-08-11"
  },
  "thumb_styles": {
   "0-0": 2,
@@ -1441,8 +1477,8 @@
   "3-0": 2,
   "3-1": 2,
   "3-2": 2,
-  "3-3": 1,
-  "3-4": 1,
+  "3-3": 2,
+  "3-4": 2,
   "3-5": 1,
   "3-6": 1,
   "3-7": 1,
@@ -2060,6 +2096,22 @@
    "video_id": "muWnMhj8EOI",
    "title": "Public Voting Opens Sept. 1 for the North Carolina Small... #shorts",
    "hook": "Public voting is set to open on September 1st for a startup competition.",
+   "date": "2026-08-11",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "QITjCIDiKVU",
+   "title": "Russia’s Central Bank approves Bitcoin, Ethereum, and USDT for... #shorts",
+   "hook": "Russia's Central Bank has approved certain cryptocurrencies for exchange trading.",
+   "date": "2026-08-11",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "QqA00Y1w6tw",
+   "title": "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor #shorts",
+   "hook": "A new iPhone and Mac app has been released by SpaceXAI and Cursor.",
    "date": "2026-08-11",
    "views": 0,
    "likes": 0
@@ -2830,6 +2882,26 @@
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckpaOHc1aTlGZ2VXM1ZqVmNibWFjc3NQZjJmeEpSUVZ5eXpZMHFNalNWOTA4UkdqZGFIZ2V3Vi11Qk9Uck04cEFCbU9YSi1RSTUyeGpDREt4UUFXaFR0MGU0ZWJqLTNuRi1qdUhoSFVRY3VVcUhQM0FPbm00WWM4ZnpwVnhzSWZleUdFRUg4RlYyT2hhd01BU0MwMnhiaGVSTVg4V0pLSG4yd9IBrwFBVV95cUxPVXZKY0dOZ0ZvdmR2bGstMm0wc3E1OFVObkRwM2ZUX1BpdzlfTmtWVGZwalpySzJkaXZtSnFiSmcycXdoVExNNFFtS0k0bE9OYzh3UEd1S3NVMDcwbm5Yc2dNcGZWRGFvX28zVG9LNEVUempfMFY4V19WNlZxdXVLQ2Utdm0xem9hRVZUZGsyRHl2Qkk0MVpaZFQyV2RMYkY0ajMwNXBuVnc3T0o4dGs4?oc=5",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zR01vc1ZXYXNfTGxMZF9XNkdjOGNaUWt3YkhyV1p0LTB6Qkc4eGFMRXNSUkh1c090MnhXRnlVY2l0Q2luajFFcEM5UVk3VkpsWkhkTzdxWGVhcldUOVo0V05SbS1WSzZtOEFQY0dZZ0xaRjRYYThmQ9IBfkFVX3lxTE05Y3FQRkVqNklLdGV5M0had2RLYy1LZDAzcmdoSVNtUWd6M05TOTUtYlRkUlpDN2RXaXFZd3JWWkpreDZYd05iQUFlZ0JZV2RjMnJ1VVRxTXFCNUJEajZYV2tiN0lHNlZ1TTBpUk50SkpOZFlTWU9YeHdxdjg5Zw?oc=5",
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qaVRWM0QwQVRFcS1rVG8xWnFQblAxVWl3T2RxRS0yZEc3SkJublVxZWVoLS1MZV9HRU9malp5Tm5zQy1nRGxubkg1U05pbkE2cUZ1TFVkWmdfaG1pYTJEUFNDV1E?oc=5"
+   ],
+   "date": "2026-08-11"
+  },
+  {
+   "headline": "Russia’s Central Bank approves Bitcoin, Ethereum, and USDT for exchange trading — with limits for retail investors",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT25ZVVlhUlJhY2Q4M3hONkhJNHFmZGlSTEVydmdVVWlJdHNQUm9HelkxTnhQcWlKMVBHUTFONm1qYUplRllMS2U5Wks5VVpPSWNzRWtDWU12Qy1IbHZaSVFFNlBXLVllTmIycm9KUlZ3RzdzX21ES0V1aTk1T3R0NU9vQmVDMjNJcGt3SUxYcFNGV1JHRVBUMWFLOTBPaDFfd3k3OVZvcWw3UDdOczVr?oc=5",
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMm10QkREeG85STVxeHN2R29NcFVQdkJJUFNRLUJhSHFobGhkN2loTmZjQkU0cTJhcFgyZXczNFZkVUVTNXJ3R2lxWFZMeU1oLXdNQWJsUDRoLXdFbHdzaW5sQ2pxczFmQWNpdDNIdFZyYUdQWG5tOTJaWU0wOVhOdkJxYnA1Qnc0MFgzVTJjNGZhelZSNHJDOEFRNUVvN3JlT2ZVcERPVmdCMnM1U19ia1Q1MFdvXzJ6T0lvV0wzTHplQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSnkzeTlhX3lnekZvLVFYR0c5Y2ZIWms2aHR1UGRfcXE1US1ZdEtXQ1JfUkpYeFAzUGV0VERhUUN0c3dUVThjWmpIV3J1TkhVWFYtVFhSYWtFeFBmcUplVUFuV0FwNUdzaHdZN2kwakpmbTZ0Q21QY0xPQjBsNXVBcVVLYW_SAYwBQVVfeXFMUHBiX0toMGloMjhOdmh4czEwenFVWmlDQ2xRUDNBUlZNTVlWb3dTa1ljNEp0UWZjTWoyaGtQbTdIWWFaY3RXUDRIQll0QUt6WlhINEpROGFyQTByM1B2SG1FT09ISDR1VlhpamhpWnpzNGxaYUYzXzhWb3NjT2pEb3ZmU0FrcXNSNWhCNjY?oc=5",
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZFJubzZ6cWp3SkxvcUpLZllaMkFQWVI5RkZTWkdfMkotZjR3TFMtQ1ljMzloVTUzY0RZeGZEQVA0SmJxbm53M283cTZXZElvZVl6M0hDYWszSU9jeUswTVh6elZEWF9QbGdmNGpWdkE3aW1EUXFsQVNqenVPQTQ4OEcxY3RjZ01zQjRLYmdoZ19saTZ5TGNRMjZHdGFWMm1BNDJSVUhFY3ZKNkctNVBQQnVLaEJiYTFWUk13Ui1NcXJtbGdTWTZMMGJJRFhidUNTblBZWW5Mbm1CT2NwVGZWUNIB5gFBVV95cUxQSHZ5amh6ZEI2bVJPRUdFc3FpQnN4dzB6Vm5XOVo1cE9lZVhWZVE1c1dMWl9pRUFZdlJfaUpDQUVEMHhCWjBGdTBWQTJfVUowU09OVHJTWWhFMnBIOC1MQWx5YUdRRldTVFBqSmliTFRELVZYRWdRWG5DY2swc05xNFhBd2g2ZzM5U0lTWmUySk5UZGdyWHUwcFVkdEtQZFA2WDJCamZWQjc1V0I1Q0JYcm1uUGlOTzBsTnJualdtZHpKUjNDVkJGM0xyOUoxNWxxMHFpdjNobnl3Zy1LcTMwQThIV2Z4QQ?oc=5"
+   ],
+   "date": "2026-08-11"
+  },
+  {
+   "headline": "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor",
+   "urls": [
+    "https://www.basenor.com/blogs/news/tesla-update-grok-4-6",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRFhNa1F0bHE4RjBxM0d4a3lWSVJzNERBRnBxS1hKY1dPWXhoeW1XNjV2NVBtY2U4NmtuSDBPLWFWLVE0cDNacGZvUWczbV91QXpFUkY0MDh1YkI2R2dxdXBKUjVLSWNsakI5NzczMkxjVzVtMjBkX1ppcHhjZldLRFBjRDViQ1QxUnZtU3lDME1saDNqZHlHV2dNLWVpaDg?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMEVzejYtV3hEeGpIbk44X1ZHWkMxMzBVdlpKaXNFdkE0VWx0bmFPWDdBS1ItaGs0YS1UbXhrdmZVSEdlck1rY2E3VDBiUnJRdlRGV3g3cGR2NzdHQ1dlMEpHbnNuck4tQ3psczhCRXdHczdpeHRObW5mSUhLUGg4TmNvNmZxVmh4eFo5aVZ3OTU5dw?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSDBmRFZFNG5ySUlTZHJXTnV5TVMtVzJaSXF0bFB1WUUxNy1xYjNlb3Bka1FvSnlUbzAtR1FMQ29aVjZKaEowQVhjZXdpOWNOQndhV3pUNlpOeEROOFZZR2tVYXJiZmF5Y3ZxZDRKLWFSYkFzWURTLW5LbUE2NU9LY1VWU25IT2JpSml0MkRvOE5DWXVkVmlmNldEdEhHYmc?oc=5"
    ],
    "date": "2026-08-11"
   }
