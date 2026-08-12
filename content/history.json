@@ -88,7 +88,9 @@
   "Nvidia lines up $500 billion in financing as CEO Jensen Huang... #shorts",
   "Don’t eat these 6 foods recently sold at Michigan Kroger stores #shorts",
   "Oracle plans more layoffs weeks after spending most of its... #shorts",
-  "Powerball hits $1 billion for tonight’s drawing, the biggest... #shorts"
+  "Powerball hits $1 billion for tonight’s drawing, the biggest... #shorts",
+  "Nvidia's $70 billion bet on OpenAI, Anthropic, and others... #shorts",
+  "Accelerate cyber defense with OpenAI and AWS: Daybreak Red &... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -178,7 +180,9 @@
   "Nvidia has lined up $500 billion in financing for its AI plans.",
   "Certain foods sold at Michigan Kroger stores are being recalled.",
   "Oracle plans more layoffs after spending most of its restructuring budget.",
-  "The Powerball jackpot has reached one billion dollars for tonight's drawing."
+  "The Powerball jackpot has reached one billion dollars for tonight's drawing.",
+  "Nvidia has made a significant investment in several AI companies.",
+  "Twitch is now using user content to train Amazon AI models."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -776,7 +780,22 @@
   "The odds of winning the big prize are extremely low, according to experts.",
   "The winner's take-home amount would be significantly lower after taxes.",
   "Powerball hits $1 billion for tonight’s drawing, the biggest US lottery jackpot of the year",
-  "Powerball hits $1 billion for tonight’s drawing, the biggest US lottery jackpot of the year &nbsp;&nbsp; CNN How the Bond Market Inflated Powerball &nbsp;&nbsp; WSJ Powerball jackpot jumps to $1 billion."
+  "Powerball hits $1 billion for tonight’s drawing, the biggest US lottery jackpot of the year &nbsp;&nbsp; CNN How the Bond Market Inflated Powerball &nbsp;&nbsp; WSJ Powerball jackpot jumps to $1 billion.",
+  "The investment is valued at $70 billion.",
+  "The companies include OpenAI and Anthropic.",
+  "This investment could potentially pay off for Nvidia shareholders.",
+  "The investment is a significant development in the tech industry.",
+  "Reports are emerging about the potential impact of this investment.",
+  "Nvidia's $70 billion bet on OpenAI, Anthropic, and others could pay off big for shareholders",
+  "Powerball jackpot jumps to $1 billion.",
+  "Here are the odds of winning the big prize &nbsp;&nbsp; Los Angeles Times Powerball hits $1 billion for tonight’s drawing, the biggest US lottery jackpot of the year &nbsp;&nbsp; CNN How the Bond Market Inflated Powerbal",
+  "This practice has been happening for years, reports say.",
+  "Amazon is training its AI models using livestreams from Twitch.",
+  "Twitch users can opt out of this practice, if they choose to do so.",
+  "The opt out option is available, but not prominently displayed.",
+  "Amazon's AI models will be trained on Twitch streamers' content by default.",
+  "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock | Artificial Intelligence",
+  "Twitch Is Now Using Your Content To Train Amazon AI Models And Has Hidden The Option To Opt Out &nbsp;&nbsp; Kotaku Twitch content has trained Amazon AI for years, but users can opt out now &nbsp;&nbsp; Ars Technica Twit"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -1511,7 +1530,23 @@
   "px37616263": "2026-08-12",
   "px7687749": "2026-08-12",
   "px35819006": "2026-08-12",
-  "px35443112": "2026-08-12"
+  "px35443112": "2026-08-12",
+  "px34488757": "2026-08-12",
+  "px38992894": "2026-08-12",
+  "px6913275": "2026-08-12",
+  "px8480680": "2026-08-12",
+  "px8720756": "2026-08-12",
+  "px7231313": "2026-08-12",
+  "px6331097": "2026-08-12",
+  "px18156336": "2026-08-12",
+  "px8328104": "2026-08-12",
+  "px15439746": "2026-08-12",
+  "px6595465": "2026-08-12",
+  "px36460573": "2026-08-12",
+  "px7841589": "2026-08-12",
+  "px6282323": "2026-08-12",
+  "px35527402": "2026-08-12",
+  "px34459936": "2026-08-12"
  },
  "thumb_styles": {
   "0-0": 2,
@@ -1547,8 +1582,8 @@
   "3-6": 2,
   "3-7": 2,
   "4-0": 2,
-  "4-1": 1,
-  "4-2": 1,
+  "4-1": 2,
+  "4-2": 2,
   "4-3": 1,
   "4-4": 1,
   "4-5": 1,
@@ -2208,6 +2243,22 @@
    "video_id": "SIGW64Y0nF4",
    "title": "Powerball hits $1 billion for tonight’s drawing, the biggest... #shorts",
    "hook": "The Powerball jackpot has reached one billion dollars for tonight's drawing.",
+   "date": "2026-08-12",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Ll4FY_tEIC0",
+   "title": "Nvidia's $70 billion bet on OpenAI, Anthropic, and others... #shorts",
+   "hook": "Nvidia has made a significant investment in several AI companies.",
+   "date": "2026-08-12",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "kdgUfbXTfpM",
+   "title": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red &... #shorts",
+   "hook": "Twitch is now using user content to train Amazon AI models.",
    "date": "2026-08-12",
    "views": 0,
    "likes": 0
@@ -3035,6 +3086,26 @@
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMzhlbTNQV0YwRFpUM0k4eUZZV0o5Y3hpUENqUm9EbVhtWWtqU1hTOXBlczR0czZvYkVQRzFVQ0tndnRjbE1zU3ljdndHVm9ENjV1d3lIdE5FdHhxWnZzTHRyd0xXTEt3MGYwQnBOazdvWG8wM3lYdmRxeVR1R1NPaFRMeUY2QWl1UWFfUmZVLW9GNFBxbU90LXBhQ0NyblJ5RTI5VXlGaTIwaWRU?oc=5",
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1YzbC1pbmE3QnN1WU95NGFWQlNrR1BlZnNfaDZvLXRKbXQ1NGJEYnlJckgyai01NFB5YkVuTWxXbGdrbW5SX1NxWUh3ek5kQ1BpM2lVV1RNME5NSUFtTzF3aVBESGhTYW5wVG9VZkdqRUt2MG1sNWhKV0x1NUE2Q0hKb2kzTkRLT19YNU9KU1JPMmthYUc3dWQwWE9malo2cG9kS2tlanBaM2N6R2hSaThR?oc=5",
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5"
+   ],
+   "date": "2026-08-12"
+  },
+  {
+   "headline": "Nvidia's $70 billion bet on OpenAI, Anthropic, and others could pay off big for shareholders",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVE5VY191Q21xdlJuTWpnM1lKOXE2R0EzYzBxdS1VcTk0UVk5UFJHSVBBY2lSeUxDVjAwZkRydTVOeDZKeUlUbDZQVUdWc0xTX3hob1JJTkphcmVrdC1peTlBZnRhUXpOQnlvdlVDS2c4THB3d3U2Sjk5SEt4SXBWTUV5Rzhpb0d5eWludlEwblEydw?oc=5",
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZGFBZjRFYm11MUdiT2RFTjB6aEFjR1RtbUM2VVNpekhYM1Y2ZlBsaXF2VXhYM1p0bExGUnpBR0VkdlpBVGZUUzZDam83eTk0M0ZtSDYzMFNXQkF4TEUzZENMQ0lYaFNJVGJNdU5yb2NmRmd2UkVSRWdSbFVuZ1JnRVduNjY0YWNoMWhnaW1keEJHclJZanlkQ3F0TDc0cEVjWVdWdGp0ak9FVEswUFlpLWxaWkFtXzlHdVFhcWF4Mnl6TXNZREtGV0Y1R1hxR2ZpaV9NT0VoV0JZVWFKWDdQdlR3am9wM0E?oc=5",
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsbWx1NDd6LUx1RUhXX042d2FVWVFTRjZKSkN5THpXbnRLVERFOXFzdWROeDRPcVRfVTAyQkJVUW91MXJLZnNoQjFiUHlkOG9TMjFEanhOYjFwNGE2S0xaVHdDU1RNRUxobjRaMXBLZ0xXV241SkVCSF95MHdxdw?oc=5",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTjc3TWk1WXFuMEl1Z0EyWU0tNjBQdGNDTkUxd0NjX0lLa1hBclJjVUhUbnNNRFoycV9NYTU4eU9LLW43aURIV1VvSnJiVmpRcU85Rjh1YVREOEljdnhhZzgyaHNkamFSckhldm9Sc2pnVndMR0ZiM0pLaDZqUEFFME15cWJxZzM1UXlxRmt1OWx1Q1JBQ1ZIMVVneE13U3Z3eEVuYks1NTg4X2ZURGVXZy1CaVVpSEJwbXQ1OWdLdWV3dnptbXRPQ0U1bnZGXzVBeXdZZXRmOA?oc=5"
+   ],
+   "date": "2026-08-12"
+  },
+  {
+   "headline": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock | Artificial Intelligence",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV2NON2FiNFNRcnlsTnpVUEtzV1BWQXBSYkhVUVV1UHgzcjZhcXRFUHBkeXZraEQ4SHdOa1Vkcm1TTnprUXliX0JobmJwMEMtYVhRUkpIbnpab1lVUms2NTE4dl94OTZEaUhvVXkyMTNvNzlHSzYzRGpvX3RqQzhqR2REc2Z2OEpZRlBwY1MyU2RWV3hLQlQ1NG1OaGEyT1Ffc3p3b1FJNG9yX1ZReDNYVG1oRnpnWElJM2NiS0U5ZFlCZUk?oc=5",
+    "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbDhpYTZqLVQtYzNhZFpzWE41ZGEwNUJsNU5jVTI2X0F4SF9DSS1HZzNZMlVJRVJkeVBOMDJjRHZGVmJwQlJBeDNwSU9VaWVJOVNGWUFNTlpWaGp4a2pwWWtmdk9kUW9VUnZtajdNOGU4WF9Oc0dGelVNWTF3VmRfRV9mQlBLTnpUeHJMM3lXbmJZbGI3VzVGSFlXMVA5Um9vMVpsQUNOVG5aVnhWM1RSSDRIdjlNcjdrd0VKbHU0bDJxZ0RlajBKWDJNTHp0dVRFWDhlTHVLT0tHdnFDMEdlc3hlZGlRcFVYZlRqN1RNNjhNRVdJYXBQeXNwcEl3SVZ2RlE?oc=5",
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc25nRDZMaW94Mm9zX0tsUFdqNFNaVWdmbXhXY0k2QV9VOEpwaG1OTmM3TTNfNllQbGl5SFo3b0N6cDV5aU9rbUlnaHNFU2VXemk4ZnhVeXBQWUpNTjF0WG1FMm1peUJkekltV1E3SUktX3hpbmFvMEpPQXJyTEdaaHZSMXV1aG55R3dma3hCSi1yS01ta0hHSUtudDVvX1o2ZTlDS3pOYmJwc2FDVzZpcF9mR2pRY0l0djRqYVJZNFN0NU05WkE?oc=5",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxPWEdHdVE0bWRCWVJXUUF3OU54UHdvajgwX2tiNVJrQUJjanRZdDVmeElpU2o1UF9JaHQybEprVlgtN1dtemNPUEJsTzRtb0hGVlVmb1J2YlI2YzE2Ymp1WDRxbjhfWHAyRWMybVRpYkdXRzdVdHE2VFUtQXdnaE5hY2N6TURoVHdmVVdxLS1pcUZlQUVGY2tZakZVODlKdw?oc=5"
    ],
    "date": "2026-08-12"
   }
