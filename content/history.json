@@ -98,7 +98,9 @@
   "Alabama residents left powerless to stop massive Bitcoin... #shorts",
   "Former OpenAI executive Kevin Weil has sought a valuation of... #shorts",
   "Riot Platforms strikes deal with Anthropic as bitcoin miners... #shorts",
-  "Charles Kushner #shorts"
+  "Charles Kushner #shorts",
+  "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity... #shorts",
+  "Michael Saylor's Strategy Is Selling Bitcoin Again. Here's Why... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -198,7 +200,9 @@
   "A massive Bitcoin mining data center is being built in Alabama.",
   "A former OpenAI executive is seeking a large valuation for his new startup.",
   "Riot Platforms has struck a deal with Anthropic.",
-  "Joshua Kushner is a well-known American businessman."
+  "Joshua Kushner is a well-known American businessman.",
+  "The SEC may advance new crypto rules soon.",
+  "Michael Saylor's strategy is selling bitcoin again."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -872,7 +876,24 @@
   "Joshua Kushner is an American businessman and venture capitalist.",
   "He is a founder and managing partner of the venture capital firm Thrive Capital, co-founder and vice-chairman of Oscar Health, and the youngest son of Charles Kushner.",
   "He is the younger brother of Jared Kushner.",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "The Clarity Act is a proposed law that could impact bitcoin.",
+  "The act aims to provide clarity on crypto regulations.",
+  "The OCC is also paving the way for crypto banks to operate.",
+  "This development could have significant implications for the crypto industry.",
+  "The SEC's potential advancement of crypto rules is being closely watched.",
+  "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity Act. OCC Paves Way For Crypto Banks.",
+  "What The CLARITY Act Actually Does For Bitcoin &nbsp;&nbsp; Bitcoin Magazine",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "This is not the first time Michael Saylor's strategy has sold bitcoin.",
+  "The Motley Fool reports on the sale and its potential implications.",
+  "Despite the sale, some remain bullish on bitcoin's potential.",
+  "The crypto market is constantly evolving with new developments.",
+  "The future of bitcoin and its price remains to be seen.",
+  "Michael Saylor's Strategy Is Selling Bitcoin Again. Here's Why I'm Still Bullish on Bitcoin.",
+  "Here's Why I'm Still Bullish on Bitcoin.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -1693,7 +1714,20 @@
   "px33037097": "2026-08-14",
   "px36687583": "2026-08-14",
   "px17808481": "2026-08-14",
-  "px7413779": "2026-08-14"
+  "px7413779": "2026-08-14",
+  "px8731452": "2026-08-14",
+  "px7914773": "2026-08-14",
+  "px37700772": "2026-08-14",
+  "px8347688": "2026-08-14",
+  "px30944955": "2026-08-14",
+  "px6498751": "2026-08-14",
+  "px28836378": "2026-08-14",
+  "px3626151": "2026-08-14",
+  "px8480278": "2026-08-14",
+  "px33017024": "2026-08-14",
+  "px7564064": "2026-08-14",
+  "px35782228": "2026-08-14",
+  "px33077641": "2026-08-14"
  },
  "thumb_styles": {
   "0-0": 2,
@@ -1739,8 +1773,8 @@
   "5-0": 2,
   "5-1": 2,
   "5-2": 2,
-  "5-3": 1,
-  "5-4": 1,
+  "5-3": 2,
+  "5-4": 2,
   "5-5": 1,
   "5-6": 1,
   "5-7": 1
@@ -2470,6 +2504,22 @@
    "video_id": "LmXM6J6PVj0",
    "title": "Charles Kushner #shorts",
    "hook": "Joshua Kushner is a well-known American businessman.",
+   "date": "2026-08-14",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "cY8n_KEri_E",
+   "title": "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity... #shorts",
+   "hook": "The SEC may advance new crypto rules soon.",
+   "date": "2026-08-14",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Qq5T1mCXbEo",
+   "title": "Michael Saylor's Strategy Is Selling Bitcoin Again. Here's Why... #shorts",
+   "hook": "Michael Saylor's strategy is selling bitcoin again.",
    "date": "2026-08-14",
    "views": 0,
    "likes": 0
@@ -3393,6 +3443,24 @@
     "https://en.wikipedia.org/wiki/Joshua_Kushner",
     "https://en.wikipedia.org/wiki/Jared_Kushner",
     "https://en.wikipedia.org/wiki/Charles_Kushner"
+   ],
+   "date": "2026-08-14"
+  },
+  {
+   "headline": "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity Act. OCC Paves Way For Crypto Banks.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWW44VUk3bmhSeFVlTlN2ZG5FOElsRVJLUG1Sb2R2cVJ2N0pDUUVVYUxKeGFsemNMZm93ZXM3TWM1MWVCYkFlRGhGU0NuQjlnajZVMEZRMHpRdVVqN0V3Tzd2ZVEteHVkY180cWVsWGR3M3NRelFsZ0J2dDJTdHlwbEFJSHgtVEE?oc=5",
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdzgzRHdDRTg4RW9neWM3U1pqSURENVU4OXgxRW9oVElyTGxwTjQxUE8yc3pYeFBIYVMyazVueVF6Ulp4RTZ4czFvbTZzRjhKRk9zakNrdnQ5LWJzd2JuT2hIV2tfM2xOM0pBSnNpZVB3NENTalBRdFZqYl9tSllvckVRN1BLcG1IaUxheDZ4ZFZ0TlJXZUJyRUlEbzNJZUhEbGJSb3FYaXNBN3I3VXhpTm9IUlhPTV85Q0hxSFE0TTNsTGJXRkE?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjZIUnZ2cE41NUc0WERKMW1yVHpRaE5BVWlyZjFQVlVDUXA5S1F5MlJtUkV6eVJoWGFDdXUxWXgyVGpjREZYZDNybERUUXJnWTJyc0xPR3d3cEVMVTM1MDgyejRtbEVMSzZoZUZmeHZqTjBzNjVLT2FRaGlOMzRPVXNfNGV6bkstY0dkMW1TWkpaTkhXQmdKVEltZ0pDd3RkeFZpYmlSVjR4TndQdGVEM0tKN0ZHN0k?oc=5"
+   ],
+   "date": "2026-08-14"
+  },
+  {
+   "headline": "Michael Saylor's Strategy Is Selling Bitcoin Again. Here's Why I'm Still Bullish on Bitcoin.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTXB5NjRPVG1YSTlHNldTNW1NWGdmb2c2Y1ZJZWpOX29obEM2TldHbjFOeW5OWGtUd0lYU2o5MlJhM2s4UzU2U3A2NFVodUVmR0VzVTBvS24tVG5DdkR6QXNzVUdzNmV1Tktsemc3dC1sMVF2NWZqR3hMRGtpTnk5a2ZzcVlGc096Y3N3TVFzM0M1TGxQUTkw?oc=5",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUdVcmU5bGdHVG1uUm1fTFR6WFU0ZEdGN1dnNTNHVllkRjFsM1ZwbkZDRWszYW9XN2gwZllsZE9MZUExMmhnSGpEdWhnZE5idVIzeHUwa21jcEE3SHk5eFJINGJhckhCM0hDbHdqeVVWZE11V3RlZUNTQnc1LTA1bkxfNXZKUy1sblVYdy1mbjQzR1hDTUxLT2JWb1g4SGJWQ3FLZW8tb2RuMjBrTlJqb0wyVkFDa0RxZTlYelJUVEdyR1lIbDMwekc1VDMxUVhmNUE?oc=5",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdm1JTUpHS1JNdW9pOWVxZXFOdllyNlFyVEk5MDhUWnRYSWU2VVNkQU44SEJaVjA2NXUxZHBzUFNIajZ2dm5aNFpKTFJ6U1A2MkVybXRDdkVCazJJTmJQVFQ2dnRwM1lVNk5TaFoyYU0ySUVfYjBqUEZnUTZWYkJPLVYteVFjdTVSTjF6SE5yX0d5Y3BjZE5XUllPaUI5NlgwRGIxbDlFTGRYczg?oc=5"
    ],
    "date": "2026-08-14"
   }
