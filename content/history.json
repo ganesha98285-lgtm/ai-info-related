@@ -119,7 +119,9 @@
   "Stock Market Today: Dow off 200 points; S&P 500 and Nasdaq... #shorts",
   "Meta faces ‘astronomical’ consequences as legal fight reaches... #shorts",
   "AI Code Review Startup CodeRabbit Secures $143M in Funding at... #shorts",
-  "Best Buy 60th Anniversary Sale Offers Huge Deals on Apple, LG,... #shorts"
+  "Best Buy 60th Anniversary Sale Offers Huge Deals on Apple, LG,... #shorts",
+  "Why it pays to stay invested: No amount of bad news could stop... #shorts",
+  "Google Pixel 11 Pro XL benchmarks leak ahead of release day,... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -240,7 +242,9 @@
   "Nobody saw this coming today.",
   "Everyone is talking about this today.",
   "This changed in the last few hours.",
-  "This is blowing up right now."
+  "This is blowing up right now.",
+  "Everyone is talking about this today.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1057,7 +1061,16 @@
   "Best Buy 60th Anniversary Sale Offers Huge Deals on Apple, LG, Dyson and More",
   "Best Buy 60th Anniversary Sale Offers Huge Deals on Apple, LG, Dyson and More &nbsp;&nbsp; CNET Best Buy's 60th Anniversary Sale is live: Shop the best deals on TVs, lapt",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Save this one so you can come back to it when the next update lands."
+  "Save this one so you can come back to it when the next update lands.",
+  "Why it pays to stay invested: No amount of bad news could stop the stock market’s strongest run in more than 25 years",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "That is the headline people are reacting to right now.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Why it pays to stay invested: No amount of bad news could stop the stock market’s strongest run in more than 25 years &nbsp;&nbsp; MarketWatch See more headlines & perspectives on Google News",
+  "Google Pixel 11 Pro XL benchmarks leak ahead of release day, here's how it compares to last year's model",
+  "Google Pixel 11 Pro XL benchmarks leak ahead of release day, here's how it compares to last year's model &nbsp;&nbsp; PC Guide The Pixel 11 series: Your most personal Pix",
+  "Samsung Galaxy Z Fold 8: The Foldable Crown Has Never Been This Close &nbsp;&nbsp; PCMag Pixel 11 Pro XL vs.",
+  "iPhone 17 Pro Max: I Compared Google and Apple’s"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -2063,7 +2076,20 @@
   "px20736667": "2026-08-17",
   "px6763528": "2026-08-17",
   "px6575928": "2026-08-17",
-  "px9826114": "2026-08-17"
+  "px9826114": "2026-08-17",
+  "px6282193": "2026-08-18",
+  "px4553200": "2026-08-18",
+  "px4553195": "2026-08-18",
+  "px6282145": "2026-08-18",
+  "px3943967": "2026-08-18",
+  "px3943961": "2026-08-18",
+  "px16148130": "2026-08-18",
+  "px32060911": "2026-08-18",
+  "px5787615": "2026-08-18",
+  "px7196206": "2026-08-18",
+  "px33959153": "2026-08-18",
+  "px7231317": "2026-08-18",
+  "px35552569": "2026-08-18"
  },
  "thumb_styles": {
   "0-0": 3,
@@ -2082,8 +2108,8 @@
   "1-5": 3,
   "1-6": 3,
   "1-7": 3,
-  "2-0": 2,
-  "2-1": 2,
+  "2-0": 3,
+  "2-1": 3,
   "2-2": 2,
   "2-3": 2,
   "2-4": 2,
@@ -3009,6 +3035,22 @@
    "title": "Best Buy 60th Anniversary Sale Offers Huge Deals on Apple, LG,... #shorts",
    "hook": "This is blowing up right now.",
    "date": "2026-08-17",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "HKwDSO5KkvE",
+   "title": "Why it pays to stay invested: No amount of bad news could stop... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-08-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "BgFb6oTwXxk",
+   "title": "Google Pixel 11 Pro XL benchmarks leak ahead of release day,... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-08-18",
    "views": 0,
    "likes": 0
   }
@@ -4122,6 +4164,23 @@
     "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iN05XMDFqNjNBLVNHYkNLWEY3WXVwam02RFQ3QUx1a0dGWjZmZlJMOUJ2SWpSNWJOVGp5bUJJTFpmNC13SE12QVIwVVZlczhFbjVfc3NreExncU9KSVVVY2ZBSjd3OWQtSk5PSkxadXQ?oc=5"
    ],
    "date": "2026-08-17"
+  },
+  {
+   "headline": "Why it pays to stay invested: No amount of bad news could stop the stock market’s strongest run in more than 25 years",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLVF4VzBtMjBIUkQ5TEZvYjUwUFlkRkpNdXozYTc1WFY5VFhGSGt5cnNlREVLSUY4V1ZDT2tnZ1hrckU0dmMwNEU4TG12bk1aTmlPOXNVYnQ2dDVTRVhQNFdkb2Y0cTFyb0hTR005QmdyS25VWmdWN3NmODRkYlUtR0xibnJSYlRMYlFBZFI2Vm1jRFhlQldaa1BwdGd2aFowQi1COEt6cE9oaHBGbENlNWloSEFHQUtJclNBVGUtXzR4TThhX2VpLVozeWNWXzB4c19JNkFnWkVQMkpZdmhUWXhwM0FuLWFvQjgxaUN3MA?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE80UExEZmJldG5PTU1RR0E2elA5cTk4aE9YRWRJbDRJcnBmeFhUM3EzSTVyWlV6Mm9kX0p3UTlLZERqR1QwRXVFZEZUcUxKdFlmejQ2emJCQnFfdVRoWG5hdTZXSkpSNl8tNnpkaGFVeUJ0YnlSbm1j?oc=5"
+   ],
+   "date": "2026-08-18"
+  },
+  {
+   "headline": "Google Pixel 11 Pro XL benchmarks leak ahead of release day, here's how it compares to last year's model",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNnJpNGZZZF9PcEtmR3FJMU5vS0xpU1FTMW9tbmZNckQ5ZVA5VzE0Y3dHS0hUcjEwbVF0dVFVRFBRZWtKcmJxQm1IODBSeTB3T3Z1N1ExY1VUWWVrX1lzLUhLajE5WFlGOHJldk5BLS1FOGxCdlo1aG9wbGFZWUVtVGhjTmRFYm5QQXVyVnhoVHJKUmlJZ2YzN3dSMi1HcWdXS0FtTFAzQjJ3Nk51czBiQkI0ZmxPQTlKWWQ2LVNBbzZWNGdqQzZweVdYMA?oc=5",
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xUElQTVdicW5WRnJ3U3ZHc3RncTFBeFY4YU11T2pBR3Z5cHRPcXZCYkhzcW1Jd2hRVUZ6Y29IOEpHckFvMlhKLXdvVU5NU3dOM1ItamZOdFlJVFQtb001Wnl5MU16QjNLb2NtQjBUVVM?oc=5",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc3RtUExnclJUZGs2LW8yRV8wZ2Y2Zl92NXdfZ01qSGdrVDJHcFhtcW1IVjhnaFpxMEdBVXVxVzdvRGN4UFlJRlJPNzNJSVlHMkgyQ20xb1FqN1E5MVJQcExrd0VhaDc5UWR1UjE5cUR1akhpS1Flemw1dkpKaC1CbFhORlFBVHZyRmJOTUlObDRnREZVZVBlUkpNaGplWGZJNGVJRUQ1RjY?oc=5"
+   ],
+   "date": "2026-08-18"
   }
  ]
 }
