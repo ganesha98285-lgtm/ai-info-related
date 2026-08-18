@@ -121,7 +121,9 @@
   "AI Code Review Startup CodeRabbit Secures $143M in Funding at... #shorts",
   "Best Buy 60th Anniversary Sale Offers Huge Deals on Apple, LG,... #shorts",
   "Why it pays to stay invested: No amount of bad news could stop... #shorts",
-  "Google Pixel 11 Pro XL benchmarks leak ahead of release day,... #shorts"
+  "Google Pixel 11 Pro XL benchmarks leak ahead of release day,... #shorts",
+  "PlayStation 6 Launch Date Has Yet To Be Decided, As Sony CEO... #shorts",
+  "American Airlines U-turn: Seatback screens coming to all... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -244,7 +246,9 @@
   "This changed in the last few hours.",
   "This is blowing up right now.",
   "Everyone is talking about this today.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "This changed in the last few hours.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1070,7 +1074,16 @@
   "Google Pixel 11 Pro XL benchmarks leak ahead of release day, here's how it compares to last year's model",
   "Google Pixel 11 Pro XL benchmarks leak ahead of release day, here's how it compares to last year's model &nbsp;&nbsp; PC Guide The Pixel 11 series: Your most personal Pix",
   "Samsung Galaxy Z Fold 8: The Foldable Crown Has Never Been This Close &nbsp;&nbsp; PCMag Pixel 11 Pro XL vs.",
-  "iPhone 17 Pro Max: I Compared Google and Apple’s"
+  "iPhone 17 Pro Max: I Compared Google and Apple’s",
+  "PlayStation 6 Launch Date Has Yet To Be Decided, As Sony CEO Focuses On Company’s Survival Amid High Component Costs",
+  "Home Depot customers stick to smaller projects as housing costs stay high &nbsp;&nbsp; Fox Business Home Depot Q2 earnings beat forecasts as customers stick to small proj",
+  "Isn’t There to Spread the News &nbsp;&nbsp; nytimes.com The Home Depot Announces Second Quarter Fiscal 20",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "American Airlines U-turn: Seatback screens coming to all classes in 2028",
+  "Google is buying all of Spirit Airlines’ data to feed its AI models &nbsp;&nbsp; CNN Google Buys Spirit Airline’s Old Data For $10 Million &nbsp;&nbsp; Forbes Google wins",
+  "It is spreading fast across feeds and group chats.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Google is buying all of Spirit Airlines’ data to feed its AI models &nbsp;&nbsp; CNN Google Buys Spirit Airline’s Old Data For $10 Million &nbsp;&nbsp; Forbes Google wins bankruptcy auction for Spirit Airlines emails, ch"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -2089,7 +2102,24 @@
   "px7196206": "2026-08-18",
   "px33959153": "2026-08-18",
   "px7231317": "2026-08-18",
-  "px35552569": "2026-08-18"
+  "px35552569": "2026-08-18",
+  "px36783470": "2026-08-18",
+  "px8003604": "2026-08-18",
+  "px36648027": "2026-08-18",
+  "px11390251": "2026-08-18",
+  "px5961111": "2026-08-18",
+  "px6931512": "2026-08-18",
+  "px8103056": "2026-08-18",
+  "px5492947": "2026-08-18",
+  "px6565664": "2026-08-18",
+  "px15677282": "2026-08-18",
+  "px13642664": "2026-08-18",
+  "px36800193": "2026-08-18",
+  "px34298565": "2026-08-18",
+  "px37157735": "2026-08-18",
+  "px28873693": "2026-08-18",
+  "px36236507": "2026-08-18",
+  "px30175521": "2026-08-18"
  },
  "thumb_styles": {
   "0-0": 3,
@@ -2110,8 +2140,8 @@
   "1-7": 3,
   "2-0": 3,
   "2-1": 3,
-  "2-2": 2,
-  "2-3": 2,
+  "2-2": 3,
+  "2-3": 3,
   "2-4": 2,
   "2-5": 2,
   "2-6": 2,
@@ -3050,6 +3080,22 @@
    "video_id": "BgFb6oTwXxk",
    "title": "Google Pixel 11 Pro XL benchmarks leak ahead of release day,... #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-08-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "U-oNSwU5KCg",
+   "title": "PlayStation 6 Launch Date Has Yet To Be Decided, As Sony CEO... #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-08-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "uU6sOPScDFs",
+   "title": "American Airlines U-turn: Seatback screens coming to all... #shorts",
+   "hook": "This just moved the whole market.",
    "date": "2026-08-18",
    "views": 0,
    "likes": 0
@@ -4179,6 +4225,22 @@
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNnJpNGZZZF9PcEtmR3FJMU5vS0xpU1FTMW9tbmZNckQ5ZVA5VzE0Y3dHS0hUcjEwbVF0dVFVRFBRZWtKcmJxQm1IODBSeTB3T3Z1N1ExY1VUWWVrX1lzLUhLajE5WFlGOHJldk5BLS1FOGxCdlo1aG9wbGFZWUVtVGhjTmRFYm5QQXVyVnhoVHJKUmlJZ2YzN3dSMi1HcWdXS0FtTFAzQjJ3Nk51czBiQkI0ZmxPQTlKWWQ2LVNBbzZWNGdqQzZweVdYMA?oc=5",
     "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xUElQTVdicW5WRnJ3U3ZHc3RncTFBeFY4YU11T2pBR3Z5cHRPcXZCYkhzcW1Jd2hRVUZ6Y29IOEpHckFvMlhKLXdvVU5NU3dOM1ItamZOdFlJVFQtb001Wnl5MU16QjNLb2NtQjBUVVM?oc=5",
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc3RtUExnclJUZGs2LW8yRV8wZ2Y2Zl92NXdfZ01qSGdrVDJHcFhtcW1IVjhnaFpxMEdBVXVxVzdvRGN4UFlJRlJPNzNJSVlHMkgyQ20xb1FqN1E5MVJQcExrd0VhaDc5UWR1UjE5cUR1akhpS1Flemw1dkpKaC1CbFhORlFBVHZyRmJOTUlObDRnREZVZVBlUkpNaGplWGZJNGVJRUQ1RjY?oc=5"
+   ],
+   "date": "2026-08-18"
+  },
+  {
+   "headline": "PlayStation 6 Launch Date Has Yet To Be Decided, As Sony CEO Focuses On Company’s Survival Amid High Component Costs",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdG10WF82WUl3RXUzdVJNeE9lMi1udjJNTzIyNVFBVGszNWJZa1NEOWdUTnE5UDZtdnQ5bHVzVmFCd2pTcWktYkYyeTIzWUxvTlVPSVZlcWs3Vy1HcUEtTWJKUlNpTjJSUVFqdDJrT0o0amh3ZjBnUkdObjk3UVFUMmdMRnAzYXF30gGOAUFVX3lxTE9Ua193MUMzQV9Sek1yblM5TmxiaHFacG5paGM0S3JXVDQ3M0VvYkx3OVhnVkJZbnU3bW90dUhWdEpqc2lVRndLUWVVaVlzNy1yOHpZb3oxZ2g4U0kxSWhuSERCTUVjekVjT01PaG52Zm8zYi0wLW1VencySkM1OUF0RVRIcGtGcDhaZVVzS3c?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbldONElSamV3VEdiNm8wcVpYeVVBVzBvaUhVSnBEaC1jdWpHOXVkVTVKZXhhbnNYVkhhWF9uV1AwbU5fS0I0X2hvNkdjUDdiYW5scmtIcVk0UGxISjZTS3NWSkIteXRuR2FmOWcteXc5UGt2cTUtaTZBSjFPa1Z1VmNLa9IBiAFBVV95cUxPSnprSVZmUWJFTHhhLV9Ub3ptZ2Y3UEJMd0dncWJWY2RpbC10OVhfRmt0a2FBRnktdlFnMk80M1llbFVMX1ViOGlGOEFXelM3VXF1aUJzcFl6ajdhTkV0OURhdzhPT2RfYVJNUnBINnVEN0x3aVNzSkd3ODJWaU1lejJpNXVIN25v?oc=5"
+   ],
+   "date": "2026-08-18"
+  },
+  {
+   "headline": "American Airlines U-turn: Seatback screens coming to all classes in 2028",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE15SktKM2stNHFPNnl2OG84cHk5TTBaeHRtSnllOE4wLXV4ejdZNy1vZ0ZxNFJVa29lWUVEa29UX1ZGRWtaNjVDUmRaZ3g2Q1V2ckZkX3VIc0lhRnlXMWJhY2hjUVBQakZFN1EyQkVvZ2pVMWRZY1E?oc=5",
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcW5jTVJIX3p3T1pQWC1PQWROcm1YcTJmXy04eGdQWElHaGsydGlJM2hmZVQ1NUZJMVBUeEFjVFpSQ1lCcnpuMVlNWm1NQkJBM0ZHZ2prTThRYTJ0amtReGhob3dPVUJUbXM2UUU0NEhZT2NOcHZMVm52MmhlZHJrbmUxU21BUQ?oc=5"
    ],
    "date": "2026-08-18"
   }
