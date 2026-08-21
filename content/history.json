@@ -137,7 +137,9 @@
   "China’s Reusable Space Launch Booster Recoveries Have Major... #shorts",
   "Sophie Adenot became the first French woman to spacewalk on 18... #shorts",
   "‘Big Brother’ Season 28 Spoilers: Every Week 6 Update as... #shorts",
-  "Artificial Intelligence Collides with FDA Bureaucracy: News... #shorts"
+  "Artificial Intelligence Collides with FDA Bureaucracy: News... #shorts",
+  "Nvidia considers funding AI startup Mercor, which helps it... #shorts",
+  "Exclusive: Accounting AI startup Rillet reaches unicorn status... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -276,7 +278,9 @@
   "Nobody saw this coming today.",
   "Stay till the end for the part people missed.",
   "This is blowing up right now.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "You will want to hear this one.",
+  "This changed in the last few hours."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1181,6 +1185,20 @@
   "Open Heritage in the Age of Artificial Intelligence &nbsp;&nbsp; Creative Commons",
   "We are watching how this develops through the day.",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Nvidia considers funding AI startup Mercor, which helps it develop open-source models: report",
+  "Sanja Fidler’s world model startup Veeda AI raises $90M in seed funding &nbsp;&nbsp; SiliconANGLE",
+  "Here is why it is getting so much attention.",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Exclusive: Accounting AI startup Rillet reaches unicorn status with $1 billion valuation. Its founder says he wants to give CFOs back their weekends",
+  "AI chip startup Etched doubles valuation to $21 billion in under a month &nbsp;&nbsp; Reuters",
+  "We are watching how this develops through the day.",
+  "It is spreading fast across feeds and group chats.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "If you only remember one thing from the feed today, let it be this particular story right here."
@@ -2314,7 +2332,23 @@
   "px30641139": "2026-08-21",
   "px31256082": "2026-08-21",
   "px8829564": "2026-08-21",
-  "px34758156": "2026-08-21"
+  "px34758156": "2026-08-21",
+  "px6931506": "2026-08-21",
+  "px34725295": "2026-08-21",
+  "px6952471": "2026-08-21",
+  "px8731253": "2026-08-21",
+  "px7534467": "2026-08-21",
+  "px9464645": "2026-08-21",
+  "px36628014": "2026-08-21",
+  "px7423511": "2026-08-21",
+  "px6781990": "2026-08-21",
+  "px8298299": "2026-08-21",
+  "px8926978": "2026-08-21",
+  "px6782252": "2026-08-21",
+  "px8298300": "2026-08-21",
+  "px8869996": "2026-08-21",
+  "px7247872": "2026-08-21",
+  "px34631259": "2026-08-21"
  },
  "thumb_styles": {
   "0-0": 3,
@@ -2351,8 +2385,8 @@
   "3-7": 3,
   "4-0": 3,
   "4-1": 3,
-  "4-2": 2,
-  "4-3": 2,
+  "4-2": 3,
+  "4-3": 3,
   "4-4": 2,
   "4-5": 2,
   "4-6": 2,
@@ -3403,6 +3437,22 @@
    "video_id": "i-OMflFqHJk",
    "title": "Artificial Intelligence Collides with FDA Bureaucracy: News... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-08-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "xgqIfS6J8pk",
+   "title": "Nvidia considers funding AI startup Mercor, which helps it... #shorts",
+   "hook": "You will want to hear this one.",
+   "date": "2026-08-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Rn1z4Biopyk",
+   "title": "Exclusive: Accounting AI startup Rillet reaches unicorn status... #shorts",
+   "hook": "This changed in the last few hours.",
    "date": "2026-08-21",
    "views": 0,
    "likes": 0
@@ -4683,6 +4733,25 @@
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTXljbUZKdWtWbktTbnYwWVdfQ2hDd3NVMU03U2dJS3ZtZ1Z3MGxtYnEyaHEtMEgySFQ2ZF9jUHhTSjh3UHU3NHBwQWVKR2pYXzd1b2tsVWQwM1hNU01VNHhuUjlTb201Nml6SEkxRnkxNThKbmN2RE5PSUUwRG53ZFRGOGM1d2F6eDd5S2x5WF9idw?oc=5",
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSm5WMU0zaWxTM29DeUhUeXd4TDFIekd6aFRQM1FDVmJ3dThnMk1pX1pJQmZRTXpQelNDSDZLTHNMTkJFWll4cmtWcGk0ZFVqT1AwNmVYYXNjSDQtNkhLVTdYQ0k4OUxYSThyemNPWXRiSjFWVHNZalZOd1R2M2k3Tg?oc=5",
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHBjd1lpdWExV01jVG1pNzRrVDZqbEpULVNBQ2pMTV9neEU2MjlfQmtsbjhfNWdITXcta05zOUdJb1hudjNkNFRpUm5IdXRxZ1hKbThCRUVaVXhYMkY5TFhCVVNCVmxOdDZ6TF9xQzJ5R0Q3Smg1Rmt1ZElmX1dleG9jNExFbFphWFkzamtnUVVfb2JQWkNMMmlVTExxYTJFaDZjNGlKWHNGTVhXRmpR?oc=5"
+   ],
+   "date": "2026-08-21"
+  },
+  {
+   "headline": "Nvidia considers funding AI startup Mercor, which helps it develop open-source models: report",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUpET2g2MTNFVnVnRVY3U2hob2UwcnpTYnhOQVJ2RDdFQW4zTHI2LThnelJwZV9CTUh6U1J0WlJOdkRGVnM1MVVQQ1hST281VHdXWV9BekdXQ2lFdWwycGQta1N1X3RTS25YNnh3em9RT0ZZVE14TUJTOUZjRHNzM0tlU2lya0F0VHFLdDcwTG9LaUtvZFVyaXEzaHZySGRqb19EbldTNVpGQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMDJrRGhUVW9QUVhkRmc4U2dBZnpuMnVJVFlPNUt0T3JySXpBX2JhS19xcDJua19pbzVIS3FFem1WRlVDLUhuT0tsZjYtVlZUTzhFczZlbkdIbkxBLTFuMWpWdWlYanlkRmkxUlBJSW55a3VKcFZMbl85aDZuRUNNY1hJWS0taWc0WTJNZW1mWEQ3M05RaDZZb0F6SmlmY2hweEN1bFFkYXlXR1RTeGFXZmYwRW0?oc=5",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN3lMRVpqR2s0NU8zUVlSNkItc1FTcWpBVzZOcEJDbXl1aEtURUVmc3pISVEyWWNUWkNkN05oelMyUWxSQzNFOV9fUGhLdHFVQjVFaHZOSkFfNi1UVmtfX19ObkFyOWt1S3VpVlZlalpTSm5KSUhyNF9OSllLRzJyaTgxR1NiLUhkZVZibjZkYU40aEdsendxZnNZRQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWdIVlFLdlg1ZDRzMlpHQWJ4dm93eVFMN3I0aEZKN2xpZkdUNlp3NnVFYkdZNGpXWjFFN1RMVDZheFBJaDIzVEY5UV92QVdza0lEdklacC1QWnF0RkNTWUVWTlNMYVFHd2c4cm04T3NWZ1RCVlBybFY0eTdYUFJXRWFZSlU0Z3JXUC0zbm9PZTYxek4wN1pNQUJZY0wwaHlFQjlrZmpUVHF3cHRfaXY3TWNPS01QcEo4eTNjU0JCVXAtVzQ4aTV4SQ?oc=5"
+   ],
+   "date": "2026-08-21"
+  },
+  {
+   "headline": "Exclusive: Accounting AI startup Rillet reaches unicorn status with $1 billion valuation. Its founder says he wants to give CFOs back their weekends",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ3NNZlBGNU1FVmtQWnVzMlc1SjFEVmtwYWJLNVJTYUpJS0NEb29iT0NhR1R5bUdKMlhqUWsyMjRJekVtcWFWb3dCX1lHMWlFNHJVLTZCeEoycW1ZdE03VThfZDEzellONHd4ZnJ3RlNEYlA4cGJReEFvaG13bTR0MHItbHlWN3pMWDNMN3JMVkJQNFo2aHFTQUw1QTlrWUt0V0FKamtGSm5rWUVT?oc=5",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzl3eTJUdFp2ejlJNVJjMW55Q3NJbFdnOHRsS3U3TmYzQ1QwR2RQeFRFTUQ0Z2lXcFpEblVhdWRSLXNsRnhZNVBWWUVpekxreE84VnUxNnd1Sk5OTUoyR1pid2ZTTVcyXzFYbWhqYnEtbVJqblFnSHJsQ09LQThCM085WDlkYmtVRi1GdmVnYnREN2hsUVJBamxMdURGWkJxZkpKUA?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb3VtcVhtQ21oZ0tDeUx1SEJBX1dYWGVGdEpidGVVWGhTYWJlQXJpc2hVVW1MMktldVlzMVlIZzFieXg4RVhhYjF1ekVXWThTMTY0enh6ejNrZTlGeFhYRTNITG1BVGMzS0xWSE10WGFaaDhha25QeEVOOTVadXNDSG9xQWV0ZWtycUNIRFlYa2tEU25GbmZhTHZXVjE5NHlVaDJIZ3VKbzJQVUl0UWlrdS03OU9CWFE?oc=5"
    ],
    "date": "2026-08-21"
   }
