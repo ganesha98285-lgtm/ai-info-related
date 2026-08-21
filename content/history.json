@@ -135,7 +135,9 @@
   "Id Software Rejects Unreal Engine 5 Switch After Xbox Layoffs,... #shorts",
   "Snapdragon 8 Elite Gen 6 Pro In Desoldered Form Is Already On... #shorts",
   "China’s Reusable Space Launch Booster Recoveries Have Major... #shorts",
-  "Sophie Adenot became the first French woman to spacewalk on 18... #shorts"
+  "Sophie Adenot became the first French woman to spacewalk on 18... #shorts",
+  "‘Big Brother’ Season 28 Spoilers: Every Week 6 Update as... #shorts",
+  "Artificial Intelligence Collides with FDA Bureaucracy: News... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -272,7 +274,9 @@
   "You will want to hear this one.",
   "This is blowing up right now.",
   "Nobody saw this coming today.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "This is blowing up right now.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1165,7 +1169,21 @@
   "Sophie Adenot became the first French woman to spacewalk on 18 August 2026, but the job she went outside to finish remains unfinished — stubborn electrical cables ate the",
   "Sophie Adenot became the first French woman to spacewalk on 18 August 2026, but the job she went outside to finish remains unfinished — stubborn electrical cables ate the",
   "Save this one so you can come back to it when the next update lands.",
-  "We are watching how this develops through the day."
+  "We are watching how this develops through the day.",
+  "‘Big Brother’ Season 28 Spoilers: Every Week 6 Update as Someone Is Getting Evicted",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "That is the headline people are reacting to right now.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Artificial Intelligence Collides with FDA Bureaucracy: News Article",
+  "Open Heritage in the Age of Artificial Intelligence &nbsp;&nbsp; Creative Commons",
+  "We are watching how this develops through the day.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -2280,7 +2298,23 @@
   "px5712805": "2026-08-20",
   "px8771135": "2026-08-20",
   "px8490545": "2026-08-20",
-  "px37723948": "2026-08-20"
+  "px37723948": "2026-08-20",
+  "px6623019": "2026-08-21",
+  "px7123889": "2026-08-21",
+  "px6623655": "2026-08-21",
+  "px38771516": "2026-08-21",
+  "px6952519": "2026-08-21",
+  "px7277680": "2026-08-21",
+  "px10406326": "2026-08-21",
+  "px8132050": "2026-08-21",
+  "px8322397": "2026-08-21",
+  "px12844391": "2026-08-21",
+  "px34758169": "2026-08-21",
+  "px38860065": "2026-08-21",
+  "px30641139": "2026-08-21",
+  "px31256082": "2026-08-21",
+  "px8829564": "2026-08-21",
+  "px34758156": "2026-08-21"
  },
  "thumb_styles": {
   "0-0": 3,
@@ -2315,8 +2349,8 @@
   "3-5": 3,
   "3-6": 3,
   "3-7": 3,
-  "4-0": 2,
-  "4-1": 2,
+  "4-0": 3,
+  "4-1": 3,
   "4-2": 2,
   "4-3": 2,
   "4-4": 2,
@@ -3354,6 +3388,22 @@
    "title": "Sophie Adenot became the first French woman to spacewalk on 18... #shorts",
    "hook": "Stay till the end for the part people missed.",
    "date": "2026-08-20",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "xslHAWLKOHo",
+   "title": "‘Big Brother’ Season 28 Spoilers: Every Week 6 Update as... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-08-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "i-OMflFqHJk",
+   "title": "Artificial Intelligence Collides with FDA Bureaucracy: News... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-08-21",
    "views": 0,
    "likes": 0
   }
@@ -4617,6 +4667,24 @@
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRmhGU0V6UVVQem5BNmJiTjBrMlVrYzJkNXRPcnVkYzM0Rzh2NzFCTGxUV1NfZ2YtaUZHVmJLRzhVb28yOEZlRkRMRzc1bVFMZmJHYWZRaTh5RENtWjBTbTFmdVBCYkpBVTdhVnFSVTZ3YWRPTmxERUhvRXZzcUVURmJB?oc=5"
    ],
    "date": "2026-08-20"
+  },
+  {
+   "headline": "‘Big Brother’ Season 28 Spoilers: Every Week 6 Update as Someone Is Getting Evicted",
+   "urls": [
+    "https://www.northjersey.com/story/news/2026/08/18/bb-time-capsule-big-brother-week-6-polls-powers-punishments/91352850007/",
+    "https://www.imdb.com/news/ni65981258/?ref_=nwc_art_perm"
+   ],
+   "date": "2026-08-21"
+  },
+  {
+   "headline": "Artificial Intelligence Collides with FDA Bureaucracy: News Article",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxONzBTQVJHS3oxNTZXcTljVWtfRTZJb2c5SFg5Uk0ta0hYcVl3Vm9uV2xDZHd3c21DOWZKYlBjUU5TR1VIY2VmaEJtTFIzTHZZRnVNLUpCelljR2FLUDA2VmIyUmpWdGpsSXRCM1JrMkxSNzN4SVRuS29McE1pbXZTTXlzVEhYaWhUOGJVY2twUzZoODl2MVE?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTXljbUZKdWtWbktTbnYwWVdfQ2hDd3NVMU03U2dJS3ZtZ1Z3MGxtYnEyaHEtMEgySFQ2ZF9jUHhTSjh3UHU3NHBwQWVKR2pYXzd1b2tsVWQwM1hNU01VNHhuUjlTb201Nml6SEkxRnkxNThKbmN2RE5PSUUwRG53ZFRGOGM1d2F6eDd5S2x5WF9idw?oc=5",
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSm5WMU0zaWxTM29DeUhUeXd4TDFIekd6aFRQM1FDVmJ3dThnMk1pX1pJQmZRTXpQelNDSDZLTHNMTkJFWll4cmtWcGk0ZFVqT1AwNmVYYXNjSDQtNkhLVTdYQ0k4OUxYSThyemNPWXRiSjFWVHNZalZOd1R2M2k3Tg?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHBjd1lpdWExV01jVG1pNzRrVDZqbEpULVNBQ2pMTV9neEU2MjlfQmtsbjhfNWdITXcta05zOUdJb1hudjNkNFRpUm5IdXRxZ1hKbThCRUVaVXhYMkY5TFhCVVNCVmxOdDZ6TF9xQzJ5R0Q3Smg1Rmt1ZElmX1dleG9jNExFbFphWFkzamtnUVVfb2JQWkNMMmlVTExxYTJFaDZjNGlKWHNGTVhXRmpR?oc=5"
+   ],
+   "date": "2026-08-21"
   }
  ]
 }
