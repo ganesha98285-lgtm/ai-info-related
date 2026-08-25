@@ -154,7 +154,9 @@
   "Tech layoffs tracker 2026: All the job losses across Apple,... #shorts",
   "De-Googled GrapheneOS is coming to Motorola’s foldables next year #shorts",
   "1 New Way to Invest in Cryptocurrency That Could Turn Your... #shorts",
-  "Zcash soars to eight-year high amid crypto rally, and hopes of... #shorts"
+  "Zcash soars to eight-year high amid crypto rally, and hopes of... #shorts",
+  "Markets News, Aug. 24, 2026: Nasdaq, S&P 500 Close Lower to... #shorts",
+  "It's been 20 years since Pluto lost planet status. Will it... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -310,7 +312,9 @@
   "This changed in the last few hours.",
   "Here is the update you actually need.",
   "You will want to hear this one.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "This is the story everyone is sharing.",
+  "Here is the update you actually need."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1313,7 +1317,19 @@
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Markets News, Aug. 24, 2026: Nasdaq, S&P 500 Close Lower to Begin Week as Chip Stocks Sink; Bitcoin Nears $80,000",
+  "Bitcoin is less than 1% away from reaching $80,000.",
+  "Here is why it is getting so much attention.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "It's been 20 years since Pluto lost planet status. Will it ever get its title back?",
+  "Wendy’s CEO Aims for Chain to Get Back in the Burger Fight &nbsp;&nbsp; WSJ Wendy’s hires ex-McDonald’s CMO as chief marketing, customer growth officer &nbsp;&nbsp; Marke",
+  "Reports are still coming in, so details may change.",
+  "That is the headline people are reacting to right now.",
+  "Wendy’s CEO Aims for Chain to Get Back in the Burger Fight &nbsp;&nbsp; WSJ Wendy’s hires ex-McDonald’s CMO as chief marketing, customer growth officer &nbsp;&nbsp; Marketing Dive Wendy's CEO Says Food Quality Hasn’t Bee"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -2623,14 +2639,28 @@
   "px4629657": "2026-08-24",
   "px7563982": "2026-08-24",
   "px9464872": "2026-08-24",
-  "px8820505": "2026-08-24"
+  "px8820505": "2026-08-24",
+  "px33766128": "2026-08-25",
+  "px33766132": "2026-08-25",
+  "px33766131": "2026-08-25",
+  "px37470444": "2026-08-25",
+  "px6650922": "2026-08-25",
+  "px27128485": "2026-08-25",
+  "px6963373": "2026-08-25",
+  "px31470192": "2026-08-25",
+  "px20436933": "2026-08-25",
+  "px20349276": "2026-08-25",
+  "px36965016": "2026-08-25",
+  "px18202296": "2026-08-25",
+  "px37004517": "2026-08-25",
+  "px37005709": "2026-08-25"
  },
  "thumb_styles": {
   "0-0": 4,
   "0-1": 4,
   "0-2": 4,
-  "0-3": 3,
-  "0-4": 3,
+  "0-3": 4,
+  "0-4": 4,
   "0-5": 3,
   "0-6": 3,
   "0-7": 3,
@@ -3849,6 +3879,22 @@
    "title": "Zcash soars to eight-year high amid crypto rally, and hopes of... #shorts",
    "hook": "Nobody saw this coming today.",
    "date": "2026-08-24",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "D40jHH93v4Q",
+   "title": "Markets News, Aug. 24, 2026: Nasdaq, S&P 500 Close Lower to... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-08-25",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "EDRFaImJfpA",
+   "title": "It's been 20 years since Pluto lost planet status. Will it... #shorts",
+   "hook": "Here is the update you actually need.",
+   "date": "2026-08-25",
    "views": 0,
    "likes": 0
   }
@@ -5281,6 +5327,24 @@
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOHk2aUlRWVJBTlR5azd0Q2FXSEhmT0dzSHFDTDF0OS1HeDBZejdCMk5iWUxrODFtdnhKR0lUT0w0Qm01WHp5SHdQbDc5R0Vwc01KUFdtVWg2RGVES1lsYXhCRlM3WHoxSzlfa1NkaG9xd1M4VEhtN2lJSWdRbVBGTGZQLWtSdw?oc=5"
    ],
    "date": "2026-08-24"
+  },
+  {
+   "headline": "Markets News, Aug. 24, 2026: Nasdaq, S&P 500 Close Lower to Begin Week as Chip Stocks Sink; Bitcoin Nears $80,000",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxON0tXaGsxVjRWM0pPWndLdzF4Q0hSU0ltVVVDejBNMzNTUmpHdmtmcFI3SzFwSzBmMUdaMUxMVEV1WmFKdU9NN2IwcFdQQm8zd1kxMUZQcmZFV0JsVzV5cHZJaU16NkNucXM4Y05kNWZaOHAxYU00ajlLaDQxakp5QXpxZjJhWVJaQWVDZTEzQkdKNEo0aVdRSmtUMkExbFJwWExXXw?oc=5",
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLXd4eU5QWGZRV3Y2ZUtpNUdUZEh1WE9hY0doLTVhVlViZktwZnE2YjFpUDVIenZ5SDlHTy1YTmVOQlM3allHbWM4WmxhNW9xbXBBNGhGdHZLbm9TZ0NkWldwUVpxQXd6dG80SS1lV0dNY19ETzQtZWhXZ2ZMLUR1MkFndFR1cDROWVp6NXRUTnc?oc=5",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHQzSjFWUkZ6NXBsYkZwOF9jaWJZVE9FT09EOG9IX09Hb1NWMEpYSW1sV1M1WVF1eXFxTy1ycFRfRGx3YU15TUlCbkkxVTdqTWJjck5EZWNXTGNSN0ZFVXplbzMyTmZSZWRkVDJPVnZteDU1Zlh2dUZZV3FsNW5aMXRQMzFKZ2NXSXE2VEFWSmEzV3BIODd2eQ?oc=5",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeDNHNHJZUGl2OFpRUVlnWnlHWWp4Z2VqS0FKZVUxOFZJVjRnVzNBYWExemlDbmRzb01sWFNTUHVVUG5RYWJLVjNpbENjdHZ5SklyS2JhbXpJRmtHZVlodFlVQnBlVEVJZkRuRnpQSWVrTndsZHFnSUFvYk9DZGJOM1VqSFJCUzBsWHRGZExlMjFaOV9ra0VEYlpqWkRXeTgwZzRxLWdn?oc=5"
+   ],
+   "date": "2026-08-25"
+  },
+  {
+   "headline": "It's been 20 years since Pluto lost planet status. Will it ever get its title back?",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSDZRZ3drZUJTNXptelR1VVRPNTZfUVZFMjdlZTdCTFF1MjBkekE2LXNnWEFLU3k4SkltcDRtaVZZYzJKN1B5bEJGYnBhdkQwUm9LNlAxeXM2ellsTmlicHZXS3ZUYjdvSDRqMkFqT0x3MHM0UTRUNEJfeDlDdEdTWk9TbVZrT1VMMkpEc3NtWE9xSmkwR044OGpWeUFGLUtxN1dad0wycFYtYmc?oc=5",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYnNEenRLWnNwRGFTWlgwaWZ1M3VUeDB2Y2sta2t5RTdMQnlQWllfU2V0YWtMS0tkOTUzTUUyWkFMQ1d1dGo2cFl2cjN0TkdTTk1hQjZrN1hBUkoyREFSZzQ1VGhRb3JwRFhuVTkzZWlzdmJOT1NHc2JZMUJrVk9qa2Q1QmhacU1NUVBxWWNTaExnbHlnNUhFN01mVU5ITFMwRTU3cWdKeGM5VzN1OEF3d080OVd3SVFIOHc?oc=5"
+   ],
+   "date": "2026-08-25"
   }
  ]
 }
