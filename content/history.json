@@ -180,7 +180,9 @@
   "Final Falcon 9 Starlink launch from Florida creates gorgeous... #shorts",
   "How cryptocurrency is transforming organized crime in Israel,... #shorts",
   "Between August 24 and August 29, 2026, as many as 20 Indian... #shorts",
-  "DRAM Prices Explode 401% as One Kilogram Now Costs as Much as... #shorts"
+  "DRAM Prices Explode 401% as One Kilogram Now Costs as Much as... #shorts",
+  "Silencio en el Athletic, debate en el Celta #shorts",
+  "Fenerbahçe, Samsunspor Deplasmanında Galibiyet İçin Sahada #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -362,7 +364,9 @@
   "You will want to hear this one.",
   "Nobody saw this coming today.",
   "You will want to hear this one.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "This changed in the last few hours.",
+  "Stay till the end for the part people missed."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1520,7 +1524,22 @@
   "DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold &nbsp;&nbsp; Wccftech How AI Data Centers Are Making Everything More Expensive &nbsp;&",
   "We cover this beat every single day, which means you will see the follow up here first.",
   "Reports are still coming in, so details may change.",
-  "DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold &nbsp;&nbsp; Wccftech How AI Data Centers Are Making Everything More Expensive &nbsp;&nbsp; Business Insider The Memory Shortage Gets Wo"
+  "DRAM Prices Explode 401% as One Kilogram Now Costs as Much as 620 Grams of 24K Gold &nbsp;&nbsp; Wccftech How AI Data Centers Are Making Everything More Expensive &nbsp;&nbsp; Business Insider The Memory Shortage Gets Wo",
+  "Silencio en el Athletic, debate en el Celta",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "Reports are still coming in, so details may change.",
+  "We are watching how this develops through the day.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Fenerbahçe, Samsunspor Deplasmanında Galibiyet İçin Sahada",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Here is why it is getting so much attention.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3042,7 +3061,24 @@
   "px6499161": "2026-08-30",
   "px7679831": "2026-08-30",
   "px6100008": "2026-08-30",
-  "px4773265": "2026-08-30"
+  "px4773265": "2026-08-30",
+  "px31229042": "2026-08-30",
+  "px31229035": "2026-08-30",
+  "px13830214": "2026-08-30",
+  "px30997022": "2026-08-30",
+  "px30997023": "2026-08-30",
+  "px31608335": "2026-08-30",
+  "px8829615": "2026-08-30",
+  "px31229034": "2026-08-30",
+  "px7429354": "2026-08-30",
+  "px9323253": "2026-08-30",
+  "px34782571": "2026-08-30",
+  "px8828906": "2026-08-30",
+  "px6998554": "2026-08-30",
+  "px9323707": "2026-08-30",
+  "px38690857": "2026-08-30",
+  "px34514149": "2026-08-30",
+  "px31040837": "2026-08-30"
  },
  "thumb_styles": {
   "0-0": 4,
@@ -3074,8 +3110,8 @@
   "3-2": 4,
   "3-3": 4,
   "3-4": 4,
-  "3-5": 3,
-  "3-6": 3,
+  "3-5": 4,
+  "3-6": 4,
   "3-7": 3,
   "4-0": 3,
   "4-1": 3,
@@ -4475,6 +4511,22 @@
    "video_id": "RVrHIlpt3SI",
    "title": "DRAM Prices Explode 401% as One Kilogram Now Costs as Much as... #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-08-30",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "iiFh9llkCvA",
+   "title": "Silencio en el Athletic, debate en el Celta #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-08-30",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "evp21jx0hsU",
+   "title": "Fenerbahçe, Samsunspor Deplasmanında Galibiyet İçin Sahada #shorts",
+   "hook": "Stay till the end for the part people missed.",
    "date": "2026-08-30",
    "views": 0,
    "likes": 0
@@ -6151,6 +6203,20 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmdTdDhHLTA2clJIZkJrRURkSTZPaUVpNlF5bVRWcU4wVnM2U2JZN3BaMktveHo1a2lWVnE3QTdYRy1QRklQTDc1Q2hCQTZMaG1rbFVkSUtkQ1VaVHd5TDRiZWdveG5oYVdKMVI5UXh0REk4QW13TEJkVUpQTElxZl9LdnpSZnlVSkh4RVBabjQyb21GZzV2M1FUQTU5ejZXeUt6OHhWUzVtR1M4SFM3T3p3U09oMm1Hd2tYV0VB0gHDAUFVX3lxTFAySTc0MldLd3JSYmtxMFhGSXJoWHl5N2hVcEpNNE5rclNiekRsTFBUVnJQNFhYbW0xX3JCanJRNlpYalAzMVFvemJsNjhRRXJWMzhiUDdzcDJfOEdwWlFYR1VMUUpORnQzSE9kUjU2TXNwMk4wS0VScGd3d2E2QzJmZzdKc29IaDY4bldLbENGMFVvY2Exa2pMdWN2M0FPZEY2ZkNEM2g3UkV2SkVjMjZMOFVzd1kzT0lFRGRrYlZnQW9Jdw?oc=5",
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY3BfVHVpN1BrbDM4Y1Z1RktfV2hTbC1PSjZPcWtaVTQzcWZ3NndnV2R0LVIxR1h1NzJCcVFKYlFRUnJyaFd5VUltbGRoY0dfOGFQb1lrVUtrMkx1Y3hwd0J0Vk1WTU5sWDNkeEdGcHlxNWxsaUR6c0sxbkd0Y1V4Tkp0TDliSjV2VDh0SnZvOGxHclp5LWNSTXh6NWdkTV9RRnFDUlhPQlVoaEhhUlo5Z2xB?oc=5"
+   ],
+   "date": "2026-08-30"
+  },
+  {
+   "headline": "Silencio en el Athletic, debate en el Celta",
+   "urls": [
+    "https://as.com/futbol/primera/silencio-en-el-athletic-debate-en-el-celta-f202608-n/"
+   ],
+   "date": "2026-08-30"
+  },
+  {
+   "headline": "Fenerbahçe, Samsunspor Deplasmanında Galibiyet İçin Sahada",
+   "urls": [
+    "https://www.beyazbelgehaber.com/haber/fenerbahce-samsunspor-deplasmaninda-galibiyet-i-cin-sahada"
    ],
    "date": "2026-08-30"
   }
