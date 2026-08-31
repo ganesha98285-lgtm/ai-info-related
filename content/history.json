@@ -184,7 +184,9 @@
   "Silencio en el Athletic, debate en el Celta #shorts",
   "Fenerbahçe, Samsunspor Deplasmanında Galibiyet İçin Sahada #shorts",
   "The Stock Market Is Doing Something That's Been Witnessed Just... #shorts",
-  "As a Storyteller, Tim Curry Had the Gift #shorts"
+  "As a Storyteller, Tim Curry Had the Gift #shorts",
+  "Gigi Hadid Shares the Pasta Recipe She ‘Definitely’ Makes for... #shorts",
+  "Humana Is Cutting Medicare Advantage Plans for 2027. The... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -370,7 +372,9 @@
   "This changed in the last few hours.",
   "Stay till the end for the part people missed.",
   "Everyone is talking about this today.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "Here is the update you actually need.",
+  "You will want to hear this one."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1554,7 +1558,18 @@
   "Frank-N-Furter in The Rocky Horror Show (1973–1975), reprising the role in its 1975 film adaptation.",
   "He received three Tony nominations",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Gigi Hadid Shares the Pasta Recipe She ‘Definitely’ Makes for Her ‘Man’ Bradley Cooper: ‘He Loves This’",
+  "The Whisper Man is a 2026 American crime thriller film directed by James Ashcroft and written by Ben Jacoby and Chase Palmer.",
+  "It is based on the novel of the same name by Alex North and stars Robert De Niro, Michelle Monaghan, and Adam Scott.",
+  "The film's plot follows recently widowed novelist Tom Kennedy and his young son Jake, who move to the town of Garretton as police investigate a child abducti",
+  "Humana Is Cutting Medicare Advantage Plans for 2027. The Non-Renewal Letters Arrive in Early October.",
+  "AI’s worst disasters will arrive unannounced | Letters &nbsp;&nbsp; The Guardian",
+  "This is the part most people scrolled past.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3106,7 +3121,23 @@
   "px29249881": "2026-08-30",
   "px30044755": "2026-08-30",
   "px7981987": "2026-08-30",
-  "px7351830": "2026-08-30"
+  "px7351830": "2026-08-30",
+  "px5322475": "2026-08-31",
+  "px8551766": "2026-08-31",
+  "px7467739": "2026-08-31",
+  "px7005892": "2026-08-31",
+  "px6307681": "2026-08-31",
+  "px29532468": "2026-08-31",
+  "px37141417": "2026-08-31",
+  "px36579293": "2026-08-31",
+  "px32698829": "2026-08-31",
+  "px6282324": "2026-08-31",
+  "px7813165": "2026-08-31",
+  "px8348725": "2026-08-31",
+  "px6100412": "2026-08-31",
+  "px35655240": "2026-08-31",
+  "px7812446": "2026-08-31",
+  "px37759475": "2026-08-31"
  },
  "thumb_styles": {
   "0-0": 4,
@@ -3142,8 +3173,8 @@
   "3-6": 4,
   "3-7": 4,
   "4-0": 4,
-  "4-1": 3,
-  "4-2": 3,
+  "4-1": 4,
+  "4-2": 4,
   "4-3": 3,
   "4-4": 3,
   "4-5": 3,
@@ -4572,6 +4603,22 @@
    "title": "As a Storyteller, Tim Curry Had the Gift #shorts",
    "hook": "Nobody saw this coming today.",
    "date": "2026-08-30",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "hDsVYAv3p4c",
+   "title": "Gigi Hadid Shares the Pasta Recipe She ‘Definitely’ Makes for... #shorts",
+   "hook": "Here is the update you actually need.",
+   "date": "2026-08-31",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "6QIPs9ejrA8",
+   "title": "Humana Is Cutting Medicare Advantage Plans for 2027. The... #shorts",
+   "hook": "You will want to hear this one.",
+   "date": "2026-08-31",
    "views": 0,
    "likes": 0
   }
@@ -6281,6 +6328,22 @@
     "https://en.wikipedia.org/wiki/Tim_Curry"
    ],
    "date": "2026-08-30"
+  },
+  {
+   "headline": "Gigi Hadid Shares the Pasta Recipe She ‘Definitely’ Makes for Her ‘Man’ Bradley Cooper: ‘He Loves This’",
+   "urls": [
+    "https://www.yahoo.com/entertainment/celebrity/articles/gigi-hadid-shares-pasta-recipe-211235655.html",
+    "https://en.wikipedia.org/wiki/The_Whisper_Man"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "headline": "Humana Is Cutting Medicare Advantage Plans for 2027. The Non-Renewal Letters Arrive in Early October.",
+   "urls": [
+    "https://finance.yahoo.com/healthcare/articles/humana-cutting-medicare-advantage-plans-153022830.html",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMjkwNExjOUFoVjVZMEhsbjktYjJ5TEZiYThGT1FuVWFzWFRlS2V2SHNRZF8tcERQVjhZRHVJLXRaZ2NEY3A5TDQtWld0RF9CeTFHaDZYaW9UU0RlNTRYMTFHX3pJMENUcUxlMjU5ZlVKaVN5anh5cm85bnFlMThFaFlITEVrSXViREpGZVNkUGJ5ZTdkNDd3NGp3?oc=5"
+   ],
+   "date": "2026-08-31"
   }
  ]
 }
