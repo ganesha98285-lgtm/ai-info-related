@@ -186,7 +186,9 @@
   "The Stock Market Is Doing Something That's Been Witnessed Just... #shorts",
   "As a Storyteller, Tim Curry Had the Gift #shorts",
   "Gigi Hadid Shares the Pasta Recipe She ‘Definitely’ Makes for... #shorts",
-  "Humana Is Cutting Medicare Advantage Plans for 2027. The... #shorts"
+  "Humana Is Cutting Medicare Advantage Plans for 2027. The... #shorts",
+  "'No guts, no glory': How I captured NASA's Roman Space... #shorts",
+  "SpaceX, NASA delay next astronaut launch to ISS due to leak on... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -374,7 +376,9 @@
   "Everyone is talking about this today.",
   "Nobody saw this coming today.",
   "Here is the update you actually need.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "This is the story everyone is sharing.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1569,7 +1573,17 @@
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "'No guts, no glory': How I captured NASA's Roman Space Telescope cross the sun on a picture-perfect SpaceX Falcon Heavy launch",
+  "Roman telescope leaves its rocket behind photo of the day for Aug.",
+  "31, 2026 &nbsp;&nbsp; Space Opinion | A New Look at the Universe &nbsp;&nbsp; WSJ 'No guts, no glory': How I captured NASA's Roman Space Telescope cross the sun on a pict",
+  "It is spreading fast across feeds and group chats.",
+  "31, 2026 &nbsp;&nbsp; Space Opinion | A New Look at the Universe &nbsp;&nbsp; WSJ 'No guts, no glory': How I captured NASA's Roman Space Telescope cross the sun on a picture-perfect SpaceX Falcon Heavy launch &nbsp;&nbsp",
+  "SpaceX, NASA delay next astronaut launch to ISS due to leak on Dragon spacecraft",
+  "SpaceX, NASA delay next astronaut launch to ISS due to leak on Dragon spacecraft &nbsp;&nbsp; Space NASA, SpaceX Postpone ISS Mission Launch After Spacecraft Leak &nbsp;&",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "We are watching how this develops through the day.",
+  "SpaceX, NASA delay next astronaut launch to ISS due to leak on Dragon spacecraft &nbsp;&nbsp; Space NASA, SpaceX Postpone ISS Mission Launch After Spacecraft Leak &nbsp;&nbsp; Bloomberg.com NASA, SpaceX Adjust Crew-13 La"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3137,7 +3151,21 @@
   "px6100412": "2026-08-31",
   "px35655240": "2026-08-31",
   "px7812446": "2026-08-31",
-  "px37759475": "2026-08-31"
+  "px37759475": "2026-08-31",
+  "px18647601": "2026-08-31",
+  "px8062136": "2026-08-31",
+  "px8490213": "2026-08-31",
+  "px8447700": "2026-08-31",
+  "px35669370": "2026-08-31",
+  "px8326123": "2026-08-31",
+  "px19628991": "2026-08-31",
+  "px8771145": "2026-08-31",
+  "px7169782": "2026-08-31",
+  "px7649293": "2026-08-31",
+  "px7170780": "2026-08-31",
+  "px7649284": "2026-08-31",
+  "px7170794": "2026-08-31",
+  "px7169893": "2026-08-31"
  },
  "thumb_styles": {
   "0-0": 4,
@@ -3175,8 +3203,8 @@
   "4-0": 4,
   "4-1": 4,
   "4-2": 4,
-  "4-3": 3,
-  "4-4": 3,
+  "4-3": 4,
+  "4-4": 4,
   "4-5": 3,
   "4-6": 3,
   "4-7": 3,
@@ -4618,6 +4646,22 @@
    "video_id": "6QIPs9ejrA8",
    "title": "Humana Is Cutting Medicare Advantage Plans for 2027. The... #shorts",
    "hook": "You will want to hear this one.",
+   "date": "2026-08-31",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "psruC0DscS0",
+   "title": "'No guts, no glory': How I captured NASA's Roman Space... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-08-31",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "X6_IymdzBKE",
+   "title": "SpaceX, NASA delay next astronaut launch to ISS due to leak on... #shorts",
+   "hook": "This is the story everyone is sharing.",
    "date": "2026-08-31",
    "views": 0,
    "likes": 0
@@ -6342,6 +6386,26 @@
    "urls": [
     "https://finance.yahoo.com/healthcare/articles/humana-cutting-medicare-advantage-plans-153022830.html",
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMjkwNExjOUFoVjVZMEhsbjktYjJ5TEZiYThGT1FuVWFzWFRlS2V2SHNRZF8tcERQVjhZRHVJLXRaZ2NEY3A5TDQtWld0RF9CeTFHaDZYaW9UU0RlNTRYMTFHX3pJMENUcUxlMjU5ZlVKaVN5anh5cm85bnFlMThFaFlITEVrSXViREpGZVNkUGJ5ZTdkNDd3NGp3?oc=5"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "headline": "'No guts, no glory': How I captured NASA's Roman Space Telescope cross the sun on a picture-perfect SpaceX Falcon Heavy launch",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcU9CdzNYZURQQ2dUVVh5eFNHdHBmRms5WWYtY1RXMS1xUmtpbUpvNC1jNkg4TlFGZjVYSlh3Wl9acENpX0g0RnZXV3VZU2pHNkxsd2xvNXVRTXhQZDJ6SDdvbWJlOUowVmxORFBmMlE1LUREQzhCVHZBdVpIOGNtQ3hIZ0UwS0VqMGNIamVhNDlaY1hjSUFZbzBmbTNFX2MxRlcyWkItNFlQMFFONGFydHRReVloQVhPOG9PZHV2cEdlOTVwT0dWSUxIOTFsZVEySGYzT2V3?oc=5",
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMF9OSl90M1ZQVUViMmUwTHlwa3BSUm80bmgtYmlTZWZLcmZVWEF5Mm1oLW5mM3dzMmc2SVNPTGpsUTc3YllzbnZnR0VtUV85SEhpSXBxZV9kd3N0MjkzSWhLZFZsOWNfVFRjOXZRVmVsYkxiazh6Z3pvVV9iZzc2YkVoN3dIWTZTcjhHMw?oc=5",
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZXJ1TGdCRFBkUUZfaXdNaTdTNWpCV21uSnVsMVI4TFZNLUpIaW5QV0l6SU5BYm8wenRjSnhyQkhJSVJfM1kwWjB0UlM0aFFrY2VUSFBJVnc0QVBSZlZGTHhudTZtb0ppLUx5MGhQUmVXanpYYnBHdGlwLVBqOW94QVZ0MnREU0RXN2VpS2lCU3lSN0pmYmpiYy0tejJ0MXdlSFY2Y19QbE04LTNSOG5SR3ItekJSVDNvYXFHNG1mRWlyd0lwbEZBSDNFVEpZYUVzNUJPVHlEcGJUX2Z3QnB0STlJR0NxeDg?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN2xab3JnUHZsQXBXcklUNmZZLW42RUlmaXdZU2wxZ19HcjNaWFlsdVYwN0haS202ODh3VWNBSEpLZlQ2N2ZOU29iQmc2U1JFTndDWHM5MHR5czhhY1J6NVBPQUZpQ20zekFTZzdhQURrNDRrTEh4RFhSc3l3M2k0S0JvOGJlbXZiMFdzZlBvaGhVRVhJMjhlWjRRTTI1RV9RUWlFNGVYcXpZbUZuU0o4akFvQUpZVW8?oc=5"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "headline": "SpaceX, NASA delay next astronaut launch to ISS due to leak on Dragon spacecraft",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSXV6aXFldUVqS0Znb0swX3ZpOVctRTlrOWdhOEd2U1d3di0zckRvZkRGeEJpZ1VmOFRLeEFGNEI3MjJOMEtsdTFqZlVOeGRpWXVqWTZWUWV4S1RVQzR0cFNDeVRQYXliRXZ4by15RmtjZXBLMndOSVhobko2OUpHWGZBVjhmYjZrUHU3ODRkVktCcmxZY081WmdjMWdLUUgyMmxJY1lrZ055UnNicTI2d2pra1ZzYVNDZVVQc1lQSXF6T1RwdUhBWmJrUTRiR1dNRFBVOWxn?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY3ZQa3UxTWJvMHdUZHdrb3FsRDdPa1FXUnZITEppOVJINWs0OHZzdHNDRWtKM1RMbDM2Vm03M1ZUeV84RVRCVnhuYzdvaUxoMTZndjU3bGhGUnF4bGh5Q0NtY09lUnZzVUtRUzlfbjhnYy15YU4wempWNnZrOXBLMXptQm9GdEk4ckhpeTFwUkR6a1d0?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3N4dmdkUUZqNXA1Q0VBNUp2aldyM1BUbjU4bWs1bl9MTnRSNEwwQ2IxX2pkSnhhXzRYX2tKZUlQWTAyX3h5aF84M1RwZEhFR3g5eTRiNTkzVDh6ZmZCQllRX1FaLTBoWEl2dnhRUHZ5RVZ1Uk1DSFZPbnFrbHJPM3FsQTlvNnF0RzNkZzdJWG9wcl80?oc=5",
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbHpnamU0aDFrSmdvdnltejBXUFpRT3ppRTFhRHJBNWNJdWZkMXkwSXFRYjJ0blljRW5yMzA3Sl9EUmZqX0JWRkhuUUZtZXY1b1VlWENibE5TTk5aMzg0VUR0d1lxcGNuc0w4d21QQkg1a3l4RmlMaHRwY1F0a2ZXVzRfZHJlc1h6WGlIMHJMX2U0ZDNzVm5tOTQyMEVRd1FpZl9pRE1LRkVmZGluZkwyS0I4c2tWcXJWRWFEYnpQbmp1dU5n?oc=5"
    ],
    "date": "2026-08-31"
   }
