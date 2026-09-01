@@ -191,7 +191,9 @@
   "SpaceX, NASA delay next astronaut launch to ISS due to leak on... #shorts",
   "Stock Market Today: Dow ends lower but still logs fifth month... #shorts",
   "Over 175,000 tech jobs cut in 2026: Apple, Microsoft, Amazon,... #shorts",
-  "Meteorite from 'once-in-a-lifetime' Great Salt Lake crash on... #shorts"
+  "Meteorite from 'once-in-a-lifetime' Great Salt Lake crash on... #shorts",
+  "I was laid off after 25 years at Adobe. After a soul-sucking... #shorts",
+  "Bullish on Broadcom earnings, ‘great growth’: Infrastructure... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -384,7 +386,9 @@
   "This is the story everyone is sharing.",
   "Nobody saw this coming today.",
   "This is blowing up right now.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "Everyone is talking about this today.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1604,6 +1608,19 @@
   "We cover this beat every single day, which means you will see the follow up here first.",
   "That is the short version, and the full reporting is linked in the description under this video.",
   "Meteorite from 'once-in-a-lifetime' Great Salt Lake crash on display at University of Utah &nbsp;&nbsp; KSL News",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "I was laid off after 25 years at Adobe. After a soul-sucking tech job search, I became a school bus driver.",
+  "Stock Market Today: Nasdaq, Dow Fall as Bond Selloff Intensifies — Live Updates &nbsp;&nbsp; WSJ",
+  "It is spreading fast across feeds and group chats.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Bullish on Broadcom earnings, ‘great growth’: Infrastructure Capital Management CEO",
+  "Dell Stock Surges As Computer Maker Trounces Estimates &nbsp;&nbsp; Investor's Business Daily Dell Technologies Delivers Second Quarter Fiscal 2027 Financial Results &nbs",
+  "That is the headline people are reacting to right now.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Dell Stock Surges As Computer Maker Trounces Estimates &nbsp;&nbsp; Investor's Business Daily Dell Technologies Delivers Second Quarter Fiscal 2027 Financial Results &nbsp;&nbsp; Business Wire Dell again lifts forecasts ",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
@@ -3226,7 +3243,22 @@
   "px34047591": "2026-09-01",
   "px9174516": "2026-09-01",
   "px36434546": "2026-09-01",
-  "px34105427": "2026-09-01"
+  "px34105427": "2026-09-01",
+  "px7610993": "2026-09-01",
+  "px19972051": "2026-09-01",
+  "px27584305": "2026-09-01",
+  "px6342232": "2026-09-01",
+  "px7610983": "2026-09-01",
+  "px6349070": "2026-09-01",
+  "px6391720": "2026-09-01",
+  "px8100338": "2026-09-01",
+  "px6775033": "2026-09-01",
+  "px35048745": "2026-09-01",
+  "px36684813": "2026-09-01",
+  "px20355342": "2026-09-01",
+  "px5995594": "2026-09-01",
+  "px30840262": "2026-09-01",
+  "px15283160": "2026-09-01"
  },
  "thumb_styles": {
   "0-0": 4,
@@ -3269,8 +3301,8 @@
   "4-5": 4,
   "4-6": 4,
   "4-7": 4,
-  "5-0": 3,
-  "5-1": 3,
+  "5-0": 4,
+  "5-1": 4,
   "5-2": 3,
   "5-3": 3,
   "5-4": 3,
@@ -4747,6 +4779,22 @@
    "video_id": "q7m8_y-cXek",
    "title": "Meteorite from 'once-in-a-lifetime' Great Salt Lake crash on... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-09-01",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "x5Q997GkZ7c",
+   "title": "I was laid off after 25 years at Adobe. After a soul-sucking... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-09-01",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "yB7vyyCucuQ",
+   "title": "Bullish on Broadcom earnings, ‘great growth’: Infrastructure... #shorts",
+   "hook": "This just moved the whole market.",
    "date": "2026-09-01",
    "views": 0,
    "likes": 0
@@ -6519,6 +6567,26 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdk1iU3NERzRDbUdZMXUtZzNZNHZSSTBYYW9tZ2VvdTVEbXdTTm5ZeWNoRmhEcG9NSXpyTXNkWXhmY2xuUWlCRTI2OUVqZENTUUtNeUhORkE4V3VXMnVDUWFIWHZlN2VrOUk4UjFXNHFLZGJldUhaNDgtZ3NWMkY4d25ma003d09QWlFnRFk4aFdjSUFIVm96V0NlLUpGZ2dyYmpYX0wtMmJFMWdCSHg5SS16cHFDY2FHOFY5WUl2ZG44bnc?oc=5",
     "https://en.wikipedia.org/wiki/Lake_Ontario"
+   ],
+   "date": "2026-09-01"
+  },
+  {
+   "headline": "I was laid off after 25 years at Adobe. After a soul-sucking tech job search, I became a school bus driver.",
+   "urls": [
+    "https://www.bbc.co.uk/sport/tennis/live/cj9dlyed933t",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcl9Ibkp4OTFIVzB6WGMzSUlxRi11RXUtSHY5X2l4WFRPRHVNVGZ3WFNSWDgwY3MxY1NnUDN6aUxmMW5wcURwdnNlYXVrbXlFOFZRWFZPdzlhb0NTZWloWlNvQ0FDZjJlN3BKcXhZSDJUYTQ4OFB1THRQZDk2UnlxUnlWQ05zRjQ?oc=5",
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa1NWbmNWQXBLWmZsZHJvUkdXMnRwYnlTVjJ4ZzZlNk9IQjhCbzkzbzhEUXJxdkZkNTQyY25TUHlsa1Z5elJkVzRmTm81czRIVU51Vkh2c1BrOEhCdmJmS3pvTDd6ZTJHd19oeXA4WTJ2cHBYU2s5ZXlzbE5vM3Q0ZGNHOXQ4WlJvV2hHYXlwc2NuVk8tNWVnNVUxNnBVMUt5Wm9QMzlnZjFFZnU3REx4bWZFakVZOHdvc3dWMWZlbVpJVTg2blVvaHZlRnRfZUE?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeVo1N0VPcGF2OHVOVmc1YzVwN0d2bVVKRl9EQi1BN2t6aEs1Ykx0dXJ6Mkh0SDh6Vm16eUh4cFhaWDhJZV85RlRFSTF1dmdIelVFYXZDMHhqTW9GdzRCbGxTYlJmRkg4a0xXVUtwMHFRX09PVDNuNElzSXVOMkRIbDdoaHdaSEg0MnY3TmlCWlNZenlC?oc=5"
+   ],
+   "date": "2026-09-01"
+  },
+  {
+   "headline": "Bullish on Broadcom earnings, ‘great growth’: Infrastructure Capital Management CEO",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM28xRzczVjFsSkJkNVE2aFlDQzVMOVY1VGozQlZ0Z1BSMXE2b3NYNXBmZjFzaDFFSThtTDFKZXhENmVrWC0xaUZqZUpLZHpsNnpQd0c2VE5lWmNDNUhuc2tPbHljd2JXOHRZOU1mblFPTFI4bFhUaXdIOHo3YTZNeGYzRQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaEdwbGNEUEpMQ3hFM3NwRnNYdFdRUWY4Yk5HcmZFTHRjVGZKeE5fNHRKdHlCamZ2dW9jQ1NUUzI5cXlLUUNDam9nVHdIUW9hVDZIanF2dmNkYTFtMVVhSXV4YlBDSjRzQ0tnS3ZucE1kWEhtMHhLbU1tbkJXcUNmcmw5Wlk3dkNnUXF3SGpqcHRkTjhQMHkydktLVFNObWlIaHlCVWpnWnFkQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdjY2VFgteU1YNzkwVW5EcG5hOUhlc3FnMjd1N1h2QWlRdllldmtJQml4QllZVTFnLWxsRFhCVC1PLVl6Nl81cDc5NjkzM3B3czVrdzdTYl8waFEwSEhONmJvTGNrTWZWMzFIY3B6Y1BMSEgzV054NmpSdzZoaXpKcG1uenNDYVlCVnlpRXhSX0huTVF0aFpWTHpkOFY?oc=5",
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaks5M0ZLNWtjUUZfQkVjelN5elIxaWdLMzg0YVJicWtqT2hfOUo0QTNGeGdmUEdfQ1lsanRhRFhLTWxOMHkzbkxVNjRYWTBkRmNnZjBJcXd3aGlJcXN0T1hvZGVOdDhGQlA2RHU2MDJEcFlXWW9RSElwbWtuOUplMU93YTRuYTFjbVNHOHltMkthVzZnRGNvVWV3MG4wb0YtRE9OWWhwU2kyQk5xdHdDeUluSHJuMF920gG-AUFVX3lxTFBOdDFzSGNaZXJFMFR1Xzl3QnNDaDNrVHBJWWczUzBrRDlzbDVKVEkzbXFQVXR5ODdmS3doR1FoWGxCQnZfVHVYeVBQTWxpeUYtVjhqTGJJX0tjbVFlRzdoZjlHSTdBOUNpcGl1SG4tUkFyYlVzeTdIR1BaTUJzbUd0TnI5MjEzWHZ4bEpYMFNvTUw4VV9TZVQ2RklNcVBRZl9WZ1U5cVZrWFk2LVphUnZvSV94RXVzSk0zWkZzc3c?oc=5"
    ],
    "date": "2026-09-01"
   }
