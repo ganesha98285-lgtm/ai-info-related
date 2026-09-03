@@ -200,7 +200,8 @@
   "Bitcoin Adoption Is Now Bigger Than Gold, S&P 500 Globally,... #shorts",
   "Munich Startup Project-S Emerges from Stealth with... #shorts",
   "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket... #shorts",
-  "Microsoft to impose time limits on Xbox cloud gaming... #shorts"
+  "Microsoft to impose time limits on Xbox cloud gaming... #shorts",
+  "Crypto giant Tether promised careful vetting. Some early... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -402,7 +403,8 @@
   "This just moved the whole market.",
   "Stay till the end for the part people missed.",
   "Stay till the end for the part people missed.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "Here is the update you actually need."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1669,7 +1671,11 @@
   "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb &nbsp;&nbsp; CNBC Xbox Game Pass cloud gaming hour caps start in November &nbs",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
   "That is the headline people are reacting to right now.",
-  "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb &nbsp;&nbsp; CNBC Xbox Game Pass cloud gaming hour caps start in November &nbsp;&nbsp; qz.com Microsoft is introducing hourly li"
+  "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb &nbsp;&nbsp; CNBC Xbox Game Pass cloud gaming hour caps start in November &nbsp;&nbsp; qz.com Microsoft is introducing hourly li",
+  "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes. - International Consortium of Investigative Journalists",
+  "Tech stocks lead a rally on Wall Street as bond yields ease some more &nbsp;&nbsp; AP News Dow jumps 600 points, heads for best day in a month as yields fall: Live update",
+  "Here is why it is getting so much attention.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3385,11 +3391,24 @@
   "px8726243": "2026-09-03",
   "px8726753": "2026-09-03",
   "px34657859": "2026-09-03",
-  "px8726751": "2026-09-03"
+  "px8726751": "2026-09-03",
+  "px34837839": "2026-09-03",
+  "px10637506": "2026-09-03",
+  "px7714818": "2026-09-03",
+  "px11066064": "2026-09-03",
+  "px9466779": "2026-09-03",
+  "px3997797": "2026-09-03",
+  "px6617106": "2026-09-03",
+  "px3959058": "2026-09-03",
+  "px6565090": "2026-09-03",
+  "px7652166": "2026-09-03",
+  "px32259631": "2026-09-03",
+  "px34056853": "2026-09-03",
+  "px6943340": "2026-09-03"
  },
  "thumb_styles": {
   "0-0": 5,
-  "0-1": 4,
+  "0-1": 5,
   "0-2": 4,
   "0-3": 4,
   "0-4": 4,
@@ -4978,6 +4997,14 @@
    "video_id": "aKk6plBz9zo",
    "title": "Microsoft to impose time limits on Xbox cloud gaming... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-09-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "WwVzdrF8xrU",
+   "title": "Crypto giant Tether promised careful vetting. Some early... #shorts",
+   "hook": "Here is the update you actually need.",
    "date": "2026-09-03",
    "views": 0,
    "likes": 0
@@ -6838,6 +6865,16 @@
    "urls": [
     "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html",
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KNXpZOERfQmJsdnNOeGhfdC1HMy1pVGVkNG1KSEdPeVRTTHA0VGVBdXg5X0hoU2hCa2p2YUc3QlVsZU03NGJVQ0xzQWtJOTZUbFZudE9CZnJsVEh5VkhuZlZaMHJtQ0xNck50NnZvM0R3ODdCdnFlZVVOWklHa1HSAYQBQVVfeXFMUHJIMjJJaGo5c25zcDg1VDVFZVBteTh0UGp2a2xnR0hLYkdkQUZxZXZNZFdzRFVNM1VDeG5nRFkxQnJ3eWtnLUFvWktIVXRjclhZQnRSSldNQXA4c1VjLThDdVd4R0RSY1B0ZUU0OWtfRWZMTzctTHpjcDFqcG5Ra0ZwRGwx?oc=5"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "headline": "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes. - International Consortium of Investigative Journalists",
+   "urls": [
+    "https://www.tradingview.com/news/gurufocus:f82721c70094b:0-palantir-leads-tech-stocks-as-nasdaq-rebounds/",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRm1qUndzRGJ6NHpzRWZueGRlcTNFS0tCb2RQakc0ZWZnUlBjUkJJM2d5RGM3eEJOelBwc21LME4xazIxc1ktTzVPOVNjNWxrb3hYenFkemtuR1R2Q3Rvajk1Tmd1RDZLX2lnT1F2TGxldDBDXzFOM2plMmxPLWpUaVZJVEt6RHRYSGtVcVA1TGRqRjB3NWY0OA?oc=5",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxObHlDS0F6WHhuTGlxY0kyLTdpbjN1cWNsajJhd1QxNW9XWTQtOUlNZWVYSHJRWTIzaDN3ZGZyYy03MTJHSllobXRzc3hoZ20wdmR2ZG5STjR2ZFhVNXl1dllEZTBHUngwUGoxdjFRbXd2YlFNdTlad2trN3VhMHJRQUZkR08zbUE4SmVJdzg3clpvd0xldnE4bktmSVp1WmVmck9wZ2FRQUFLRllDZnQ4YVRB?oc=5",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVzJ4UV9hNkRzQWZqckRhTUpVazZGWHRLOE9jM3cyUFNsS1FwY1VsSlA4UzZiYk9EV0JIYzhsRlBMSHdrNk5Yd0p1YU5iUUJMd1JXNmYtTThhOGxiWmpvTDk5b2tGMFNVZVE2NmItUG1STHBIU01fQl9GRTM1QjBsaGNtTEFLYW16T1VrQ1FuUExPTWJJZEFVU01CTXIxcF9GeFptOE96U1R2dVVzbDNUWW5R?oc=5"
    ],
    "date": "2026-09-03"
   }
