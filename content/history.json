@@ -198,7 +198,9 @@
   "Single Americans want potential partners earning at least six... #shorts",
   "There's A New Space Telescope On Its Way To Help Answer The... #shorts",
   "Bitcoin Adoption Is Now Bigger Than Gold, S&P 500 Globally,... #shorts",
-  "Munich Startup Project-S Emerges from Stealth with... #shorts"
+  "Munich Startup Project-S Emerges from Stealth with... #shorts",
+  "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket... #shorts",
+  "Microsoft to impose time limits on Xbox cloud gaming... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -398,7 +400,9 @@
   "Nobody saw this coming today.",
   "This is the story everyone is sharing.",
   "This just moved the whole market.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "Stay till the end for the part people missed.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1656,7 +1660,16 @@
   "HPE Earnings Prediction Market Preview: Will Antonio Neri Say ‘Self Driving’ Again?",
   "&nbsp;&nbsp; Benzinga HPE Boosts Outlook as AI Demand Drives Surge in Third-Quarter Profit &nbsp;&nbsp; WSJ Hewlett Packard Enterprise (NYSE:HPE) Surprises With Q2 CY2026",
   "We are watching how this develops through the day.",
-  "&nbsp;&nbsp; Benzinga HPE Boosts Outlook as AI Demand Drives Surge in Third-Quarter Profit &nbsp;&nbsp; WSJ Hewlett Packard Enterprise (NYSE:HPE) Surprises With Q2 CY2026 Sales, Provides Optimistic Revenue Guidance for N"
+  "&nbsp;&nbsp; Benzinga HPE Boosts Outlook as AI Demand Drives Surge in Third-Quarter Profit &nbsp;&nbsp; WSJ Hewlett Packard Enterprise (NYSE:HPE) Surprises With Q2 CY2026 Sales, Provides Optimistic Revenue Guidance for N",
+  "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket Launches: ‘If the 4th Launch Had Failed, SpaceX Would Not Exist’",
+  "Dow jumps 600 points, heads for best day in a month as yields fall: Live updates &nbsp;&nbsp; CNBC Stock market today: Dow, S&P 500, Nasdaq surge as traders pare rate-hik",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "It is spreading fast across feeds and group chats.",
+  "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
+  "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb &nbsp;&nbsp; CNBC Xbox Game Pass cloud gaming hour caps start in November &nbs",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "That is the headline people are reacting to right now.",
+  "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb &nbsp;&nbsp; CNBC Xbox Game Pass cloud gaming hour caps start in November &nbsp;&nbsp; qz.com Microsoft is introducing hourly li"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3358,10 +3371,24 @@
   "px32994105": "2026-09-03",
   "px11172453": "2026-09-03",
   "px6625559": "2026-09-03",
-  "px10440850": "2026-09-03"
+  "px10440850": "2026-09-03",
+  "px8373739": "2026-09-03",
+  "px7065800": "2026-09-03",
+  "px5849647": "2026-09-03",
+  "px16668186": "2026-09-03",
+  "px7230303": "2026-09-03",
+  "px36644495": "2026-09-03",
+  "px36644496": "2026-09-03",
+  "px35088439": "2026-09-03",
+  "px8728110": "2026-09-03",
+  "px8726760": "2026-09-03",
+  "px8726243": "2026-09-03",
+  "px8726753": "2026-09-03",
+  "px34657859": "2026-09-03",
+  "px8726751": "2026-09-03"
  },
  "thumb_styles": {
-  "0-0": 4,
+  "0-0": 5,
   "0-1": 4,
   "0-2": 4,
   "0-3": 4,
@@ -3408,7 +3435,7 @@
   "5-4": 4,
   "5-5": 4,
   "5-6": 4,
-  "5-7": 3
+  "5-7": 4
  },
  "uploads": [
   {
@@ -4935,6 +4962,22 @@
    "video_id": "GXDePajPWGk",
    "title": "Munich Startup Project-S Emerges from Stealth with... #shorts",
    "hook": "Stay till the end for the part people missed.",
+   "date": "2026-09-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "UTNA2etetAQ",
+   "title": "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket... #shorts",
+   "hook": "Stay till the end for the part people missed.",
+   "date": "2026-09-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "aKk6plBz9zo",
+   "title": "Microsoft to impose time limits on Xbox cloud gaming... #shorts",
+   "hook": "Nobody saw this coming today.",
    "date": "2026-09-03",
    "views": 0,
    "likes": 0
@@ -6777,6 +6820,24 @@
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV2xuX2NUVFRxa0laYW5WS2hrcVNVWk0yV19YeUh5V2F4NF9NMGhzdWYxdjFXVkM4Z3MyRTQwNTNXUW8xQWFwSW5hVlBIdEJuYjNXYTFHc21GMG5jZk1zdGpSR0N4NE00X09HX3lDd1ZZLTlwVEl6bmhMVVpkUE1PVF9SclpERGxWazU1bmp6a2dvQjJqWjQyX3RSRGVvTFlfVWdXNHBRVFk?oc=5",
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OaTZHUVRXVTJtZjAyamtXUWhyY2FZbkk4NXhDMWh4TElxSzY2el9jby1TdHhoWjV0dXF3bjFVRC1RaGprWEJzNEhqb3YwZlpwYnVjSlpwYVJOR09aaWJiSFEwY3lLUlhhejdfTXU4RXlZMHg4MnA4Rg?oc=5",
     "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sTUVCdFItZmM3dlctSG5KWE9EZ1JHVHlIWThVaEhyczllY0t3SDR0d05jazdJamR4Y0pxdVE3OFQ4cjcteXRvTHhsZHpLeG9aTF9JMHFmTWs4eUM2aVRDRThZV3dtTEs4?oc=5"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "headline": "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket Launches: ‘If the 4th Launch Had Failed, SpaceX Would Not Exist’",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tZmdtNmZXU09LTVJCOFJZbG1uYmJwd0c2ZFM2S3UwQXo4WjVzNmJ6TXBXWlFPTmdHQ1hPVnVuc01vbktmdjAySlcwZ19YbURRSHhtTFJjR3N3T1BaVElvNXNHT0MwT2VNS1dzTXBiNWM5Y0I4d2pF0gF8QVVfeXFMUFZoRkZnVzM4WFBfMWM3Y0ZWbDZHYUVJNlkzanZFM2hoZWl4Wl9FYkJwaHE5a1U2SmFoWUZyMTVHS1BuZDd5c2x0a29rRnZGLW9JRW9rNWN4UXlhS0ItZ2VYWE5lRG1kWDZxZXdlZDlHSk1GZFVaakkxV2txZQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdFQzczVJcTRIS1ZyX1FXU2Z1UGdJdy1rODZfUzlNaE5OMGYyTklaSndXZ1B0YlF1WFoteWpNdUNGY1NLdEFFTzNPS0w5bVNRNV9GOGg2MUR0MWV6Zk4wRjA2NWdDaFg0a2J1R2NqZjRIUWhGT3hVcHhHUWFJVzU2ZTNJcnhiNFdmLTE1ZGduelBSSjNXZ0lnY0NNeHlGbkVPbDVjVFZ4OExxMzhmTW1lT3NteGRxY1dZZ1Nn?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLXlzQUE4RnhYczlHSHcxd05mVExlNWs2VWpNa1p3bXpERVpqWlI5b0R5ZlZaenJIcDdOV0p3by1RMFZfbUJ6SGh4bWFWSVpuN0dLQ3hmTUFydHVJOWFYRHZ5cDFKcThIN2FWVFp5ZF9iNzdKNUpXTVVNd3RpMHhTTlFDa2h1NkFxRURtR3NxLUUwdnpHT1NocGpn?oc=5",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2dncThxVEtaZk9pU2tINUxydkpEUmdWQlg0QUF2SG1iMHdpcUhISWFrcks5cm95bFB1cVRYZmxSWFJIRzhiNG8ycE00YURXMDlyZzF0UlZuUGtJUE5BeGMzSXJSMDVGSjNoUXJjbngxUkdLMjl6bmh0NUNfNW40ZEtXSVlGa3NtNmUyY0ZfVU56VkJDRVg3WmI4STMxc1lvMGFEWTBEc2JPUWk0U3hubzJn?oc=5"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "headline": "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
+   "urls": [
+    "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KNXpZOERfQmJsdnNOeGhfdC1HMy1pVGVkNG1KSEdPeVRTTHA0VGVBdXg5X0hoU2hCa2p2YUc3QlVsZU03NGJVQ0xzQWtJOTZUbFZudE9CZnJsVEh5VkhuZlZaMHJtQ0xNck50NnZvM0R3ODdCdnFlZVVOWklHa1HSAYQBQVVfeXFMUHJIMjJJaGo5c25zcDg1VDVFZVBteTh0UGp2a2xnR0hLYkdkQUZxZXZNZFdzRFVNM1VDeG5nRFkxQnJ3eWtnLUFvWktIVXRjclhZQnRSSldNQXA4c1VjLThDdVd4R0RSY1B0ZUU0OWtfRWZMTzctTHpjcDFqcG5Ra0ZwRGwx?oc=5"
    ],
    "date": "2026-09-03"
   }
