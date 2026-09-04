@@ -201,7 +201,9 @@
   "Munich Startup Project-S Emerges from Stealth with... #shorts",
   "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket... #shorts",
   "Microsoft to impose time limits on Xbox cloud gaming... #shorts",
-  "Crypto giant Tether promised careful vetting. Some early... #shorts"
+  "Crypto giant Tether promised careful vetting. Some early... #shorts",
+  "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end... #shorts",
+  "OpenAI unveils GPT-6 Astra with major advances in AI... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -404,6 +406,8 @@
   "Stay till the end for the part people missed.",
   "Stay till the end for the part people missed.",
   "Nobody saw this coming today.",
+  "Here is the update you actually need.",
+  "You will want to hear this one.",
   "Here is the update you actually need."
  ],
  "ideas": [
@@ -1675,7 +1679,15 @@
   "Crypto giant Tether promised careful vetting. Some early customers were later implicated in financial crimes. - International Consortium of Investigative Journalists",
   "Tech stocks lead a rally on Wall Street as bond yields ease some more &nbsp;&nbsp; AP News Dow jumps 600 points, heads for best day in a month as yields fall: Live update",
   "Here is why it is getting so much attention.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end sharply higher as software stocks and Big Tech rally; Treasury yields ease after Fed governor Waller's remarks",
+  "The Weirdest and Wackiest Tech We Found at IFA 2026 &nbsp;&nbsp; CNET IFA 2026: the biggest tech and gadget announcements &nbsp;&nbsp; The Verge Live Updates From IFA 202",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "It is spreading fast across feeds and group chats.",
+  "OpenAI unveils GPT-6 Astra with major advances in AI capabilities: 'Now in the AGI era'",
+  "OpenAI unveils GPT-6 Astra with major advances in AI capabilities: 'Now in the AGI era' &nbsp;&nbsp; Fox Business \"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra deb",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Save this one so you can come back to it when the next update lands."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3404,13 +3416,24 @@
   "px7652166": "2026-09-03",
   "px32259631": "2026-09-03",
   "px34056853": "2026-09-03",
-  "px6943340": "2026-09-03"
+  "px6943340": "2026-09-03",
+  "px7841868": "2026-09-04",
+  "px35716929": "2026-09-04",
+  "px7841619": "2026-09-04",
+  "px7841664": "2026-09-04",
+  "px7841614": "2026-09-04",
+  "px7351683": "2026-09-04",
+  "px7089603": "2026-09-04",
+  "px31059637": "2026-09-04",
+  "px33258813": "2026-09-04",
+  "px9574125": "2026-09-04",
+  "px5752044": "2026-09-04"
  },
  "thumb_styles": {
   "0-0": 5,
   "0-1": 5,
-  "0-2": 4,
-  "0-3": 4,
+  "0-2": 5,
+  "0-3": 5,
   "0-4": 4,
   "0-5": 4,
   "0-6": 4,
@@ -5006,6 +5029,22 @@
    "title": "Crypto giant Tether promised careful vetting. Some early... #shorts",
    "hook": "Here is the update you actually need.",
    "date": "2026-09-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "lPDbxqxKWPk",
+   "title": "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end... #shorts",
+   "hook": "You will want to hear this one.",
+   "date": "2026-09-04",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Cjzik2qkmxo",
+   "title": "OpenAI unveils GPT-6 Astra with major advances in AI... #shorts",
+   "hook": "Here is the update you actually need.",
+   "date": "2026-09-04",
    "views": 0,
    "likes": 0
   }
@@ -6877,6 +6916,26 @@
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVzJ4UV9hNkRzQWZqckRhTUpVazZGWHRLOE9jM3cyUFNsS1FwY1VsSlA4UzZiYk9EV0JIYzhsRlBMSHdrNk5Yd0p1YU5iUUJMd1JXNmYtTThhOGxiWmpvTDk5b2tGMFNVZVE2NmItUG1STHBIU01fQl9GRTM1QjBsaGNtTEFLYW16T1VrQ1FuUExPTWJJZEFVU01CTXIxcF9GeFptOE96U1R2dVVzbDNUWW5R?oc=5"
    ],
    "date": "2026-09-03"
+  },
+  {
+   "headline": "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end sharply higher as software stocks and Big Tech rally; Treasury yields ease after Fed governor Waller's remarks",
+   "urls": [
+    "https://sports.yahoo.com/articles/utah-football-printable-2026-schedule-011925958.html",
+    "https://byucougars.com/news/2026/08/31/byu-football-game-week-2026-utah-tech",
+    "https://www.lonestarball.com/rangers-game-day-lineups/93486/texas-rangers-lineup-for-september-3-2026",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVlWU2wzdkM5MHlRbWU3Y1Fab3lLRnYtS0k1ZS1PYkhDTHozV29aWE1obFItTkgySk5ndDhPczAtbWZHQTNndWxPdXhndjRhOWpwTFQ2MXR5UkVPckUxN1VSckY2Z0ExcHFrUXRRLVp2SmNPQ29rejBUb2hzWVhUajF1Zm0?oc=5"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "headline": "OpenAI unveils GPT-6 Astra with major advances in AI capabilities: 'Now in the AGI era'",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2l4c2h2R2JEUTlZSkR4QlIzR1RtN0Q0M2dzMHpGR2o0WGJ0N3hUY0tfZlBZWjk0ZnFtMVFYLUZMVnV4eXpMQkxESWd1cUgyUEFqSE5Vb1RxR2VQaDllOHUyVlpndE1PekZKYTJOMDlWOTBEc0dFMUpUWl9zekhvcUdza1lLZ21wYVNYU2JtY2JuVmljblZQUHdacS3SAaIBQVVfeXFMTlpQdmVJNXpScWN6VnoxTk1fMHctWGpzdC1Ib1FkdVNkZVE1b2RFQ1p0S1lZY18zOHJVOE1IdXVGc01nREQtZlg1R3FhaWRNVS1YRnZ2TXhMYUYxNmstTHVTOC0ySnBsQ1dHc2ZzMDJra1A1RjdmdHB1Q29Ja0tyMDNpZXRUaWR4Q0lnaDdBZlZMMGU5Y01aRzJZTmpyVE95emNn?oc=5",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5",
+    "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90VUZhWlJWX1Bfb25GeFEwR0UxaTh1REVQME5VOXdEYWFhU3I5Mm9NaXZfbVhUTmZkRGNmN3ZkWjVxVDdvYkE?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZlRlRURkaE5IYjdsd3JTN2lNMXNaNkV5OW11N2tpek1paUMwSnhuWk9XWExGRV9XaDFvYTd0SmFVSVNaaFk5VkhyY09UQXVrRTFlbVUxODB0ZktZMmRCM29fdFJMZ3dRVU1lb1piZHJHLVlYeHRGZVZGbXc5d01VTVNjUXhILW4zVFVLRWZlWVlKN25qSU9EX1BCOFRIMjRSTDJjbGFLc3lxQQ?oc=5"
+   ],
+   "date": "2026-09-04"
   }
  ]
 }
