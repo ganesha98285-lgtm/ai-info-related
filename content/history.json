@@ -205,7 +205,9 @@
   "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end... #shorts",
   "OpenAI unveils GPT-6 Astra with major advances in AI... #shorts",
   "Hyperscale Data Holds Approximately $53 Million in Cash,... #shorts",
-  "European champions Paris Saint-Germain to play home games on... #shorts"
+  "European champions Paris Saint-Germain to play home games on... #shorts",
+  "NASA's Cassini spacecraft circled Saturn for 13 years and... #shorts",
+  "PayPal hits senior managers, directors and engineers in new... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -412,7 +414,9 @@
   "You will want to hear this one.",
   "Here is the update you actually need.",
   "Stay till the end for the part people missed.",
-  "Here is what just happened."
+  "Here is what just happened.",
+  "This changed in the last few hours.",
+  "You will want to hear this one."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1705,7 +1709,18 @@
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "NASA's Cassini spacecraft circled Saturn for 13 years and never saw a shape at the south pole, but when the planet's slow seasons tilted that pole back toward Earth, a gi",
+  "Stock Market Today: Bond Yields Climb, Dow Slips After Jobs Report — Live Updates &nbsp;&nbsp; WSJ See more headlines & perspectives on Google News",
+  "That is the headline people are reacting to right now.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "PayPal hits senior managers, directors and engineers in new Bay Area layoffs",
+  "PayPal plans to lay off hundreds of workers at its South Bay headquarters &nbsp;&nbsp; San Francisco Chronicle",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Reports are still coming in, so details may change.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3464,7 +3479,20 @@
   "px36334504": "2026-09-04",
   "px39305497": "2026-09-04",
   "px9517744": "2026-09-04",
-  "px6265064": "2026-09-04"
+  "px6265064": "2026-09-04",
+  "px7988637": "2026-09-04",
+  "px12070256": "2026-09-04",
+  "px28846366": "2026-09-04",
+  "px37000508": "2026-09-04",
+  "px34650741": "2026-09-04",
+  "px34377521": "2026-09-04",
+  "px36064039": "2026-09-04",
+  "px34711278": "2026-09-04",
+  "px34508126": "2026-09-04",
+  "px34377522": "2026-09-04",
+  "px7222345": "2026-09-04",
+  "px34892608": "2026-09-04",
+  "px18494126": "2026-09-04"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3473,8 +3501,8 @@
   "0-3": 5,
   "0-4": 5,
   "0-5": 5,
-  "0-6": 4,
-  "0-7": 4,
+  "0-6": 5,
+  "0-7": 5,
   "1-0": 4,
   "1-1": 4,
   "1-2": 4,
@@ -5097,6 +5125,22 @@
    "video_id": "IMWOVXX99m0",
    "title": "European champions Paris Saint-Germain to play home games on... #shorts",
    "hook": "Here is what just happened.",
+   "date": "2026-09-04",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "sNjtBfkedyQ",
+   "title": "NASA's Cassini spacecraft circled Saturn for 13 years and... #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-09-04",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "psEXmqT_Sws",
+   "title": "PayPal hits senior managers, directors and engineers in new... #shorts",
+   "hook": "You will want to hear this one.",
    "date": "2026-09-04",
    "views": 0,
    "likes": 0
@@ -7005,6 +7049,26 @@
    "urls": [
     "https://www.elmundo.es/deportes/futbol/ligue-1/paris-saint-germain-monaco/2026/09/04/01_0109_20260904_149_146-directo.html",
     "https://www.irishtimes.com/sport/soccer/2026/09/04/european-champions-paris-saint-germain-to-play-home-games-on-irish-turf-this-season/"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "headline": "NASA's Cassini spacecraft circled Saturn for 13 years and never saw a shape at the south pole, but when the planet's slow seasons tilted that pole back toward Earth, a giant ten-sided figure was waiti",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV2FSU0ctdGtjRG9DOWVDNVJKNDRjR216S080eW5hN1dlZHV5OEl4UzlKT1VVT3k2Z1hqSERTSEJpWHNrZG9QbWg4RlpxbXFoM2VCNEtDT0JFdnJQWGwtbTVQeUNpMXN4OG5yQURYcUtBN2pjS1p5TnkxOWN4MjFBaw?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkVlLUY1UV9peGhYZ3dPLWJRZU1neUlmY1VZWW5ONjlHaml0SnRRTWRNMGNTS1NMalppYnItRDJKUWUtN25lN1p5MEpsWWRLa21JNzcyWnpWdnB4M0R5ZldsRjFRSnFPWEViU3R0aU9yd0d6Qkswb1ZLbVI3cmJaN25BRmxRQW1mR2NxQ3doUGdiNllrWkZUYkpPM1VBajl6VmdJTHQ5YVhKTEpDZUJaVg?oc=5",
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSUV6NV9BLU9NUVhmazdhaFl5MGQtc2h6Vno0OGJ3ZDVSb0hoZ1BxdlY3bC1mS2JFSmRRV2JBZUFCcTMtQXh3UG1DVkx2YzJKSGFRa1ZXLWs2VWNmUXgtUGM4cU1ES1pDM1FSbk9nUXJYMFlEUE0yNE5iRC1oNDd6cUVBc3F4N0FoeTViNUxXQWx0QkEwdDQwQWx4ekN0RDloYVNYTGF6RHIwemZVblZDR3RZWmU1MFZUeVJNNzVyd1JDZw?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQzF6ZDJnRkJmMVJZVmlMNUJfcjlmMW9yd09KM0l6RW9jUTh6eFNSOVowaHRnWlEyc0VlMFYzdzNpRVctOWJ5NHBjc2hYa0VybHBDTUQzMVNXSVFhWTJyNklSdm0ycVY4ZUNhZE9Ia0Q1NllESU1ucE9QYy1xZlN5OS1fNkZkRWkxcGw3alpRdV9ndDdGeUVqdHZB?oc=5"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "headline": "PayPal hits senior managers, directors and engineers in new Bay Area layoffs",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVWJ5aklCNmpQSk9TS3MtYWt0U2hpNjVuS005eVZQVVZxQTd0ZUhrSXBHQklrTVlvdlczb2s5N0VoN2tTSl83RkNia0FZRll2TmtzbkluMG0xMTBlZmRmZ2NlcEtWaEh4a1R1T0xKMUlMcHZPZGxGZXJHSkx6YXN6MUpPMGZUZTAyWTZiQXBpZjQ?oc=5",
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zUWZCcWNyMWlieWw4ODFPazFZZDBUWF93Rm5iRWhSd0NLWG44bE5XWXdSZG5RYmJCc3BqTHlxR2lOSlNnMHVEc3k2N1VUbjFzXzByREtTdWFuZGdCdGtVS0ptMFgtbHhwNFN4Zm45N0h1VGlfZ3R0SU1OdnZOdw?oc=5",
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LNmV6eWpKdzdmUko1RlJUS0hGMDVLalFmbGV4aWh6am9KMkRDb2kyVnBHYmJua3p0M3lJam5uR01CMVBZQUlNM2M3Rk5rREhSaHJpdEJhQmFBMW9qZmVla0FIeFpCNTVYeXlfTE9BQjlUZThRV0J5MUgyMXo?oc=5",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUFVOU92ZmJfVGY5YnZkRXltWndjRUJyMWNWTkJoakZta2N4TGJSZGFEeVpQdlVpbmg5NlJwQUVZeUpYVDNvWjQyTDJGSDZpMy1ER1dqbHYzM1ZwZXU1WnRHOEw3MHdDRlN0RUlHRDlQM1FWWWs1Wk1hRVpSelk3YmtSUFdTZUJxSVFJMTl6MVc3QkE?oc=5"
    ],
    "date": "2026-09-04"
   }
