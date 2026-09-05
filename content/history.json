@@ -207,7 +207,9 @@
   "Hyperscale Data Holds Approximately $53 Million in Cash,... #shorts",
   "European champions Paris Saint-Germain to play home games on... #shorts",
   "NASA's Cassini spacecraft circled Saturn for 13 years and... #shorts",
-  "PayPal hits senior managers, directors and engineers in new... #shorts"
+  "PayPal hits senior managers, directors and engineers in new... #shorts",
+  "NVIDIA Confirms DLSS 5 Support Extends To RTX 40 GPUs, But... #shorts",
+  "Isar Aerospace Could Attempt Second Spectrum Flight as Early... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -416,7 +418,9 @@
   "Stay till the end for the part people missed.",
   "Here is what just happened.",
   "This changed in the last few hours.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "This is the story everyone is sharing.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1720,7 +1724,17 @@
   "Reports are still coming in, so details may change.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "NVIDIA Confirms DLSS 5 Support Extends To RTX 40 GPUs, But First Focusing On Model Optimization on RTX 50 Series",
+  "NVIDIA Confirms DLSS 5 Support Extends To RTX 40 GPUs, But First Focusing On Model Optimization on RTX 50 Series &nbsp;&nbsp; Wccftech ‘NBA 2K27’ With NVIDIA DLSS 5 Leads",
+  "AI Slop It Is Not &nbsp;&nbsp; PCMag Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full con",
+  "It is spreading fast across feeds and group chats.",
+  "Isar Aerospace Could Attempt Second Spectrum Flight as Early as 4 September",
+  "iPhone Ultra, iPhone 18 Pro, and More: Apple's September 9 Event Preview &nbsp;&nbsp; macrumors.com Apple to Kick Off Ternus Era With Its Biggest-Ever Slate of New Produc",
+  "It is spreading fast across feeds and group chats.",
+  "Reports are still coming in, so details may change.",
+  "iPhone Ultra, iPhone 18 Pro, and More: Apple's September 9 Event Preview &nbsp;&nbsp; macrumors.com Apple to Kick Off Ternus Era With Its Biggest-Ever Slate of New Products &nbsp;&nbsp; Bloomberg.com What to expect at Ap",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3492,7 +3506,19 @@
   "px34377522": "2026-09-04",
   "px7222345": "2026-09-04",
   "px34892608": "2026-09-04",
-  "px18494126": "2026-09-04"
+  "px18494126": "2026-09-04",
+  "px7686683": "2026-09-05",
+  "px8717002": "2026-09-05",
+  "px7981917": "2026-09-05",
+  "px7981954": "2026-09-05",
+  "px10349946": "2026-09-05",
+  "px13846586": "2026-09-05",
+  "px17968220": "2026-09-05",
+  "px38226378": "2026-09-05",
+  "px2829285": "2026-09-05",
+  "px35782577": "2026-09-05",
+  "px16403223": "2026-09-05",
+  "px5767403": "2026-09-05"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3503,8 +3529,8 @@
   "0-5": 5,
   "0-6": 5,
   "0-7": 5,
-  "1-0": 4,
-  "1-1": 4,
+  "1-0": 5,
+  "1-1": 5,
   "1-2": 4,
   "1-3": 4,
   "1-4": 4,
@@ -5142,6 +5168,22 @@
    "title": "PayPal hits senior managers, directors and engineers in new... #shorts",
    "hook": "You will want to hear this one.",
    "date": "2026-09-04",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "MdJNLbKvKLo",
+   "title": "NVIDIA Confirms DLSS 5 Support Extends To RTX 40 GPUs, But... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "OP5XmA10_SQ",
+   "title": "Isar Aerospace Could Attempt Second Spectrum Flight as Early... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-09-05",
    "views": 0,
    "likes": 0
   }
@@ -7071,6 +7113,23 @@
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUFVOU92ZmJfVGY5YnZkRXltWndjRUJyMWNWTkJoakZta2N4TGJSZGFEeVpQdlVpbmg5NlJwQUVZeUpYVDNvWjQyTDJGSDZpMy1ER1dqbHYzM1ZwZXU1WnRHOEw3MHdDRlN0RUlHRDlQM1FWWWs1Wk1hRVpSelk3YmtSUFdTZUJxSVFJMTl6MVc3QkE?oc=5"
    ],
    "date": "2026-09-04"
+  },
+  {
+   "headline": "NVIDIA Confirms DLSS 5 Support Extends To RTX 40 GPUs, But First Focusing On Model Optimization on RTX 50 Series",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1VE1qQ1JCdE4wVFA2VVF6SUQ5Qzd6TjlFOGM4NGIxcVA0Tmd4REp3djNoNXBNaGtxa1BYSTMwRUtRT0QybTFQQThfUjJUTWdiSDJYYnJVLWhwQkxZWFpVUE91Rng1VzVIRTRRaGl4LTEtOWfSAXhBVV95cUxNV09ZZHBiNGhxRTFFT0VtbUhCYVZDczhJZ183S2s0b2NFVVllQzVFbEFGWFlSZXlfYy1jcE8ycGtPUGpUQWl2Y0k3ZDVIaWdobkJRT2RfZHpOTXMydGxiVnJJQVg4Sm1KZUlhME9zMHdhQkEtM19xaUM?oc=5",
+    "https://en.wikipedia.org/wiki/The_Gentlemen_(2024_TV_series)"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "headline": "Isar Aerospace Could Attempt Second Spectrum Flight as Early as 4 September",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBid0V4dTlwWkZ2dC1HZkdrcXJpbGdqMGpNZW1PR0VfQ1lwcEh4S0JyYktuMkJjbTRMVHJpVVlMZE1FR3A2S09tTFlfLXNZbEtGbmN5aDVUOG5PcDF0RlVpMjZSWHNyYXIyUXVIZ0tGRGNzaDc3OTVR?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWZZVnlxeTAzSV9XUDMxblJRSzZkQTZhQlVmVnFyYWdqSXJIRWpBQkhkX0U1SU5ROG9BX1dFZm41MnhpSWprUmUwUXg3cEpjV0hVRVI5ZTlOMFVlSm0yVllXTmZsVXZCdUdxN1c4ZnYyUmpwMmRjUXBSenQzTVYzZ05LMlhKMmJBMTNPWmtBNDBrbktMWW13bEM4S2h2eFE?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbnJRdGVHZTBkaG0zM2ppOWZSWExvTUFJTF9CVEU0NmM0eHZ3R0dsNldnNXQ4aWExVlZGS2JtNmYzblY2aGVwU3JTT1dWWmo0WXFhRTF2RFN0TDREZWhvU1Vud0VWNkpaY0FoVWJHV3JESFdiRnJaSzVoT2VZdEgwNVJaQzYweFMxbTVwWE1HVWkxamY0czE5ZkxDUmprTVlHQzlPWDZ0R1M1c1Vt?oc=5"
+   ],
+   "date": "2026-09-05"
   }
  ]
 }
