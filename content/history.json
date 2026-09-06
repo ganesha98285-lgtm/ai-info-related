@@ -216,7 +216,9 @@
   "The Week’s 10 Biggest Funding Rounds: Crusoe And Fluidstack... #shorts",
   "Starting XI presented by Modelo: LA Galaxy vs New England... #shorts",
   "Hackers Demand $2 Million in Bitcoin from Germany. Berlin... #shorts",
-  "I slept on a 550lb mattress made of just cotton, wool and... #shorts"
+  "I slept on a 550lb mattress made of just cotton, wool and... #shorts",
+  "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks #shorts",
+  "A Kentucky man with a meat allergy was craving a burger. So he... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -434,7 +436,9 @@
   "Everyone is talking about this today.",
   "This changed in the last few hours.",
   "Here is the update you actually need.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "You will want to hear this one.",
+  "Here is what just happened."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1790,6 +1794,20 @@
   "We cover this beat every single day, which means you will see the follow up here first.",
   "Save this one so you can come back to it when the next update lands.",
   "I slept on a 550lb mattress made of just cotton, wool and coils for a month.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks",
+  "This is the part most people scrolled past.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "That is the headline people are reacting to right now.",
+  "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks &nbsp;&nbsp; Investor's Business Daily",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "A Kentucky man with a meat allergy was craving a burger. So he got into ostrich farming",
+  "So he got into ostrich farming &nbsp;&nbsp; AP News See more headlines & perspectives on Google News",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "A Kentucky man with a meat allergy was craving a burger.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
@@ -3640,7 +3658,23 @@
   "px19495924": "2026-09-06",
   "px38627617": "2026-09-06",
   "px27869329": "2026-09-06",
-  "px34775570": "2026-09-06"
+  "px34775570": "2026-09-06",
+  "px5378129": "2026-09-06",
+  "px8721658": "2026-09-06",
+  "px6331006": "2026-09-06",
+  "px5377532": "2026-09-06",
+  "px5378126": "2026-09-06",
+  "px36108476": "2026-09-06",
+  "px5377282": "2026-09-06",
+  "px5377699": "2026-09-06",
+  "px4115297": "2026-09-06",
+  "px6865227": "2026-09-06",
+  "px6382092": "2026-09-06",
+  "px8458499": "2026-09-06",
+  "px7304928": "2026-09-06",
+  "px34803863": "2026-09-06",
+  "px8477403": "2026-09-06",
+  "px4253727": "2026-09-06"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3660,8 +3694,8 @@
   "1-6": 5,
   "1-7": 5,
   "2-0": 5,
-  "2-1": 4,
-  "2-2": 4,
+  "2-1": 5,
+  "2-2": 5,
   "2-3": 4,
   "2-4": 4,
   "2-5": 4,
@@ -5361,6 +5395,22 @@
    "video_id": "GXuZCqiSGmM",
    "title": "I slept on a 550lb mattress made of just cotton, wool and... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-09-06",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "spBD3gOnzrs",
+   "title": "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks #shorts",
+   "hook": "You will want to hear this one.",
+   "date": "2026-09-06",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "LCNFi3dsy8I",
+   "title": "A Kentucky man with a meat allergy was craving a burger. So he... #shorts",
+   "hook": "Here is what just happened.",
    "date": "2026-09-06",
    "views": 0,
    "likes": 0
@@ -7370,6 +7420,22 @@
     "https://news.google.com/rss/articles/CBMingFBVV95cUxQNmF4Qzk1Ti1faGtUQm5JbHJodmV2T1VIdUdTVksxeW0tODZPeTJBOHBRR0hucks1b1BIVDJZd1BVQ2xidVFDVWdUMGs5S2ZrQmJyNTFZeHZab0xkYncteVRRcEtWQlJybkpMSS05M1ZsakhiTVpvczVDZjZLeWNEVzJzdVZ2MGlLWWdxZTVzOE1TWWlPZTFMQ0pFUkpkUQ?oc=5",
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY0d5U1gzUnkycVladWYzXzZpM2VOeTdReWh3T29NRHo3NXVQZ1BpUm5NSExObXZXRGNfWDl5Nk9UT3RpZ1pSZjJrZDRjeFc1Vmx5eVZVYlRYdFk3QjhUYTJRLVVsTTMxN1d6UVFxaWY3MmNLVVZaVmxBdlBZY0xkMHJiUFYzMFJtLS1xdklFbmxkTzdESkRvYzQxZ24?oc=5",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVXVud2pmVTMxT1poMi1FdFE2R0VJT2dPanJxMkZQay1LWTh4MHZLemgwZjVubXZhX3JkNVAtZnJLcHdEYzBKNU12djByN0JzRGd3MWJKY2YybEdwbG12UG52bkNNSG9FSmg1RUd2YUtFWDgxQ216WTNOZzJlclV3ZjhUcFlCWGRWQ3pySGd0WUwtLXNGT09TOGVNQmlPOHlfWk1SaFZ0T3pqdw?oc=5"
+   ],
+   "date": "2026-09-06"
+  },
+  {
+   "headline": "Futures: Nvidia Leads 5 New AI Buys; U.S., Iran Exchange Attacks",
+   "urls": [
+    "https://thehill.com/policy/international/6073695-iran-attacks-us-vessel-strait-hormuz/",
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxONnVmdkRaNDVMaV96YWJ1eGMzRlFGUTRMeDVfSlotMHFRaGJlN2VMTFpGVzQtM2JDVndXazFpY3VVajNBdG9BemQzZ0xKV1d2ejJkVVAzbWlOUGQwLVB1dU0tWnNuM2t1WEhaSlBwbDlmd1BDM3BaUU1od242RXhEanBPeEJJUF9LQS1GVzZwQTV3Q0c3bkVMN3lLbDhHU0tPY2xYc1p6NWRMMVBKTTF2dHJqNm8wR0NEMllEWkpLN0hmMEU1Y1ZhXzlQNDRYemM?oc=5"
+   ],
+   "date": "2026-09-06"
+  },
+  {
+   "headline": "A Kentucky man with a meat allergy was craving a burger. So he got into ostrich farming",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUhvYWh0MlVEQ2RMUWJ0OFRtclJlOTZGOFFXbFoxSDNzTGpjb0V1dlI2V19sRDdoNGNJVXRHNVNUWjh2UzB3VlR1Nm1TLV9aMm1ia2lkczF4VTlSLUh5cWM5QzRIMUFJUWl0TGgyRUFZanhfUVlVZVZQdFlKajFSZTF4OGRCQUdZcWtDeklZZGRsQXgzalRib1VHZ0p0MWtsOGRua0tHVEhSY1QzWmc?oc=5",
+    "https://en.wikipedia.org/wiki/Neatsville%2C_Kentucky"
    ],
    "date": "2026-09-06"
   }
