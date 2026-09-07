@@ -222,7 +222,9 @@
   "The Last Time Treasury Yields Hit 6%, Bitcoin Didn't Exist —... #shorts",
   "SpaceX Falcon 9 rocket launches 27 Starlink satellites, lands... #shorts",
   "European stocks close mixed and Asia-Pacific markets rise as... #shorts",
-  "Kahleah Copper - USA - Player Profile - FIBA Women's... #shorts"
+  "Kahleah Copper - USA - Player Profile - FIBA Women's... #shorts",
+  "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break... #shorts",
+  "The future of Earth observation: Private satellites and AI... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -446,7 +448,9 @@
   "Here is the update you actually need.",
   "Stay till the end for the part people missed.",
   "This is the story everyone is sharing.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "This just moved the whole market.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1838,7 +1842,18 @@
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
-  "We cover this beat every single day, which means you will see the follow up here first."
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
+  "White House ups pressure on Kevin Warsh's Fed as Wall Street expects hike &nbsp;&nbsp; Fortune A Fed rate hike is coming into view.",
+  "Here’s what UBS says to own — and avoid &nbsp;&nbsp; CNBC UBS forecasts two US Fed rate hikes in 2026 after strong jobs report &nbsp;&nbsp; reuters.com A Fed Rate Hike De",
+  "Don’t Count on Either.Economy Column &nbsp;&nbsp; Barron's",
+  "The future of Earth observation: Private satellites and AI bring benefits but also pose risks",
+  "Save this one so you can come back to it when the next update lands.",
+  "Here is why it is getting so much attention.",
+  "We are watching how this develops through the day.",
+  "The future of Earth observation: Private satellites and AI bring benefits but also pose risks &nbsp;&nbsp; Space",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3730,7 +3745,22 @@
   "px5275210": "2026-09-07",
   "px8828779": "2026-09-07",
   "px28554787": "2026-09-07",
-  "px20521157": "2026-09-07"
+  "px20521157": "2026-09-07",
+  "px7477535": "2026-09-07",
+  "px7477545": "2026-09-07",
+  "px10209555": "2026-09-07",
+  "px39103872": "2026-09-07",
+  "px11339926": "2026-09-07",
+  "px5975291": "2026-09-07",
+  "px39315730": "2026-09-07",
+  "px38769809": "2026-09-07",
+  "px4324566": "2026-09-07",
+  "px7213852": "2026-09-07",
+  "px5945035": "2026-09-07",
+  "px7679621": "2026-09-07",
+  "px37593860": "2026-09-07",
+  "px7217132": "2026-09-07",
+  "px6646655": "2026-09-07"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3756,8 +3786,8 @@
   "2-4": 5,
   "2-5": 5,
   "2-6": 5,
-  "2-7": 4,
-  "3-0": 4,
+  "2-7": 5,
+  "3-0": 5,
   "3-1": 4,
   "3-2": 4,
   "3-3": 4,
@@ -5499,6 +5529,22 @@
    "video_id": "jP_YvuTVNkc",
    "title": "Kahleah Copper - USA - Player Profile - FIBA Women's... #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-09-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "ULYz25xCmb8",
+   "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break... #shorts",
+   "hook": "This just moved the whole market.",
+   "date": "2026-09-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "XOA3pRdBEcA",
+   "title": "The future of Earth observation: Private satellites and AI... #shorts",
+   "hook": "Nobody saw this coming today.",
    "date": "2026-09-07",
    "views": 0,
    "likes": 0
@@ -7563,6 +7609,23 @@
     "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uVS1lTnBoMlJRMTd6ckpTaERScHJyOXByaS16emV2anFmS0tmWmN4cHYyTXMxakJmRjI4WlFOWWZfZEhPcjNIRWFiT1ZMeGR3Smw4Mm8xdWx0QWlub0ROUGtHSW9sMFM0S3hkUlBDUHY3Tmdl?oc=5",
     "https://en.wikipedia.org/wiki/Miss_World_2026",
     "https://en.wikipedia.org/wiki/Toxic_(2026_film)"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "headline": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa1ZYZkI5azJEanM2elFUMDFVbFdUVmcwd0ducFRZT2c5SlEwZnhBcVpkZlo5bl80ZS1xVUlmYjdLSlRIQXBCMVBwbW5lQzhPN2E3dllKRkZ1eVVVeGxKMDVFUEY5VUp2QVFWNWY1ODUyVFRvMGRVU25BZVptQjNGeW12bVZrV3RVMVFz?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNREt1cVpYU0lZRlVJRUxlOU9UeXZXdjZ5UkZrd3ZmckVLanZvV2NyNExmQ0FKc2UzWVFEVXZ4UFlWU0xVaUt4dGo1Z2szZXZjVWdmbUJvdmlHX25IeXVSYU00akRlRGNPOHVIcDFEOTdFZUhsbVFKNFlfNjBLaC1JQ2VoaFd2Q3pONGVEWE8tWndLOFdzY2RMdUJKZjFRMEZQUlVyMkRQUDc3bW1LZm95eEVENk1Xdw?oc=5",
+    "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdW9sSEEyeWxkeTItWmpVR3NUU0lVZ09JcnNkYmtBMk04dW5TYmFIcS1hUmY5dHN0NGxscGJicS03dlR5MFBCRjg5ZW8xV1FmamUwbUt1b05BLUtTLV8yYmFITDljZU9kSUt2OXdQOFZCemRKYXN6WVhrdTZFSkRjb0FrdEMxMTZzQjhoY2xhTnY2NVlsSllLQWx5WWgwTHpKT281QnNqeHNuUHhCVEJ4UE85QmNUaDNoZGhmeUlwREF5OWw2UTJWbzVaTkRCdFVQVGg2UWJMMnowV3BXQXhIWW5keHdrVExzdm5HY1V4a3owdw?oc=5"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "headline": "The future of Earth observation: Private satellites and AI bring benefits but also pose risks",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcHBWYmVhOFIxQzRUclhjSEozUmZUNnJqLU9hR1JWVVd6VGx3QlBJMHdSNS15Y2JtVmJ5UUlLYWM0aWJtS2xqaDBuYWJqWGJZd1hYeXF1NEZYejJMUDJsbUtCcEFUbVNadHpZTnAwVEx5dVVSeVhuejRCdXpaU2tnZ3JwMU1rN21ITjRqNm50NTJGbllQRDFHaFNxZjQwdzQ3UnZnVHZxNFVHWGlJSFJoVDVaTnhZb2EwLUFUUjM0MTYzV2FSa2MxUGJB?oc=5",
+    "https://en.wikipedia.org/wiki/Equal_Earth_projection"
    ],
    "date": "2026-09-07"
   }
