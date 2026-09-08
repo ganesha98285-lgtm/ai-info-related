@@ -226,7 +226,9 @@
   "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break... #shorts",
   "The future of Earth observation: Private satellites and AI... #shorts",
   "Huawei Has a New $3,000 Trifold, Just in Case Apple's Foldable... #shorts",
-  "Disconnect your LG television from the internet, now #shorts"
+  "Disconnect your LG television from the internet, now #shorts",
+  "Stock Market Today: Dow tumbles 1%, S&P 500 drops but Nasdaq... #shorts",
+  "OpenAI, New York Times case tees up key test of AI training... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -454,7 +456,9 @@
   "This just moved the whole market.",
   "Nobody saw this coming today.",
   "This is blowing up right now.",
-  "This is the story everyone is sharing."
+  "This is the story everyone is sharing.",
+  "This is the story everyone is sharing.",
+  "You will want to hear this one."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1868,7 +1872,20 @@
   "Reports are still coming in, so details may change.",
   "Here is why it is getting so much attention.",
   "Disconnect your LG television from the internet, now &nbsp;&nbsp; AppleInsider LG TV flaws could let attackers listen in, even in standby mode &nbsp;&nbsp; Malwarebytes LG smart TVs caught logging audio with screen off a",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Stock Market Today: Dow tumbles 1%, S&P 500 drops but Nasdaq erases early losses; Brent crude edges toward $100 a barrel and pharma stocks stumble",
+  "Live updates: Bitcoin climbs from sessions lows as oil prices pull back &nbsp;&nbsp; CoinDesk",
+  "We are watching how this develops through the day.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "OpenAI, New York Times case tees up key test of AI training under copyright law",
+  "Jersey Mike's Faces Key Test With First Earnings Report Since IPO &nbsp;&nbsp; Investor's Business Daily",
+  "Reports are still coming in, so details may change.",
+  "That is the headline people are reacting to right now.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3788,7 +3805,25 @@
   "px8088616": "2026-09-08",
   "px34835424": "2026-09-08",
   "px35149402": "2026-09-08",
-  "px7970386": "2026-09-08"
+  "px7970386": "2026-09-08",
+  "px36197035": "2026-09-08",
+  "px37835399": "2026-09-08",
+  "px10040071": "2026-09-08",
+  "px5537823": "2026-09-08",
+  "px7080897": "2026-09-08",
+  "px5537822": "2026-09-08",
+  "px7080880": "2026-09-08",
+  "px5847916": "2026-09-08",
+  "px5118510": "2026-09-08",
+  "px8345149": "2026-09-08",
+  "px32903391": "2026-09-08",
+  "px7596670": "2026-09-08",
+  "px34518284": "2026-09-08",
+  "px35350051": "2026-09-08",
+  "px12537163": "2026-09-08",
+  "px7174908": "2026-09-08",
+  "px35288903": "2026-09-08",
+  "px7818620": "2026-09-08"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3818,8 +3853,8 @@
   "3-0": 5,
   "3-1": 5,
   "3-2": 5,
-  "3-3": 4,
-  "3-4": 4,
+  "3-3": 5,
+  "3-4": 5,
   "3-5": 4,
   "3-6": 4,
   "3-7": 4,
@@ -5589,6 +5624,22 @@
    "video_id": "W5jswB0Lqq4",
    "title": "Disconnect your LG television from the internet, now #shorts",
    "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-08",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "gYxJzC-hyjs",
+   "title": "Stock Market Today: Dow tumbles 1%, S&P 500 drops but Nasdaq... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-08",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "PQHOFbG65DM",
+   "title": "OpenAI, New York Times case tees up key test of AI training... #shorts",
+   "hook": "You will want to hear this one.",
    "date": "2026-09-08",
    "views": 0,
    "likes": 0
@@ -7688,6 +7739,25 @@
    "urls": [
     "https://appleinsider.com/articles/26/09/07/disconnect-your-lg-television-from-the-internet-now",
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdmxON3EtdlNtaVJkeU8wclJ4Vm5jSERyT3ZlLXlWTlhBM3pFQmFMSXNaYUcyVktDZi0yQlhIQ2s1Rmtsc2ZDTklSN3pqZ29fWjNwdkxWbWpESmNfTG9qOThWUVY2dFhpeVBacHdta2UzY0xZRXlLWXU5Ul9LVl8zdGdHdURaR2NQa3Uxd1RpYUc1N0xrQlBpNHpB?oc=5"
+   ],
+   "date": "2026-09-08"
+  },
+  {
+   "headline": "Stock Market Today: Dow tumbles 1%, S&P 500 drops but Nasdaq erases early losses; Brent crude edges toward $100 a barrel and pharma stocks stumble",
+   "urls": [
+    "https://www.bbc.com/sport/football/live/ck3renld215xt",
+    "https://www.bbc.com/sport/tennis/live/c07rexxzegnt",
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RRkp1TFJGVkEwTnBBcU5fRUxVV2hhd2tRcWdCTlpNTmtDXzVSYVdoUFowQlljXzAwaVJSR2lIMnN5TDNoZ0lGV3F5dWNKQUhXVmRwU2JjYm9RZWEwRWN5d3poTQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNnhIRTZXYVJoelVUTWx6LVhNcko5dHYxMUp2NzIwdEV0UW1sRnBwUHphdWlsVmV3N2hkSzdHblQyX2l6cGZrbDhfLWcweVFiLXNTWE5OZ0RLLU5XeFJ6ckotTmVUeURtckJYTmRoX1ZRX3lvTHlUWW13Z2V4Z2xldXVhUVdvNl94UzdpRWxGZGxaSnBRa0JxdFFpR2YtMFVOeVg1ZzVYeWVMZ3Q3YWIxY2ZNRQ?oc=5"
+   ],
+   "date": "2026-09-08"
+  },
+  {
+   "headline": "OpenAI, New York Times case tees up key test of AI training under copyright law",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmp3TG50RmhxNFR0S2JxR284bFZmVVd4WlVrNVRlNElELW9CblUyY0toaUVCbXc3MWFQcG0xQVdjUm5VX1E4TEJJdUlteldsVUpOTVdvVHhmdUhvRlNSQjdFM3RtMEZmc1dmN1prc09GQ3Y1TGtpM2hZUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNm9Dck5iY3gydVpGQlBFVU5mcF9oa0Qzd0Y5OWN4ZjRVb2huWDBWeFVUeXhQejZZTkdUd3JfZDhZN095X21HODJSdnJ4MVhyMjZQWjVuSXJrM1dMN3dZdkcwMG1NMnB0V05ENDhoN2hKakZLZDExczNYNUlEXzNFcXVQTUdNMDI0THVKYWxuc3dheVBMNUpqdGNHcENOMlpyLUhPVnFTM1JYZURNOWM2dnktUGo1Q3JtdlBpb29uUF9jNVRlVnlR?oc=5",
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmp3TG50RmhxNFR0S2JxR284bFZmVVd4WlVrNVRlNElELW9CblUyY0toaUVCbXc3MWFQcG0xQVdjUm5VX1E4TEJJdUlteldsVUpOTVdvVHhmdUhvRlNSQjdFM3RtMEZmc1dmN1prc09GQ3Y1TGtpM2hZUQ?oc=5"
    ],
    "date": "2026-09-08"
   }
