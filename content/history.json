@@ -230,7 +230,9 @@
   "Stock Market Today: Dow tumbles 1%, S&P 500 drops but Nasdaq... #shorts",
   "OpenAI, New York Times case tees up key test of AI training... #shorts",
   "AI may have just solved a million-dollar math problem. The... #shorts",
-  "Scientists Find More Than 1,000 Genetic Variants Linked to... #shorts"
+  "Scientists Find More Than 1,000 Genetic Variants Linked to... #shorts",
+  "Everything Announced At The Zelda 40th Anniversary Nintendo Direct #shorts",
+  "Tech layoffs tracker 2026: All the job losses across Uber,... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -462,6 +464,8 @@
   "This is the story everyone is sharing.",
   "You will want to hear this one.",
   "This just moved the whole market.",
+  "Stay till the end for the part people missed.",
+  "This is the story everyone is sharing.",
   "Stay till the end for the part people missed."
  ],
  "ideas": [
@@ -1899,7 +1903,16 @@
   "Scientists Find More Than 1,000 Genetic Variants Linked to Personality &nbsp;&nbsp; The New York Times Your personality may be more genetic than scientists realized &nbsp",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
   "This is the part most people scrolled past.",
-  "Scientists Find More Than 1,000 Genetic Variants Linked to Personality &nbsp;&nbsp; The New York Times Your personality may be more genetic than scientists realized &nbsp;&nbsp; ScienceDaily Personality Is Linked to Gene"
+  "Scientists Find More Than 1,000 Genetic Variants Linked to Personality &nbsp;&nbsp; The New York Times Your personality may be more genetic than scientists realized &nbsp;&nbsp; ScienceDaily Personality Is Linked to Gene",
+  "Everything Announced At The Zelda 40th Anniversary Nintendo Direct",
+  "Everything Announced At The Zelda 40th Anniversary Nintendo Direct &nbsp;&nbsp; Game Informer The Legend of Zelda 40th Anniversary Direct 9.8.2026 &nbsp;&nbsp; nintendo.c",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Everything Announced At The Zelda 40th Anniversary Nintendo Direct &nbsp;&nbsp; Game Informer The Legend of Zelda 40th Anniversary Direct 9.8.2026 &nbsp;&nbsp; nintendo.com ‘The Legend Of Zelda’ Celebrates Its 40th Anniv",
+  "Tech layoffs tracker 2026: All the job losses across Uber, Apple, TikTok, Meta, Microsoft, Oracle and others",
+  "Apple Event 2026 Live: The First Foldable iPhone, iPhone 18 Pro, Apple Watch 12 and More &nbsp;&nbsp; CNET How To Watch Apple Unveil The New iPhones On September 9 &nbsp;",
+  "It is spreading fast across feeds and group chats.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3849,7 +3862,19 @@
   "px34873718": "2026-09-08",
   "px34870216": "2026-09-08",
   "px34855098": "2026-09-08",
-  "px5899503": "2026-09-08"
+  "px5899503": "2026-09-08",
+  "px6266751": "2026-09-09",
+  "px6688011": "2026-09-09",
+  "px36502519": "2026-09-09",
+  "px6708547": "2026-09-09",
+  "px35990840": "2026-09-09",
+  "px6718017": "2026-09-09",
+  "px6275132": "2026-09-09",
+  "px6575916": "2026-09-09",
+  "px6463908": "2026-09-09",
+  "px36304628": "2026-09-09",
+  "px13011678": "2026-09-09",
+  "px29308878": "2026-09-09"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3883,8 +3908,8 @@
   "3-4": 5,
   "3-5": 5,
   "3-6": 5,
-  "3-7": 4,
-  "4-0": 4,
+  "3-7": 5,
+  "4-0": 5,
   "4-1": 4,
   "4-2": 4,
   "4-3": 4,
@@ -5683,6 +5708,22 @@
    "title": "Scientists Find More Than 1,000 Genetic Variants Linked to... #shorts",
    "hook": "Stay till the end for the part people missed.",
    "date": "2026-09-08",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "UwovGKP_SMo",
+   "title": "Everything Announced At The Zelda 40th Anniversary Nintendo Direct #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-09",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "FZzlvbWQN0o",
+   "title": "Tech layoffs tracker 2026: All the job losses across Uber,... #shorts",
+   "hook": "Stay till the end for the part people missed.",
+   "date": "2026-09-09",
    "views": 0,
    "likes": 0
   }
@@ -7820,6 +7861,24 @@
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd2NEVGw3ZDFNSTNVcTB1RU1yQzl4OGN4bkV3NGo3Y3JHY2ZLNU9tUzZFVVdENldnVDJZOVNReHNHMHhZalpPelZ1d0lEaW5hWEZac2MwRXdWOXpTaVBCWUhoU1pBTW1kbjN2TUNDZWpXQXJKaTdMSnpZN1VIejl1OW1zWGV0bTlzUWFyOENoNGhkSlBRd3pLU0ROR21tTU1UckQ1M3ZNR05pVTE5MnFvMUREMlhrQmRFUWZnYg?oc=5"
    ],
    "date": "2026-09-08"
+  },
+  {
+   "headline": "Everything Announced At The Zelda 40th Anniversary Nintendo Direct",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYndPcjE3ckstNkYxTU1CYVhYcHRJUVQtRVNZMGJWbFZHMWFMN1d0dk9fTksya290QndldDVnaDgxaVU4RTN2aTZncExiRWpXQW1RS3pQbGpqUUo5UlNFNGZvNElrMmVmbGhZUWJTWXRJT0hQQWsxZmtPajNIcm03emJOV0lnTkhQaFRYRndCeG83akVZY09zWkV1a21JcGVtX2JycEIxT3ZxcUI4dWpfMU10a3hLMDlTcVY0?oc=5",
+    "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+   ],
+   "date": "2026-09-09"
+  },
+  {
+   "headline": "Tech layoffs tracker 2026: All the job losses across Uber, Apple, TikTok, Meta, Microsoft, Oracle and others",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOQXN3cHRwTmR1WDhKSnEyaVRqSFcwN25oT2sxQmRSdDBlSm0tMEFHMGkxeUlmRkpDNGhDV0djc0hVTUJlWU9JTnhlVk9IVmNUVmlTb0lfOXJ5ZXFUbC11ME9KdnhhS19UV2VuNDFB?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM1N2UG83TEEwckRnWWtpNFRVLXU4NUdKMC02Q3pxeUxTWHltZVFLWFROM3pvRy1qOTVjSFJwU3c2WDJsZW01aDlrRjZKNGhhR1h0Q2xLcXpqX1c2TnJKd3pydG1MbUU0QU9talhVSXVzVkRQcTBjclA5ek5sWWdOSmtuLTdQeW5XS2Ria20zOC00WjBQOGl4TzhYMDZDdmPSAZsBQVVfeXFMUGhIY2xOYjc4Z3BEMU5kNnp0ZmZQZVdfemRaejRtbXhRbjcybkdCVXU5MkRYWDJqTm1ya1IxRm9NRlBBY04xdHZ3eGpZRHVVTjEwTHVERUpXZFhBdWt2ZXZTNUpGY29pVUQxWDdDMGY5N3NXcjc2anh0TTdwYk9tM195OWpKMGFNaVhCd1lOb3lXU0NCQmZtVTlhcDg?oc=5",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSU1NRTJ1cVFBQ0F4Ymp2cXROa0NYNUI2QmUwcllzYWtQZjdBUVJheWVUSWNmMlo3SjhKM0k5am95M0hqM0pLd0stQm53OFdVRWp6N0dTUDRlZHlJX1VLRUtESUl2SHpTV0VDb29QU3FDQlNmSW1kbHZwQmlFcUNCNGdycUw?oc=5",
+    "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS1k3ejFlZlNKeXZOMENkUDJQVmZ2SHNnT1Jheko3NkgybnJ3V1RHbUE1VHItb2hZSDJyVFRVeGxKY05mclZ4RHNQcm1FZWxFZGYzVnlUOFdyQzlYTENlSW9RYWtHLTZ4QWJKZ182S1hxWFdQN1pPcjNFNlJZemtrUlk4SnRVc2J5UWdKQklMT25nMmliUzR4Wl9QU2FXZE1TQnhwXzVnU0hVcHlSODEtM00taUlnTy1Jcm5TRFVYOVFKazNMSEt3N0p2M1NMbDJiMEg5Q01LenpsQnY5S29Cb2piWUVYVTRxQnBuNQ?oc=5"
+   ],
+   "date": "2026-09-09"
   }
  ]
 }
