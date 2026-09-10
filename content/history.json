@@ -236,7 +236,9 @@
   "I planned my wedding in 10 weeks — and it helped me land a Big... #shorts",
   "SpaceX rocket taxi returns after Roman Telescope launch |... #shorts",
   "UK to Leave Launch to “Germany and Other Allies” #shorts",
-  "Palmeiras vs LDU Quito: CONMEBOL Libertadores stats & head-to-head #shorts"
+  "Palmeiras vs LDU Quito: CONMEBOL Libertadores stats & head-to-head #shorts",
+  "‘I Am The House Now’—Bessent Issues Serious Warning As Bitcoin... #shorts",
+  "Cooper: Inmates need ‘healthcare not handcuffs’ #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -474,7 +476,9 @@
   "This is blowing up right now.",
   "Here is the update you actually need.",
   "Everyone is talking about this today.",
-  "Here is what just happened."
+  "Here is what just happened.",
+  "This is blowing up right now.",
+  "This is blowing up right now."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1944,6 +1948,19 @@
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "‘I Am The House Now’—Bessent Issues Serious Warning As Bitcoin And Crypto Brace For A Massive Price Shock",
+  "Party's over for crypto scammers who went on a spending spree after a $240 million bitcoin theft &nbsp;&nbsp; AP News ‘Ferris Bueller Gone Bad’: 22-Year-Old Pleads Guilty",
+  "We are watching how this develops through the day.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Party's over for crypto scammers who went on a spending spree after a $240 million bitcoin theft &nbsp;&nbsp; AP News ‘Ferris Bueller Gone Bad’: 22-Year-Old Pleads Guilty in Giant Bitcoin Heist &nbsp;&nbsp; The New York ",
+  "Cooper: Inmates need ‘healthcare not handcuffs’",
+  "&nbsp;&nbsp; Scientific American",
+  "We are watching how this develops through the day.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
   "We cover this beat every single day, which means you will see the follow up here first."
  ],
  "idea_keys": [],
@@ -3938,7 +3955,20 @@
   "px38410895": "2026-09-09",
   "px34527199": "2026-09-09",
   "px38222660": "2026-09-09",
-  "px31614783": "2026-09-09"
+  "px31614783": "2026-09-09",
+  "px4560331": "2026-09-10",
+  "px34733106": "2026-09-10",
+  "px8717598": "2026-09-10",
+  "px34901400": "2026-09-10",
+  "px6646679": "2026-09-10",
+  "px27856945": "2026-09-10",
+  "px12893569": "2026-09-10",
+  "px34316644": "2026-09-10",
+  "px7655211": "2026-09-10",
+  "px12405696": "2026-09-10",
+  "px6904097": "2026-09-10",
+  "px12405699": "2026-09-10",
+  "px37234149": "2026-09-10"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -3978,8 +4008,8 @@
   "4-2": 5,
   "4-3": 5,
   "4-4": 5,
-  "4-5": 4,
-  "4-6": 4,
+  "4-5": 5,
+  "4-6": 5,
   "4-7": 4,
   "5-0": 4,
   "5-1": 4,
@@ -5820,6 +5850,22 @@
    "title": "Palmeiras vs LDU Quito: CONMEBOL Libertadores stats & head-to-head #shorts",
    "hook": "Here is what just happened.",
    "date": "2026-09-09",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "osG3fiPDOb8",
+   "title": "‘I Am The House Now’—Bessent Issues Serious Warning As Bitcoin... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-09-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "rcOXjnonMHc",
+   "title": "Cooper: Inmates need ‘healthcare not handcuffs’ #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-09-10",
    "views": 0,
    "likes": 0
   }
@@ -8011,6 +8057,24 @@
     "https://www.bbc.com/sport/football/live/ckq5x4dejd76t"
    ],
    "date": "2026-09-09"
+  },
+  {
+   "headline": "‘I Am The House Now’—Bessent Issues Serious Warning As Bitcoin And Crypto Brace For A Massive Price Shock",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQNVVQNk43RTYyQ09EWXRRUDBuZmZwQ0VBWUh3eFRmcnQxdlpINnowQTJabnd4NkdNeDlaM1l0bTR0akZ4eWV4akFyNFAzd1dTVmMxaE5Hd2dKcjl4TGdmdEc2cjZ3bmRHR290QThLbXcwdWtja1dWVzNHenV2ZFNkUWo5QWo3TkJ1elJLVEhVWGlOd04wanRSeHA5OGJFdw?oc=5",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN2xZT0g1NGNNTnJCNFVYVFU4SXBPdWlqRTByNHJUZ0dzWkxadWZ2NzhXTnNib1Y3dU0zbEppOWZWek1maWs3Uk9GajFxbFVDTXAycUNpTnhzRWxrUnViLVljUkxaX3JfWXFCcWFKYVRwZ2ZVX002RVM2TGRXNjhMVUtGOEEyYWZjcGJyU0FWSDA0N0Rfc1JsbmJrT2VEQ0QtTHNBZTJNNWo?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ1FvdE1ScXVnUWRQVmQ4ckxraUJESnA3SWFRQjdfTFJTbWtKYU8ycDd4TEE4ZXN4Qm9WdmJuWXpIVkE0Qi16bHZJYXNVOHJiRWZXM0hIN1YzYzNwQ25JV2FNencyaVhlRlpFRTFmSUdablc5TS1mOFlvUEJPcFFNZmtTZUVXVWZBekg0UDFodVlkZFFGM3RFcGxPQVUtaWRvbmItVHJFZGVmV2VoOE5F?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVFpucDNULUt5UkFmUnB2cEVFTnlSdkJQbUdiUUZPYllEMjNlc1ZSTUlGNmtURzUtdDk1UHgwUC1NYWtMVlZPbTg4ZmF0Mk81ZVdaNm1YZFNiYkZNZkJwZmtwRnlMTl9pTjFNRnFwTG9fN2ctejdRak94OGVmMFpUYXNoeUNxYmFwSk0xbjltTjdMOUxTOHFTdzZTeDFFNldxbjg2MnptcjJWaXNiLVgyY0c1Q2h5SDB1THlpTkdoeG52MXRIRV9pUw?oc=5"
+   ],
+   "date": "2026-09-10"
+  },
+  {
+   "headline": "Cooper: Inmates need ‘healthcare not handcuffs’",
+   "urls": [
+    "https://www.carolinajournal.com/cooper-inmates-need-healthcare-not-handcuffs/",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ1otMS1PbVRnemlWdl92Mll1akRXb01VbkFiNWN2MHpNV3d6bFNlUm5xeUhsbzFkVGdyY2V4YU9oeklBeHp6Sk82SnNJQ291R196ajFkVnBIUHZndWVibFc0S1BwS2JvVlZwc2Z2SnhRTmRtWG45WXFFVjJOTkRtcy14RQ?oc=5"
+   ],
+   "date": "2026-09-10"
   }
  ]
 }
