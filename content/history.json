@@ -238,7 +238,9 @@
   "UK to Leave Launch to “Germany and Other Allies” #shorts",
   "Palmeiras vs LDU Quito: CONMEBOL Libertadores stats & head-to-head #shorts",
   "‘I Am The House Now’—Bessent Issues Serious Warning As Bitcoin... #shorts",
-  "Cooper: Inmates need ‘healthcare not handcuffs’ #shorts"
+  "Cooper: Inmates need ‘healthcare not handcuffs’ #shorts",
+  "Coinbase CEO Brian Armstrong says bitcoin has bottomed for... #shorts",
+  "Old MacBook uses a mirror, webcam, and AI agent to code its... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -478,7 +480,9 @@
   "Everyone is talking about this today.",
   "Here is what just happened.",
   "This is blowing up right now.",
-  "This is blowing up right now."
+  "This is blowing up right now.",
+  "This is the story everyone is sharing.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -1961,7 +1965,17 @@
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "We cover this beat every single day, which means you will see the follow up here first."
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "Coinbase CEO Brian Armstrong says bitcoin has bottomed for current cycle, expects uptrend over next two years",
+  "Bitcoin Slips Further Below $80,000 as the Range Trade Resumes &nbsp;&nbsp; Bloomberg.com",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Old MacBook uses a mirror, webcam, and AI agent to code its own AMD GPU drivers — 'agent-first' Omarchy Linux debugs itself, AI can check its own progress on screen in re",
+  "Oil prices surge to $107 for the first time since May as bond yields jump &nbsp;&nbsp; NBC News U.S.",
+  "crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war &nbsp;&nbsp; CNBC Global oil hits $107 per barrel and bond yields surge &nbsp;&nbsp",
+  "That is the short version, and the full reporting is linked in the description under this video."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -3968,7 +3982,19 @@
   "px12405696": "2026-09-10",
   "px6904097": "2026-09-10",
   "px12405699": "2026-09-10",
-  "px37234149": "2026-09-10"
+  "px37234149": "2026-09-10",
+  "px7467692": "2026-09-10",
+  "px34901601": "2026-09-10",
+  "px27675975": "2026-09-10",
+  "px7148123": "2026-09-10",
+  "px7980866": "2026-09-10",
+  "px8847641": "2026-09-10",
+  "px35757584": "2026-09-10",
+  "px39341086": "2026-09-10",
+  "px8865589": "2026-09-10",
+  "px7647327": "2026-09-10",
+  "px7822027": "2026-09-10",
+  "px8865586": "2026-09-10"
  },
  "thumb_styles": {
   "0-0": 5,
@@ -4010,8 +4036,8 @@
   "4-4": 5,
   "4-5": 5,
   "4-6": 5,
-  "4-7": 4,
-  "5-0": 4,
+  "4-7": 5,
+  "5-0": 5,
   "5-1": 4,
   "5-2": 4,
   "5-3": 4,
@@ -5865,6 +5891,22 @@
    "video_id": "rcOXjnonMHc",
    "title": "Cooper: Inmates need ‘healthcare not handcuffs’ #shorts",
    "hook": "This is blowing up right now.",
+   "date": "2026-09-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "RfYh_kTeKgQ",
+   "title": "Coinbase CEO Brian Armstrong says bitcoin has bottomed for... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "b9FwGE3_KwM",
+   "title": "Old MacBook uses a mirror, webcam, and AI agent to code its... #shorts",
+   "hook": "Everyone is talking about this today.",
    "date": "2026-09-10",
    "views": 0,
    "likes": 0
@@ -8073,6 +8115,26 @@
    "urls": [
     "https://www.carolinajournal.com/cooper-inmates-need-healthcare-not-handcuffs/",
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ1otMS1PbVRnemlWdl92Mll1akRXb01VbkFiNWN2MHpNV3d6bFNlUm5xeUhsbzFkVGdyY2V4YU9oeklBeHp6Sk82SnNJQ291R196ajFkVnBIUHZndWVibFc0S1BwS2JvVlZwc2Z2SnhRTmRtWG45WXFFVjJOTkRtcy14RQ?oc=5"
+   ],
+   "date": "2026-09-10"
+  },
+  {
+   "headline": "Coinbase CEO Brian Armstrong says bitcoin has bottomed for current cycle, expects uptrend over next two years",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1KMG9JdTBEMmc0LVluR2VKa2s0MjlndmhzNTRyQkJ3YnA5aXl2MG5FVWlQSThjeHBLa0NxSU5idVdXMmJqakM5Vk40WjNiRWtRbmJTRHhFVVVDaDN6NG5YVnJXN2w0WWNRVFFvZ1NVT1RYUlJDS2pWY3lYQjlyMnNjVXd6eDYya2pBaXFZcU5LTlRjZGFwc09qd0VreEZpLUJBSXd4a0haMlZaQWZMTzNB?oc=5",
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxORFQyMVBMWUcxQURWVFdlYTNkVXFsckdWTTROejdvWHkyb2VPZDdTN2FlZW5sdWx4S2NUczdULXFtbVU4OWdJeXJXYVZ6TDJXTC12VG9tY0RqTWpsZGZhWU12RzhtRk4taWVHUWFVOHB3bU00Z0J2VDVQczZZbU5jcTJyemxrSEVJbHg2Q3g0T0lfS1R5Tk9ydmx0Y3g2VFBCVjk2Mk8yVQ?oc=5",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT0FYWnNHQ19YRnN0Z2U2b25UamZ6NnctbVpRc0tRcmlUUkR3TzRWSnI4azRuM2lsUkY3RzlweDZiLVRIbzFhOENOSWtUV2dhS1RFS21JcmtCNTFMY3ZjcUlYOHgxTE5HeHRiTUVPMFlvMWgySUpLVnRMblR3N2REM1EzU3l3MXJuTUgtSkpKMzhGcU9YcEE3S0h5Rk8wZFhX?oc=5",
+    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQjFMWk5jUG1BRmM2bHVDRTQ2OE5Bb3J2T09wNnVNd1hBM0F2QVMwMVZzdGU0OGYwN1Job3p5LXducXNmLTNyeFdQLUNuOWJhaU82YWVsTDh5cnp0TmhXeHZzbnFwZ1IzdXdCdENHT0xsWE9NVnBLdVFiLVpNMXZ2T2lseTVtQjA2UURPd1ZQaDJJc084QjRGZFhGVEw5UjBNVF9hbFZ3Slc2azNuU0hyOEUwbDJVSk5vVnYtNEdkWU9CbVBncnN6NjAwZnEwV0VibEdtOWwxUG82MW5fVnNfWHpnS2p1ZGV0RTg3RE1RcnAxWGs4N2c?oc=5"
+   ],
+   "date": "2026-09-10"
+  },
+  {
+   "headline": "Old MacBook uses a mirror, webcam, and AI agent to code its own AMD GPU drivers — 'agent-first' Omarchy Linux debugs itself, AI can check its own progress on screen in real-time",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQUc0eUlnRzFSZkJ5NWp4TFc3c3RqY2t5YVV2N1p4c3lFZmJZdHE5NG1KRDF3S0NIc19YdTZsMXB1T0VYTUFCRWx5eDd4aVF4WnpUcVJyUzJpbzB1aUZ3cWtwRExJeGk4c0VGNjVDVzdmZEpYQmMtcWxhWUxXT3BHZDMxSTBxRHV1?oc=5",
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSEZWR3JqTnVsc2VsSVlvSXlScWYyeUVkMlZXVmJlMGNHUzJvVG1LaEUySWoxX1FZWE00Y2NkQ284ZW11R0U1cHE4QXJWQm53UnBQR2RIXzBaeHJLNG1lZGlkdlpzV1ZOdzBpcG5oNXJrOVJCWi0zOUJxNFpGNV96MzhJVzlMdUxBU2x3ZUdDaEp2d3VJbTB2aVI4ekdTQWJfa1cxelRZSWd3ejkyQWpDb1A2Qy1QbVdCRWhlMGR0Yk8wUE9BQ0s5ZXVrUDA2SjJUa2diX1RwOVM?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnpkTUNxWWZHQndmSTZveFBicF96a1QwS2s5N1BHMGZyaElLb2h0T2JfQkFFRjJZQWRsOUJ2NWgzRVY1NlBJV2F5dVNfZVlMbndwdFUtYndVcHpjbWVuTWpkbVl4T3cwaXBJaEpBcE41eDRoT1VZVk5FNnVOVnFNWXRvWVkta2x2d01LeGg1SGRwUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYTYwTTYwY3FCWEJPc0JibDZzZzNQX09JVFcxQWRwRXIwSnRvRzJVUU14WmkwNENPM3dfeEhDMDB3WVFxT3VZb1pvN1NxNEpXdVdzNWRZM1Z1M2xvZldCcDlpTzNlZVR2S0p6aXg2UklZUmh5VlRtZGR5Wktyd2NBMXRxOWxtSVpRZjZLY2JTN1ZOeUV4bXFFY20zNXBuOGVNWk9nalFaZ2t6V1p3ZTQ3NXZwYw?oc=5"
    ],
    "date": "2026-09-10"
   }
