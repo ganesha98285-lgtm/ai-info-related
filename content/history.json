@@ -257,7 +257,9 @@
   "With the Midterm Elections Coming Up, This Is the Only... #shorts",
   "CT pension fund hits $76B as stock market roars. In first for... #shorts",
   "Firefighter Spent Months Cleaning up Twin Towers Rubble. After... #shorts",
-  "Trinity Health to lay off 557 IT workers #shorts"
+  "Trinity Health to lay off 557 IT workers #shorts",
+  "'Big Short' Michael Burry says AI leaders' calls for slowdown... #shorts",
+  "How China is preparing for the risk of AI escaping human control #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -516,7 +518,9 @@
   "Here is the update you actually need.",
   "This changed in the last few hours.",
   "Nobody saw this coming today.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "This changed in the last few hours.",
+  "This is blowing up right now."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2112,7 +2116,17 @@
   "Here is why it is getting so much attention.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "'Big Short' Michael Burry says AI leaders' calls for slowdown are 'self-serving' and he's not worried",
+  "'Big Short' Michael Burry says AI leaders' calls for slowdown are 'self-serving' and he's not worried &nbsp;&nbsp; Business Insider We Must Pace the Frontier &nbsp;&nbsp;",
+  "It is spreading fast across feeds and group chats.",
+  "Here is why it is getting so much attention.",
+  "'Big Short' Michael Burry says AI leaders' calls for slowdown are 'self-serving' and he's not worried &nbsp;&nbsp; Business Insider We Must Pace the Frontier &nbsp;&nbsp; darioamodei.com AI leaders want to hit the brakes",
+  "How China is preparing for the risk of AI escaping human control",
+  "How China is preparing for the risk of AI escaping human control &nbsp;&nbsp; Reuters China’s Top Spy Chief Warns A.I.",
+  "Is a Threat to Party Rule &nbsp;&nbsp; The New York Times China dismisses AI ‘fearmongering’ as spy chief warns of threat to Communist party rule &nbsp;&nbsp; The Guardia",
+  "Here is why it is getting so much attention.",
+  "Is a Threat to Party Rule &nbsp;&nbsp; The New York Times China dismisses AI ‘fearmongering’ as spy chief warns of threat to Communist party rule &nbsp;&nbsp; The Guardian China bristles at Anthropic CEO’s ‘fearmongering"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4313,7 +4327,18 @@
   "px13675327": "2026-09-14",
   "px29132841": "2026-09-14",
   "px7195685": "2026-09-14",
-  "px32442375": "2026-09-14"
+  "px32442375": "2026-09-14",
+  "px6487450": "2026-09-14",
+  "px6487183": "2026-09-14",
+  "px6487182": "2026-09-14",
+  "px8441505": "2026-09-14",
+  "px35223035": "2026-09-14",
+  "px39482170": "2026-09-14",
+  "px38783265": "2026-09-14",
+  "px38501316": "2026-09-14",
+  "px37381387": "2026-09-14",
+  "px39312225": "2026-09-14",
+  "px8888807": "2026-09-14"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4326,8 +4351,8 @@
   "0-7": 6,
   "1-0": 6,
   "1-1": 6,
-  "1-2": 5,
-  "1-3": 5,
+  "1-2": 6,
+  "1-3": 6,
   "1-4": 5,
   "1-5": 5,
   "1-6": 5,
@@ -6362,6 +6387,22 @@
    "video_id": "9G_w0FI0HqE",
    "title": "Trinity Health to lay off 557 IT workers #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-09-14",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "9j0Q3u0YZkc",
+   "title": "'Big Short' Michael Burry says AI leaders' calls for slowdown... #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-09-14",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Vmn_evMd8Qs",
+   "title": "How China is preparing for the risk of AI escaping human control #shorts",
+   "hook": "This is blowing up right now.",
    "date": "2026-09-14",
    "views": 0,
    "likes": 0
@@ -8744,6 +8785,24 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcjZuZ1VMLVRRTUdiN21kQlR1b25zbEhOX2M5dFhWdF9oblFVbmxuN0FTOGRMYm5zMUUxN21fZXdWak5QR3g4bXlIU2huZzA2WFpNZDdUMlFYTDRPc1NaeFA4TmlUNHgwdDI2eEdDd0FycFI3a0d3NDI4ZzNzQW13VFVTU0hXd0lSZElZbg?oc=5",
     "https://en.wikipedia.org/wiki/Trinity_Rodman"
+   ],
+   "date": "2026-09-14"
+  },
+  {
+   "headline": "'Big Short' Michael Burry says AI leaders' calls for slowdown are 'self-serving' and he's not worried",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa2RKdkRKMUEwUEwtVlJHLWJEUEx5YTFxOVVXUnlINW51OVVHcVloODhGOEFXS05zeTkxNTI4WUo4b1I1czJUVlgzbHlieUlZZU9NOS1BUGROTHpPNEpyQkowUVdkajUxZHk4eEl3SHpFbFpPYVJtVjZxbWoyc3UzOFgwb3c5SGZTVFRQQzNqOUswYTgtVTRtckdJQWNTWVgzckljNnVMNTFZSWM?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclNyb29WSFJDNENVeGJwSXB4d055bW9TZVp3dklKQXpMMFhZYWZFMFJzQ2Mzc2djQjk0YjcyNWVjcGt6d010MWVaZjNJaE82SUtoNU1aSEVfZUp5UkV3djU2cVJRS04yOWRoMTRaTHhxaE9EMVI0Zlh0V2ZLOFRfRjdaN3kwNXljRkhhenRHNm1uUzVGYVR5MnFVclI3N2k3eGVJX2ZSdGhOWUdaSUhKY09zVUszZw?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOE1BV1Q4UUYxLVRfaDNJVXVRbnNaQmdUMjBzbWJWRWtTcjlROWZqUjAtVGlob2NHVlB1NHVfRU5FY1dWT1UxR3RHakpVUTdzSGdvRmR2UFR2dzZxdHJ0ZXlMb0NsMVd1MDM1aUZ2VlpPeG9zSDZxRFpFWjNhQ0psM2RVYW8tM0ZKdTdDdG93?oc=5"
+   ],
+   "date": "2026-09-14"
+  },
+  {
+   "headline": "How China is preparing for the risk of AI escaping human control",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1FUWERnbmM3dlBucFJQMmJmSEp5UVlXUVp0UEI0eU9aV1VzSnVoX3pNZUtWcFZsXzAtNUVXQmdOakFVNUYzZWVwSm9laXBTU2pvRXVaendNSFU3XzJmeGxrdDlKN0N3OUwxd1VSSEhfcWVTQTRNMV9hRnZkVk9WaUowMmtPdC1HTmhIOG9BRHpucDZHTk1KTnVLdXRfU1NVclVibTlCU1hjQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUGNDaWJnVDhwRTF3TmFVTHBWNUlHcm9mU2VsamZZVURZVmJrVjRUUThQOXU1V0dsVEsyYmZUSFhTVUczM3FLMkdvY2d2Y2pUczlWRGZydExnbURYbjdBWlctMjZYZzc0Z0J2X05MeGlnOEhfR3dvVTh1bE8tRWNrcGR0NjBkalFfdTQ0MDJNNWQtMTB6RW81NW81Z0d2QTVyYmo4?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1FUWERnbmM3dlBucFJQMmJmSEp5UVlXUVp0UEI0eU9aV1VzSnVoX3pNZUtWcFZsXzAtNUVXQmdOakFVNUYzZWVwSm9laXBTU2pvRXVaendNSFU3XzJmeGxrdDlKN0N3OUwxd1VSSEhfcWVTQTRNMV9hRnZkVk9WaUowMmtPdC1HTmhIOG9BRHpucDZHTk1KTnVLdXRfU1NVclVibTlCU1hjQQ?oc=5"
    ],
    "date": "2026-09-14"
   }
