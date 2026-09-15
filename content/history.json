@@ -261,7 +261,9 @@
   "'Big Short' Michael Burry says AI leaders' calls for slowdown... #shorts",
   "How China is preparing for the risk of AI escaping human control #shorts",
   "'Crazy days' and 'silly season' in the stock market raise the... #shorts",
-  "iPhone 18 Pro, Pro Max pre-orders now delayed to October for... #shorts"
+  "iPhone 18 Pro, Pro Max pre-orders now delayed to October for... #shorts",
+  "Oracle announces new round of layoffs in early-morning email:... #shorts",
+  "Elche-Real Madrid: a por la victoria en el Martínez Valero #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -524,7 +526,9 @@
   "This changed in the last few hours.",
   "This is blowing up right now.",
   "Here is the update you actually need.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "This is blowing up right now.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2140,7 +2144,19 @@
   "Googlebook pre-orders start on September 21 &nbsp;&nbsp; 9to5Google Exclusive: Lenovo Googlebook 15 Revealed in Full, With OLED, Core Ultra 5, Gemini and a Dedicated Goog",
   "Here is why it is getting so much attention.",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
-  "Googlebook pre-orders start on September 21 &nbsp;&nbsp; 9to5Google Exclusive: Lenovo Googlebook 15 Revealed in Full, With OLED, Core Ultra 5, Gemini and a Dedicated Google Key &nbsp;&nbsp; The Mac Observer Pre-Orders Fo"
+  "Googlebook pre-orders start on September 21 &nbsp;&nbsp; 9to5Google Exclusive: Lenovo Googlebook 15 Revealed in Full, With OLED, Core Ultra 5, Gemini and a Dedicated Google Key &nbsp;&nbsp; The Mac Observer Pre-Orders Fo",
+  "Oracle announces new round of layoffs in early-morning email: ‘Today is your last working day’",
+  "Tesla Cybercab bars kids under 13 as scrutiny grows &nbsp;&nbsp; Fox News Tesla: The Cybercab Failure Is Worse Than You Think (NASDAQ:TSLA) &nbsp;&nbsp; Seeking Alpha The",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "It is spreading fast across feeds and group chats.",
+  "Tesla Cybercab bars kids under 13 as scrutiny grows &nbsp;&nbsp; Fox News Tesla: The Cybercab Failure Is Worse Than You Think (NASDAQ:TSLA) &nbsp;&nbsp; Seeking Alpha The Tesla Cybercabs Are Less Cyber Than They Seem &nb",
+  "Elche-Real Madrid: a por la victoria en el Martínez Valero",
+  "It is spreading fast across feeds and group chats.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "We are watching how this develops through the day.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4367,7 +4383,24 @@
   "px35287185": "2026-09-15",
   "px32209969": "2026-09-15",
   "px30207610": "2026-09-15",
-  "px28646608": "2026-09-15"
+  "px28646608": "2026-09-15",
+  "px5925194": "2026-09-15",
+  "px8847642": "2026-09-15",
+  "px8847597": "2026-09-15",
+  "px8847640": "2026-09-15",
+  "px7202871": "2026-09-15",
+  "px27517819": "2026-09-15",
+  "px10396615": "2026-09-15",
+  "px32201523": "2026-09-15",
+  "px10557760": "2026-09-15",
+  "px11993391": "2026-09-15",
+  "px36215585": "2026-09-15",
+  "px30115226": "2026-09-15",
+  "px20668182": "2026-09-15",
+  "px30114864": "2026-09-15",
+  "px32952239": "2026-09-15",
+  "px38458332": "2026-09-15",
+  "px33602131": "2026-09-15"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4384,8 +4417,8 @@
   "1-3": 6,
   "1-4": 6,
   "1-5": 6,
-  "1-6": 5,
-  "1-7": 5,
+  "1-6": 6,
+  "1-7": 6,
   "2-0": 5,
   "2-1": 5,
   "2-2": 5,
@@ -6448,6 +6481,22 @@
    "video_id": "iiWHzSvrcac",
    "title": "iPhone 18 Pro, Pro Max pre-orders now delayed to October for... #shorts",
    "hook": "You will want to hear this one.",
+   "date": "2026-09-15",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "RKa3eff_AwA",
+   "title": "Oracle announces new round of layoffs in early-morning email:... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-09-15",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "npFa-wtw2sI",
+   "title": "Elche-Real Madrid: a por la victoria en el Martínez Valero #shorts",
+   "hook": "Nobody saw this coming today.",
    "date": "2026-09-15",
    "views": 0,
    "likes": 0
@@ -8866,6 +8915,24 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrWWMxdlBoOWpWbnQ0RnFOVXZvXzNMN1dIYmJxeEJ3emlnaW5NX1hKcEstOGJoeXkyWEg4NDV0VGdqbHM1Wjk5YzU2VEdLSlZXRVlxSndIX0VLbGduSUh6OW51cVEydw?oc=5",
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZzZOODROTW0weGF5eFdHeUZxUFNjT282Vkx3dFBfOUNESEUwNk0yczFYdDhycmVpekI1NVUzMWR4YjhPUU0wejc4YzdDQ1p1YURHSXp5WU1sQ1JnVGgwSEtublIxa081bl8xRFBNYVgtUUR1QUdMRFdkVFVtQjhQWHN5bUlrVHhUWE1FaWtMRFhUdG5wOWFBS243VDM0SXJMVEFWeGhR?oc=5"
+   ],
+   "date": "2026-09-15"
+  },
+  {
+   "headline": "Oracle announces new round of layoffs in early-morning email: ‘Today is your last working day’",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTm5lSXBXY3Qtd3pVTl9TVDFZamJoT0JoWWVGTGpELV9ZS0RsR1hobm1XYVBHaXdvSlI4TktXWjhoUGhncVU1X0xWX0xLOTFxaFY5d19Ed09ZQUJ6Sm1vTnVranRfSlNqdjBWWXdXZGdkTzg1eUh0LVhfN21VZjhMd1lRd9IBiAFBVV95cUxPOEZjeldYX3hjMW1kUUprR1kweDlBemkzMlA1TmFWNXQ0MTA0VDdDbHN3UGFGWnhXbVk0UWNLWDlSVjM3V0RpbzVxQ0lPVlJ0WG9Ta1dRcWF6eTJRM29kNThrUUpMRGlZTU11LXpOLWtUR3dZNHNQOGMtR2w2WklVMmRzbHdlMTFn?oc=5",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX09NQnZidGY5Sk5nUDVJQTUybjV0QV9Jd3BVblZ2T19BV1NYY1BfVDhlOHJ6WVZtZ3dVbWZ6cmlOMFNjbVJKbHh2V3VubWZsdGdkYVJwOXdMSko5SktGcUJtSWJpQnRWTktkTkVySDNpZHZqb0ZkNlN2UkYtN2x0UmNSbnIwOERpQ2FkcE1xd1pXQXN3RUppMElvaUhKQm5u0gGmAUFVX3lxTE1URElDeEV0ZklFaTF3Q3RBTTVHWU0wZkF6bU9pZERKNW5PbEk2M2hCQkJ6ZG13UXZxdDR2aFEteTVLanlkT2E3SlVUSHlCX1JjdDZEeXg3ekVmS2o5dGlQZ0dZbDMwUFhTbWRfX3VRZlNFOUViNlBLTDZlWnRGSDRDTTA5bllzRUVDYk5ta25JZjdpekR5cDFQemtwTl9KN1NkR3hDYXc?oc=5",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMmRwT2RLQ1hIXzg5Z0lPeFVFZ19wRExYZUxHZEw5NDV3anZabHVJYWJwMzhfaDV3cnpBTW5NdEpIMTVHWTJ5WmotUEFERVczQmduX3h6UFRTZnRMU05lZ2xWeFh2SUlCY0x1aXZ2MmlmZUM1cUQtMF8yNkU0d0Y4SGRHdlI4OGs0Ujl4VUhfVDJJVjJHSWJWNDQ2VG9tOEtBeS1YMXRNZGpHTWEtZUNJaWRaYzJEeVNPbFM2Vl9KTE1iaTJCb2QzMEpxNkpQQzFuUGc?oc=5",
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd21LZUdTdGRkS1UzbnJVczFQeUpMVTdvUHNYMlpXYWtUaXlhZFdtSW4yZEJYTTFMTmdaUGt5aWEwVm5Hdnd6SW1abzR6THhUX1V6NTM2cGZkQ1BseDhhc2w0ZlpybkpDQlpTd29ha3ltdkYxQUhYSURFNFpWQlR2azVtUzRYT2hjOExrRllGRzU1ekJBY29mbE9ORm1jUnFMcE9PX2V2c2RuWGpuVnRpbUdJODRVaDBNS1lrVGhPWTJ0Z2xJOFhlakRqc2hoY2xLMjdqX0haR1oyelM1ZjVxVUV3?oc=5"
+   ],
+   "date": "2026-09-15"
+  },
+  {
+   "headline": "Elche-Real Madrid: a por la victoria en el Martínez Valero",
+   "urls": [
+    "https://www.si.com/soccer/elche-vs-real-madrid-preview-predictions-lineups-9-15-26",
+    "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/previas/elche-real-madrid-a-por-la-victoria-en-el-martinez-valero-14-09-2026"
    ],
    "date": "2026-09-15"
   }
