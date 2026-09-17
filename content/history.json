@@ -272,7 +272,8 @@
   "Bond-market turmoil is letting the air out of the AI bubble... #shorts",
   "Satellites show Earth lost more than 12 trillion tons of ice... #shorts",
   "Russia launches Progress 96 with 3 tons of cargo to the space... #shorts",
-  "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600... #shorts"
+  "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600... #shorts",
+  "OpenAI discloses 6 times models went rogue, as debate rages... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -546,7 +547,8 @@
   "Stay till the end for the part people missed.",
   "This just moved the whole market.",
   "Nobody saw this coming today.",
-  "This is the story everyone is sharing."
+  "This is the story everyone is sharing.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2225,7 +2227,11 @@
   "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600 Points After Fed Raises Key Interest Rate",
   "Here’s what a Fed rate hike means for your mortgage, car loan and credit cards &nbsp;&nbsp; The Washington Post Fed Raises Interest Rates in Push for ‘Timelier’ Retreat i",
   "It is spreading fast across feeds and group chats.",
-  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "OpenAI discloses 6 times models went rogue, as debate rages over regulation, companies' liability",
+  "OpenAI discloses 6 times models went rogue, as debate rages over regulation, companies' liability &nbsp;&nbsp; Fox News Our framework for reporting model misalignment &nb",
+  "&nbsp;&nbsp; The New York Times Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents &nbsp;&nbsp; Ars Technica An Open",
+  "That is the short version, and the full reporting is linked in the description under this video."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4536,7 +4542,24 @@
   "px19798265": "2026-09-17",
   "px39425816": "2026-09-17",
   "px7872723": "2026-09-17",
-  "px7598834": "2026-09-17"
+  "px7598834": "2026-09-17",
+  "px8471438": "2026-09-17",
+  "px34622575": "2026-09-17",
+  "px39468111": "2026-09-17",
+  "px7652261": "2026-09-17",
+  "px5483087": "2026-09-17",
+  "px7643613": "2026-09-17",
+  "px9464878": "2026-09-17",
+  "px7652115": "2026-09-17",
+  "px39481319": "2026-09-17",
+  "px20181655": "2026-09-17",
+  "px39368460": "2026-09-17",
+  "px6766334": "2026-09-17",
+  "px39481321": "2026-09-17",
+  "px8572407": "2026-09-17",
+  "px7756992": "2026-09-17",
+  "px9464462": "2026-09-17",
+  "px28222728": "2026-09-17"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4564,7 +4587,7 @@
   "2-6": 6,
   "2-7": 6,
   "3-0": 6,
-  "3-1": 5,
+  "3-1": 6,
   "3-2": 5,
   "3-3": 5,
   "3-4": 5,
@@ -6705,6 +6728,14 @@
    "video_id": "FfCrkfi89js",
    "title": "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600... #shorts",
    "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-17",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "xxiUhtNFTCU",
+   "title": "OpenAI discloses 6 times models went rogue, as debate rages... #shorts",
+   "hook": "Everyone is talking about this today.",
    "date": "2026-09-17",
    "views": 0,
    "likes": 0
@@ -9221,6 +9252,16 @@
     "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lTkh6UDE5MGNZR1dxdmV6M1JsRmlXcm4wYTRvWndXcTFGc01UZU5vaHMwbWE0d2pXWDRObGZMbjVvUEZIY0F2ajZfTzE0Ymtia3BfcHFDUk5HTWpWN2hhVFZvcHJVckMteW8wVkVrZnVleUJV0gF6QVVfeXFMTXlpMTBCMl9hVjFLc2VoN20zenVXdUhLV0NieWl6V2pZMWdLX2FldjNtSG1Cd01UZUtISGVsa05nVGFnMGxCbFJtdmM1X2JfVjFxaEJFeVNVZVZUNHlJSC01ZjRvVjVHc0dQb1hnMlR6LWYwdEh3TEF4S1E?oc=5",
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcF94Zmpob2VtSHotVmp0XzZWUGxuZG1lM01WeXYyNEYxVV9VSEcwMXIzd1Z6T2JuOFZCczR4VUFxM005eXNJc1dBaWNHSGJNNlRyVk0xc0JULUx5Zmktdnl5Y3RuZDdUY3JodlRWRG16TThUUFNzR2JUSXpDS0V2RmdTMnhhSXRxNU5RUkpEYTlLYXllcG5UNEtnWHQ?oc=5",
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcTNWeEpyNUF1d0FaTG1rNFk0NlVmQ1F5QWExRk9yc21BWTBPb0xGSU0wdkEzZnhsSTdOS0cwNGVCZUstOFBKblR3RTU4clJmSFZWaG05akRYRGhuMmNhMzg3bE5zRTAtYTVZOGFPeE56TzU3MEVzTEVvdDVUQlJwXzNfX0pkXzBn?oc=5"
+   ],
+   "date": "2026-09-17"
+  },
+  {
+   "headline": "OpenAI discloses 6 times models went rogue, as debate rages over regulation, companies' liability",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVUFJeXlLd29rc2pfZDgtbFZsWXlHVTFzTGRzNUxiN0VwdUQ3a043UEJ0bWljUTVzYm9LbnJWLXpkV2prUXdaNjhqc0tZYTBRZEw3bG1uYWlfNEh1Z3hwVHU2WUtLOUpxa3F1bk5NdXZ5TmEycGxuaVpIaWhpUUZpaVZFRlhCY2ZEYWlNNlFSQkc5WGVUNWN2MENB?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanVqWlBmM21Obkh1TWdaekdGZS1CaEphcUllWFJnc1Rvdm9Ka3NHbWEtZFFWMU9vUW85ZnJpOW1fVG41djJPeEpjOFNoT0huMWtEVndLUVh2REN3VmNfRG5neXN0eW5YRktYX2w1MGR5QlFyQUlxWjFVREE4SWNkN05oMmIwbENJ?oc=5",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2xHb1VzUHk1ZUZJTWhQOXdsM0RKOXduMDI2a29fN3RmTFhTX3VIVGdyZmhaQWZsWTJzbG9hZUkwVGhrMGNiMTh6VjEwNWp4SlJSR1hsMTYxUXFOSDdDZDlJUWxza1NQZi1XbzRRd1RuYUloRHV4OHhYVDRnS1BkaGJWYTk5T0JjRzBDeGpqMFhRWjZLOEtPeUY0blRTSEtabTNoTDJJRUtqSzE5M3FCZHZaTElWVVhOaGZOT09GNHM?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0Vmay1XV2VDdE1NWG56OVdqUm9ZNFkyT1N4aUdFeWVWakxRUzhWS3Ixb0R6WnZMdzV3VjlEejlIUlZNT29BZjJsWU9rUG1sSm5UcjFVaXd0eDFtc2JydGxoUUkya1VmZkcwUVFkRDlBd2FiUGF3VkVsOUY2VW0wUXJyVTZFNmN4ZXEzakxqbzItY0p0?oc=5"
    ],
    "date": "2026-09-17"
   }
