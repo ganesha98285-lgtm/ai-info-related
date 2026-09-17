@@ -273,7 +273,9 @@
   "Satellites show Earth lost more than 12 trillion tons of ice... #shorts",
   "Russia launches Progress 96 with 3 tons of cargo to the space... #shorts",
   "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600... #shorts",
-  "OpenAI discloses 6 times models went rogue, as debate rages... #shorts"
+  "OpenAI discloses 6 times models went rogue, as debate rages... #shorts",
+  "A single Bitcoin transaction carried an average water... #shorts",
+  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -548,7 +550,9 @@
   "This just moved the whole market.",
   "Nobody saw this coming today.",
   "This is the story everyone is sharing.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "This is blowing up right now.",
+  "Stay till the end for the part people missed."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2231,7 +2235,17 @@
   "OpenAI discloses 6 times models went rogue, as debate rages over regulation, companies' liability",
   "OpenAI discloses 6 times models went rogue, as debate rages over regulation, companies' liability &nbsp;&nbsp; Fox News Our framework for reporting model misalignment &nb",
   "&nbsp;&nbsp; The New York Times Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents &nbsp;&nbsp; Ars Technica An Open",
-  "That is the short version, and the full reporting is linked in the description under this video."
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "A single Bitcoin transaction carried an average water footprint of about 16,000 litres in 2021 once the electricity and cooling behind it were counted — roughly 6.2 milli",
+  "Bitcoin could be headed for $230,000 in less than a decade.",
+  "Here are seven ways to value the cryptocurrency.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "A single Bitcoin transaction carried an average water footprint of about 16,000 litres in 2021 once the electricity and cooling behind it were counted — roughly 6.2 million times the water behind one",
+  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More",
+  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More &nbsp;&nbsp; Deadline Roku Just Added More Than 30 Streaming Bundles",
+  "Here is why it is getting so much attention.",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More &nbsp;&nbsp; Deadline Roku Just Added More Than 30 Streaming Bundles to Help People Save Money &nbsp;&nbsp; CNET Roku "
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4559,7 +4573,19 @@
   "px8572407": "2026-09-17",
   "px7756992": "2026-09-17",
   "px9464462": "2026-09-17",
-  "px28222728": "2026-09-17"
+  "px28222728": "2026-09-17",
+  "px3994861": "2026-09-17",
+  "px5839005": "2026-09-17",
+  "px5871237": "2026-09-17",
+  "px5871242": "2026-09-17",
+  "px7698104": "2026-09-17",
+  "px31252238": "2026-09-17",
+  "px7131824": "2026-09-17",
+  "px5974733": "2026-09-17",
+  "px6768310": "2026-09-17",
+  "px6205687": "2026-09-17",
+  "px7947684": "2026-09-17",
+  "px7947694": "2026-09-17"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4588,8 +4614,8 @@
   "2-7": 6,
   "3-0": 6,
   "3-1": 6,
-  "3-2": 5,
-  "3-3": 5,
+  "3-2": 6,
+  "3-3": 6,
   "3-4": 5,
   "3-5": 5,
   "3-6": 5,
@@ -6736,6 +6762,22 @@
    "video_id": "xxiUhtNFTCU",
    "title": "OpenAI discloses 6 times models went rogue, as debate rages... #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-09-17",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "inK_9uwp_X8",
+   "title": "A single Bitcoin transaction carried an average water... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-09-17",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "WIL5Y8mZncY",
+   "title": "Roku Adds 30 New Bundles To Premium Subscriptions, Offering... #shorts",
+   "hook": "Stay till the end for the part people missed.",
    "date": "2026-09-17",
    "views": 0,
    "likes": 0
@@ -9262,6 +9304,24 @@
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanVqWlBmM21Obkh1TWdaekdGZS1CaEphcUllWFJnc1Rvdm9Ka3NHbWEtZFFWMU9vUW85ZnJpOW1fVG41djJPeEpjOFNoT0huMWtEVndLUVh2REN3VmNfRG5neXN0eW5YRktYX2w1MGR5QlFyQUlxWjFVREE4SWNkN05oMmIwbENJ?oc=5",
     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2xHb1VzUHk1ZUZJTWhQOXdsM0RKOXduMDI2a29fN3RmTFhTX3VIVGdyZmhaQWZsWTJzbG9hZUkwVGhrMGNiMTh6VjEwNWp4SlJSR1hsMTYxUXFOSDdDZDlJUWxza1NQZi1XbzRRd1RuYUloRHV4OHhYVDRnS1BkaGJWYTk5T0JjRzBDeGpqMFhRWjZLOEtPeUY0blRTSEtabTNoTDJJRUtqSzE5M3FCZHZaTElWVVhOaGZOT09GNHM?oc=5",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0Vmay1XV2VDdE1NWG56OVdqUm9ZNFkyT1N4aUdFeWVWakxRUzhWS3Ixb0R6WnZMdzV3VjlEejlIUlZNT29BZjJsWU9rUG1sSm5UcjFVaXd0eDFtc2JydGxoUUkya1VmZkcwUVFkRDlBd2FiUGF3VkVsOUY2VW0wUXJyVTZFNmN4ZXEzakxqbzItY0p0?oc=5"
+   ],
+   "date": "2026-09-17"
+  },
+  {
+   "headline": "A single Bitcoin transaction carried an average water footprint of about 16,000 litres in 2021 once the electricity and cooling behind it were counted — roughly 6.2 million times the water behind one ",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWFdPbDY4MlRaeWd2aDh0aHM4bXpSNk16VXI2anlHNmp1aW94MzJ1dThqLW52NTc4NXlLWk05dnFaRTRwZ1dUV0FRdjJrT1R2ZS1oZXl4aW5HcTJweWZNMFB2VzN5c0lySklrRFZkbDlkUlMyUFZFRkxQWjNxRmQwM2t3MDFwQVJfTVFDMEZ2RmwwWmJIUkZPR09MUDhnSnV5dEJ1UUhYWDlTZzBMY2RWR2NsdkxSVkwyOEFLV25ERmstNG43X2xBVUxGU0ZWRHU1VTI5WmVCWQ?oc=5",
+    "https://news.google.com/rss/articles/CBMipwJBVV95cUxPWUZZRzd6ZHBMSFkya2lFQmh4ZnFMV3JEWDEyczNDZE9TVG9QNkVwZ2sxa0Y3Z09uMlJoS1lJRS1NeF9FWGVFLVhlTDJRVFdXX2FDNU0wcE5jOWNMdzIzMFlLR0FMOVlkQzFPMDBmWGdjNElFV2oxMWpnNVVNNVlCTVoyTERKZTBOTHdxRUdNTEhCcEdVNTJOaENYbnBVZGhtVHdMMlhtSy1HV1poZllrMjVsWWRMVGxidnlNU2k5cFhzMUFweEtGelFKcjJuMW13ZTZTQWxEWEljbS0zRDBBY0hOVEtMVGtUZklkZC1CN2pKS2cybDAtZEotQXRZYVdHUGZGMC1UeXVUSU12T1JYTUJtSWlJdm5oc0FnNVRyTkotQzFONjhV?oc=5",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWFdPbDY4MlRaeWd2aDh0aHM4bXpSNk16VXI2anlHNmp1aW94MzJ1dThqLW52NTc4NXlLWk05dnFaRTRwZ1dUV0FRdjJrT1R2ZS1oZXl4aW5HcTJweWZNMFB2VzN5c0lySklrRFZkbDlkUlMyUFZFRkxQWjNxRmQwM2t3MDFwQVJfTVFDMEZ2RmwwWmJIUkZPR09MUDhnSnV5dEJ1UUhYWDlTZzBMY2RWR2NsdkxSVkwyOEFLV25ERmstNG43X2xBVUxGU0ZWRHU1VTI5WmVCWQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EZFBDdER5NWhRSks4amxzRE9KRndxeXFRdGZUUm9kekdETXkwV09JUnZMT2xKM2RnaVlTQlBMclprRGFZY3RrUmJiRVM2bXZJblE?oc=5"
+   ],
+   "date": "2026-09-17"
+  },
+  {
+   "headline": "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMUZ4N3dZLXZUeDVRdFB1bE5XSVllTUJOOXNrd0s5VnJud2k1bHl3b2hBQmd5eWNyOFN3ZVg2QzBhMkozcEN2MmJYWHN4bGRvT2RqZDhDWTFXSnJIcnRQUDZhVHFzX2ZRUXZ5cDBfbUJDeDA3MDF6Q1I5dGpHc1ZrLQ?oc=5",
+    "https://en.wikipedia.org/wiki/Michael_J._Fox"
    ],
    "date": "2026-09-17"
   }
