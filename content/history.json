@@ -275,7 +275,9 @@
   "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600... #shorts",
   "OpenAI discloses 6 times models went rogue, as debate rages... #shorts",
   "A single Bitcoin transaction carried an average water... #shorts",
-  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering... #shorts"
+  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering... #shorts",
+  "Stocks surge as oil and bond yields retreat, recovering from... #shorts",
+  "Macklemore challenges Robert Kraft to match $1 million donation #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -552,7 +554,9 @@
   "This is the story everyone is sharing.",
   "Everyone is talking about this today.",
   "This is blowing up right now.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "This is blowing up right now.",
+  "This changed in the last few hours."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2245,7 +2249,20 @@
   "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More &nbsp;&nbsp; Deadline Roku Just Added More Than 30 Streaming Bundles",
   "Here is why it is getting so much attention.",
   "We cover this beat every single day, which means you will see the follow up here first.",
-  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More &nbsp;&nbsp; Deadline Roku Just Added More Than 30 Streaming Bundles to Help People Save Money &nbsp;&nbsp; CNET Roku "
+  "Roku Adds 30 New Bundles To Premium Subscriptions, Offering Combos With HBO Max, AMC+, Fox One & More &nbsp;&nbsp; Deadline Roku Just Added More Than 30 Streaming Bundles to Help People Save Money &nbsp;&nbsp; CNET Roku ",
+  "Stocks surge as oil and bond yields retreat, recovering from Fed-induced sell-off",
+  "'This is our company': Nigerians show off oil wealth after share-buying frenzy &nbsp;&nbsp; BBC Dangote IPO tests Nigeria's fintech infrastructure as investor demand over",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "We are watching how this develops through the day.",
+  "'This is our company': Nigerians show off oil wealth after share-buying frenzy &nbsp;&nbsp; BBC Dangote IPO tests Nigeria's fintech infrastructure as investor demand overwhelms platforms &nbsp;&nbsp; Reuters Africa's ric",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Macklemore challenges Robert Kraft to match $1 million donation",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "We are watching how this develops through the day.",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "Macklemore challenges Robert Kraft to match $1 million donation &nbsp;&nbsp; The Seattle Times",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4585,7 +4602,22 @@
   "px6768310": "2026-09-17",
   "px6205687": "2026-09-17",
   "px7947684": "2026-09-17",
-  "px7947694": "2026-09-17"
+  "px7947694": "2026-09-17",
+  "px16040147": "2026-09-18",
+  "px39481264": "2026-09-18",
+  "px35010179": "2026-09-18",
+  "px6150664": "2026-09-18",
+  "px25935022": "2026-09-18",
+  "px18068664": "2026-09-18",
+  "px6531885": "2026-09-18",
+  "px8726205": "2026-09-18",
+  "px39477242": "2026-09-18",
+  "px39214130": "2026-09-18",
+  "px6690707": "2026-09-18",
+  "px5916717": "2026-09-18",
+  "px39317270": "2026-09-18",
+  "px38672896": "2026-09-18",
+  "px28185374": "2026-09-18"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4616,8 +4648,8 @@
   "3-1": 6,
   "3-2": 6,
   "3-3": 6,
-  "3-4": 5,
-  "3-5": 5,
+  "3-4": 6,
+  "3-5": 6,
   "3-6": 5,
   "3-7": 5,
   "4-0": 5,
@@ -6779,6 +6811,22 @@
    "title": "Roku Adds 30 New Bundles To Premium Subscriptions, Offering... #shorts",
    "hook": "Stay till the end for the part people missed.",
    "date": "2026-09-17",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Ju49SZn17IQ",
+   "title": "Stocks surge as oil and bond yields retreat, recovering from... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-09-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "JI9HadVNvYU",
+   "title": "Macklemore challenges Robert Kraft to match $1 million donation #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-09-18",
    "views": 0,
    "likes": 0
   }
@@ -9324,6 +9372,23 @@
     "https://en.wikipedia.org/wiki/Michael_J._Fox"
    ],
    "date": "2026-09-17"
+  },
+  {
+   "headline": "Stocks surge as oil and bond yields retreat, recovering from Fed-induced sell-off",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05dmYwel9OTTdFTUFYZTU3UUFXYjNCOG54WWRlNElSbnljVExpd1JBR0RybTFteVo0VklEY2t6MjktaE81OEk4dFN3UFFMWHBNT2t3emZjaHJ0UFU?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE16dXpjUG95TlVORmlaMUtvNmc3bHFhdTJCZ0N0U2l0dmZ4aUdaVDkyUkdfSmhGeHlBYXpsM2M1Q09RaE1QQy0xcFgxSVh4WnpvaHdIZ09obUswQW1hazlveGZXdHdNRHd3Z0NsU2QtZ3ZLdjJseW840gF8QVVfeXFMT2ZLZ0VzbzhySFJObURPVVRsTmx2aHZNamZFcGY1TFVQQUd5cGh0U2h1OU8yQm9mcDFlUDJlVHAwQTVEdG50OW16ejFiRG5iQzBxX3RQMFJ2eVFrZ1FpeDhUY2F3dWtjSEkweXFuT1dUbDl5R1dsTHJaMHRTTw?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVkhCUmZUbEVkMjdzcDFsQ2h6UVpQeDN4dGJwcWZNYVlCUEdzX1hZd2dnZm5lS2JYZkdQdzRsZElhekhLdjlGcEVIbGxoYVhjVXlhU2FFbG1kUmttd2MtWXhFNDdIMUJMUm1ydTlwTldwVzVKRXlVNEhIcTFFN21HWktLdGhIeVAwRTR5anUzZXNzZjRr?oc=5"
+   ],
+   "date": "2026-09-18"
+  },
+  {
+   "headline": "Macklemore challenges Robert Kraft to match $1 million donation",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVzVLQXhzdlBhRktieS02TVBpalVhMC02Uzk2V29SMjFobkR4Sk8yMEdEZVJ5NV9FZjVsQnFSRHY4YWtUamZsV0RRZ09kYk1sVUQzdnBkNnhpQVl5enM5VG1mcFZvTnF3eFVUWjFoQVVlTWlXSGZmYXd0TzZoNGdfM2ljYU9XTjRfalFzeG1pd0NmaFR4NHpTVGUxOFZhWXVYcXJQeEdLek5FdEE?oc=5",
+    "https://en.wikipedia.org/wiki/Robert_Kraft"
+   ],
+   "date": "2026-09-18"
   }
  ]
 }
