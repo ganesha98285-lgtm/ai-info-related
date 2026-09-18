@@ -277,7 +277,9 @@
   "A single Bitcoin transaction carried an average water... #shorts",
   "Roku Adds 30 New Bundles To Premium Subscriptions, Offering... #shorts",
   "Stocks surge as oil and bond yields retreat, recovering from... #shorts",
-  "Macklemore challenges Robert Kraft to match $1 million donation #shorts"
+  "Macklemore challenges Robert Kraft to match $1 million donation #shorts",
+  "For laid off Big Tech workers, the search for a new position... #shorts",
+  "Nuggets reportedly sign $15M freakishly athletic former... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -556,7 +558,9 @@
   "This is blowing up right now.",
   "Stay till the end for the part people missed.",
   "This is blowing up right now.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "This just moved the whole market.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2262,7 +2266,16 @@
   "That is the short version, and the full reporting is linked in the description under this video.",
   "Macklemore challenges Robert Kraft to match $1 million donation &nbsp;&nbsp; The Seattle Times",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "For laid off Big Tech workers, the search for a new position can feel painful. Some people comb through job listings for months or even a year, submitting thousands of jo",
+  "Meet San Francisco's 'permanent underclass' — and the ones who think they still have a shot &nbsp;&nbsp; businessinsider.com Jobless Tech Workers Are Being Left Out of Sa",
+  "Workers Back AI Sovereign Wealth Fund as Tech Layoffs Intensify, Survey Shows - Consensus Beat Ra",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Nuggets reportedly sign $15M freakishly athletic former first-rounder to revive dwindling career",
+  "Disney Hires Its First CTO: Karandeep Anand, Former CEO of AI Chatbot Start-Up &nbsp;&nbsp; Variety The Next Chapter of Entertainment and Fandom &nbsp;&nbsp; character.ai",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "It is spreading fast across feeds and group chats.",
+  "Disney Hires Its First CTO: Karandeep Anand, Former CEO of AI Chatbot Start-Up &nbsp;&nbsp; Variety The Next Chapter of Entertainment and Fandom &nbsp;&nbsp; character.ai blog Disney’s first CTO is Character.AI’s former "
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4617,7 +4630,21 @@
   "px5916717": "2026-09-18",
   "px39317270": "2026-09-18",
   "px38672896": "2026-09-18",
-  "px28185374": "2026-09-18"
+  "px28185374": "2026-09-18",
+  "px6547805": "2026-09-18",
+  "px11933153": "2026-09-18",
+  "px37116270": "2026-09-18",
+  "px7439142": "2026-09-18",
+  "px10145286": "2026-09-18",
+  "px5077078": "2026-09-18",
+  "px39500868": "2026-09-18",
+  "px6586070": "2026-09-18",
+  "px32240945": "2026-09-18",
+  "px31229039": "2026-09-18",
+  "px37253080": "2026-09-18",
+  "px30997019": "2026-09-18",
+  "px29996514": "2026-09-18",
+  "px8691958": "2026-09-18"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4650,8 +4677,8 @@
   "3-3": 6,
   "3-4": 6,
   "3-5": 6,
-  "3-6": 5,
-  "3-7": 5,
+  "3-6": 6,
+  "3-7": 6,
   "4-0": 5,
   "4-1": 5,
   "4-2": 5,
@@ -6826,6 +6853,22 @@
    "video_id": "JI9HadVNvYU",
    "title": "Macklemore challenges Robert Kraft to match $1 million donation #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-09-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "aDhtprTwJRY",
+   "title": "For laid off Big Tech workers, the search for a new position... #shorts",
+   "hook": "This just moved the whole market.",
+   "date": "2026-09-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "IBMsfPEwcTE",
+   "title": "Nuggets reportedly sign $15M freakishly athletic former... #shorts",
+   "hook": "This is the story everyone is sharing.",
    "date": "2026-09-18",
    "views": 0,
    "likes": 0
@@ -9387,6 +9430,24 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVzVLQXhzdlBhRktieS02TVBpalVhMC02Uzk2V29SMjFobkR4Sk8yMEdEZVJ5NV9FZjVsQnFSRHY4YWtUamZsV0RRZ09kYk1sVUQzdnBkNnhpQVl5enM5VG1mcFZvTnF3eFVUWjFoQVVlTWlXSGZmYXd0TzZoNGdfM2ljYU9XTjRfalFzeG1pd0NmaFR4NHpTVGUxOFZhWXVYcXJQeEdLek5FdEE?oc=5",
     "https://en.wikipedia.org/wiki/Robert_Kraft"
+   ],
+   "date": "2026-09-18"
+  },
+  {
+   "headline": "For laid off Big Tech workers, the search for a new position can feel painful. Some people comb through job listings for months or even a year, submitting thousands of job applications only to receive",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaFloRlQtT2pNbTkzdjFLMm84ZHFtNFBJTjNkM1RqQXZMQWdJeHZ6UkZ2bGRkc183a2kxaGF4UzRGaDRKRkNFT0xzSWdFTXJRcVpiN0FDcUZoU01DMG9GcVY4Z1lIZllQa3ZpNVhKc000d2dNdjl3Rk9LczUzM1JNVmJRdWFDa29SZHpFWXp5bDQ2SDRfZ3ZkYUNXSktVZG5EOTFmLW93?oc=5",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMXdGZjBsRFdva0RaVEVrbDRmWmgzSnVaUld3U1JQOVlNUGVadk5VY3c4dDhLTW1rTHJTQnluc2dtWmFTMG9LVjBSaVlsRVJaeWoza3Q2a3FaYXpfUXIzRTdVOWdMY3BZSHVfMGVQcW1hV1lvalJPV1FRMjRha2l4eU9Pd3RRMEJJNFk4Z3FmMjlSQ202Yk5PZEdIR0RVbE90OGE0WlZSdWhaYmY1aTVBV2RZdXNwcmprcEJ6VXlkQnp3QnFPN2V3?oc=5",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZEFwWDhKaDFBSTRENm1sandkcGRNUC1laHUtUlQyV29ZQVNkYjZzRHp6QXhGSWVKZWZOVUlXdzVpVVh0UnE5WGFJWi1BYWJYRUc4LW5fYi1uYVZiLThMUVJNUlNkdUlweWtEVGx5Sk51RVdnSjY1aUhmM096SVZockNTTUN3YkVaRkRpazVUVVAySXplMm50aURERzNvNnVjRDBwRXhjcXRMbFYzSHFXLUJKQ0FBa2VhZmFtQ0V3?oc=5",
+    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVU1obHVhU2JGV2VPQ3AtZ1dyZVF6VnE0QTcwRHFwdndEazBYd19XLUp0dDJwN3JjN21uZk13bUJ4U2FIb3pLd3B4dlFLbF9CTHBvVFFGT0RRRzhoNGxYZVFhdFV1akZSdEc4N19fWXN0ZW1ZZE04SVQyTFZhUGUzeFVNQ0l4QmpValZ0UkxZeEhMT1J6LXAzVlZsZ0VLdXdDVFJMRkg4S1dLR1ZHbl9MdTNTUi1FMDRMMTlBVFlWN2pGeW1tU3I2a0VMaDBFbjIyYWxz?oc=5"
+   ],
+   "date": "2026-09-18"
+  },
+  {
+   "headline": "Nuggets reportedly sign $15M freakishly athletic former first-rounder to revive dwindling career",
+   "urls": [
+    "https://sports.yahoo.com/articles/nuggets-reportedly-sign-15m-freakishly-182416124.html",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXRRTDVXOGFQTnJwbDB0SHVOQlZFbUswRGxrc1lTNzBYd1BYVDdmN1BRZGNTZk5BU3FPRDc0VTM0dEk4aENWR19TYWhuOWVkc3dELUJBY09kMnJFanRJaGdiM1ZzV0xEZFFiT0RZRjc4cndoS3NGekU5V0tLUWVYdExBSGNKZUhwWE5nM293?oc=5"
    ],
    "date": "2026-09-18"
   }
