@@ -280,7 +280,9 @@
   "Macklemore challenges Robert Kraft to match $1 million donation #shorts",
   "For laid off Big Tech workers, the search for a new position... #shorts",
   "Nuggets reportedly sign $15M freakishly athletic former... #shorts",
-  "Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end modestly... #shorts"
+  "Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end modestly... #shorts",
+  "'Blockbuster' Lee Jung-hoo finally reaches 10 home runs! All... #shorts",
+  "NASA scientist discovers largest, newly formed... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -562,7 +564,9 @@
   "This changed in the last few hours.",
   "This just moved the whole market.",
   "This is the story everyone is sharing.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "This is the story everyone is sharing.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2281,7 +2285,17 @@
   "Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end modestly higher, Dow declines as 10-year Treasury yield rises to 5% and oil prices hold at $100 a barrel; Dow books wo",
   "S&P 500, Nasdaq advance, turning the page on a tumultuous week &nbsp;&nbsp; Reuters Stock Market on Sept.",
   "stocks higher at close of trade; Dow Jones Industrial Average up 0.62% &nbsp;&nbsp",
-  "We are watching how this develops through the day."
+  "We are watching how this develops through the day.",
+  "'Blockbuster' Lee Jung-hoo finally reaches 10 home runs! All against Dodgers ace Glasnow",
+  "Bitcoin, Strategy Stock, Coinbase Surge.",
+  "Why Cryptos Are Rallying Against All Odds.",
+  "&nbsp;&nbsp; Barron's Live updates: Bitcoin climbs over $80,000 as crypto shakes off Clarity failure and higher interest rates &nbsp;&nbsp; CoinDesk Bitcoin surges 5% to",
+  "&nbsp;&nbsp; Barron's Live updates: Bitcoin climbs over $80,000 as crypto shakes off Clarity failure and higher interest rates &nbsp;&nbsp; CoinDesk Bitcoin surges 5% to top $80,000 as investors look past Clarity Act's f",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "NASA scientist discovers largest, newly formed 'once-in-a-century' moon crater after asteroid impact",
+  "NASA scientist discovers largest, newly formed 'once-in-a-century' moon crater after asteroid impact &nbsp;&nbsp; FOX Weather NASA’s Moon Orbiter Spots New, ‘Once-in-Cent",
+  "Here's why everyone's talking about the 'once-in-a-century' discovery &nbsp;&nbsp; Space Once-in-a-Century",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4667,7 +4681,21 @@
   "px19798261": "2026-09-18",
   "px6657748": "2026-09-18",
   "px6177731": "2026-09-18",
-  "px6100897": "2026-09-18"
+  "px6100897": "2026-09-18",
+  "px39570925": "2026-09-19",
+  "px19436859": "2026-09-19",
+  "px6153593": "2026-09-19",
+  "px34901602": "2026-09-19",
+  "px5885501": "2026-09-19",
+  "px7986779": "2026-09-19",
+  "px6863645": "2026-09-19",
+  "px8541110": "2026-09-19",
+  "px6255524": "2026-09-19",
+  "px39582953": "2026-09-19",
+  "px37001814": "2026-09-19",
+  "px36999920": "2026-09-19",
+  "px34437721": "2026-09-19",
+  "px37023380": "2026-09-19"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4703,8 +4731,8 @@
   "3-6": 6,
   "3-7": 6,
   "4-0": 6,
-  "4-1": 5,
-  "4-2": 5,
+  "4-1": 6,
+  "4-2": 6,
   "4-3": 5,
   "4-4": 5,
   "4-5": 5,
@@ -6901,6 +6929,22 @@
    "title": "Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end modestly... #shorts",
    "hook": "Stay till the end for the part people missed.",
    "date": "2026-09-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "wittTXnbDL8",
+   "title": "'Blockbuster' Lee Jung-hoo finally reaches 10 home runs! All... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-09-19",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "fpq2FqfwPXo",
+   "title": "NASA scientist discovers largest, newly formed... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-09-19",
    "views": 0,
    "likes": 0
   }
@@ -9491,6 +9535,24 @@
     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbTl3alo5ZGhnMDh2WnJQX0lGNklVT0FZOFlBdk1PUkh5VDFKUmlyazc3UHJILUpRZVhqTS1XcGRBUUMwbEFtZ0ZFWXlheEw5T2Q4ekVhRjhKODZpSXBZSzVHQXJsME9Fb3MyNm9WODhRT04xS1daMm90Z2hLWWdTSWtOT2dpMGlCOF96aTFVTUZIVnprSHpmYTV3Sm9pd2xUQ1k5TWtNVHdVUTBhT0JaZDJHeENUSW1QUTRsbVczQlZldjJYb0trZ2E4WVBWSW1ESnlPZUhR?oc=5"
    ],
    "date": "2026-09-18"
+  },
+  {
+   "headline": "'Blockbuster' Lee Jung-hoo finally reaches 10 home runs! All against Dodgers ace Glasnow",
+   "urls": [
+    "https://www.starnewskorea.com/en/sports/2026/09/19/2026091911110486056",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLWxxSUpCZk1JVkJ5ajlxLWZZcU16Q09tSDBtbUxCTmxsM3lhejlxX3ZCbnEwSk1MMkVRb1BYYWkwb0NNdmU5SzdreUN6b2wxVWJ4TU91YWxxMGVBUERpcV94bjVKdG1qbnRUYThGMm10VmhtZl9nUklwLVZpU1JOVXdjaWQ?oc=5",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tdUlfRXplbjNVTThoZzZqWGF2MjlvU1RlMjh1aEF0TFRCWkZTX19Ia0JBNGxWYXFIYjVZNmd1aGpNSml0V1dGZDJpQWx2VVBBaTE1SzY1Y3Q1bFBaRUhLT1QtUUtfelZiblowc0lvaHVKOGlK?oc=5",
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdm5uRFpxVnd3N3dIcFI0WG9oSWdmeHk2TmRCSUJUdHhWaDdzOEhOUlNoeU4wbm94Rnh4VHN4aXdJRnItb01oNzJUSW8tbmltWXl2UEh1NlkxVVd4M29XY0JhQTRsNTExcll1dXZjS3pzUGNVQ1FtMEtNRXVOMlh1SEQ1Sy1SZ3hjUjItWG0zeHVMam9nT1hiR3hlN0pnZThYSXc2eE03OA?oc=5"
+   ],
+   "date": "2026-09-19"
+  },
+  {
+   "headline": "NASA scientist discovers largest, newly formed 'once-in-a-century' moon crater after asteroid impact",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLWItYi1telBOSzJvWlNkRTA0enBQVjVhSU1INkM1WUJrWGI4c3FvS19HZEFPbkYyNVNURHpHMER6RHJhaXlVT0tOMnBrT0VxSEZ4OEZIakdLUGN2OC1qMWRrTGoxZjZmSG1GS09sY01UR1ZaRDZKNFRJVE01QU5vRFlfbUFZZkhkcVHSAY8BQVVfeXFMUGM3Um1jUXVZNXR1TGpYNUpxQkJkc2ZLdzZ3bngzVTVnbk8zLUdZSU5HSHl0T2pHMmFJVVFob2RNU2Q2Um55WWx0MGJ5V0VaTjdjSWx1azFZSlR3TnRKZmJYaVI1dkYyQVgybUhXTmh1WFZzdXFCM2hiVFd6S00zX3JqYXc1RnZzOXJ2TmFYOTA?oc=5",
+    "https://en.wikipedia.org/wiki/Chicxulub_crater"
+   ],
+   "date": "2026-09-19"
   }
  ]
 }
