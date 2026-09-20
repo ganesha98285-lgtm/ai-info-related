@@ -288,7 +288,9 @@
   "Exclusive: Fintech Offers Startups Alternative To Venture Debt... #shorts",
   "SpaceX pushes next Starship launch back to Sept. 28, a 6-day... #shorts",
   "Galaxies housing the James Webb Space Telescope's mysterious... #shorts",
-  "Travis Kelce’s Nieces Couldn’t Stop Calling Taylor Swift This... #shorts"
+  "Travis Kelce’s Nieces Couldn’t Stop Calling Taylor Swift This... #shorts",
+  "Fed's Kashkari says inflation is still too high in 'all... #shorts",
+  "These Tech Workers Were Laid Off in an 'AI Transformation.'... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -578,7 +580,9 @@
   "You will want to hear this one.",
   "This is the story everyone is sharing.",
   "Everyone is talking about this today.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "This just moved the whole market.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2341,7 +2345,17 @@
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview",
+  "Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview &nbsp;&nbsp; Reuters Fed’s Kashkari Says Inflation Reaching All Corn",
+  "Save this one so you can come back to it when the next update lands.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "These Tech Workers Were Laid Off in an 'AI Transformation.' Their Revenge? Building an AI That Replaces Executives",
+  "Tech layoffs 2026: Tracking the job losses across Oracle, Uber, Apple, TikTok, Meta, Microsoft and others &nbsp;&nbsp; Yahoo Tech",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4795,7 +4809,18 @@
   "px7058606": "2026-09-20",
   "px8906768": "2026-09-20",
   "px39569280": "2026-09-20",
-  "px34368844": "2026-09-20"
+  "px34368844": "2026-09-20",
+  "px6998543": "2026-09-20",
+  "px26529309": "2026-09-20",
+  "px25935014": "2026-09-20",
+  "px17555904": "2026-09-20",
+  "px39483322": "2026-09-20",
+  "px36478126": "2026-09-20",
+  "px36715599": "2026-09-20",
+  "px36478127": "2026-09-20",
+  "px36793351": "2026-09-20",
+  "px8348326": "2026-09-20",
+  "px8170431": "2026-09-20"
  },
  "thumb_styles": {
   "0-0": 6,
@@ -4839,8 +4864,8 @@
   "4-6": 6,
   "4-7": 6,
   "5-0": 6,
-  "5-1": 5,
-  "5-2": 5,
+  "5-1": 6,
+  "5-2": 6,
   "5-3": 5,
   "5-4": 5,
   "5-5": 5,
@@ -7092,6 +7117,22 @@
    "video_id": "UKKKYfXnmcc",
    "title": "Travis Kelce’s Nieces Couldn’t Stop Calling Taylor Swift This... #shorts",
    "hook": "You will want to hear this one.",
+   "date": "2026-09-20",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "ApuuDPTRvgA",
+   "title": "Fed's Kashkari says inflation is still too high in 'all... #shorts",
+   "hook": "This just moved the whole market.",
+   "date": "2026-09-20",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "A6OQMhqsxxA",
+   "title": "These Tech Workers Were Laid Off in an 'AI Transformation.'... #shorts",
+   "hook": "This just moved the whole market.",
    "date": "2026-09-20",
    "views": 0,
    "likes": 0
@@ -9754,6 +9795,24 @@
    "urls": [
     "https://www.harpersbazaar.com/celebrity/latest/a73758665/travis-kelce-reveals-what-nieces-first-called-taylor-swift/",
     "https://variety.com/2026/film/news/tom-cruise-taylor-swift-schooling-me-football-chiefs-game-1236866585/"
+   ],
+   "date": "2026-09-20"
+  },
+  {
+   "headline": "Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1hVd3hZZmFPOEVudnRhdFpDczA0Qkg4TmxpeDFYN1NuWnFkYVNSLTdrRU42dGdXV21YcmlsM1RVREw1amRxQWV5aWVZZTRPRy1paTNiT2o3M0syblIxdkMtR2xKLVgzUEstZ01CcXRKd0dNbUpLZUxkV1hhS0cwcDZYRXdmYjJrTTc4RERBQWNyeXdHb0ZoVjhPMkQzVDJodDBoc3c0RTc4ckFJeGJ6WDlLTDVzM05rN3k5VWNXVVFlTWM?oc=5",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV2RzcWJZVmt0S2ZKZDR3Q3lWNGRfTHc1eFF0ZXhicDZtTzFVODBhc3dmVEZOM0FpUGlmMFdTVkxPU0RIUGVlOWZ6ZjY4OHdaLTdjZjdsTTJ5ZS1WNW5MRVZpNnlyVDFuTEoza1NqZGxSTTE2VFJTLXJaTjJ2R2hsZC1pNWxJOGcwREhIZzBjUU56VkJhR0VuVnFXONIBoAFBVV95cUxOajJJLWlqcnVKUHhqeGwtcWFoWGM0SFZJRnRBRjE4R3VlY2wycXZRVnpjVHphaENVNlo3LWtHRmhNZGtsamRmZ0VCUnpCWXlhbEVxQmNyZkwzRDM2TlkyR1p3Wm9JeGRJZnNlTjE2RF92SjZUQ0RfQmFKZEE4RGZuTUo1QW9zeDNvQ0ZLakZsVXNBYVhKVUtFdVlULUp1ZmNp?oc=5"
+   ],
+   "date": "2026-09-20"
+  },
+  {
+   "headline": "These Tech Workers Were Laid Off in an 'AI Transformation.' Their Revenge? Building an AI That Replaces Executives",
+   "urls": [
+    "https://www.mlb.com/news/2026-postseason-teams",
+    "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPS25rUTR2dk15UURqOTVyWDFad1hZbFd5dWpLT08wYUlFN28tcjBsZTg1ajVSc1l3LTJMeldsdjVwZUJ4QVJVYXZkYkEySWVIZzlpNHVpT29CaDAxY0U0c09JZm5lMHF0c2JFX1NTZXRIbWxQRTRuNnNudGFlQmtjakRwR0dqUG5YeTM2R041S3FKRGFESWNKU0hQbGtnV0twa0Q3Zjl1RDcyUGM5NDdRSVRhcndJUUhIRk5LXzZCZEc0anBBcjJtMVY5d0U5REoyeWdwdVFmQVdtUXFLVlBRTGVtbWRWbU5DMjM4NGJkUWdpcElzYUt6UFV6Zw?oc=5",
+    "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPS05sRzVaTWZ2Vjd3UUpPTm9MRHYwQk5SSVJidkxEV0dOSHA3MzlGZkloVHV5b3VUYUdUU0pzTTQ1RlpIVHY5Vy13RHVmX0ZjeXhpUHNETUg1MjdxSnFsMEdwazMzYl96cVdxS0t3emx2b1VEUm9rMkYtRnQwWU4wQXVvRE5SeE1ZUmZwY0JpRUxKbmtyaHVEdVhma3pENVdINlB3RXNuNTRVUWlJeVpvcDk0UXlUbkprQWJZSnhxNTZjOWdBZHZlUlBqS0RhZmlpNlU1ZDdQajg5VC1SUHB2WTZZZjNKbjFoVzc4UTJSX2c4LVUzaHdVV3Zxdm1pdDQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa1pYV3JXc01IUlYzSjVIWnBZXy1wYy1QQlhQNzZvUkFSZ05mX1FzVHJ4VzhDTUVuR1NVSTJDWEo1SlJmNWgtbE9IUTNJRWJyZEhrdnRYVmd5a0RQZklZOGkyVGt6cWtOQUxFZGFBa2x6WXNxMnJNS2phMFVtUlMxMklUbTJiWVJZMzFqSHpFaFhUMV9ESEoxLWIxelhXT29DY3hLOTk3dTBLdm5ocWRLSTVGZkNUNzFCTHc?oc=5"
    ],
    "date": "2026-09-20"
   }
