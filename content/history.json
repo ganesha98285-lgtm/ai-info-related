@@ -296,7 +296,9 @@
   "The Stock Market Looks More Expensive Than Ever Before Based... #shorts",
   "Bill Gates said his children will inherit ‘less than 1%’ of... #shorts",
   "The Week’s 10 Biggest Funding Rounds: Large Rounds For AI... #shorts",
-  "AI coding agent startup Factory triples valuation to $5... #shorts"
+  "AI coding agent startup Factory triples valuation to $5... #shorts",
+  "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield #shorts",
+  "'War of the tech stacks': Paramount and WBD employees brace... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -594,7 +596,9 @@
   "This just moved the whole market.",
   "This just moved the whole market.",
   "Everyone is talking about this today.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "You will want to hear this one.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2396,7 +2400,22 @@
   "Reports are still coming in, so details may change.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield",
+  "We are watching how this develops through the day.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Here is why it is getting so much attention.",
+  "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield &nbsp;&nbsp; adweek.com",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "'War of the tech stacks': Paramount and WBD employees brace for internal competition after the merger closes",
+  "Oracle cloud layoffs hit developers, engineers hardest &nbsp;&nbsp; Yahoo Finance",
+  "Here is why it is getting so much attention.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4906,12 +4925,29 @@
   "px8682315": "2026-09-22",
   "px8865597": "2026-09-22",
   "px8814194": "2026-09-22",
-  "px8865633": "2026-09-22"
+  "px8865633": "2026-09-22",
+  "px8859375": "2026-09-22",
+  "px10493422": "2026-09-22",
+  "px8856892": "2026-09-22",
+  "px8056360": "2026-09-22",
+  "px8856819": "2026-09-22",
+  "px30635189": "2026-09-22",
+  "px30634904": "2026-09-22",
+  "px11579539": "2026-09-22",
+  "px8859377": "2026-09-22",
+  "px38190426": "2026-09-22",
+  "px8061760": "2026-09-22",
+  "px7065794": "2026-09-22",
+  "px12438823": "2026-09-22",
+  "px5972910": "2026-09-22",
+  "px7065807": "2026-09-22",
+  "px6099466": "2026-09-22",
+  "px30409130": "2026-09-22"
  },
  "thumb_styles": {
   "0-0": 7,
-  "0-1": 6,
-  "0-2": 6,
+  "0-1": 7,
+  "0-2": 7,
   "0-3": 6,
   "0-4": 6,
   "0-5": 6,
@@ -7267,6 +7303,22 @@
    "video_id": "WdSrAQm3YS4",
    "title": "AI coding agent startup Factory triples valuation to $5... #shorts",
    "hook": "You will want to hear this one.",
+   "date": "2026-09-22",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "JHdnOge_kQE",
+   "title": "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield #shorts",
+   "hook": "You will want to hear this one.",
+   "date": "2026-09-22",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "kO6sZJFsyFg",
+   "title": "'War of the tech stacks': Paramount and WBD employees brace... #shorts",
+   "hook": "This is the story everyone is sharing.",
    "date": "2026-09-22",
    "views": 0,
    "likes": 0
@@ -10006,6 +10058,25 @@
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNXpwUFBia21CdGE1LXVfaDN3MGhMYjZ5WnFLVWMxbS1YYjJKdUk2dUNaVUJfN1ZUWXZmMU5WOG9ZMFpxR2xxV2dXSkR6bWlyblJCemlqOGQ2R014TC0yaXdQQUNOMVA2a2gtSDVPLTkwNWs4dlgxbHJTY0FadTk3Vl9HcGRQam1QOEctSDVpSzkwcDBNVWVkV0RSOVJVeWJubGtLMzh5UU5UcG8?oc=5",
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWs3aG5oX0NtUzM0TWFMMUU4M1dVVzVNcFNDWFVNOXplS09GUXUtU2R2Mk1qeUhrUHZhMVJ6U0l1NTk3OVFyMmxxLTZnbTVRZ1dmdzBiOGI4TGxUQ09vQTRfWldSb3dmZTlpYzdtaTFPZmJwN2doc3FsazdtMkluWXY3YjBOSEloMFVuSVFtQ1poanFUMFBjYmtxaWZGd3lPRXZady1JOGVuZXBPYk9SdXBiWQ?oc=5",
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNG85U1M2Y1MtNHBfZmxIS3FNNWZELW5UeVM4dzFvQUI3R1VxZ1hCS1NPMnZZM3pNZXRWNE5HcG9XNXVvbzFXLVJQRG0zYXE0bHRoZy1kVmdsSFloX0ZWa1lDM1owQWs2NTNsTmo2OE1JemRFd3dPSXFGVzZuc1NBdnNNR3BHemVlSk51OVFwcUIyVGxJZGs5clZ2cGVoT1Ruc29OeFMydExnc3cyQWQ0TTRMN3ItM25YbkRkSXFyWkVRRHc?oc=5"
+   ],
+   "date": "2026-09-22"
+  },
+  {
+   "headline": "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMmJnbVBmVkJBQncwSk85ZmVqM3hseUNoT0NtN2FLRE5TSDF5cWZSOGVyNVNQNkp1VVhfUlhmdWl5M2ZyaUFvX3RaSnBvNHZqVzUwSUI2UVlQZnBmcHpDbk03QkFsZE9SYnI1RWpudW9ZQy1SZjd2RW1SLU55X25GRkpJNDAtOTJ4Z0IxZVJvQllRYkt6TDF5SzFEaw?oc=5",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbnBYMXhCRElYOHRHYXhzQWpxX2pVUWY3eUJpMFd0UV9mTUF3eUF2RVdPckRjZmVXXzQwTkF5YmVzUExqVk5jTTF2TTlvZUdPekNFMlZWYU9hVE5yRWFwX1UzNXVGZVZ5NkIxXzJZRFhldUhHZ3QybThrNzZ1ckFYZWJWaE4zMUJHeXNDT284dXRGaUtWRDVQSHd6RjdyTklBaE4wc25B?oc=5",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNjM2RzBKYVhEZGFfejlZRTA4QllaM0RmR3RZSFZvb0lVQ1ZnRm1yT2hlSlhHYkZTOS1SMzRheE9kOEVFdHdORnhGWmhYMElZZ0dTN1dKLXVDd3lwRERRR1R0Nlp5XzNRSXFxQlV2OC1MWnVRNERfYm00ek55d0pZUm4xY1BMVUVZZ2ptRlJNZ1Q4RGFBb2xfMGxVOE1SV19VOVZOZ2lfZ192bGhHWnhvaDJma0ZsbDFjNW01U3NR?oc=5"
+   ],
+   "date": "2026-09-22"
+  },
+  {
+   "headline": "'War of the tech stacks': Paramount and WBD employees brace for internal competition after the merger closes",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM052NGROMGhPQzg5RldCWVVSbGg0VFhsUU93eW42NTM3bWFMU3NxemVMaWlyNVFNcWRvamlIcXVaVWwtSHZOSV9ORmhNc3BYM1dHbHhURFIxMTJDdks2U1dLd3dmb2gtbEkwYVJydFFxNjFvV0pQRUt5UWV4UFZvdFBiNW9Mdi02ZXVJNklzdFRSUUZKdlRVRzRKSk8?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNmttQ0dWY0hPR3ZTVnFDdlZaM2dYQjdfajUyV3c3SEJCNGR6MkVCX3lwZHdTZ21BVVVwNW5oV1NnYlVHWG1odXdnWnFpMUtpaEtmZW9ISUttbjdyUUpTVlB4V3dKUnVzc3J6dHJOdUFWVGRYakVsOTFzZFdrZE5wR3NvdFQ1NVIzOWRxRmRqUVY2OW4w?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSlhQZU5YRnd6ME0wUDBTSWw0Vm1hY2o3V0dXcm84Tk9CNkk0T3NJR2hIY2FYTUpRNi1oT19BR0RTOFBfc0Z5WndtMjdxa2VYUXJRbUZPbTM4RUk3OGZsaTRpLWtmRkRhU0FBV3Ryc1dTaWFRRWRjcHVScC14QUxsSUd5UHp2d1Fwekstc2R1UnNiVzlRcktSV1hyVmJjZHBzamdSd3VDYWdwTndxQU43ZzFHRGdfMmIyWjBpazlPRURpOWFyakN5X3g3VkpIMVNjaHl4SFF3?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa3ZuY2xSMUctX3dWVDF2VHF2RU5fM2F6MXEzOGlvNlBkUHhWLW5jZDNSRjNTa1djZ1RTRE05VVB5dnAzaEd0WUxWbzFyWVFucXg2aTNTaktHSGNIZnBpTkVQeDhtTjlxS3Q5SUdGRTVnVDhFSVBzZk84ckdsV2FHTGZRdUdYckZ5Q3V0SnBCTE9zNXlnVkZoTzkxWEt3V3pvZ002aGNhSHVnTXZZMzQxN0JDd3lCcjA?oc=5"
    ],
    "date": "2026-09-22"
   }
