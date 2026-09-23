@@ -298,7 +298,9 @@
   "The Week’s 10 Biggest Funding Rounds: Large Rounds For AI... #shorts",
   "AI coding agent startup Factory triples valuation to $5... #shorts",
   "Martin Sorrell's Venture Fund Backs AI Video Startup Higgsfield #shorts",
-  "'War of the tech stacks': Paramount and WBD employees brace... #shorts"
+  "'War of the tech stacks': Paramount and WBD employees brace... #shorts",
+  "‘We’ll be the first to mine Bitcoin in space’ says... #shorts",
+  "Stock Market News, Sept. 22, 2026: Nasdaq logs fresh record as... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -598,7 +600,9 @@
   "Everyone is talking about this today.",
   "You will want to hear this one.",
   "You will want to hear this one.",
-  "This is the story everyone is sharing."
+  "This is the story everyone is sharing.",
+  "This is blowing up right now.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2415,7 +2419,18 @@
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "‘We’ll be the first to mine Bitcoin in space’ says Nvidia-backed startup —Starcloud will fire up its ASICs after its second spacecraft reaches orbit later this year",
+  "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks &nbsp;&nbsp; Decrypt",
+  "This is the part most people scrolled past.",
+  "It is spreading fast across feeds and group chats.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Stock Market News, Sept. 22, 2026: Nasdaq logs fresh record as chip stocks extend rally, while Dow sheds 185 points as bank shares face pressure",
+  "22, 2026: Nasdaq logs fresh record as chip stocks extend rally, while Dow sheds 185 points as bank shares face pressure &nbsp;&nbsp; MarketWatch Nasdaq rises to new recor",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -4942,14 +4957,27 @@
   "px5972910": "2026-09-22",
   "px7065807": "2026-09-22",
   "px6099466": "2026-09-22",
-  "px30409130": "2026-09-22"
+  "px30409130": "2026-09-22",
+  "px35829195": "2026-09-23",
+  "px6220866": "2026-09-23",
+  "px36109137": "2026-09-23",
+  "px36109133": "2026-09-23",
+  "px36109132": "2026-09-23",
+  "px4841980": "2026-09-23",
+  "px8103767": "2026-09-23",
+  "px8893563": "2026-09-23",
+  "px9465639": "2026-09-23",
+  "px6650585": "2026-09-23",
+  "px39481417": "2026-09-23",
+  "px7876235": "2026-09-23",
+  "px33213489": "2026-09-23"
  },
  "thumb_styles": {
   "0-0": 7,
   "0-1": 7,
   "0-2": 7,
-  "0-3": 6,
-  "0-4": 6,
+  "0-3": 7,
+  "0-4": 7,
   "0-5": 6,
   "0-6": 6,
   "0-7": 6,
@@ -7320,6 +7348,22 @@
    "title": "'War of the tech stacks': Paramount and WBD employees brace... #shorts",
    "hook": "This is the story everyone is sharing.",
    "date": "2026-09-22",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Jb_l9NvBO1c",
+   "title": "‘We’ll be the first to mine Bitcoin in space’ says... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-09-23",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "jeZyfY6SNOk",
+   "title": "Stock Market News, Sept. 22, 2026: Nasdaq logs fresh record as... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-09-23",
    "views": 0,
    "likes": 0
   }
@@ -10079,6 +10123,26 @@
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa3ZuY2xSMUctX3dWVDF2VHF2RU5fM2F6MXEzOGlvNlBkUHhWLW5jZDNSRjNTa1djZ1RTRE05VVB5dnAzaEd0WUxWbzFyWVFucXg2aTNTaktHSGNIZnBpTkVQeDhtTjlxS3Q5SUdGRTVnVDhFSVBzZk84ckdsV2FHTGZRdUdYckZ5Q3V0SnBCTE9zNXlnVkZoTzkxWEt3V3pvZ002aGNhSHVnTXZZMzQxN0JDd3lCcjA?oc=5"
    ],
    "date": "2026-09-22"
+  },
+  {
+   "headline": "‘We’ll be the first to mine Bitcoin in space’ says Nvidia-backed startup —Starcloud will fire up its ASICs after its second spacecraft reaches orbit later this year",
+   "urls": [
+    "https://www.deseret.com/entertainment/2026/09/22/agt-season-21-finale-top-10-nene-royal/",
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE5uZ2dqTEZ3bzV3cUhBTnVWLUdRRW9nZmhfTXAtZGZTUDd0UDg3Uk9lVVEzZ2c0anN3SFNmb1ZvTDBsU2tPTWNnT1NXaE5BMjNmSjkyWTdoZlZfMWFhTWg0dENZaENKSC1OTjQxUlFreGRvVnpWSmMwZ3pucFDSAYQBQVVfeXFMUGxpWTJOcExxaWNQMFpreWpoeXd5VFpaNngybndqbEtkWE5fRWpDUmc5SDFWUTVQai1jYmRhVU9PdDduS25vUk1MRTRYVGZpR21MWktXQ19YZDdUSjl4VnF5OVVqRVp3RWRKWGJmSl9kd2Z0Rko0Z09pa1lrYWJJSkhQOXV0?oc=5",
+    "https://news.google.com/rss/articles/CBMivAJBVV95cUxNZUtDX3JaU0t1c2RYWS1NMWM1QTh5S1p2VnRRNVZuR0tLVlMzWjg1eXc5bVdkYWNxbTRtX2lueXFMOHZaNHNwMllIcG1FNUxLd1NfS05sUTRObmFrN3hLa2RFLXdPLTdKdUVhZ1ctU2xlWVJwTDNXNzFfSWlqYWFMOUNJM05kaVl3S2xUa2Q5ODVxWW9RcTFLcHg4R21uUU9Fc3FqSlNZbVFkVmtEaXhrNEpIeFBCTDc3eFhtT3k4YUZwRjlTbUJOUWFqOGx5NEs1Z2tnU2otQU9ILWJKUmRXZVZtVFl4ZEhFTHh1QTcyUjFkYUhMbmViZjNSMDhfUEZqcF9WZTNuNUhIUlJaRTZUVlozajB4X2d2bmM4VG14RzkyVEZzRkQ0cDFDVFdzUjlaQmRadkZUQXNNSl9z?oc=5",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWnM3aDYtQkxCamgwTXplSENOMjljSEFIb09YblZGM2E1anMzVFFfSTBlRVhOd0Y2Mld3enlzZWpicmtmVE5HZlZSVWo4RVJZdU9ETEw0ckR4b0VOaHlGSThSVFFRMmpSVHJOV3NZbS01WWZHSUpJS050dVJiT3gzTnBjR1NNSnJmU190RXpib3FvNXZKSFdlcmQyVUR2NzVfSUFTTU9VTm1wOFVvTVpSUUp2YllCZFhmVEpxUVRXQ0pqdDDSAcsBQVVfeXFMUFEyem84ZUViWWZXSlpHal82NThvWnN6dUpOTXI1aXBXSmFJNnBXT1NacUEydl9UdExuMmRaZEVhMmV0bHFySkV6THFFQ3RsYjVIcnlZczIzZFhweGEtdE1ZVjJEUlA4WUt2Z01KbG1PUmhSdTVnajgydFNJdDczbWRDM05RdkEzd2NrUnFnSUFjZGxKSkZfRjJFUjF5ekNPYTczYmplb2RicFZzQ1BUYVVKcm9xNWZjeHBEbXUwVlJqcE9VRzg5ZzZPYjg?oc=5"
+   ],
+   "date": "2026-09-23"
+  },
+  {
+   "headline": "Stock Market News, Sept. 22, 2026: Nasdaq logs fresh record as chip stocks extend rally, while Dow sheds 185 points as bank shares face pressure",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmhzXzMzb19DdExqUnpuYU9Vengtc1d1cFNpcEpqZTlwVkZHaFMyVjFhVzhqZlFxZElIWHZhd2lHV190enFScnRaamJfZEIyR3RnRnJENTVzcFNFcmh1NVJiSUgzclBZQXc3cGh0eHBmQ1ZtWWV6VVhuUEFPbjc1R0hkNlhWT0dGQTdvTTRRa2VwSExSZnUxWlZUVTNRa1pISU5IM2NtczZsRVhYOHJFXzM2V25xcWFpNkRfVDZyY2NRbXVBakJLSw?oc=5",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTHRLaE9RUTFBcmhtaVZPV3BKYXlsRTFIdGJCYkpBaUg5TXpiZlpERnFQcUZ4ampfYnRyTEd3aGE4Um5WbjlTY3hfdlVwT1U4NVlGOU5Qa2pCWkpEa0IyOGlRQmtqdUh5R0ZzTmxiUjBmOEs0QkJOa0ViRXNFWl9xbnZLWVVNSWZQUkUzWmYzalk2b2RMUG5ZV05wRk5mTFltdkhkQUJwaVBVZU0?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbC1wY25QY0ZlNXdTZGJpQ1BjbUR4TDd5dU8yR1BZU2FfTEQzSkVPa0JJckN4dHI2eVpxS3lCVzZ4U19CY1ZMSnFBTEhraFFMcWpBR1dvMWNDbU5BTDhfQnczM2VIYlkzVVRkM2hzM2Y0MGpLS3UtcHVCcTYwZ3VJMld0cDdYODQ?oc=5",
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWHI2dUs1VHRMaTBYUTdCODVvYUllNkdEVlJXMUs3eTFGZlVQM2hDbGFJMjRQU0hkd3JyQllXUnNOZjU1Y081S0Z4emk3RXdITlU5VjN4UU96YjhsTmpIVkF0cUkwWThGZHZvZmM1a0c2TnVabl9MZ0ljMC1sTmNlOUpLYlJ1OTlncElCQ2hRMGZRc0I5Uk9SMG9TLS1GdTBfdFZjdWdBZ3gwZGJGUmpieUtoVTJjaFRnUXZ1Vm9pZy0tSU1L0gHKAUFVX3lxTE9BZTVLUmhnOExPQlc2LWRvZ2dBVHFNaXVOaWRWRTZRT2V6UDhNamVzYmUzb28zMW16VmY2ejdfMXBVYVZ1c3o2VnU0OXNaQ25RQk9wbV81aGZJRDFmbUpKc2oyVy0zcnhMdFBkdmtseUk5dkJ3eW9UeVhJcnZveWlTSG41dWI1WklGWWIxTmZXdkd3T0ZyM1N2aVg0b2lDOTNfdW1QNnVJaTdyWmxLUmtYeGk0dWlxWGxGUlhzbzBRTWlCbTVObWdpY0E?oc=5"
+   ],
+   "date": "2026-09-23"
   }
  ]
 }
