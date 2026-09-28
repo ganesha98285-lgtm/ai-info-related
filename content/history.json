@@ -319,7 +319,8 @@
   "The Strategic Bitcoin Reserve Is Closer Than Ever to Being... #shorts",
   "The Paradise (2026 Indian film) #shorts",
   "NYT Strands hints, answers for September 26, 2026 #shorts",
-  "SpaceX launches classified mystery mission for US Space Force... #shorts"
+  "SpaceX launches classified mystery mission for US Space Force... #shorts",
+  "What time will SpaceX launch its 1st orbital Starship test on... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -640,7 +641,8 @@
   "This changed in the last few hours.",
   "Everyone is talking about this today.",
   "Everyone is talking about this today.",
-  "This is the story everyone is sharing."
+  "This is the story everyone is sharing.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2583,6 +2585,10 @@
   "It is worth watching how the reaction to this develops over the next couple of days.",
   "Here is why it is getting so much attention.",
   "Spacecraft returns to Earth after rescue mission for ageing Nasa telescope fails &nbsp;&nbsp; The Guardian Private spacecraft burns up in Earth's atmosphere after failing to rescue aging NASA telescope &nbsp;&nbsp; Los A",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "What time will SpaceX launch its 1st orbital Starship test on Flight 14 on Sept. 28? (Full mission timeline)",
+  "SpaceX’s Starship launches on first orbital mission from Texas &nbsp;&nbsp; NPR Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight &n",
+  "The Economics of Rocket Launches Are About to Change in a Big Way &nbsp;&nbsp; inc.com SpaceX Starship test reaches Earth orbit, 26 Starlink satellites",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
@@ -5353,7 +5359,14 @@
   "px7596666": "2026-09-28",
   "px7710871": "2026-09-28",
   "px4873107": "2026-09-28",
-  "px6929597": "2026-09-28"
+  "px6929597": "2026-09-28",
+  "px35277541": "2026-09-28",
+  "px32599719": "2026-09-28",
+  "px30213741": "2026-09-28",
+  "px13269160": "2026-09-28",
+  "px35749144": "2026-09-28",
+  "px39681332": "2026-09-28",
+  "px13950873": "2026-09-28"
  },
  "thumb_styles": {
   "0-0": 7,
@@ -5380,7 +5393,7 @@
   "2-5": 7,
   "2-6": 7,
   "2-7": 7,
-  "3-0": 6,
+  "3-0": 7,
   "3-1": 6,
   "3-2": 6,
   "3-3": 6,
@@ -7899,6 +7912,14 @@
    "title": "SpaceX launches classified mystery mission for US Space Force... #shorts",
    "hook": "This is the story everyone is sharing.",
    "date": "2026-09-27",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "C9N8o1a1GQU",
+   "title": "What time will SpaceX launch its 1st orbital Starship test on... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-09-28",
    "views": 0,
    "likes": 0
   }
@@ -10855,6 +10876,16 @@
     "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObWZESl9tc2Z4TlZiTHl6Z1djUVJmTW5SU2pEQUdEREtIU3hHWXRrdlNVaVdnSkFTV1BiVEdVRGhBSjk5QVgzdGZKYmZhdDhkaldyYURLb3h1TGJ0LVRiNkhTYkRwTFhPei1NWHk3cHpIU3NGdFFZb0FONFFKd0ppdWY0WU0xc2VKbEZjenJzdEZ0VjV2N1c1SVZrbU5aRU1KV1dvVEtPczFTcGV2aHVFSXVNbmFOUkNYSVN3NEFuMERyZ05xc0pNVGZ2SlNzbm9mbUZj?oc=5"
    ],
    "date": "2026-09-27"
+  },
+  {
+   "headline": "What time will SpaceX launch its 1st orbital Starship test on Flight 14 on Sept. 28? (Full mission timeline)",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV2tOX3hqcjgtWDYwbllnSXM3RF9HZFNwczdjZlE3Q1NhZnRfZmVQTG9VOEV1Y3BlR0YtdFpmX3hwYjVCYUNBaTRXV3RwYk1YcE5mTzlmR3FuVlUyNmlWMk9ZV0lSZi1LVzQ5QWRydWluZk4yMUFQVDNVLTd2b18yNWxqZmluWVo5RC1rSm10eGFYWEE?oc=5",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPajZ0dHcyM0ZIVnpIZ25XcUEtTHJFWXp1bXJYVjQ5NGVJaEZyczVQVUUzcHlyemFqVzdSRGFKQmVyaDVCcUZsa2QwNGtVM05yRXoxR3QzR0hvY3VWYUplU3ZJaDFTZjk3ZDlGc0FoY0xROXZIeTJTamFkNmRWZ2p6cEZMNnlLLU1hYnJES3dtSmNRYzJWcVlyVC1jYkp3Xy1zZUh5cA?oc=5",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU0MzOUZjQWJudnVRc0lTSDVRaVluUFRUUkRWbS1CSlV6VnlhZ1ZUa0t0WXUtaC1uZlNSVVJOcFRsRHpPWkNkMkNTVFJEdzJvbmlKc21HTmlaamktSDVTN0pidlpsQmp0cklCVFdrZmZUaEJ0U0RpeDJCTERrNlhRUU5fV004Vl95Vk01dUJDeDNpWTJoc2ZPVmZwb292YmZtbmhHQ2lyT3pUSXRHWXh1dzZiV0cxTU9BTFFsQ1VGR204bmM?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS3BkdERmQk5DTXhWeDFZZkl2LVF2NzVUS1NlM1Q3TWd5YkNPSVVQaXp5aWlKeFJ3YlY1N3UwcnpuMTI4WE5NMnJGaDhSdU00bURhR3NyR0l3UVVTcFBobXI0U2dLOWlRM0JHejNwWGF4N1EzNWgySEpxbTg2NzY0WC1aTDE2b0lTTzU0ODNlSzQ3VG5zcW9fQjltclNKUVN2X0U0R0RjS3J2Vnk3?oc=5"
+   ],
+   "date": "2026-09-28"
   }
  ]
 }
