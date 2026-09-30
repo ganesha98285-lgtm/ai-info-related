@@ -325,7 +325,8 @@
   "The FCC’s Spectrum Dilemma: When Space Launch Collides With... #shorts",
   "Stock Market Today: Nasdaq erases losses while Dow, S&P 500... #shorts",
   "Actor Chazz Palminteri rips Sonny Gray, recalls 'surreal'... #shorts",
-  "Major Red Sox Pitching Trends That Will Determine Their... #shorts"
+  "Major Red Sox Pitching Trends That Will Determine Their... #shorts",
+  "FTC is investigating OpenAI and Anthropic over possible risks... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -652,7 +653,8 @@
   "This is blowing up right now.",
   "Nobody saw this coming today.",
   "Stay till the end for the part people missed.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "This is blowing up right now."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2630,7 +2632,13 @@
   "That is the headline people are reacting to right now.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "FTC is investigating OpenAI and Anthropic over possible risks to consumers",
+  "FTC opens probe into AI giants including Anthropic and OpenAI &nbsp;&nbsp; Reuters FTC investigating OpenAI and Anthropic over possible risks to consumers &nbsp;&nbsp; Tr",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "We are watching how this develops through the day.",
+  "FTC opens probe into AI giants including Anthropic and OpenAI &nbsp;&nbsp; Reuters FTC investigating OpenAI and Anthropic over possible risks to consumers &nbsp;&nbsp; TribLIVE.com FTC launches broad investigation into A",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -5448,7 +5456,17 @@
   "px7203586": "2026-09-30",
   "px8391569": "2026-09-30",
   "px37616467": "2026-09-30",
-  "px35074274": "2026-09-30"
+  "px35074274": "2026-09-30",
+  "px4260696": "2026-09-30",
+  "px30840248": "2026-09-30",
+  "px7220849": "2026-09-30",
+  "px12466174": "2026-09-30",
+  "px12478643": "2026-09-30",
+  "px39430188": "2026-09-30",
+  "px39774318": "2026-09-30",
+  "px34336248": "2026-09-30",
+  "px4251604": "2026-09-30",
+  "px7619742": "2026-09-30"
  },
  "thumb_styles": {
   "0-0": 7,
@@ -5481,7 +5499,7 @@
   "3-3": 7,
   "3-4": 7,
   "3-5": 7,
-  "3-6": 6,
+  "3-6": 7,
   "3-7": 6,
   "4-0": 6,
   "4-1": 6,
@@ -8041,6 +8059,14 @@
    "video_id": "hpRpS2XQDP8",
    "title": "Major Red Sox Pitching Trends That Will Determine Their... #shorts",
    "hook": "You will want to hear this one.",
+   "date": "2026-09-30",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "ElJah8NWy5s",
+   "title": "FTC is investigating OpenAI and Anthropic over possible risks... #shorts",
+   "hook": "This is blowing up right now.",
    "date": "2026-09-30",
    "views": 0,
    "likes": 0
@@ -11050,6 +11076,16 @@
    "urls": [
     "https://talksox.com/news-rumors/boston-red-sox/major-red-sox-pitching-trends-that-will-determine-their-postseason-fate-r3626/",
     "https://www.mlb.com/yankees/video/max-fried-against-the-red-sox-x7774"
+   ],
+   "date": "2026-09-30"
+  },
+  {
+   "headline": "FTC is investigating OpenAI and Anthropic over possible risks to consumers",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdzYzcTVSY1JmRld3cFRBRlRaX0w0YVZHTjU3NWVvVG5BcXFIZGFwdXViLXBLNnhJQ3d0RS13T2VURWdNQ19ySkJuVXNlV2NWX0E3LUExYUZQaFBsTTVEaC1NMXJtR0RGYlllQVotQmM3VlRaVmd2em04YWdzTXFkMjhsUlQ0b1JlcVJBRENNRFFBT1NLcU00YUtqU0N5LUlJa0YxaEhzdU1mR1lkUTJ0MFhLMjA3a1FJVlQ5RXpMOEIxdw?oc=5",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVjd4WjhCVDVaLVkxYk5jcTc4V0hLZzRYY3gteHpGUDZUU2Z5SzhfVzZmU1d3eXUxSkFWWlRDRDBrOGgwSkhkWXVBS29ERlFadS01R0VjYnJodzQwS29ud3prNk1hUHFHdU5wbk9VQXNEbVI1bTBIOGgyVUN6bFd3dDNmblJPY2txeFVGX1pESmZKTDF1MjkwelEwRVlsSENL?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUGJBYWtwaUlpZ3JiWHlMYmZKWnlDcFJ4dzlGcXZ1a1drUVV3aGk5NkRDNi1Sc2VIZExQTHdjUjJXNEJUVWU4ZlREVF9iQmZZamlmWmFpd2FwMlBidno4blpyUDFHWkJjN05QYnhUcC1WOWVfVVR2bDlaOTloQjVTRi1ZN1RkVFhxRFJCTGRuMWc5N1ZUdHEzU2530gGfAUFVX3lxTFA0SzM1Rlh6cUVGT0lNNmg3UjBvbE5XRmZuRzVEYzBnNmcwa2RHQzN1MHVGc0E0Y2tQRHNzOG5rdVJCSzl0QVItRU9Na1BUZG5uaFJhWnJzTjI3ZWFRZDJUNG5KQlZfN3Azc01oWHBvRWZMeEQxSnJuRHJyekpsanJzWTdWODh1Y3B6YWVBWUZsVVk0VVA4SlMtQk5ZMDVtRQ?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNERSOFU3M09XYWNrVTdSdHhkcVl4NkxXeUU2dHItLW41QnJ5TjhOX1VhaUh0Wmc1Y3ZFVm9qeXhfd0gxRVNNclo3UURDbGFrb19KS2RhSWlrbFl1RTZ5V2dlbEN4WXZ0SkwyTy1mRFc4M0lDYVRCZ0lBQnJzZ2xmenA1cDNaX294MzJYVmhydXlBQ1ZQbG40LW9lY1UtQ2MzRmZsdDJ2MWplNVAx?oc=5"
    ],
    "date": "2026-09-30"
   }
