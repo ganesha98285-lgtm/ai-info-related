@@ -336,7 +336,9 @@
   "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million... #shorts",
   "SpaceX launches Google AI satellite, 129 other payloads on 2nd... #shorts",
   "Three reasons Middle East oil supply is nearly back to... #shorts",
-  "Launch preview: More than 100 spacecraft hitch a ride to orbit... #shorts"
+  "Launch preview: More than 100 spacecraft hitch a ride to orbit... #shorts",
+  "Gameday Central: Florida State Seminoles vs Virginia Cavaliers... #shorts",
+  "ASML vs. Taiwan Semiconductor Manufacturing Company: What... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -674,7 +676,9 @@
   "Stay till the end for the part people missed.",
   "This is the story everyone is sharing.",
   "Here is what just happened.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "This is blowing up right now.",
+  "Stay till the end for the part people missed."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2712,7 +2716,16 @@
   "Astronauts arrive at International Space Station on the quickest US express flight yet &nbsp;&nbsp; AP News Crew-13 Members Enter Station, Join Expedition 75 &nbsp;&nbsp;",
   "This is the part most people scrolled past.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Astronauts arrive at International Space Station on the quickest US express flight yet &nbsp;&nbsp; AP News Crew-13 Members Enter Station, Join Expedition 75 &nbsp;&nbsp; NASA (.gov) SpaceX describes surgical interventio"
+  "Astronauts arrive at International Space Station on the quickest US express flight yet &nbsp;&nbsp; AP News Crew-13 Members Enter Station, Join Expedition 75 &nbsp;&nbsp; NASA (.gov) SpaceX describes surgical interventio",
+  "Gameday Central: Florida State Seminoles vs Virginia Cavaliers - Previews, predictions, how to watch, odds",
+  "The 2026 Asian Games , officially the XX Asian Games (第二十回アジア競技大会) and also known as Aichi–Nagoya 2026 (愛知・名古屋2026), is an ongoing multi-sport event being held in Aichi P",
+  "Nagoya, capital city of Aichi Prefecture, is the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hi",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "ASML vs. Taiwan Semiconductor Manufacturing Company: What Revenue Trends Tell Investors About These Companies Tied to Artificial Intelligence",
+  "Bank of America resets Micron stock forecast as AI ‘memory tax’ rises &nbsp;&nbsp; thestreet.com Memory executives expect RAM shortage to continue through 2028 &nbsp;&nbs",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "That is the headline people are reacting to right now.",
+  "Bank of America resets Micron stock forecast as AI ‘memory tax’ rises &nbsp;&nbsp; thestreet.com Memory executives expect RAM shortage to continue through 2028 &nbsp;&nbsp; Ars Technica Earnings call transcript: Micron t"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -5614,7 +5627,19 @@
   "px8553662": "2026-10-03",
   "px17764733": "2026-10-03",
   "px6868381": "2026-10-03",
-  "px39663170": "2026-10-03"
+  "px39663170": "2026-10-03",
+  "px20442924": "2026-10-03",
+  "px34930801": "2026-10-03",
+  "px25839070": "2026-10-03",
+  "px34426519": "2026-10-03",
+  "px25752670": "2026-10-03",
+  "px34431233": "2026-10-03",
+  "px7065799": "2026-10-03",
+  "px4822120": "2026-10-03",
+  "px34221566": "2026-10-03",
+  "px37548962": "2026-10-03",
+  "px10451891": "2026-10-03",
+  "px34415878": "2026-10-03"
  },
  "thumb_styles": {
   "0-0": 7,
@@ -5658,8 +5683,8 @@
   "4-6": 7,
   "4-7": 7,
   "5-0": 7,
-  "5-1": 6,
-  "5-2": 6,
+  "5-1": 7,
+  "5-2": 7,
   "5-3": 6,
   "5-4": 6,
   "5-5": 6,
@@ -8295,6 +8320,22 @@
    "video_id": "3R8LFAHhkTE",
    "title": "Launch preview: More than 100 spacecraft hitch a ride to orbit... #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-10-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "uZ8CGi6JY-8",
+   "title": "Gameday Central: Florida State Seminoles vs Virginia Cavaliers... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-10-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "GOoYfdAk-2Y",
+   "title": "ASML vs. Taiwan Semiconductor Manufacturing Company: What... #shorts",
+   "hook": "Stay till the end for the part people missed.",
    "date": "2026-10-03",
    "views": 0,
    "likes": 0
@@ -11409,6 +11450,26 @@
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTlRuMDJCR1JZMzEwekVXUzNSZ2VOVWxabTh0X0cxanVvWmlsQUNwXzRsM3dESVNxcXFEbHJERk5QTWVZd0hQMU9WdjNKT01xbDNmdXFPc0xmYlptR0lFSnZHejVYVk51Ym5nNE5NM2wzNVF4WjNwdGl3cEtZcHhWcXk0OFZfVFh2U19zRUtJNkhMeDhJQXc?oc=5",
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWUl5Rm5mSlhZTTdYODdmQXAyeVBrdld4N3Rxdml4NWxBdkY3LXo4bEpqM1doanhubTdCT2o4dU8xT0pLQTFpc0xSWVAycWMzRnNwYUFSWUVyU3B6VV9lMUdFc0dYaWkzSEdHXzUzU05tMmYxc0RRU21faFUwZWVzM2dHQlA0UjlaNVJGcHRn?oc=5"
+   ],
+   "date": "2026-10-03"
+  },
+  {
+   "headline": "Gameday Central: Florida State Seminoles vs Virginia Cavaliers - Previews, predictions, how to watch, odds",
+   "urls": [
+    "https://www.tomahawknation.com/florida-state-football/138078/gameday-central-florida-state-seminoles-virginia-cavaliers-previews-predictions-mike-norvell-duce-robinson-how-to-watch-odds-acc",
+    "https://247sports.com/college/louisville/article/cardinalauthority-predictions-louisville-at-nc-state-290710928/",
+    "https://www.inforum.com/sports/bison-media-zone/mens-sports/how-to-watch-wyoming-at-north-dakota-state-football-on-saturday-oct-3",
+    "https://sports.yahoo.com/articles/ohio-vs-kent-state-prediction-092935318.html"
+   ],
+   "date": "2026-10-03"
+  },
+  {
+   "headline": "ASML vs. Taiwan Semiconductor Manufacturing Company: What Revenue Trends Tell Investors About These Companies Tied to Artificial Intelligence",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWFRQRXM2XzlEZjVWU2phTF9peFhCdTRjMldJRGdrTE54NmNPYnFuN1pQbHpzQXBrQWxQYnY3ZzlQSmpRbk5lRGF4RmNRWl9nWXRQYnBqVDdZQm9CRDFERHN2Uk9tdnFFUVBfRU1rNThTRG5tU2tlOXZaREYxcVlnVzVHaUMwWDJUcmVWNUEzYldkUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUFpwQng5aGE4VmZfd2o5NDhhRlNrT1lvaXFndWxzUEQ1YkZKXzZVckE3UzNrRXRPRjNTMXBwdkhjU2tueFFVQkRncHc0ZVJ1VFRiZmFmZnYtQjF6eUxEalJHTnR3dHREcnc2LWQwTkxDWjZfNERtY0RLOW0ySVI5dTYtZnhFT2F4UmctRXFiWXJ0dnJJMWNRTmgxMmQ3c09hR25sdkNDekF4VUdVckp2TEY3clpzYmNmYmZWdldoeGsyclBscHRzZHU3ZlpSSGtsVnMtVnMyRDA5WktXY1Z4WXAxOA?oc=5",
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZXkyOHhHa3hnVWlCaFNsb0ttdGF6endzMUp6OGxiLUdlekJoUmM1c05Ld1pfSmtOaE83VHVkZGhHNkVJemhHMnJLSVpYUlR3RXZ6dUEzblNMdEg2eFV3WXkxbGpuNTBac0w4S0l0elRqY0s0UktsRzFraExrS3VIUA?oc=5",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFV5VjVrX3RNblBOOU9KbGRjVVB0T29INzlKOVFUVEJGM0loU3B1a25SS3MtVTVmZ1l5ckl5SGVzSUpodTFvRVFMZU9JWi1XaWNmMURFYlJPU3Y0SE55RXhTZ205UjdMVjhNTjRIUjBobjhwZmt3Y0NTUFAwVkJ6YkQ0ZWVkcE51Wnc3SVdleHJxd3dJa3NZcHIwU2VlenAxRFJPSVNqZ3RzOEE?oc=5"
    ],
    "date": "2026-10-03"
   }
