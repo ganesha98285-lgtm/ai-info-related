@@ -347,7 +347,9 @@
   "Better Artificial Intelligence Stock: Alphabet vs. Meta Platforms #shorts",
   "Amazon Launches Early Prime Day Discounts on AirPods, iPad,... #shorts",
   "Stock futures are flat as investors grapple with higher... #shorts",
-  "Dodgers vs. Braves in NLDS Game 2: Braves take early lead off... #shorts"
+  "Dodgers vs. Braves in NLDS Game 2: Braves take early lead off... #shorts",
+  "Federal regulator faces legal challenge over fintech charter... #shorts",
+  "Intel Stock Drops as Elon Musk Deals a Setback to the Chip... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -696,7 +698,9 @@
   "This is the story everyone is sharing.",
   "Here is the update you actually need.",
   "You will want to hear this one.",
-  "This is blowing up right now."
+  "This is blowing up right now.",
+  "Everyone is talking about this today.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2796,7 +2800,18 @@
   "Here is why it is getting so much attention.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Federal regulator faces legal challenge over fintech charter expansion",
+  "WSJ Op-Ed | CFTC’s New Rules for Crypto &nbsp;&nbsp; Commodity Futures Trading Commission (.gov) Opinion | CFTC’s New Rules for Crypto &nbsp;&nbsp; WSJ US commodities reg",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "WSJ Op-Ed | CFTC’s New Rules for Crypto &nbsp;&nbsp; Commodity Futures Trading Commission (.gov) Opinion | CFTC’s New Rules for Crypto &nbsp;&nbsp; WSJ US commodities regulator proposes new federal crypto oversight rules",
+  "Intel Stock Drops as Elon Musk Deals a Setback to the Chip Maker. Why You Shouldn’t Panic.",
+  "Elon Musk Becomes A Trillionaire—Again—After SpaceX Stock Jumps &nbsp;&nbsp; Forbes SpaceX stock climbs to highest since June, returning Musk to trillionaire status &nbsp",
+  "We are watching how this develops through the day.",
+  "That is the headline people are reacting to right now.",
+  "Elon Musk Becomes A Trillionaire—Again—After SpaceX Stock Jumps &nbsp;&nbsp; Forbes SpaceX stock climbs to highest since June, returning Musk to trillionaire status &nbsp;&nbsp; CNBC Elon Musk Gains $61 Billion In A Day ",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -5784,15 +5799,28 @@
   "px10958255": "2026-10-05",
   "px7232099": "2026-10-05",
   "px20191069": "2026-10-05",
-  "px10193418": "2026-10-05"
+  "px10193418": "2026-10-05",
+  "px34901598": "2026-10-05",
+  "px36205145": "2026-10-05",
+  "px7187462": "2026-10-05",
+  "px32961153": "2026-10-05",
+  "px28214713": "2026-10-05",
+  "px27973939": "2026-10-05",
+  "px5924965": "2026-10-05",
+  "px5924994": "2026-10-05",
+  "px7564028": "2026-10-05",
+  "px5889740": "2026-10-05",
+  "px5925183": "2026-10-05",
+  "px19297975": "2026-10-05",
+  "px7563824": "2026-10-05"
  },
  "thumb_styles": {
   "0-0": 8,
   "0-1": 8,
   "0-2": 8,
   "0-3": 8,
-  "0-4": 7,
-  "0-5": 7,
+  "0-4": 8,
+  "0-5": 8,
   "0-6": 7,
   "0-7": 7,
   "1-0": 7,
@@ -8553,6 +8581,22 @@
    "video_id": "WOJZbUHoAdk",
    "title": "Dodgers vs. Braves in NLDS Game 2: Braves take early lead off... #shorts",
    "hook": "This is blowing up right now.",
+   "date": "2026-10-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "fHfYBKM_4vY",
+   "title": "Federal regulator faces legal challenge over fintech charter... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-10-05",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "JcAm3iQp-Vs",
+   "title": "Intel Stock Drops as Elon Musk Deals a Setback to the Chip... #shorts",
+   "hook": "Nobody saw this coming today.",
    "date": "2026-10-05",
    "views": 0,
    "likes": 0
@@ -11770,6 +11814,25 @@
    "urls": [
     "https://www.latimes.com/sports/dodgers/live/dodgers-braves-nlds-game-2-live-updates-start-watch-odds-score-highlights",
     "https://www.espn.com/mlb/story/_/id/50092278/dodgers-include-prospect-josue-de-paula-nlds-roster"
+   ],
+   "date": "2026-10-05"
+  },
+  {
+   "headline": "Federal regulator faces legal challenge over fintech charter expansion",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE13MWdhU3NxTzVyTGJrMUlEMVhmZ243Vmhfemo2d3N3cUxJMjFsVXNoaFRkZ3d4d0ZiNE5HeHgzSFBWcE8tajJnSGV5NFhMVENJeGluamxiUzBWb3lfb2cyU0tiRnJ1NmxCUkNxcjVqbjBHT0xwV3NZZA?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWMwYjBmbmRQV1RYQXlDczJHN0ZMdzRhSVgzTE01dzJrOXNidlBqZzg3ZjlmcjlqM0dxd3g1eGZEcGtVUVFQVmNVQVgwTnE1M2VHV2lBbU1ySTZWa05DN1kzcEFxamdEVE56UGRBNkxwWnhqSktWWkFFSjF3S1kwaEVBem10cE1QNnBUc19mdkJ2TlZqaVpaVmdjbHgwczZ6LU5RQ2loWUd5NjFPbjgw?oc=5",
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ydGtNaHVHRUNFU0tRcEtRQUtJRnQ5VWplMkdGeV9MRjl4Tm11U3ppcGFOb1lLVndLWlZiVHpoekFOeE5XUXk0MjJEXy1vX0FrZlVfSWZxVkw4WUU2SGwxQklweXREOVZkcXo3am1CdTBNd1ZhWTBqbUtwSW9Sdw?oc=5"
+   ],
+   "date": "2026-10-05"
+  },
+  {
+   "headline": "Intel Stock Drops as Elon Musk Deals a Setback to the Chip Maker. Why You Shouldn’t Panic.",
+   "urls": [
+    "https://www.forbes.com/sites/alisondurkee/2026/10/05/elon-musk-becomes-a-trillionaire-again-after-spacex-stock-jumps/",
+    "https://www.barrons.com/articles/intel-stock-musk-spacex-tesla-chips-313b87c6",
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRGdSTmhOdnU5X0pqNUxhTmVJOWxYRmd5U19Tdm5uTHhsRlpBT3ZfR0FHTW83bWRtbU9jYUNtLVF6SkEzRl94WlA5a0dzRU1kd0dlUjAzeTRid3V0N2w5dzlOYXhVV2VCSmNDdlhSbjU2V21pWFRjSU9GYTRSR2ZNRmJGTEpNVUM2Q3RCRUpQY2w4VHNBOTlsV1laNTl1VWt0aUdVY2NxZjJMcjR0LVVkRl9VSnJ3UXBn?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMVluVzVER3NydFdyRGFfYnRZcElBSVhRNGtIdmxFSi1KNDdtTm9adkJnN0RpcXozdFNScERaMTdndzR5VU1aYWdoVlZsYkNoNHAzbWJOUG52dGE5SF9ocFRMZmpJNDE0MEppMHBRZGxqTTNkSWRDOEpWUkUtcE5rdU9pWUhsUkxILVdzcHBlcUN2dw?oc=5"
    ],
    "date": "2026-10-05"
   }
