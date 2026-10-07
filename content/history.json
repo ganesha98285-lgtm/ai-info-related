@@ -354,7 +354,9 @@
   "U.S. Stock Market Movements | Netlist (NLST.US) Surges 18% at... #shorts",
   "HubSpot layoffs: CEO says job cuts are not driven by AI... #shorts",
   "Dennis may become first Cape Cod town to ban crypto ATMs #shorts",
-  "Jaguar targets young Americans with Type 01 EV – but it’s too... #shorts"
+  "Jaguar targets young Americans with Type 01 EV – but it’s too... #shorts",
+  "Why is the stock market down today? Surging bond yields, oil... #shorts",
+  "OpenAI’s release of mathematical findings draws concerns from... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -710,7 +712,9 @@
   "Here is the update you actually need.",
   "Nobody saw this coming today.",
   "Everyone is talking about this today.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "Nobody saw this coming today.",
+  "This is blowing up right now."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2850,7 +2854,19 @@
   "Jaguar targets young Americans with Type 01 EV – but it’s too long for UK parking spaces",
   "Jaguar targets young Americans with Type 01 EV – but it’s too long for UK parking spaces &nbsp;&nbsp; The Guardian Jaguar launches new electric car after 'woke' ridicule",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "That is the short version, and the full reporting is linked in the description under this video."
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "Why is the stock market down today? Surging bond yields, oil prices, and Fed anxiety halt Wall Street's record rally",
+  "Stock Market Today: Dow Opens Lower, Treasury Yields Hit Fresh 24-Year Highs — Live Updates &nbsp;&nbsp; WSJ Stock Market Today: Dow off 300 points, S&P 500 and Nasdaq of",
+  "Stocks Fall as Treasury Yields Test Multidecade Highs &nbsp;&nbsp; WSJ Markets News, Oct.",
+  "Here is why it is getting so much attention.",
+  "Stock Market Today: Dow Opens Lower, Treasury Yields Hit Fresh 24-Year Highs — Live Updates &nbsp;&nbsp; WSJ Stock Market Today: Dow off 300 points, S&P 500 and Nasdaq off session lows after a strong 10-year Treasury auc",
+  "OpenAI’s release of mathematical findings draws concerns from experts",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "This is the part most people scrolled past.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "OpenAI’s release of mathematical findings draws concerns from experts &nbsp;&nbsp; The Guardian",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -5890,7 +5906,22 @@
   "px16472226": "2026-10-07",
   "px9484793": "2026-10-07",
   "px7892757": "2026-10-07",
-  "px7979983": "2026-10-07"
+  "px7979983": "2026-10-07",
+  "px8458570": "2026-10-07",
+  "px8458594": "2026-10-07",
+  "px7274842": "2026-10-07",
+  "px8458696": "2026-10-07",
+  "px6381038": "2026-10-07",
+  "px8731293": "2026-10-07",
+  "px35332003": "2026-10-07",
+  "px8555748": "2026-10-07",
+  "px7924517": "2026-10-07",
+  "px8458698": "2026-10-07",
+  "px8557550": "2026-10-07",
+  "px6382077": "2026-10-07",
+  "px6594072": "2026-10-07",
+  "px6594016": "2026-10-07",
+  "px7695768": "2026-10-07"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -5904,8 +5935,8 @@
   "1-0": 8,
   "1-1": 8,
   "1-2": 8,
-  "1-3": 7,
-  "1-4": 7,
+  "1-3": 8,
+  "1-4": 8,
   "1-5": 7,
   "1-6": 7,
   "1-7": 7,
@@ -8715,6 +8746,22 @@
    "video_id": "prKgydr5bzQ",
    "title": "Jaguar targets young Americans with Type 01 EV – but it’s too... #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-10-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "GFNQuQzQwro",
+   "title": "Why is the stock market down today? Surging bond yields, oil... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-10-07",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "nyrdbGc_bsU",
+   "title": "OpenAI’s release of mathematical findings draws concerns from... #shorts",
+   "hook": "This is blowing up right now.",
    "date": "2026-10-07",
    "views": 0,
    "likes": 0
@@ -11997,6 +12044,25 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYmlfdHhJWUdQU3lyelJXbjdKalRyQ3RYdnh3dC1FSWxPcnZYaUUtSTEzenhmeUhCcF90WE5NUENsTHBLcmU4WWxIOGJDUWNlSm12d0hadDltazJkWnNGcnh1VGdGc3pWTXUwdEpWU0tja0VIVzZJNndWaWFZaUkwRi1aX2lIQkRoR25PeHp0TTY?oc=5",
     "https://en.wikipedia.org/wiki/Bryce_Young"
+   ],
+   "date": "2026-10-07"
+  },
+  {
+   "headline": "Why is the stock market down today? Surging bond yields, oil prices, and Fed anxiety halt Wall Street's record rally",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX2lHZVNpMXR1TEt6VjhHNTZqbldCdmJncHA1WDZ1TXJ2TUdSbklFTmlVWnFoODM2Yy05RTJBVUQ0QU5VeG1zZlVTRFczSkdtVVlTNzRfNkpXWXBLQ2JwQ2FNVUVRUGZyTjJ3djdaUGgtdGhPOW9LVHZJcHVRMDhpVjhKUFEtV1U?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYlp6RTllZHZvMS0zamlaTHpnQ2lFV25sTzR0emQySEE5dXotVFB1MU5HaVVLclI4WDl5RHdEY0J3ZWE2Snl5bklVUEo5YmdFX3ZWTHVTOFpQMlRxNmhPeHJ6OHlsSnhyOVpIQ0RiTHFESnJ6c1FvN0labmRleGNyU1RtNzlzY2ZBb3lfYm1vTGY5RlBmazJ3VjN6dFJ1YjF3dXpZT1F6dTMzNUlYNVYtQkREZEpVTVFjQXdvTmxJdVVZTlVvTDY5NQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZG82WE9GVGZsYzZ5cnFMOTlKWUphbTcxaTZXOE9kM0ktOU9Wd0Y0ZHNmSlJjbXJtSGw4eENTd0NGY0FjaG9ORDhEUkdEVGJtS1dLUkI2eFlJMzRIUzJnSTBvWmg5b2JLd0ZjZjlqUFRRMWh5Qk1nZnJPYy1nUzU2dENOb3pTWkV3WGNMbElHMjF5MEE3a0RMSmtrUlk1cWZfSHlYWlZlcWRuOGlmSVJCTXgzOUN6VTB6MXl5Y0NvLXlsLUlEa1lybnQ2Nm05VXMydzNaanBB?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5"
+   ],
+   "date": "2026-10-07"
+  },
+  {
+   "headline": "OpenAI’s release of mathematical findings draws concerns from experts",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWjVNeDR2NUxVRFo4bkJ0U2J6SFFJNEcwTklDck9DVkJTS0J3OFVsdUtuMTdKVTdJZFNtWGxkQURwY1BSamJNZGduanB1N3d5ZFJqbkFFM1UxS3NSVndpMlFrVjQ3eG5VNUIwUS1kc2FIazh0TjlXcm5sbk9GT0UyUzNsYm0wTVFCNzdDQmtmR0s5UQ?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lVzdtMDhZYkhnM1R0cVJJYW9oN3ZaZEhnNTUzQTVaaGRMTXRfbk05eG4yd19rQnNObVdkMVB4d1pPX1FBc0ZWVVFSQmFMdng1Y1A1UkxlM0ZPNFRpSHJzQ2o4YUFfbW9nRURqRXAzbkNyakY3QW5F?oc=5",
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PVzdBREgzZ0FuLXRJcHBIYkVBU05BbTJteTRfY2VQVm1VRHVQazdvdS1JYkZGcTVaMXRnYVZJVTBLNVNvT2tuYWs4Tnd2WFNmT2F1Sm5PTmZ3WVZCWFN4Nk5zSXdoblNWVTVncWpZcHdUWTJ0TG1pZ3VGcGQ?oc=5"
    ],
    "date": "2026-10-07"
   }
