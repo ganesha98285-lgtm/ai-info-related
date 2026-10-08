@@ -358,7 +358,9 @@
   "Why is the stock market down today? Surging bond yields, oil... #shorts",
   "OpenAI’s release of mathematical findings draws concerns from... #shorts",
   "Jim Cramer Sees More to Applied Materials (AMAT) Than Its... #shorts",
-  "We Are Witnessing the Stock Market Do Something for Only the... #shorts"
+  "We Are Witnessing the Stock Market Do Something for Only the... #shorts",
+  "Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto... #shorts",
+  "Here comes third-quarter earnings season. Booming profits... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -718,6 +720,8 @@
   "Nobody saw this coming today.",
   "This is blowing up right now.",
   "This just moved the whole market.",
+  "Everyone is talking about this today.",
+  "Here is the update you actually need.",
   "Everyone is talking about this today."
  ],
  "ideas": [
@@ -2882,7 +2886,18 @@
   "Final October Amazon Prime Day 2026 deals are way better than I expected: Apple, Ninja, Samsung, Breville &nbsp;&nbsp; Business Insider October Prime Day ends tonight: We",
   "Here Are the Best Deals From Amazon’s Prime Big Deal Days.",
   "&nbsp;&nbsp; The New York Times LIVE: Shop today's",
-  "Final October Amazon Prime Day 2026 deals are way better than I expected: Apple, Ninja, Samsung, Breville &nbsp;&nbsp; Business Insider October Prime Day ends tonight: We found the best Amazon deals from Hanes, Carhartt,"
+  "Final October Amazon Prime Day 2026 deals are way better than I expected: Apple, Ninja, Samsung, Breville &nbsp;&nbsp; Business Insider October Prime Day ends tonight: We found the best Amazon deals from Hanes, Carhartt,",
+  "Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto Liquidation Wave: Crypto Stocks Fall With AI Infrastructure Plays",
+  "Big dogs die younger, and scientists now know why &nbsp;&nbsp; The Telegraph Mystery of why big dogs age faster than small ones finally solved &nbsp;&nbsp; Yahoo Epigenet",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+  "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026 &nbsp;&nbsp; Samsung Global Newsroom",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "It is spreading fast across feeds and group chats.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -5951,7 +5966,20 @@
   "px38403820": "2026-10-08",
   "px8145847": "2026-10-08",
   "px30243481": "2026-10-08",
-  "px29327836": "2026-10-08"
+  "px29327836": "2026-10-08",
+  "px35419069": "2026-10-08",
+  "px32531996": "2026-10-08",
+  "px39536266": "2026-10-08",
+  "px39542551": "2026-10-08",
+  "px39838157": "2026-10-08",
+  "px4935617": "2026-10-08",
+  "px39676023": "2026-10-08",
+  "px4738110": "2026-10-08",
+  "px38726801": "2026-10-08",
+  "px4738107": "2026-10-08",
+  "px35966126": "2026-10-08",
+  "px6950960": "2026-10-08",
+  "px35757583": "2026-10-08"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -5969,8 +5997,8 @@
   "1-4": 8,
   "1-5": 8,
   "1-6": 8,
-  "1-7": 7,
-  "2-0": 7,
+  "1-7": 8,
+  "2-0": 8,
   "2-1": 7,
   "2-2": 7,
   "2-3": 7,
@@ -8807,6 +8835,22 @@
   {
    "video_id": "r9aNY3JoqJ4",
    "title": "We Are Witnessing the Stock Market Do Something for Only the... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-10-08",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "m_YuWPVJ4-A",
+   "title": "Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto... #shorts",
+   "hook": "Here is the update you actually need.",
+   "date": "2026-10-08",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "V7hBQuUPkXU",
+   "title": "Here comes third-quarter earnings season. Booming profits... #shorts",
    "hook": "Everyone is talking about this today.",
    "date": "2026-10-08",
    "views": 0,
@@ -12127,6 +12171,26 @@
     "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrd180VkxUdG5SV2ZnbHJaMmtlcFJWS0RkeUxHSk5rRlYydXpSSVdvay1TQmxBY0hOQjRUci1tdnZtSklOX2RNR05IVWRlR2p4cHdGWU12MUZxOEo3SElET0FBOVFFeUh1SkVLVlpxdC0xcWYwSjJmRXF3?oc=5",
     "https://news.google.com/rss/articles/CBMib0FVX3lxTE52bkVjbmhvRnU1THBGc192MktURWd0Z0htVUtZbkduZVY3cENneXE4NUZna2xyZXg2LU9YR1c5YV84RGd2dVA2T21SNXBaem84TzR2THZqWFVnU3F6MmNjMml0Z0pkcHFvT3g1a2V6OA?oc=5",
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxPczRsR2pjS2VCX09EaXY1Z3dwcl9SMTViQWJsa2RtUy14YkdDckxiTWJkckhrUVIydnlya1ZwUGQ4OElTQ21MSnZQZS00UFdpYkc3UFZjSFB2N0lHbmhfX1VlMjJjWmhnYkRXX2lmNEg5UmpuWGNrVGhsbTBmaFhvQVdNTEdnT0Q2SUtaQ25R?oc=5"
+   ],
+   "date": "2026-10-08"
+  },
+  {
+   "headline": "Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto Liquidation Wave: Crypto Stocks Fall With AI Infrastructure Plays",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUE93UXAyS3dndVJ5ck1CRWJRLWlKOFQxUEM5bWNTQzhhdmpnTkh4T0xrVURtU3ZlMVdPcktFRUZUMS1tdkxteVZ6TWxtV05fQWlYXzEyUTJrZnhsR3JnM1FCLVVnRUROVUtSamp0SlZNN0hRazNqR0VIQTlERUtzcTNVMDV3YVNobGNPOUlJTVZlS2pYbnZqcQ?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRTBqRWtocy1KRXhkUWFRUkw2VkRqSUZ3U3pybXByWnlOQklPRW5tUlJDTlMtd1ltcHBwc18xbHVUdzNoeDh3VlFDLUROalZfdjg2bTVXelVFZ2kwVFk2TzFhR2FOUlNiWi1fSUFQN3RUNVUySGl2bVRYYk90M0pmWGJqOXFIZnJXV0ZVdF9KME5sdw?oc=5",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUHE2dENHM0Z1c3VlS0VjcnJDbWZUeUhWZHJjSDNDMFhJeFBhR2pQVGxJSXZwSnRFV3N1NWxMb1g2a3NfTVNxQzZZNGx1ZUhPbXVLNk85OXVtb01PZzY2OHBDTmtfZ0ZBS0dUc3g0YVBRRnlGbnJuMjRhcmh0Y1dSdzIwSmM1cWpkX1BWVF9OOG9YeE82bHNkYy1zQ2dnbGxxQTBOMXVmNG1UUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3ZaYzk5VWplcXM1dVB6V3RjM0M4ZEhxQ2FRTEdaUENlV0g2RDZZT0tDbU5jR21IdlZxRldDM05LUGFpZWJTMWNMbDlEOVRiWW10YlplS0c2RzNlWVlLM0lKcm1DNFl5YklIZFllSkRvdFVfT08zZ2ExQ0cwU1NaeVZZMDVmWFpmbm01eHNlQW9ja2swVVpYSVJUdW1Sd21M?oc=5"
+   ],
+   "date": "2026-10-08"
+  },
+  {
+   "headline": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+   "urls": [
+    "https://www.secsports.com/news/2026/10/southeastern-conference-announces-2026-football-legends-class",
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWk9zVVlHbnd0S05sZ29hQkp1dXZJX2FLSW91Z2I3OFJ3V1Z1S1ZFLUFxQlpQM2xpMzIyNEdVYVYtU0EzUnBqVFVQbmViUDZHQTdRMTZ3cjJIVVI0NGNCTlVWTHlMX050dHo1cTUtT3dVZjhES19rRTYyODFCMUF2RHM1eHV1LUpLbDN1eUc3NmZPWncyaXZQUk1ZdnFjeWdlR0xHUA?oc=5",
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxORFZ1VURyV2hUVnhrRkEyOXo5aXhxUVFmMWtPZVI4Zkloekp5ZUhILWZZaEMwMjBJZmFvb3BESktGNFNsRUdjZDY4amNyOERTUEhFamhPa0NKZU1kaU9NYzdna0tNNDV5eWctRHotb2dMZDNhMFBuRVpMYk9TbDl4Z2k4LWwzRjBESjJHY2p4NEVJNWlVcGNLNmd4NHRMR0hiT09pMGhrajY5a3FHZlZDYy1sMTRIdEdaeWZ6ck9IWFFLYm1hSW5RN2ZlS1nSAdIBQVVfeXFMTjc4SHBsM3NuUWtMM0lLTDN5WjVBNTI3czRBc1pGdFVpaDY4akhrNkJPSE9FbEptQW5oV3FxWS1XLUtGaVdUYTJUVG5VLVliWlBsZWtYdGRBNlhtVDFVMzdQNDN4cEF5TF9mWUNZNjNMVTdiei1Cc0xCWVVEYzM2LXA3ekFfYnN3LXJ3Sk1kX3VpaWV0TllrRjZBZGM4ZUFXay1qZk1lX0hoaTc5NVlzNFl2ZENneTNuOGN4Tk5ib3pJRGJocWg3cWdpbmd2NjR5d1hn?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYlFqVmNWbE9hOTRDNjFEVjZTNWdTUnlwNG9YSENfRERINWNUZkN2SG1Mbzd3SDZ0V2FVcWtsdHdOVFdhNnRvYWltdWU3RUdxQUpQZE5ocjh1ckY5YUctTUVXYTJ0QVhDT0NnZ0JYcVFMeTluVGFQMDRfcFhpZ2FlRnluZVNDdEZ5eUhNS1VHSU5vQTdnV0hBa3lKVFZzbVRQNk1V?oc=5"
    ],
    "date": "2026-10-08"
   }
