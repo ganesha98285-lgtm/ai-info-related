@@ -360,7 +360,9 @@
   "Jim Cramer Sees More to Applied Materials (AMAT) Than Its... #shorts",
   "We Are Witnessing the Stock Market Do Something for Only the... #shorts",
   "Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto... #shorts",
-  "Here comes third-quarter earnings season. Booming profits... #shorts"
+  "Here comes third-quarter earnings season. Booming profits... #shorts",
+  "Novo Nordisk’s CEO Was Asked Why His Stock Keeps Falling on... #shorts",
+  "Sequoia-backed Catalyst raises $30 million to build AI trading... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -722,7 +724,9 @@
   "This just moved the whole market.",
   "Everyone is talking about this today.",
   "Here is the update you actually need.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "Everyone is talking about this today.",
+  "You will want to hear this one."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2897,7 +2901,16 @@
   "It is spreading fast across feeds and group chats.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Novo Nordisk’s CEO Was Asked Why His Stock Keeps Falling on Good News: ‘The Stock Market Is Always Right, but With a Bit of a Time Difference’",
+  "Nvidia-Backed Firmus IPO Collapses as AI Valuation Concerns Grow &nbsp;&nbsp; Bloomberg.com Nvidia-backed AI data centre firm scraps mega stock market listing &nbsp;&nbsp",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "We are watching how this develops through the day.",
+  "Sequoia-backed Catalyst raises $30 million to build AI trading agents for everyday investors",
+  "Mortgage rates hit 7.4 percent for first time since November 2023 &nbsp;&nbsp; The Hill Highest Mortgage Rates in 3 Years Chills the Housing Market &nbsp;&nbsp; The New Y",
+  "We are watching how this develops through the day.",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "Mortgage rates hit 7.4 percent for first time since November 2023 &nbsp;&nbsp; The Hill Highest Mortgage Rates in 3 Years Chills the Housing Market &nbsp;&nbsp; The New York Times Here's the latest sticker shock: Borrowi"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -5979,7 +5992,18 @@
   "px4738107": "2026-10-08",
   "px35966126": "2026-10-08",
   "px6950960": "2026-10-08",
-  "px35757583": "2026-10-08"
+  "px35757583": "2026-10-08",
+  "px8342205": "2026-10-09",
+  "px35823379": "2026-10-09",
+  "px33623645": "2026-10-09",
+  "px31059707": "2026-10-09",
+  "px31089238": "2026-10-09",
+  "px7706763": "2026-10-09",
+  "px8865595": "2026-10-09",
+  "px7683055": "2026-10-09",
+  "px8048447": "2026-10-09",
+  "px7683057": "2026-10-09",
+  "px8865587": "2026-10-09"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -5999,8 +6023,8 @@
   "1-6": 8,
   "1-7": 8,
   "2-0": 8,
-  "2-1": 7,
-  "2-2": 7,
+  "2-1": 8,
+  "2-2": 8,
   "2-3": 7,
   "2-4": 7,
   "2-5": 7,
@@ -8853,6 +8877,22 @@
    "title": "Here comes third-quarter earnings season. Booming profits... #shorts",
    "hook": "Everyone is talking about this today.",
    "date": "2026-10-08",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "ffi5Tr8M580",
+   "title": "Novo Nordisk’s CEO Was Asked Why His Stock Keeps Falling on... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-10-09",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Qc5maKR-bgI",
+   "title": "Sequoia-backed Catalyst raises $30 million to build AI trading... #shorts",
+   "hook": "You will want to hear this one.",
+   "date": "2026-10-09",
    "views": 0,
    "likes": 0
   }
@@ -12193,6 +12233,26 @@
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYlFqVmNWbE9hOTRDNjFEVjZTNWdTUnlwNG9YSENfRERINWNUZkN2SG1Mbzd3SDZ0V2FVcWtsdHdOVFdhNnRvYWltdWU3RUdxQUpQZE5ocjh1ckY5YUctTUVXYTJ0QVhDT0NnZ0JYcVFMeTluVGFQMDRfcFhpZ2FlRnluZVNDdEZ5eUhNS1VHSU5vQTdnV0hBa3lKVFZzbVRQNk1V?oc=5"
    ],
    "date": "2026-10-08"
+  },
+  {
+   "headline": "Novo Nordisk’s CEO Was Asked Why His Stock Keeps Falling on Good News: ‘The Stock Market Is Always Right, but With a Bit of a Time Difference’",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTTdRWmlock9MZXVkX09SREZqQW43VE9DQ2ltalZmaE5DNzdjaGdhRm1tZHVJaTlQT2F3Q1g5NTMtcENBQWU5dXI3NTk3M0J4UkNEak5FQkdEUmlHSEJQZ09FWXRvblIzWnNRQzNha3BrWklQN3dCTkdnOVBLbkZ3bTdIb1EzZmo0NlVicF9WcTJJekRZNUdtb1kxTFpraXpMVWRpZFFFdXFRZDhhS05zTjJqNks?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wdmJBcVhNX2h2UWN5a1k3eElWRFZzYnVRcXd5RmZ6YVhhbUQxa1RrMjBlVkx3bkstTmw2M0FsTHlCNTJwbFpUVFdJQlMtd09SdF9fTHRYM2lOdTA?oc=5",
+    "https://news.google.com/rss/articles/CBMijgJBVV95cUxOV052VEROY1lFeTJZaU9jUmVEdXRDaWlTQVdEaFItS09yUUYzc1FtMGl1VG9UUFBNcVA4NjZ5dnAyUksybzBSZ19QTHIyc2FmZmhFNTdobUNON2s4OEZjcVNSdkhTQmc3QW9JVV9Vd3l5Q2JsTTZ4X2d3TmdkVWZMT2lCQlgzVXV3YkZJZk1sNXFOZjNrNXZjSHR3cXFCbHU4N3JLT280N2FEYU52VGR0blFGcS10X1VRN1B5aS1IcWh1Tnp3YUVEemFoQVVNbDUyV3ctXy1PRmJpTUkyNVU5RzFsNTM0NTFfVXQ2bndMazFpOHlnOHJyRTBZZFl0SGlXS2JzQkFDbU5SME5pT0E?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZVhaVGJWSnVWaDJnSXFsS1dxR1JaOHlIY2NkTlZHVml3OE9USmE0LUw5Q0lERmNMLW1yTF93RWVGMjQta25GeEZJVlEzblJ1YU5DT0RiZXJ5YTBtTW1mNHFsazRiV1dPTEgyTmJrWUdIT1IzWXJMZENBalBmdGJ1M202ck9LSVZQ?oc=5"
+   ],
+   "date": "2026-10-09"
+  },
+  {
+   "headline": "Sequoia-backed Catalyst raises $30 million to build AI trading agents for everyday investors",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UeWphY2J5S0l1Zy1OR3dwY0FkVXdFbDRHUEdvb2Jld0hHbDZCM2dkT0pQNXlIVHY0dlhscHVQRkRJQ1FYSFlXcXdoc2lVNVI1VHMxamJHa0J6WjI3ZjR6cDFoNU8yalg0bldiRjQwcjI5MW9ZbFlBa1JIMnRSUdIBgwFBVV95cUxQTDFfUDJwcXRCZGNLa1k2cGlmMVUxNm5FSkdNd1JoaDlrYmhzenRRWUlVX1ctSV9DYWxJUnhCRXBqT0IxNWlPOW1tTmxSNTRjd2VOX0o1SXBCRW54LU5qaXFlekFSX2dMWTI1Ykp2SnZRNW52bEt2d01qYkZzcFdPclpTbw?oc=5",
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uQ0VSTzk3TG13RFFpcl80ZVVteDlyU1pNdng1Q0JHeEtCNUc4cExjX002RjEtMHFSd1pCQm1OTFVYdVpFU2FuNnQxZWhzeHNkcGdKWkFkYnI1bHhHeHhZeW5vVlJVbF9YSlByQ0FkVHdsaHpQbGJMQzJMb9IBgAFBVV95cUxQbmtSbk8ydXpmVXR6ZHQwa0podkxfVHJqR0MyakhvT3Z6dXVPWUdraFRnS0FGcDFmQnp5bWM3RFdjUGRzQ0MwNl9pLUR1aFRJUHpBdHk3RHc3UTJ4SHRjMEthdWlNTDFJTEpxeFA4R1dZRUhTZ0k3STR3bzZ4XzExdQ?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxONWNvTmUxODJsLUxpQnN5aXI2aDdadld2X1FoOUowbWx6OU10Z00wWWVNUjBGbjlRTnM1aUZSdktPWkVDSnlxc3JDRTBRelNTMUl0NTBScnFNdzk4MzZ1WnROT3NzWnctSkVZNXBJYXpvdUxCd1JPNWQxcEJwaFJfcUp1SXhJXzk5S2t4MDJ3SDBRR2JnaXF5eUVidWMzZ2w1a3ZwaFEtRWM0elBjZTZB?oc=5",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOS1OZ3A0TXVabFM2OVRTMENzN0ZUYnNnZVVGdXRiQVA3aXBaemJ6S0hsRDRLTXBQbnRUQmZOZFRBeGxxT2FoN1cwM2F0aU1mOXNkUVFyelpYcHpfTUtBTjFOblN4Tmkwb29zTFBQSHpvMFlfeFpQaDVUaVRoMGF5elVRWms?oc=5"
+   ],
+   "date": "2026-10-09"
   }
  ]
 }
