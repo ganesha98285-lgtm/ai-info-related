@@ -364,7 +364,8 @@
   "Novo Nordisk’s CEO Was Asked Why His Stock Keeps Falling on... #shorts",
   "Sequoia-backed Catalyst raises $30 million to build AI trading... #shorts",
   "A Year On, Bitcoin Languishes a Third Below its All-Time High.... #shorts",
-  "Rocket fuel: Seattle-area startups raise a record $3.5B as... #shorts"
+  "Rocket fuel: Seattle-area startups raise a record $3.5B as... #shorts",
+  "Private Cygnus XL cargo spacecraft departs the International... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -730,7 +731,8 @@
   "Everyone is talking about this today.",
   "You will want to hear this one.",
   "Everyone is talking about this today.",
-  "Here is what just happened."
+  "Here is what just happened.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2924,6 +2926,10 @@
   "just cut off for Microsoft workers &nbsp;&nbsp;",
   "It is spreading fast across feeds and group chats.",
   "What Microsoft’s green card suspension means for Seattle-area workers &nbsp;&nbsp; The Seattle Times India calls JD Vance's comments about immigrants 'deeply offensive' &nbsp;&nbsp; CNBC US green card suspension poses li",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Private Cygnus XL cargo spacecraft departs the International Space Station after 6-month stay (video)",
+  "NASA issues long-awaited call to industry for private space stations &nbsp;&nbsp; Ars Technica NASA Seeks US Industry Plans for Commercial Space Stations &nbsp;&nbsp; NAS",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
@@ -6030,7 +6036,16 @@
   "px8718446": "2026-10-09",
   "px35181089": "2026-10-09",
   "px6491819": "2026-10-09",
-  "px6950954": "2026-10-09"
+  "px6950954": "2026-10-09",
+  "px8369879": "2026-10-10",
+  "px7319206": "2026-10-10",
+  "px6615423": "2026-10-10",
+  "px29546694": "2026-10-10",
+  "px30234651": "2026-10-10",
+  "px39925660": "2026-10-10",
+  "px11801920": "2026-10-10",
+  "px34208156": "2026-10-10",
+  "px37478406": "2026-10-10"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6054,7 +6069,7 @@
   "2-2": 8,
   "2-3": 8,
   "2-4": 8,
-  "2-5": 7,
+  "2-5": 8,
   "2-6": 7,
   "2-7": 7,
   "3-0": 7,
@@ -8936,6 +8951,14 @@
    "title": "Rocket fuel: Seattle-area startups raise a record $3.5B as... #shorts",
    "hook": "Here is what just happened.",
    "date": "2026-10-09",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "FV2sUtr1vjw",
+   "title": "Private Cygnus XL cargo spacecraft departs the International... #shorts",
+   "hook": "This just moved the whole market.",
+   "date": "2026-10-10",
    "views": 0,
    "likes": 0
   }
@@ -12315,6 +12338,15 @@
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbS1wam5zNFV3R19Oa2o5VGVNUW8zYVJya1JwMmFYd0FWR3M4NnotU3hfMEg5d1BCbXctZURsbmhkX0lxTkpiREMwdXRadnRpYW1qZERYNG5rd2NnbU9SVzFIcXU3MnpYRkw3VC00NlNiTzlIUmlhNE9OUFJxSTlSQmpDMl9hUzByaDM3dlRyMVZaTnN1aFQzcUREMHlDOWJtaGE3cQ?oc=5"
    ],
    "date": "2026-10-09"
+  },
+  {
+   "headline": "Private Cygnus XL cargo spacecraft departs the International Space Station after 6-month stay (video)",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV0xhSElrcUJMS1FBQk9LTTZkbk80dlI0VGdUaUFDX0RsQ0Y4SzlKSGZXZE1jMEZ1bFkwN0Z2dEFzNGNPU1NKRWh4WmFnSXpxTDRzOXlncE5ZbXR5aGhOb0VpdHlIYktnNFNLMTBYcXoxWEh6aHhDTlU4YVlVZlFFWXZKTWljSm1KNXJtSzZ2UXNwQkdmUWdMcDFaM255WjRrelFHNnI5V2xINDQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZVFaVk9XejEtbFZFbEpVYlN6c3JBSzViaEh5YVpIenQwdjVpNEhINkMyRWpJYXFFbHBpNldzQ3RERGN1LWZ5cWtFOC1QUXVETHI2dFJoZkR3b3hxUWNuWEpzSEZHTDRzVmRwXzRYYU1MQVptc3FfdkhmWFlQQjBVbUZ6RTJ4cFhtenlVRlpSeEg5eTkwLTJxcjVQVUtIMXdtWjdrdThQcGM5aTlCRzlFOHpMVmJJa3VPcXBhcGFQX3JnS2t6cFY1TTlxWlktbkVn?oc=5",
+    "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORDlxbjdiMHlqeUR0dnpGVnA2dzF3Wm9jQXA5bVRXcXpuZGpGWlFWZVZjNndXMlpGMW5QbDdUVUFoMDFpTDNJMUZUSkhvTW92SmpvOEl0ZEJ0Rm1MbWtuV1hUVXZjZEV2SnJ5aE1YdGdJcGdhMWswUFh6VzJZMHdWRHhUQklWNEJKRFJaYnI4OWdfZG1vN3RGLV96SGIzYnBsWFZmRTFmd1FLWUFLaWZwYmJCWXZ5NWVzXzFZVl9KSHU4TzczVS1ZQThjLXItVHZzVll4NUVmVjdpaWR2M1JmeHBWUkh3eDlDVGk2bmZNTFdITURVcFQwTmMwTW9tNEdhY3lmbnJKMGE?oc=5"
+   ],
+   "date": "2026-10-10"
   }
  ]
 }
