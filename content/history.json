@@ -365,7 +365,8 @@
   "Sequoia-backed Catalyst raises $30 million to build AI trading... #shorts",
   "A Year On, Bitcoin Languishes a Third Below its All-Time High.... #shorts",
   "Rocket fuel: Seattle-area startups raise a record $3.5B as... #shorts",
-  "Private Cygnus XL cargo spacecraft departs the International... #shorts"
+  "Private Cygnus XL cargo spacecraft departs the International... #shorts",
+  "'Things are going super well at 39A': SpaceX gearing up to... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -732,7 +733,8 @@
   "You will want to hear this one.",
   "Everyone is talking about this today.",
   "Here is what just happened.",
-  "This just moved the whole market."
+  "This just moved the whole market.",
+  "You will want to hear this one."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2930,7 +2932,13 @@
   "Private Cygnus XL cargo spacecraft departs the International Space Station after 6-month stay (video)",
   "NASA issues long-awaited call to industry for private space stations &nbsp;&nbsp; Ars Technica NASA Seeks US Industry Plans for Commercial Space Stations &nbsp;&nbsp; NAS",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "'Things are going super well at 39A': SpaceX gearing up to launch Starship from Florida for 1st time",
+  "Midnight SpaceX launch could bring loud sonic booms to Southern California &nbsp;&nbsp; KTLA",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6060,7 +6068,19 @@
   "px40140484": "2026-10-10",
   "px39525670": "2026-10-10",
   "px28889088": "2026-10-10",
-  "px7125805": "2026-10-10"
+  "px7125805": "2026-10-10",
+  "px6272890": "2026-10-10",
+  "px32393434": "2026-10-10",
+  "px39484191": "2026-10-10",
+  "px39968234": "2026-10-10",
+  "px36108473": "2026-10-10",
+  "px28699823": "2026-10-10",
+  "px28962903": "2026-10-10",
+  "px28962836": "2026-10-10",
+  "px28962905": "2026-10-10",
+  "px32458494": "2026-10-10",
+  "px19212226": "2026-10-10",
+  "px29086963": "2026-10-10"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6085,7 +6105,7 @@
   "2-3": 8,
   "2-4": 8,
   "2-5": 8,
-  "2-6": 7,
+  "2-6": 8,
   "2-7": 7,
   "3-0": 7,
   "3-1": 7,
@@ -8973,6 +8993,14 @@
    "video_id": "FV2sUtr1vjw",
    "title": "Private Cygnus XL cargo spacecraft departs the International... #shorts",
    "hook": "This just moved the whole market.",
+   "date": "2026-10-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "EOTLiicH5Ws",
+   "title": "'Things are going super well at 39A': SpaceX gearing up to... #shorts",
+   "hook": "You will want to hear this one.",
    "date": "2026-10-10",
    "views": 0,
    "likes": 0
@@ -12360,6 +12388,16 @@
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV0xhSElrcUJMS1FBQk9LTTZkbk80dlI0VGdUaUFDX0RsQ0Y4SzlKSGZXZE1jMEZ1bFkwN0Z2dEFzNGNPU1NKRWh4WmFnSXpxTDRzOXlncE5ZbXR5aGhOb0VpdHlIYktnNFNLMTBYcXoxWEh6aHhDTlU4YVlVZlFFWXZKTWljSm1KNXJtSzZ2UXNwQkdmUWdMcDFaM255WjRrelFHNnI5V2xINDQ?oc=5",
     "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZVFaVk9XejEtbFZFbEpVYlN6c3JBSzViaEh5YVpIenQwdjVpNEhINkMyRWpJYXFFbHBpNldzQ3RERGN1LWZ5cWtFOC1QUXVETHI2dFJoZkR3b3hxUWNuWEpzSEZHTDRzVmRwXzRYYU1MQVptc3FfdkhmWFlQQjBVbUZ6RTJ4cFhtenlVRlpSeEg5eTkwLTJxcjVQVUtIMXdtWjdrdThQcGM5aTlCRzlFOHpMVmJJa3VPcXBhcGFQX3JnS2t6cFY1TTlxWlktbkVn?oc=5",
     "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORDlxbjdiMHlqeUR0dnpGVnA2dzF3Wm9jQXA5bVRXcXpuZGpGWlFWZVZjNndXMlpGMW5QbDdUVUFoMDFpTDNJMUZUSkhvTW92SmpvOEl0ZEJ0Rm1MbWtuV1hUVXZjZEV2SnJ5aE1YdGdJcGdhMWswUFh6VzJZMHdWRHhUQklWNEJKRFJaYnI4OWdfZG1vN3RGLV96SGIzYnBsWFZmRTFmd1FLWUFLaWZwYmJCWXZ5NWVzXzFZVl9KSHU4TzczVS1ZQThjLXItVHZzVll4NUVmVjdpaWR2M1JmeHBWUkh3eDlDVGk2bmZNTFdITURVcFQwTmMwTW9tNEdhY3lmbnJKMGE?oc=5"
+   ],
+   "date": "2026-10-10"
+  },
+  {
+   "headline": "'Things are going super well at 39A': SpaceX gearing up to launch Starship from Florida for 1st time",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUHlyS0ZPUEprM2lLLTRZb2VaeG9faGVoZWZkcmdXZENNeC1FM0F5MnNKcTN0Mks5Ykh4TE1BTFpvSlVPWHJkX0VGTWtzZkxHZUxiZEhkeFNZakhuM0toaGJvUWtjUWhLWmc3RGd6N05pbmFpOVhRc0NJOWtzUklyZXZSX01CY0Yzc3FpeDdBcVdvV3NsRkpDRWE3b3dWWjIxVUZsRjRuQW1tSE500gGyAUFVX3lxTE5NMHpzTjdHVUVIWml1UHVOaWFvWU9mVzd4V3piazhkNU1UbmNORHBDOGotMHNWY3pVUnJZVW5WaWV3VGJDRFZVWGtkUDN0RC1wQzRVOG5ndFhoekdSMVM3ZDA3QTB3OTVSWGk0R0hFU2hnQVU0VmdSQU5QSHh0bHA1VDZUanBxLWFQLXJzZ0dpRm9WOU01N3pxZmJrWFJEZ0dYT2locWk0MVpESEg4QVlyNHc?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV2ZPN3BMSjNxNEVESHhXT0tMT095bE1ZWlZfamZPZk4ycldDdjZfRmtJNnVycGtMUTRtN2U4RjRJb2wtU1A5bE1oZkhqTS01QkNVaUNlT1VQck5VbHl5LWlQbGFkUGd3VHVTS2FRSHpFdk14NURJTkU5SlkzdEthUDV5ekxtc0RTYnJHcUdKUEQ1elg3d0ZxbHBjUklkMVZ6eUdr?oc=5",
+    "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMnltN0xDNDNfWGdYamszQjlkdmh5Nk1qYnN5Tk9kTnlNb2RVSHBkREN2YTFpS2V4X1FPRDFPeUM0VXVGM3ljek9UZkpjN1Jla0o5WkFZQ3BZX2R6ejlPMzYtMFVremJ3RHlRRm5JSkp1N01IS05KTjRZc282bEZLWDJwaVYyTnhXRmRzOE9PeHJtZ1pzMXFKdGY5T0p6NERhY3pSdUN1VGVLN1dsSnZwLWZPalM2Y0MwRWlVVV9GRVF5bDlGWi04blpNZWxReWY5aExpNG9zNG53Ynh2X0JGbkJRdlJMdC0tLXdwWmZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLWY4VGF1V0tyczRNM1NlaXZDUTRSYjAxdnUwUHR5SGstaF96TF9BRl9kRmY5WnQwdGROM2JkQ1lFQ3lQaktBc1htM0pnOTVlR3B5dmlXNE5pdHdkRWoxbEJ2b1JveGJnUzByMm8zQjlfZkxrajZETldJY1FhQ2VWZUJya1RnNVZJNUo2NU9qWlNNVzRNREl1dk1kNm5kTGxuVDduSGUwRFJ0ek1uME82bnhfWXQwNy1wWWdIRjdGa1lWVW9GWHpxQmpQOA?oc=5"
    ],
    "date": "2026-10-10"
   }
