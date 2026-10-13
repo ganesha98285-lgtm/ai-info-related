@@ -370,7 +370,9 @@
   "The Stock Market Is on the Verge of Doing Something for the... #shorts",
   "Here's What Sets The Nancy Grace Roman Space Telescope Apart... #shorts",
   "Marvell's Outlook Says Revenue and Earnings Could 10x in 5... #shorts",
-  "EXCLUSIVE: Sequoia-backed chip startup Nuvacore raising funds... #shorts"
+  "EXCLUSIVE: Sequoia-backed chip startup Nuvacore raising funds... #shorts",
+  "S&P 500 closes near flat after big banks post earnings and... #shorts",
+  "'The baby boomers have arrived': How Americans over 75 got... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -742,6 +744,8 @@
   "Stay till the end for the part people missed.",
   "Nobody saw this coming today.",
   "Stay till the end for the part people missed.",
+  "Everyone is talking about this today.",
+  "Nobody saw this coming today.",
   "Everyone is talking about this today."
  ],
  "ideas": [
@@ -2970,7 +2974,21 @@
   "That is the headline people are reacting to right now.",
   "Save this one so you can come back to it when the next update lands.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "S&P 500 closes near flat after big banks post earnings and memory chip stocks decline: Live updates",
+  "QB Stock Market Week 6: Can Dak Overcome Cowboys?",
+  "Reports are still coming in, so details may change.",
+  "We are watching how this develops through the day.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "'The baby boomers have arrived': How Americans over 75 got richer than other age groups",
+  "'The baby boomers have arrived': How Americans over 75 got richer than other age groups &nbsp;&nbsp; Yahoo Finance Americans 75 and older are wealthiest age group, Fed su",
+  "That is the headline people are reacting to right now.",
+  "Reports are still coming in, so details may change.",
+  "'The baby boomers have arrived': How Americans over 75 got richer than other age groups &nbsp;&nbsp; Yahoo Finance Americans 75 and older are wealthiest age group, Fed survey finds &nbsp;&nbsp; AP News Americans' debt pr",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6210,7 +6228,20 @@
   "px6931578": "2026-10-13",
   "px7396447": "2026-10-13",
   "px38169536": "2026-10-13",
-  "px12893611": "2026-10-13"
+  "px12893611": "2026-10-13",
+  "px40182728": "2026-10-13",
+  "px6276983": "2026-10-13",
+  "px8551021": "2026-10-13",
+  "px4872944": "2026-10-13",
+  "px6115073": "2026-10-13",
+  "px7593978": "2026-10-13",
+  "px8944439": "2026-10-13",
+  "px31643919": "2026-10-13",
+  "px9413804": "2026-10-13",
+  "px6616732": "2026-10-13",
+  "px8847526": "2026-10-13",
+  "px11856436": "2026-10-13",
+  "px34390997": "2026-10-13"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6240,8 +6271,8 @@
   "3-0": 8,
   "3-1": 8,
   "3-2": 8,
-  "3-3": 7,
-  "3-4": 7,
+  "3-3": 8,
+  "3-4": 8,
   "3-5": 7,
   "3-6": 7,
   "3-7": 7,
@@ -9164,6 +9195,22 @@
    "title": "EXCLUSIVE: Sequoia-backed chip startup Nuvacore raising funds... #shorts",
    "hook": "Everyone is talking about this today.",
    "date": "2026-10-11",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "pvyL2aXyL-A",
+   "title": "S&P 500 closes near flat after big banks post earnings and... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-10-13",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "QyWANe73nL8",
+   "title": "'The baby boomers have arrived': How Americans over 75 got... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-10-13",
    "views": 0,
    "likes": 0
   }
@@ -12602,6 +12649,24 @@
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQmtDWkliRlRySXZybVd3dVp0aWNmdkJnaHZrdVUxWHg0LTQ3dW5kOEplTGNkMnhGVjFTQWdhV3dOYkxZcE1wYTUwMko4ZHk2RjdmY0xPblBXbC1IRGdCU0pqOXF4YmFhbHVrNUtvYzl5VE5GZUE0ejdiUzZJZHRkNWhyWUwybjNhTnlkaUZkVWJqYWd4Z09laTlXU182WWktOVFQT005V2JXNThJNFdpSg?oc=5"
    ],
    "date": "2026-10-11"
+  },
+  {
+   "headline": "S&P 500 closes near flat after big banks post earnings and memory chip stocks decline: Live updates",
+   "urls": [
+    "https://www.benzinga.com/trading-ideas/movers/26/10/62309439/gamestop-stock-hits-a-new-52-week-high-whats-going-on",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaHk5MWRjZU9BR1RfNnc1RF9TREh3ejRwWGtrbTBxcHZmVHhjSGZOOEdHN21TSW1zaDNiYzFsX1VzQk5SaDFuQ3laaDV6cWRaUGg4U3dvc3h1ZXZrMnVmVW4wNG5QbkNmN09laGFUMFVHRnlCUlV1aVRPUkxzZDNUUng5ajRGOUtfdUJoQTA0TFoxWHJfVHNnOWdKNnVpTU51STZzVGpkb09GUllfMGVYQnNVRnlBd9IBtgFBVV95cUxOc2pLX1pOSWVDWEFoMy1vZzUwYzdXdW50c0sxdFFramdJcERCVGFHRkNTLXBzT1BTY2ZTdjhta3ZsRlV6bm82X29mNUVma0pMSUVDMzYzZ2dmZnJoZDUwQzh2TzZISkNzNVM1YUMteGNod2ZMbnUzVVFXVmNCN3lKZWpQY2pUOEtKTzFrZDFpNmRxYVo5MzNJcWF3V0dlY1otcFFWOXZFTDBLelV3ODJaSVNPeGs1QQ?oc=5",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ0E5RlVGYU1zbUlHVEVCWTZRSjRWSmVtUVdrVUtEVmVpWHVwZERRU3JMOEFqQnM4RENoWTNFbVhVMGUwY09qTXZEZGFieXJRdE1tcnJMX0NyYXRrVnp4OEk5bVBWb3BMX2J2NEo5dldud181Uy1EOGRjTXNpYTFLMkQzb051MG9HSV9lNVlMZw?oc=5",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRFh5Ml9xYkpLZXdjV1FaMnBzUDFUc0tSbElJczVCLVc5aDBXU0hYcUhteHBPdUpGTVlldXZpaUd3YXFIZ2k2OFdKckJMRVhBRlR1VnJvemgzR1V4RnJ5SVEwX2dkTVA1UHRhZ2YwaTRmaVdpNXhpaUp1OWFHSHRING1pZ2g?oc=5"
+   ],
+   "date": "2026-10-13"
+  },
+  {
+   "headline": "'The baby boomers have arrived': How Americans over 75 got richer than other age groups",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTjd3NmpUa3pxcUNKTWhoWlZmY0JUeHdySlkxUHZiWWlmbDRWTERXTkQ5dkF6dkJXTW9JeHBpWXFlTGFBTkNiSHk3LU5WV3pxTkstRHA3OXlwUHJsNzJVTTlsNzEzbjFNekF0WVYyTnhsSEtXeHQ3eHk4WTVpQ1VYRGhFSFJsTjdiSU5OYWRoLTczMmhCbzZEM0JMSVY1UTBONVpuemV4ZVIxWlFTRXJrNVpHeFd5Y0R0djNYQ2ZGSHhUVy1XQnpaSUhHZUlkWjIyS3lNbERwQlc?oc=5",
+    "https://en.wikipedia.org/wiki/Other_Mommy"
+   ],
+   "date": "2026-10-13"
   }
  ]
 }
