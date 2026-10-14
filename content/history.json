@@ -372,7 +372,9 @@
   "Marvell's Outlook Says Revenue and Earnings Could 10x in 5... #shorts",
   "EXCLUSIVE: Sequoia-backed chip startup Nuvacore raising funds... #shorts",
   "S&P 500 closes near flat after big banks post earnings and... #shorts",
-  "'The baby boomers have arrived': How Americans over 75 got... #shorts"
+  "'The baby boomers have arrived': How Americans over 75 got... #shorts",
+  "‘Please pray for us’ said Zoho founder Sridhar Vembu in a post... #shorts",
+  "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -746,7 +748,9 @@
   "Stay till the end for the part people missed.",
   "Everyone is talking about this today.",
   "Nobody saw this coming today.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "This changed in the last few hours.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -2988,6 +2992,16 @@
   "That is the headline people are reacting to right now.",
   "Reports are still coming in, so details may change.",
   "'The baby boomers have arrived': How Americans over 75 got richer than other age groups &nbsp;&nbsp; Yahoo Finance Americans 75 and older are wealthiest age group, Fed survey finds &nbsp;&nbsp; AP News Americans' debt pr",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "‘Please pray for us’ said Zoho founder Sridhar Vembu in a post on October 12, as he described how the software job market looks ‘grim’ as the cost of AI infrastructure so",
+  "Brutal session for chip stocks shows AI trade is turning &nbsp;&nbsp; Reuters The AI trade is cracking.",
+  "Here's how to profit &nbsp;&nbsp; CNBC Tech Stocks: Cracks Are Starting to Appear in the AI Trade &nbsp;&nbsp; Bloomberg.com Morning Bid: Chips off the table &nbsp;&nbsp;",
+  "Here is why it is getting so much attention.",
+  "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
+  "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says &nbsp;&nbsp; Reuters FBI arrests Saudi OpenAI employee who allegedly planted recording device in",
+  "Arrests OpenAI Employee Accused of Planting Bug in Office &nbsp;&nbsp; The New York",
+  "Here is why it is getting so much attention.",
+  "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says &nbsp;&nbsp; Reuters FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room &nbsp;&nbsp; CNBC SF: Saudi Employ",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
@@ -6241,7 +6255,23 @@
   "px6616732": "2026-10-13",
   "px8847526": "2026-10-13",
   "px11856436": "2026-10-13",
-  "px34390997": "2026-10-13"
+  "px34390997": "2026-10-13",
+  "px9694890": "2026-10-14",
+  "px36659299": "2026-10-14",
+  "px37336712": "2026-10-14",
+  "px7581331": "2026-10-14",
+  "px32376294": "2026-10-14",
+  "px7463923": "2026-10-14",
+  "px36135762": "2026-10-14",
+  "px35172248": "2026-10-14",
+  "px35240999": "2026-10-14",
+  "px8717546": "2026-10-14",
+  "px8717006": "2026-10-14",
+  "px8717015": "2026-10-14",
+  "px8717005": "2026-10-14",
+  "px8141489": "2026-10-14",
+  "px10350197": "2026-10-14",
+  "px8085492": "2026-10-14"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6273,8 +6303,8 @@
   "3-2": 8,
   "3-3": 8,
   "3-4": 8,
-  "3-5": 7,
-  "3-6": 7,
+  "3-5": 8,
+  "3-6": 8,
   "3-7": 7,
   "4-0": 7,
   "4-1": 7,
@@ -9211,6 +9241,22 @@
    "title": "'The baby boomers have arrived': How Americans over 75 got... #shorts",
    "hook": "Everyone is talking about this today.",
    "date": "2026-10-13",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "YsHju6QKa00",
+   "title": "‘Please pray for us’ said Zoho founder Sridhar Vembu in a post... #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-10-14",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "PkCyaOKT0Uc",
+   "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-14",
    "views": 0,
    "likes": 0
   }
@@ -12667,6 +12713,26 @@
     "https://en.wikipedia.org/wiki/Other_Mommy"
    ],
    "date": "2026-10-13"
+  },
+  {
+   "headline": "‘Please pray for us’ said Zoho founder Sridhar Vembu in a post on October 12, as he described how the software job market looks ‘grim’ as the cost of AI infrastructure soars. Reema Tendulkar brings mo",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1RJWWJHTmtIMnhaYWVyeFFpYV8wZndZMUFOVXM2NkpJdUNfRGlyQzdHeVcwMXkxcXkyWFFZQ3hXS3RpM0NqZUtNcmxNd3NkSGZETmlvTjRRYjJ3X3BXa0FEamh0NDExSTZieGRHam9BdFBiZXdOcTBSUXRPNlFEeTVKOEtkN3JiV25QUEsyekp0OTJRaU5nVA?oc=5",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWElhakU3ODExbEt5OS1IbW5xS1luMUdSUk9SOEFwUlQyenYwTkExT1JjRm9VWEs3aXFsVUVqSTFQVmVfSGp6R3A3aWV1Q000ZzE2bTRNdjVpTmhXX19veGdzUW81cU5zRkRGeDBNeXdaTWotWkNLVC1NcElGbkdNajBWVzlFU2d1OUFqUm1GTFE2dmRwOVpYM2E0dlhBUXlOZlVTX1FWWHhkQk85MGo2VjBxYTYyODgyTGZmNDdR?oc=5",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV1h6WllzaVRLdXYwUGgxdU5GWnFsWEwwelcta2FhSEpJcWR6RFVfWW5tdXY4YzJqdXpmTWxuTElTSVBnZ1NGUjZIYUVKR1ZtM3dseXZldnFBZmlmbGE5cnFQb1pHZHBnSUNoaTNRWUhBa1owc2dIRi1oNmJULUFMcWpNcW9TZml2RlhacG41ajBNb2swU0RBOHlUYUd0YXFNY0RLVkRyVDlwTm5CSERYZnJHYnR1ZVFCODdEVkRlZ3dKWk5RblFZ?oc=5"
+   ],
+   "date": "2026-10-14"
+  },
+  {
+   "headline": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjkxNVh4Vlg5aXhHdHJySlBhbC1iZVRDTTF1a2hiUk52eUlqUW1aWWtoeUg2TjQ0OWU1aURzNW5aWmZ1TEFBcGl4NTBIQVZSVnNPaFpFUnZqb2RjRzNQS0xLQjRkMmtJZWhuU1RLRXplcktzVnBHMVVhNThISzMxMVFYbXZoeWE2WFc3b2VzMlQ0Sl92Y0kwLXJ0MUxBOTdUNzFxdjR0VTI?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6MjNkNW5WYWhlZE43SWlVQ1VwOERnZm9Va0szcWtwSDZGZ3RmSEZvUGdJSzg5dmpwSll1cUxOSi1zdkZDRm5Nb0ZoMzdKbFpZcnp6UGhyejhnaGM?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxObHlWR0VuWE1BeGZiZFgwVlVXMFNZYl9jSGdZV21wMmZjeUUxcFNrdmpnX3BSMVhDd3M5VEhxSmxUa2ZwVVR4Y191NXNqMXVHMV9Vc2dVYUJuTXRIWDEzLVVCT2dPU2h1TGV1RXFteTdiRlVFY004VkFCd3huRERZMXY4cWtaS2FCLUpUd05xV2RnTGR0WGt6Qzg1OG1XSkk0RTVtZ3dzS2ROQ21tam5QMQ?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSFhIOWJVeXVpUmJZekJyZS1PX0dzX3VBWjRYT2k4dFNrR055RkswcEJweEJ0NThjN0dRMVA0LWZrUGROYzVnTGdqOXJHTmRnRkNFREpSc3RucnNYM0JrM2ZPNlE4VmpDdENWU2sya2Fqc3BIMm9icHVzcFVYemZhTTZNXzJ4Qkx4Mm5taEpNUGstOGZ3dVVocURKVzFScFJxYkY2ajhja2J2Q2JrVF9WNQ?oc=5"
+   ],
+   "date": "2026-10-14"
   }
  ]
 }
