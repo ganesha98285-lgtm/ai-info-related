@@ -380,7 +380,9 @@
   "MLB changes ALCS Game 3 start time to 1 p.m. due to inclement... #shorts",
   "Eight US states sue OpenAI, claiming ChatGPT harms young users #shorts",
   "'I did a crypto heist' | Rockville man buys rare Pokemon,... #shorts",
-  "This Y Combinator startup raised $6.1 million to let product... #shorts"
+  "This Y Combinator startup raised $6.1 million to let product... #shorts",
+  "Bitcoin is starting to behave more like gold as investors seek... #shorts",
+  "FSB finalises sound practices for the responsible adoption of... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -762,7 +764,9 @@
   "Stay till the end for the part people missed.",
   "This just moved the whole market.",
   "Stay till the end for the part people missed.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "This changed in the last few hours.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3045,7 +3049,20 @@
   "Dow Industrials, Treasurys Rise as Investors Rotate Out of Tech &nbsp;&nbsp; WSJ Treasury yields slide as investors flee to safety of bonds amid tech rout &nbsp;&nbsp; CN",
   "Here’s where they’re turning now.",
   "We cover this beat every single day, which means you will see the follow up here first.",
-  "Dow Industrials, Treasurys Rise as Investors Rotate Out of Tech &nbsp;&nbsp; WSJ Treasury yields slide as investors flee to safety of bonds amid tech rout &nbsp;&nbsp; CNBC Treasuries rally as investors seek shelter from"
+  "Dow Industrials, Treasurys Rise as Investors Rotate Out of Tech &nbsp;&nbsp; WSJ Treasury yields slide as investors flee to safety of bonds amid tech rout &nbsp;&nbsp; CNBC Treasuries rally as investors seek shelter from",
+  "Bitcoin is starting to behave more like gold as investors seek alternative hedges – Block Scholes",
+  "Investors are dumping AI stocks as ‘tech wreck’ worsens.",
+  "Here’s where they’re turning now.",
+  "&nbsp;&nbsp; MarketWatch Treasury yields slide as investors flee to safety of bonds amid tech rout &nbsp;&nbsp; CNBC Dow Industrials, Treasurys Rise as Investors Rotate O",
+  "&nbsp;&nbsp; Yahoo Finance Trading Day: Global tech rout",
+  "&nbsp;&nbsp; MarketWatch Treasury yields slide as investors flee to safety of bonds amid tech rout &nbsp;&nbsp; CNBC Dow Industrials, Treasurys Rise as Investors Rotate Out of Tech &nbsp;&nbsp; WSJ Is the AI rout making ",
+  "FSB finalises sound practices for the responsible adoption of artificial intelligence (AI)",
+  "Artificial intelligence-enabled clinical phenotyping of human brown fat &nbsp;&nbsp; Nature",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "We are watching how this develops through the day.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6365,7 +6382,18 @@
   "px32030748": "2026-10-15",
   "px38478198": "2026-10-15",
   "px37021486": "2026-10-15",
-  "px32016679": "2026-10-15"
+  "px32016679": "2026-10-15",
+  "px7563905": "2026-10-15",
+  "px12645064": "2026-10-15",
+  "px6003998": "2026-10-15",
+  "px8342761": "2026-10-15",
+  "px7480509": "2026-10-15",
+  "px7123978": "2026-10-15",
+  "px7981682": "2026-10-15",
+  "px7981683": "2026-10-15",
+  "px7981782": "2026-10-15",
+  "px17029747": "2026-10-15",
+  "px7981988": "2026-10-15"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6405,8 +6433,8 @@
   "4-2": 8,
   "4-3": 8,
   "4-4": 8,
-  "4-5": 7,
-  "4-6": 7,
+  "4-5": 8,
+  "4-6": 8,
   "4-7": 7,
   "5-0": 7,
   "5-1": 7,
@@ -9398,6 +9426,22 @@
    "video_id": "3vaYqNIpDe0",
    "title": "This Y Combinator startup raised $6.1 million to let product... #shorts",
    "hook": "Stay till the end for the part people missed.",
+   "date": "2026-10-15",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "E88B45Lmt_k",
+   "title": "Bitcoin is starting to behave more like gold as investors seek... #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-10-15",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "eA0LtqZeYYw",
+   "title": "FSB finalises sound practices for the responsible adoption of... #shorts",
+   "hook": "This just moved the whole market.",
    "date": "2026-10-15",
    "views": 0,
    "likes": 0
@@ -12924,6 +12968,25 @@
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX2pSZmFBRTNfZ0ZmczFBcXBBRlUxV3RNTkV6ZzJiN2s4UGhod3RwVVZLbWY2YVNqejB1ZE9adDVyTDBXUnFsY3VGTHI3clVCUmlHUzBIcVFYTmt4T3FxMkxkdkd2eTgwZDNQbENLUGNnU3JJU0JnNW1odEF5bTgzemd3RGphTjg?oc=5",
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRHlCeG9LZnRXUXJEaUFnZDJ1LUpteUNVM0IzTVJMdUp3WldZVlRDdGVSRU9rYUpCSXRta1dlNGt0VkRMWEZTcjNkbXZDUXQ5NmtteXNQRXpNbExSbXkxZF9pUl9kZkZoT2pQcmlvMHFYQy1Nd20zc0FMa0JzQjExZnp6NVhmbmRlNlVUTmZVY2JxUnliSUpkTG43enBZSThYN1V0YWFYU1hoLUZO?oc=5",
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaDdIV2tIbU01RDFlM2V1WnVJRXRZbV9VdnFIdklTWXZZQko5cHZEWUpHSWZ2d05qYnNPblVaaXdfWlBQZE4xTFBoOE9RTWpOUU5tcTczeXIzci1KVmJ1THUtbmhTNVFHMlROcFRYVXpOZlktUmh3Mllac3g1eTRvQ28wb2RJUWpHV2t2TkI0Nkx2YkZ3YmdNMTFOU2lnT1BOZHhVYkVzRXRpN1I4S010MQ?oc=5"
+   ],
+   "date": "2026-10-15"
+  },
+  {
+   "headline": "Bitcoin is starting to behave more like gold as investors seek alternative hedges – Block Scholes",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlNZWlpsWlp1MlFmSEgxNFh1Q1ZRX0lrYVFxM1E4TWd0Q19xeGVHdmhldDJUaS1tSjc0MnJ0TS1LcTFyUWVPLWZ5cElJdjJxbTFIRW01TjNuWTZZRFVxUkxTVHgzZE9SbFZVVEhqSWtkcjlJdGk2Y0I2VWw3Tm1MbnViZlc0SW1WaFJpQTdsMzN3WTdNdXlSb1ZKOUpmM0RsZGx3eVY1dDg0SE1RTjhoUWxUa01GOTdwWWhHUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQREE3R21FOVVrZ1NGa0NPaUhsUUkzdUZXN3ByTFJHQ04yMU9Fa085Qkx5MkVfb2cyMlY2NnZuUDIyZXRKQW0xYWsxMUVSTTFTcG10RFFQWU1vQW9Mb1BQcEtKR1RuRURlTEh2VWRUNHExQVBVMWozNmRiVjliUWYzYmdZS0F1QUY0Wk5LY25sc3FsQWpieWxRR1NIazczRzZpTlQzTGl1NVE1bmpQUV9EVQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdmZ4dW5UMDdXeTZsMWRwdmIxU05qTkJLYWt6azVCUHhBbjZVdGdRVmdWTE9KMTRHa3Y0cTZlbEREM2RmdzNmekF2Y1BfejF4RkdJMHVOdkZucnVkSjBRLURZUkkwZlg3Q3ZnSkFxSG4yUWtzdC1TMVMtOGtiVEM1Tm8yS1I2XzNWN1I0WGRtdmd6UUVyeXFNUFRqM3h1ZzhXMDV4RmsySVp6WDB5Tmo0RFFtVjNnNW5Cd2dRYVg5azZlUDg?oc=5",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXItNWZpNjZac2I3c1pDZmExZVRMTlhvR2l6TlE1R2I1azg4TFpsdW5EOERQa0dXX1NBYjVpRi1pVkpFdEEya2R2VDNhU0l6OGZjQ3FEWVBWQ1Jvb1h1bXd2VmYwQkx3bXBrRm1BZm1qZ2RESnBKN18ydU1Kd2xVQ1NvX2taa01vb2dKMWh6WjJ6MmM4X3ltbE1nVmJZT0sw?oc=5"
+   ],
+   "date": "2026-10-15"
+  },
+  {
+   "headline": "FSB finalises sound practices for the responsible adoption of artificial intelligence (AI)",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GZTlIVXVnazYxNTFrWEppcUVrV3ZIVUVNY2RQQURkSGtDR29wcnJ1SUxqSnNlc0ZTVFpnN0RORDBqNFRHWFZBTXZiMWp0TnBPMC1uZnZIWkJwTHI2UGJn?oc=5",
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnVOLXZnNnFmY05jSl9pTjZzWEppZllJR1lTM2hOOE5ZSTFrRWthRHZsVy1BSzg1NzJ5Vm9DdmJqSURaNVNEa2xNblFTaHpPanFINlpkdjE4SGk3OHlsQnVydGt0eGthb3p0eEppaWFreGdPTkFQRGY1LVR2RUNMZUpCRTRJaTczZk9QSQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYlowZTZteDU0NjQ1YU9jVWhWVi1WS2gzUlFyN1c0T01CTTBNb0tkeUZfdWJEQ09NNnUtV1VyQ0NDcC1pZ0VnUWt6MnB4cWxhMVJZdDc5SGdrR2I3clFHVHJLa1U4cVlYTXg2djVIVnR5ZU5Mb2VGOGI0aFZocWVFeWJyNWpHVnNYaWN2UW1RQzdKYVBZa1lwSWpVN2RocnpjbkVqdlNuakVxMC1yeEJTVUpBS0JZWVBJ?oc=5"
    ],
    "date": "2026-10-15"
   }
