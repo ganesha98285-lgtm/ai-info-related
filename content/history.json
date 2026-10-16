@@ -384,7 +384,9 @@
   "Bitcoin is starting to behave more like gold as investors seek... #shorts",
   "FSB finalises sound practices for the responsible adoption of... #shorts",
   "Dodger Stadium crowd for playoff game last night was the most... #shorts",
-  "NASA's Perseverance Mars rover breaks interplanetary driving... #shorts"
+  "NASA's Perseverance Mars rover breaks interplanetary driving... #shorts",
+  "Bundesliga LIVE: Eintracht Frankfurt vs Cologne - build-up,... #shorts",
+  "Stock market today: Nasdaq and S&P 500 fall as tech stocks... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -770,7 +772,9 @@
   "This changed in the last few hours.",
   "This just moved the whole market.",
   "This is the story everyone is sharing.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "Here is what just happened.",
+  "Stay till the end for the part people missed."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3075,7 +3079,19 @@
   "NASA's Perseverance Mars rover breaks interplanetary driving record — and it's far from done",
   "NASA-backed mission aims to land on Mars moon, bring samples home &nbsp;&nbsp; USA Today Mars moon lander set to launch on 19 October &nbsp;&nbsp; European Space Agency H",
   "Japan's MMX space mission aims to solve the puzzle &nbsp;&nbsp; Phys.org Scientists hope to solve Mars’ moon mystery with historic sample mission &nbsp;&nbsp; NewsNation",
-  "That is the headline people are reacting to right now."
+  "That is the headline people are reacting to right now.",
+  "Bundesliga LIVE: Eintracht Frankfurt vs Cologne - build-up, team news, score, TV coverage, text updates & match stats",
+  "Live updates: Crypto gives up some ground as AI selloff picks up steam &nbsp;&nbsp; CoinDesk",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "This is the part most people scrolled past.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Stock market today: Nasdaq and S&P 500 fall as tech stocks slide, capping volatile week",
+  "Stock market today: Nasdaq and S&P 500 fall as tech stocks slide, capping volatile week &nbsp;&nbsp; Yahoo Finance Stock Market Today: Nasdaq, S&P 500 Sink, Poised for We",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "We are watching how this develops through the day.",
+  "Stock market today: Nasdaq and S&P 500 fall as tech stocks slide, capping volatile week &nbsp;&nbsp; Yahoo Finance Stock Market Today: Nasdaq, S&P 500 Sink, Poised for Weekly Losses as AI Stocks Remain Under Pressure; Do"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6418,7 +6434,21 @@
   "px30782749": "2026-10-16",
   "px35257598": "2026-10-16",
   "px39857176": "2026-10-16",
-  "px6318310": "2026-10-16"
+  "px6318310": "2026-10-16",
+  "px39288986": "2026-10-16",
+  "px36601729": "2026-10-16",
+  "px28697140": "2026-10-16",
+  "px7817213": "2026-10-16",
+  "px39402992": "2026-10-16",
+  "px8821263": "2026-10-16",
+  "px38148535": "2026-10-16",
+  "px34466878": "2026-10-16",
+  "px7767239": "2026-10-16",
+  "px8064125": "2026-10-16",
+  "px11707491": "2026-10-16",
+  "px7220978": "2026-10-16",
+  "px36855438": "2026-10-16",
+  "px7712999": "2026-10-16"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6462,8 +6492,8 @@
   "4-6": 8,
   "4-7": 8,
   "5-0": 8,
-  "5-1": 7,
-  "5-2": 7,
+  "5-1": 8,
+  "5-2": 8,
   "5-3": 7,
   "5-4": 7,
   "5-5": 7,
@@ -9483,6 +9513,22 @@
    "video_id": "IlU38qHRZa0",
    "title": "NASA's Perseverance Mars rover breaks interplanetary driving... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-10-16",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "ZMLtisjvphs",
+   "title": "Bundesliga LIVE: Eintracht Frankfurt vs Cologne - build-up,... #shorts",
+   "hook": "Here is what just happened.",
+   "date": "2026-10-16",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "xV6Z_ex5nmI",
+   "title": "Stock market today: Nasdaq and S&P 500 fall as tech stocks... #shorts",
+   "hook": "Stay till the end for the part people missed.",
    "date": "2026-10-16",
    "views": 0,
    "likes": 0
@@ -13045,6 +13091,24 @@
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ2U2TXlWeVpaLTZJVDdBa1RWdkY5UURGYk9xZldnaUdrbHN1ZUpLMEVVWFFWQzZuYnk3UjJKbHhlLTBUMnhRLVZoSEpPT2l0RjBIcUFtb2JUZ1kwR0ZMTTVJLTdoaDNmWVQzcDNQcEFOUTFST2ZCS0xLbnAyTGttOFZZRW1YR2RlUkhLT0FhQlllY0Z0UUVmVFZPWDR6RkdnbTZxWC1OYw?oc=5",
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdWg1ZHRlOXBSSXZNRE5rU1VNeWFPWWJaU2JubE8tVkFEZURvbzdYeHNtbThienZTbDQ0MExnTURRbklHZ2RxN3d0TkZwMzloWUh2Q2d2b2JqR0J0RUE4YW1MalJ0T0VGTnl1YW5STE1ENENQcHBRN0stZ1NYOUpjbkd5YjRkdnNZZlZ6TXpZaEhFVmI4N1F3djBNWFUxMEJxTU94emFKTUdhSEEwTzF0TzkzQlhUNHZMN0NBS2xwMXZtcElmUHlHOFgwQlV5dVFuOTIxRXVEZw?oc=5",
     "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiQUk3UGNxTlZuMl92Qml4aU1Ob25ZRU42bEEtTnhuY0dENm1WZVRyQUhRMzFlRTUtV3JPNC02YkE0aWdnVTBWZ3JseFdLUQ?oc=5"
+   ],
+   "date": "2026-10-16"
+  },
+  {
+   "headline": "Bundesliga LIVE: Eintracht Frankfurt vs Cologne - build-up, team news, score, TV coverage, text updates & match stats",
+   "urls": [
+    "https://www.bbc.com/sport/football/live/cm86zpv298yqt",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXJRN3FRZmN6bXJsWVI3ODZydy01bEp6SmdFd09IZEJ5Y3ZhdXFoYnVDZnV4WDY4cHhCVi1Bb1A2bEF3T2tBR3VIa1d4a28ybVZ5Wkg3Nl9idGxhMGl4WFpJbXBoNDhIcTBWOVgzWHpnZ0xOMGdGNTJLQ3BURWx3LVRuR0ZneEtQM0lycXdGVmhHdzhYVGY5ZTJnbWFLNWJMX0Q5cGJtNlp1MHljZWUtQzFUSXI4QklmZV96T0xoUXg?oc=5"
+   ],
+   "date": "2026-10-16"
+  },
+  {
+   "headline": "Stock market today: Nasdaq and S&P 500 fall as tech stocks slide, capping volatile week",
+   "urls": [
+    "https://www.cnbc.com/2026/10/16/us-treasury-yields-investors-hot-inflation-data-.html",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNDVEZGRyMGF5T0lnanJNUVlvcHUtZVZIaldqR1pGR0xvQW1jcHF3ZEp3eHNManpGNFUzekgtb0pXQWYwaVBGZHlOaWN2ZDVYMTRkUkZFbkp6WlFFMDhBSjk3QUNwNmNSVktPdWQtcTk2TUJ3OXBUSUhIcVpuQjNhMy1WcWIyLXFpa0U4SVpMZkQ5WVV0QUd4czhB?oc=5",
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE80RVBxa1dIdzVrRHhvanBmT1hMMnlkU2phYUtlV09sM1RUNzEwWHRhYVhjMV95dEJBS3pUSlo1a09mMzk3emxuM2lWLXpfSFQxbFJQRVFGbmxZTl8wRWFtLW5NdEl0QkZva2xzc0JzSk92bFRVLXBCMjQ3aU1BZw?oc=5"
    ],
    "date": "2026-10-16"
   }
