@@ -382,7 +382,9 @@
   "'I did a crypto heist' | Rockville man buys rare Pokemon,... #shorts",
   "This Y Combinator startup raised $6.1 million to let product... #shorts",
   "Bitcoin is starting to behave more like gold as investors seek... #shorts",
-  "FSB finalises sound practices for the responsible adoption of... #shorts"
+  "FSB finalises sound practices for the responsible adoption of... #shorts",
+  "Dodger Stadium crowd for playoff game last night was the most... #shorts",
+  "NASA's Perseverance Mars rover breaks interplanetary driving... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -766,7 +768,9 @@
   "Stay till the end for the part people missed.",
   "Stay till the end for the part people missed.",
   "This changed in the last few hours.",
-  "This just moved the whole market."
+  "This just moved the whole market.",
+  "This is the story everyone is sharing.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3062,7 +3066,16 @@
   "We are watching how this develops through the day.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Dodger Stadium crowd for playoff game last night was the most pathetic thing I've ever seen",
+  "Wholesale inflation reaches levels last seen in 2022 &nbsp;&nbsp; AP News Wholesale prices jumped 6.3% annually in September, biggest gain since 2022 &nbsp;&nbsp; CNBC Wh",
+  "Here is why it is getting so much attention.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Wholesale inflation reaches levels last seen in 2022 &nbsp;&nbsp; AP News Wholesale prices jumped 6.3% annually in September, biggest gain since 2022 &nbsp;&nbsp; CNBC Wholesale inflation surged in September, keeping aff",
+  "NASA's Perseverance Mars rover breaks interplanetary driving record — and it's far from done",
+  "NASA-backed mission aims to land on Mars moon, bring samples home &nbsp;&nbsp; USA Today Mars moon lander set to launch on 19 October &nbsp;&nbsp; European Space Agency H",
+  "Japan's MMX space mission aims to solve the puzzle &nbsp;&nbsp; Phys.org Scientists hope to solve Mars’ moon mystery with historic sample mission &nbsp;&nbsp; NewsNation",
+  "That is the headline people are reacting to right now."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6393,7 +6406,19 @@
   "px7981683": "2026-10-15",
   "px7981782": "2026-10-15",
   "px17029747": "2026-10-15",
-  "px7981988": "2026-10-15"
+  "px7981988": "2026-10-15",
+  "px37834012": "2026-10-16",
+  "px36837860": "2026-10-16",
+  "px33997150": "2026-10-16",
+  "px36672439": "2026-10-16",
+  "px39149890": "2026-10-16",
+  "px40231710": "2026-10-16",
+  "px39973180": "2026-10-16",
+  "px10466414": "2026-10-16",
+  "px30782749": "2026-10-16",
+  "px35257598": "2026-10-16",
+  "px39857176": "2026-10-16",
+  "px6318310": "2026-10-16"
  },
  "thumb_styles": {
   "0-0": 8,
@@ -6435,8 +6460,8 @@
   "4-4": 8,
   "4-5": 8,
   "4-6": 8,
-  "4-7": 7,
-  "5-0": 7,
+  "4-7": 8,
+  "5-0": 8,
   "5-1": 7,
   "5-2": 7,
   "5-3": 7,
@@ -9443,6 +9468,22 @@
    "title": "FSB finalises sound practices for the responsible adoption of... #shorts",
    "hook": "This just moved the whole market.",
    "date": "2026-10-15",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "RdPECRVCwbk",
+   "title": "Dodger Stadium crowd for playoff game last night was the most... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-16",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "IlU38qHRZa0",
+   "title": "NASA's Perseverance Mars rover breaks interplanetary driving... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-10-16",
    "views": 0,
    "likes": 0
   }
@@ -12989,6 +13030,23 @@
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYlowZTZteDU0NjQ1YU9jVWhWVi1WS2gzUlFyN1c0T01CTTBNb0tkeUZfdWJEQ09NNnUtV1VyQ0NDcC1pZ0VnUWt6MnB4cWxhMVJZdDc5SGdrR2I3clFHVHJLa1U4cVlYTXg2djVIVnR5ZU5Mb2VGOGI0aFZocWVFeWJyNWpHVnNYaWN2UW1RQzdKYVBZa1lwSWpVN2RocnpjbkVqdlNuakVxMC1yeEJTVUpBS0JZWVBJ?oc=5"
    ],
    "date": "2026-10-15"
+  },
+  {
+   "headline": "Dodger Stadium crowd for playoff game last night was the most pathetic thing I've ever seen",
+   "urls": [
+    "https://www.foxnews.com/outkick-sports/dodger-stadium-crowd-playoff-game-last-night-most-pathetic-thing-ive-ever-seen",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNExzSHEyWDFGWnpSTkR2V3NndkhQTmU1dzE3M2pTWENyU3RPRTAyb0JQQXNqbENPTjJneHRsYWpMMXFPUXg3dnZfekhEM1VoSFNIRTM4U29QR1l0TGhzeVd6WkZIamdXWDkwcmdlR3k5eExLZFd3SUc0MHFQc1NoQlIwRWw5MzM5OVpndWJKa3NIZFNJRGx5YQ?oc=5"
+   ],
+   "date": "2026-10-16"
+  },
+  {
+   "headline": "NASA's Perseverance Mars rover breaks interplanetary driving record — and it's far from done",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ2U2TXlWeVpaLTZJVDdBa1RWdkY5UURGYk9xZldnaUdrbHN1ZUpLMEVVWFFWQzZuYnk3UjJKbHhlLTBUMnhRLVZoSEpPT2l0RjBIcUFtb2JUZ1kwR0ZMTTVJLTdoaDNmWVQzcDNQcEFOUTFST2ZCS0xLbnAyTGttOFZZRW1YR2RlUkhLT0FhQlllY0Z0UUVmVFZPWDR6RkdnbTZxWC1OYw?oc=5",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdWg1ZHRlOXBSSXZNRE5rU1VNeWFPWWJaU2JubE8tVkFEZURvbzdYeHNtbThienZTbDQ0MExnTURRbklHZ2RxN3d0TkZwMzloWUh2Q2d2b2JqR0J0RUE4YW1MalJ0T0VGTnl1YW5STE1ENENQcHBRN0stZ1NYOUpjbkd5YjRkdnNZZlZ6TXpZaEhFVmI4N1F3djBNWFUxMEJxTU94emFKTUdhSEEwTzF0TzkzQlhUNHZMN0NBS2xwMXZtcElmUHlHOFgwQlV5dVFuOTIxRXVEZw?oc=5",
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiQUk3UGNxTlZuMl92Qml4aU1Ob25ZRU42bEEtTnhuY0dENm1WZVRyQUhRMzFlRTUtV3JPNC02YkE0aWdnVTBWZ3JseFdLUQ?oc=5"
+   ],
+   "date": "2026-10-16"
   }
  ]
 }
