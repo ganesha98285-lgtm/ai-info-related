@@ -391,7 +391,8 @@
   "Has Bitcoin Bottomed? We Asked Claude AI After Its Dip Below... #shorts",
   "After blast, Blue Origin pushes for multiple weekly Florida... #shorts",
   "Cosmic 'jellyfish' wows skywatchers after SpaceX launch |... #shorts",
-  "Florida SpaceX rocket launch next week could bring 'space... #shorts"
+  "Florida SpaceX rocket launch next week could bring 'space... #shorts",
+  "Satoshi-era bitcoin faces a bigger quantum threat after... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -784,7 +785,8 @@
   "Nobody saw this coming today.",
   "Here is the update you actually need.",
   "This changed in the last few hours.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3131,6 +3133,13 @@
   "If you only remember one thing from the feed today, let it be this particular story right here.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
+  "Crypto Firms Launch Quantum Alliance as 6 Million Bitcoin Sit Exposed &nbsp;&nbsp; Decrypt",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "It is spreading fast across feeds and group chats.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
   "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
@@ -6526,10 +6535,27 @@
   "px7316062": "2026-10-17",
   "px5890227": "2026-10-17",
   "px30679246": "2026-10-17",
-  "px31059557": "2026-10-17"
+  "px31059557": "2026-10-17",
+  "px13744082": "2026-10-17",
+  "px7802053": "2026-10-17",
+  "px15577637": "2026-10-17",
+  "px20337627": "2026-10-17",
+  "px7689601": "2026-10-17",
+  "px7690489": "2026-10-17",
+  "px6547997": "2026-10-17",
+  "px27869330": "2026-10-17",
+  "px6914900": "2026-10-17",
+  "px36267199": "2026-10-17",
+  "px36607698": "2026-10-17",
+  "px5389605": "2026-10-17",
+  "px8439815": "2026-10-17",
+  "px27599861": "2026-10-17",
+  "px40309925": "2026-10-17",
+  "px7382308": "2026-10-17",
+  "px6101695": "2026-10-17"
  },
  "thumb_styles": {
-  "0-0": 8,
+  "0-0": 9,
   "0-1": 8,
   "0-2": 8,
   "0-3": 8,
@@ -9647,6 +9673,14 @@
    "video_id": "8r9HrplwnVw",
    "title": "Florida SpaceX rocket launch next week could bring 'space... #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-10-17",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "1o9RaslQHfk",
+   "title": "Satoshi-era bitcoin faces a bigger quantum threat after... #shorts",
+   "hook": "Everyone is talking about this today.",
    "date": "2026-10-17",
    "views": 0,
    "likes": 0
@@ -13272,6 +13306,16 @@
     "https://www.cbsnews.com/news/alligator-kills-man-fishing-at-pond-winter-garden-florida/",
     "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4M1dmTXRHamE3NDFYN2dFX0VjVjNKMTFVM0VxRGw0cWRXcWVEZEI4ZTdYOFU2UXR1WGpVRWJGLTBGTS1jRENsc3dZZ3R5VjZ2c1hTa2g1UXBza3dWOXdZVzlEZzBCR1IyNFBrejgtNnQ?oc=5",
     "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPX0hsS3ZjOWwzOVlRdVNIQmV6QWtLNmd5dE1SZUFtX1Nka0NLczVmbGxrdnY2dFd1NVNMMk4tNnBXTEZWSkczWUE3Z0M2a3c0WnQ2TXhCNTM2bThBOWpkMC1fay1oWFkyNlQxbFdqRnUwdUd1c0JCaTltcVVlanlEUnh1SGV4QU9jUGtHVHR4OWhpajQxWDI2WTg0VGxLS291dFA0UVhGaUdVamNGWEFJSlcwaE44c0VIMGhKRDdPYlBNZjB4RWtLZU4zaWs1RllmN2RBR1oydmlRMW81eXhuLUhETmhLZDFTems3NDF4RHUtdDQ?oc=5"
+   ],
+   "date": "2026-10-17"
+  },
+  {
+   "headline": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUVjdXhrUDJLZ3hzOE9HYko5ZjV0Qk5vLUMtaTdLbUowb0IxMHBHV2l0Ry0ydV9DTkZiUkdya0swSjVNYTAyNFdrVFJtRUJ6bW1nQzNDQ0xrdU1hRC1FTFVsZ3owVEhTRTFXVVljTG9PelRFcDEyaU5iMFBrdGQtWHowUXRESFdnUEY0YzA5aGZUeHF5RjBFNXI2VQ?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS0hwWWF1UndCOS1wYXE4TTYxVDZRWjYzT1hSa2x3NnowOU1PcGpjMUdNVDVIbUdBN1QxU0JJM0RxUXRUVjBiYnVZVWxISEJaUG5CX3lxOFExX2FSRDd2dGs0bk0xVm5HVGdMSGU4WkR4Ujh0bWhsZk9nYy1iWWdiNV96RVM2OGUwUEJlS1FTQ3pBMWdxdURERHpB?oc=5",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUJTbHlDZlBwYWRMaVkwcWdRWFJwQmNvcEtQZjFlNXF2VFdQWHF5ZG1SY25Hd1NRTEVWbDcxVW5MNUx1eE1nc1ZvN3dJVnA1LW05WGNWaC03TVFGa05kbUJhVVhkZU9sSkNFaUhicnpxaHlZZ2tKY1dyYndDVHQ4bjUtZ3J2b013bTlld3BYSDVXNUJadGdnbWZrck05aGRjTFpyOW5zUlgwb1pJZE8zdl8wR1lvNG5uM1pZdVBn?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMC1lc1BqSkFEZlZycHhIN2ltczJTUC1fdVYzVXZwT3N0MGsteDlSejBTMWFjWE9PWGhWSFo5WE1pREJBZzdMMEJnZ2JMV1dYTHVaVkVEYkswTnlrcDRudF9zcFAxT3BVQWY2OUdnX0pNU0hNVDZSMW5NVDhzc3ZzN3ZjVzRNdjRvOXk2a3dRZWlfQm13T3RmU2Zxbkg2Xzd4YnVEYVY0MTRCZDgxZVpyVVQweXRCdmU1Z1QyT01RcnlrRWJ6Y3g0Sw?oc=5"
    ],
    "date": "2026-10-17"
   }
