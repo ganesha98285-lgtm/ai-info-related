@@ -396,7 +396,9 @@
   "Old Farmer's Almanac Thanksgiving forecast 2026, when to... #shorts",
   "Netflix Regime Change: Ruthless Cuts Set the Stage for a New... #shorts",
   "Between October 12 and October 17, 2026, as many as 27 Indian... #shorts",
-  "Companies Are Realizing They're Spending a Fortune on AI Just... #shorts"
+  "Companies Are Realizing They're Spending a Fortune on AI Just... #shorts",
+  "Las Vegas Raiders-Buffalo Bills FEED topic: How will offensive... #shorts",
+  "Live coverage: SpaceX to launch Starfall reentry capsule, 31... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -794,7 +796,9 @@
   "You will want to hear this one.",
   "Here is what just happened.",
   "Here is the update you actually need.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "Here is what just happened.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3168,7 +3172,18 @@
   "Companies Are Realizing They're Spending a Fortune on AI Just So Their Employees Can Generate Error-Riddled Slop, and Suddenly Cutting Back Budgets",
   "Apple Reveals iPhone Duo's Battery Capacity &nbsp;&nbsp; MacRumors iPhone Duo battery life: up to 44 hours on the outer display, 31 on the inner &nbsp;&nbsp; The Mac Obse",
   "Here is why it is getting so much attention.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Las Vegas Raiders-Buffalo Bills FEED topic: How will offensive line respond?",
+  "It is spreading fast across feeds and group chats.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "That is the headline people are reacting to right now.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Live coverage: SpaceX to launch Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission",
+  "Japan to launch world-first mission to collect samples from Martian moon &nbsp;&nbsp; The Guardian Japan to launch spacecraft on a mission to get samples from a Martian m",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6603,7 +6618,24 @@
   "px8926982": "2026-10-18",
   "px7247861": "2026-10-18",
   "px6927297": "2026-10-18",
-  "px8970369": "2026-10-18"
+  "px8970369": "2026-10-18",
+  "px37283612": "2026-10-18",
+  "px7815129": "2026-10-18",
+  "px34839556": "2026-10-18",
+  "px6700011": "2026-10-18",
+  "px30353173": "2026-10-18",
+  "px34993441": "2026-10-18",
+  "px36639391": "2026-10-18",
+  "px27155334": "2026-10-18",
+  "px26172822": "2026-10-18",
+  "px26172823": "2026-10-18",
+  "px31523888": "2026-10-18",
+  "px36419634": "2026-10-18",
+  "px39320935": "2026-10-18",
+  "px36508102": "2026-10-18",
+  "px35054900": "2026-10-18",
+  "px20167168": "2026-10-18",
+  "px27822957": "2026-10-18"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -6611,8 +6643,8 @@
   "0-2": 9,
   "0-3": 9,
   "0-4": 9,
-  "0-5": 8,
-  "0-6": 8,
+  "0-5": 9,
+  "0-6": 9,
   "0-7": 8,
   "1-0": 8,
   "1-1": 8,
@@ -9764,6 +9796,22 @@
    "video_id": "GUnAEdqBPU8",
    "title": "Companies Are Realizing They're Spending a Fortune on AI Just... #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-10-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "YhDfrp8GKFI",
+   "title": "Las Vegas Raiders-Buffalo Bills FEED topic: How will offensive... #shorts",
+   "hook": "Here is what just happened.",
+   "date": "2026-10-18",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "tYOvdW7g-kc",
+   "title": "Live coverage: SpaceX to launch Starfall reentry capsule, 31... #shorts",
+   "hook": "Nobody saw this coming today.",
    "date": "2026-10-18",
    "views": 0,
    "likes": 0
@@ -13436,6 +13484,23 @@
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzZ2dE5KaWRnWTROTGgta0huNGJUUG5hd2tsbXRSaFBtamtteXBZWThCd19DMllvaklCbks4a3Y4RGVFSEpMYmhQT3pleDY1UVAxOGExdjNlU2lSZzNsbkZETlNwMFBncEZ1VWs3cVBtWTJ5MWlEMXM5UEdUbWVfUWJ5V0JaSk0wQVJBQUJxYXJWV3ZfalVyNnI0aWZQSGI2SzJQR1hB?oc=5",
     "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOWFza21hVDV5b2JDQXpXaUJic05lMEU0WEN5TzVhTFZtbWk1Z0xUVlNHM3hzWGpYdVpsVDMyc2pwbWVJNS1vSzBibDJraHBWOGVMc1A1Zi1mRS1ybmZuRGwteHZ2WjRBUzZSUHpETkdBQ09jU2tvNTRLOEZFR2hkVGhOM0tKTVg5X2wtM1c1NWg2aHhEbkYtblZSeVN6RkUyb2pJVXZuTFhBaEwwR3I3Y0ZaUjNybUxnVW51cF9YRGc0WTFGakdHbkxvbFU1VG56cWF4WWRsMGtzczVGV0g4MUkwVVU4T0VY?oc=5",
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGRrWUV1VmE4Ujd3UzYyOTdLam85TnZnWUpiQU9fcm1GTkV2bTNPQk4yZU1hZGhkZ3pGZEdNRTVNYkwwVXlkS2ZDdlBkTk1xcHhuV1NIWG13TlQ0N2x6NlNqY3NwVGxCclpQS1JSWGdmMEVtNC1URVBuVk03Z1Y0RkxFdkdadHVtTG9zeERTaWRDVFYydkljdmhB?oc=5"
+   ],
+   "date": "2026-10-18"
+  },
+  {
+   "headline": "Las Vegas Raiders-Buffalo Bills FEED topic: How will offensive line respond?",
+   "urls": [
+    "https://www.silverandblackpride.com/las-vegas-raiders-analysis/142965/las-vegas-raiders-buffalo-bills-week-5-preview-offensive-line",
+    "https://sports.yahoo.com/articles/bills-cj-gardner-johnson-spits-214748839.html"
+   ],
+   "date": "2026-10-18"
+  },
+  {
+   "headline": "Live coverage: SpaceX to launch Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSU1COWt3SGtqMW4zUFh1VVY0N1RWeGJlVjh3aFFfTkdPSV9KMC1sQVFRVzNuSWRsNzJRdkVQLWluci1UNUoxTU5qZVpoUHlwcmhWaU8wWnBSYXJ6aWpldE1acG9VRi1NT2tBZTY4T3FmNTJ1SS1iTWNyQ3RTaUc1Q2staEQ3elEtNHRUNS1KUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZzRlVTZBQTdtOENYM1BhV3V0VHZ6Q1JmR0tlaG9FenFmRmtDQWtGOW11U3pRMTY1TXRpS1NEQzVUdzduNHBlcEVwS1hIV2NsOElaTDRuSWNIRk9xU05iSENyY2s2Vk9USTFjM3RJNUpyVjJCcU1xdmdabDlna0tvVV9pR2YxWGhtdlJ6blJPX0VsMzZxMlNTd2YzTXM3X291cTNBY3BHRXlUSmNPT2dUMDQ2RXloMEhXdzNSWXRTMk5GWWpVa1JFVUJDb0JYMHR2SUs4VTh0UkY0VHlkS0RrWVJ3?oc=5",
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTHVzMlpYUGJGZjVfUnZPdk5DY3hOOVNkdFJ3aFFNM3BrNTNsaXEzZkwwX3AtT01LTElkaHBKeXFBQWZrOWYzQU52cDhrb0p5RG5kS2RNdzduY0JXblFBdnViNVNoMFpqN0FZemNGdDVEeG5FdWcyUlNpSEstdDROdQ?oc=5"
    ],
    "date": "2026-10-18"
   }
