@@ -406,7 +406,8 @@
   "Disney agreed to pay $60 million to 66 employees from an AI... #shorts",
   "Billionaire David Tepper’s Appaloosa Management Has 31% of its... #shorts",
   "‘Just answering the questions is not the point’: Dartmouth... #shorts",
-  "Stock Market Today: Dow Jumps, Oil Falls On U.S.-Iran Hopes;... #shorts"
+  "Stock Market Today: Dow Jumps, Oil Falls On U.S.-Iran Hopes;... #shorts",
+  "Exclusive: Daytona, a startup building the ‘agentic cloud,’... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -814,7 +815,8 @@
   "This is blowing up right now.",
   "Nobody saw this coming today.",
   "Here is what just happened.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3242,7 +3244,14 @@
   "Stock Market Today: Dow Jumps, Oil Falls On U.S.-Iran Hopes; GM Stock Flashes This Sell Signal (Live Coverage)",
   "Stock Market Today: Dow Jumps, Oil Falls On U.S.-Iran Hopes; GM Stock Flashes This Sell Signal (Live Coverage) &nbsp;&nbsp; Investor's Business Daily Dow jumps 400 points",
   "Reports are still coming in, so details may change.",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Exclusive: Daytona, a startup building the ‘agentic cloud,’ valued at $1 billion in latest funding round",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "That is the headline people are reacting to right now.",
+  "Save this one so you can come back to it when the next update lands.",
+  "Exclusive: Daytona, a startup building the ‘agentic cloud,’ valued at $1 billion in latest funding round &nbsp;&nbsp; Fortune",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6747,7 +6756,19 @@
   "px7092265": "2026-10-20",
   "px40091388": "2026-10-20",
   "px35239543": "2026-10-20",
-  "px12571926": "2026-10-20"
+  "px12571926": "2026-10-20",
+  "px8847565": "2026-10-20",
+  "px8347684": "2026-10-20",
+  "px7593315": "2026-10-20",
+  "px7706073": "2026-10-20",
+  "px8468761": "2026-10-20",
+  "px6153586": "2026-10-20",
+  "px9464313": "2026-10-20",
+  "px7652815": "2026-10-20",
+  "px8926858": "2026-10-20",
+  "px8482329": "2026-10-20",
+  "px8927957": "2026-10-20",
+  "px34708751": "2026-10-20"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -6765,7 +6786,7 @@
   "1-4": 9,
   "1-5": 9,
   "1-6": 9,
-  "1-7": 8,
+  "1-7": 9,
   "2-0": 8,
   "2-1": 8,
   "2-2": 8,
@@ -9988,6 +10009,14 @@
    "video_id": "CHUQJj_Hj4c",
    "title": "Stock Market Today: Dow Jumps, Oil Falls On U.S.-Iran Hopes;... #shorts",
    "hook": "Stay till the end for the part people missed.",
+   "date": "2026-10-20",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "n2L_YpGhjJ0",
+   "title": "Exclusive: Daytona, a startup building the ‘agentic cloud,’... #shorts",
+   "hook": "Nobody saw this coming today.",
    "date": "2026-10-20",
    "views": 0,
    "likes": 0
@@ -13749,6 +13778,16 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNkpsMHZzemFlQ0laaVFHWDZ4QXpNTFliN0tQWTVHQnVqQUFfQVhyNXNfMFpVOE1XT1FrWWJucG92U2lwUXpHZEFycGFRTE1CS3F2b2dldTgwRWNPTmlZRnhnMGpiRkFzdGVXNlBYWHhWektRZnJ2c3R4b0w1ZzQ0ZWR4dk4yNl9GT2ZHemZ4WWFGY3lhWDZuQUV5MEpHZTM3eFNNdkZmMzc1b3YxZEtfYVgtNnNOaW1FckJVOVVfYmFTNThZTVU2bzBxWQ?oc=5",
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWVoODhRekViMXk0VEhWaGJCc3o3QjJQRFdNOGU2OVlkQ054a25yVWFFUzg2eVlfT1o4dEdkMXhjVlprVVgxN0ZZaTk4RjVuTzZpNWJSWFFkbHNhU19oREpjdWg4akxIdEx2dTZSRmxFTU1ZazlzNWhfUzhrLWJpQ2FfVXgwVmFBV0N4TUdJM1FoRXhXNHNwdUZvaWlUZjZ3aDdpaXFLYm12WEtjUzJjeF9OcnNJaDZHV1RLNWtZaHlId1R2bm1z?oc=5"
+   ],
+   "date": "2026-10-20"
+  },
+  {
+   "headline": "Exclusive: Daytona, a startup building the ‘agentic cloud,’ valued at $1 billion in latest funding round",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaThmSzZMdDVvNU1rVXNtemZrVnU3WnZMQ2QxWTR3eXdaTTlxczN2T2RZZU5URHZ6aTJRd0l1WlRQSk5ObFdHMjVNUUJfZkUxMTlnZ2lZd1Q3YTJTakJnN0hXQW9TRlp2MXFRYjQ0dlpuS3JJTTYyaUw2RS1RRDR4VHByVDhUaV9lT0g4WWtTbEl4V2k0SVJEOXhGSVpuN1JrQUxuYTlueFh0R0VqYmo2VzhQU1liZVhSOGc?oc=5",
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZEZuZHdVV1dZN3BpaFczenc4QkhZYjdjblNqRHd5UnllS3otOS04MUtCYjJtejZYbENlaE9nUFljbmdJN1RDaEdxZkxpSlhoMlMxdFhYWmdGaW4xejVjZ2hwS0U3b2lJNUJRUVRvak51Mzk4N3B0M3duMGQydWtYNHUwMG43d2hNS21mYV9jcXRQSjdRRFRXZkZPdVRmaUV1dlE4cEhQN18xcE9Yb1ZnTkF6Y3g4OU9waG1yV0dvOHBnM0lldTczYjgzVmdtTEd1UGxVNVdGYVhfNVpR?oc=5",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkV0SnppMF9nLTFJM2M0VTNPeU5ldkE2NU9PVFVhbVYyaXZVdGJRV3VDTDY4eFpUMTZxS1A0OUFEaWdGX2hHTF9UR2EzZElEY19MNHhfdjZ5ZWdrV29oaXZYeXUxQTdybV8tRjlwNHF2YUxrUEZEaU1rUEZXNmtFcnZyTmhYZzk0aF9JZjZ6M1BRS050MXVMYmxwVVI2RHRGZXV6bWJBOGZfUFY0MVFWY29LTQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWW13ME1UZUxlRmdPR3AycFl4SHk0ek81b2ZlbmpOZUF4MGNIckhqSDNodVliMW51aXlUSnR2Y3BOd2FFemczanBwYzBIa2J0NUhFbktQYzZOZzZPd2c1SGprLUhveFpFQzZMZjAwSGxRbnl5VlFlV2s4SnFsZkdka3U0TnBaWDlyOXRzdXVocVI4NExmVHpNMFlsdmU3V0JIb1BEUmpjb1ZSdjBJMk9BektySUVIemw5Unc?oc=5"
    ],
    "date": "2026-10-20"
   }
