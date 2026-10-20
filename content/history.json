@@ -402,7 +402,9 @@
   "Call of Duty: Modern Warfare 4 Gets a Warm Steam Welcome With... #shorts",
   "Mike Tomlin Linked To Mystery NFC Team After Ripping Cowboys:... #shorts",
   "U.S. Stock Market Moves | Rumors of a Merger with SpaceX... #shorts",
-  "Kalanithi Maran #shorts"
+  "Kalanithi Maran #shorts",
+  "Disney agreed to pay $60 million to 66 employees from an AI... #shorts",
+  "Billionaire David Tepper’s Appaloosa Management Has 31% of its... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -806,7 +808,9 @@
   "Everyone is talking about this today.",
   "Here is the update you actually need.",
   "This changed in the last few hours.",
-  "You will want to hear this one."
+  "You will want to hear this one.",
+  "This is blowing up right now.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3213,7 +3217,19 @@
   "That is the short version, and the full reporting is linked in the description under this video.",
   "Kalanithi Maran",
   "She is the executive director of Sun TV Network and chief executive of the Indian Premier League franchise Sunrisers Hyderabad, owned by the Sun Group founded by her father Kalanithi Maran.",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Disney agreed to pay $60 million to 66 employees from an AI startup that filed for bankruptcy, weeks after tech layoffs",
+  "Wallet Targeted by Noah Doe Lawsuit Moves $33 Million &nbsp;&nbsp; Decrypt",
+  "Save this one so you can come back to it when the next update lands.",
+  "That is the headline people are reacting to right now.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Billionaire David Tepper’s Appaloosa Management Has 31% of its portfolio Invested in These 2 Artificial Intelligence (AI) Stocks",
+  "Stock futures rise slightly after tech shares rebound to start the week: Live updates &nbsp;&nbsp; CNBC Nasdaq climbs as chip and AI-linked stocks bounce back &nbsp;&nbsp",
+  "19, 2026: Tech Stocks Rebound After Friday’s Selloff &nbsp;&nbsp; WSJ AI stocks lead a reb",
+  "Reports are still coming in, so details may change.",
+  "Stock futures rise slightly after tech shares rebound to start the week: Live updates &nbsp;&nbsp; CNBC Nasdaq climbs as chip and AI-linked stocks bounce back &nbsp;&nbsp; Reuters CNBC Daily Open: Tech investors buy the "
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6695,7 +6711,21 @@
   "px37341934": "2026-10-19",
   "px33346796": "2026-10-19",
   "px31099923": "2026-10-19",
-  "px40123592": "2026-10-19"
+  "px40123592": "2026-10-19",
+  "px8820504": "2026-10-20",
+  "px8820497": "2026-10-20",
+  "px8820508": "2026-10-20",
+  "px8820503": "2026-10-20",
+  "px8817008": "2026-10-20",
+  "px8820507": "2026-10-20",
+  "px7164236": "2026-10-20",
+  "px9017846": "2026-10-20",
+  "px39035538": "2026-10-20",
+  "px37130497": "2026-10-20",
+  "px31655247": "2026-10-20",
+  "px26626392": "2026-10-20",
+  "px34488721": "2026-10-20",
+  "px29559253": "2026-10-20"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -6709,8 +6739,8 @@
   "1-0": 9,
   "1-1": 9,
   "1-2": 9,
-  "1-3": 8,
-  "1-4": 8,
+  "1-3": 9,
+  "1-4": 9,
   "1-5": 8,
   "1-6": 8,
   "1-7": 8,
@@ -9905,6 +9935,22 @@
    "title": "Kalanithi Maran #shorts",
    "hook": "You will want to hear this one.",
    "date": "2026-10-19",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "YEBiLsgyFYE",
+   "title": "Disney agreed to pay $60 million to 66 employees from an AI... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-10-20",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "s00v4OIle7c",
+   "title": "Billionaire David Tepper’s Appaloosa Management Has 31% of its... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-10-20",
    "views": 0,
    "likes": 0
   }
@@ -13629,6 +13675,26 @@
     "https://en.wikipedia.org/wiki/Kalanithi_Maran"
    ],
    "date": "2026-10-19"
+  },
+  {
+   "headline": "Disney agreed to pay $60 million to 66 employees from an AI startup that filed for bankruptcy, weeks after tech layoffs",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc3FwVk0zTDV2eWtNY1g2d0Naa3VPb05jaG53aXBPS0RMa19mQllheHBRWmtDRU4xZkhBVFBkYy12amhseDRWaGp0N3pnSnZaek1JaWhST2xZUzYtQ1hHUnl0bFhoUkUtdFZCRXZRU2xrb1JqTEVEeDFGTEY1Vk1JWGxOOEVrVkp4ZXE4cg?oc=5",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN2x2QlN6SDI2LWNnTFA5Q0dKRFFmRWd4ZlFxbFdWbE9RaWFKT3FlUFN5bTdzdlZ4dmtpd09JUnlBVF9LTDctQkRFMmN4SnpkRXRvdjNxM29TQURZcjVGYnczQm5EYTJuMXB1SmlZZVNIMnhQN2huckRXaE9qVW5WV0JqS1ZOVjhpWnc?oc=5",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN2x2QlN6SDI2LWNnTFA5Q0dKRFFmRWd4ZlFxbFdWbE9RaWFKT3FlUFN5bTdzdlZ4dmtpd09JUnlBVF9LTDctQkRFMmN4SnpkRXRvdjNxM29TQURZcjVGYnczQm5EYTJuMXB1SmlZZVNIMnhQN2huckRXaE9qVW5WV0JqS1ZOVjhpWnc?oc=5",
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMEQxcEhxMUdXcTJDVHFreXRnel9BQzNLU01FdnIyV3dxNXluUU4xQncyb1FNMXBJMzdwZXRJdnk5QWtVT0FacWdrdllYQVB4R2lvdDhGbXYtdUt6RHFHVEliQUg3cXlidjE2SlV5YnFZVkI3empzWGdHclJaMTU2OFJGU3JWLXpOTkhKZWRURllkTUhGUjNtWVR5VGU1TmkyUkI3UExvN2hfSWJTNGlzQVA1bmVtSks2U29UUndkd1BibVVPcGtCV0lGeE1XUQ?oc=5"
+   ],
+   "date": "2026-10-20"
+  },
+  {
+   "headline": "Billionaire David Tepper’s Appaloosa Management Has 31% of its portfolio Invested in These 2 Artificial Intelligence (AI) Stocks",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBY1V6N2VkbVphNU1oUUROTEx2aUtNQk9XeDl3SlRyUGlmWWFNX3B1NjU0SXB6Z08zeldvRW8tZVdWQ3lxRnNGelJSdURXdHdEQ0lRTllocmNfS1BkX2lDalYzS1AySDNUNk5Rc2tDbk1SdVZsbHRj0gF8QVVfeXFMUDhUeVpneWk2eWtPSVpkcE5EY3pZeV92cG9CZFpwaDVrT09sY2Y1VTVNc2VfcWNid29pZ2RzNTYwY3VWQkx2X2h3ZlUzQWRPXzlpWWotY0ZkM184THhJNkxhYTJHNVRvZ3hESG4wZGVna25sWEU0UDZBZnpqRw?oc=5",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUdmWVljdmxvdFIzRkRFeDJLQk0wTFVOaTlEMExhUEpUelZOTFJfdDFlZURyWXpjU05OcXBhX09QN0dlblc2aDFhZWFuQUNMOXVLbDN1eFN2Q0xBMU1WQW1KZDRrMEhuUmxlZmhPMmlnckVPcUJrSHpQa0tRWGRab2dXdXZkWTRpNC1kZmRCSndyblZJ?oc=5",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWkEta1I0bmgyRUppNkdfaDhVRnpSemhqT2dXRWdqN2RtMEIwYlljdkZrTHVpZzRxcGM1SllPNVdCX1RyZnE5V1VIY3VDX2NScVA5cTBpMWhRRHNiOW92NE51S3J0OTE3dThFV0tBUURva2lLUTQzRWRMc2dOSWFtUE9rdXBFZU9NQmZrN3BBamRjNHQxc3lManZZRU1OZmhMT3pUZTJqXzd4Y1RNYmkxbXdEVnc5NEpsNUJmUTY4SzZ4QVdFYjh6VGRNZw?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnRpUlhFSVItYXlyM2JtRDAxZFNzc1owV1VBSFM4VERhS3dYOW1wVWtOeERTaDRrWlZyQVJTVVdvNFktdG5oSGpjY0ZwY1hBbnllN2d6Qkg4aExFcWdNT3F3dWlxdTFtbU92WV9WTC1NVEw0QmlWb201cXB6NGJCajVtbmZjYnJ4MWZ3TDZYR1l3ZmZFRFJORzhlNE1Yb0QtNDlyc3ZnY2tuenV1OFgwVQ?oc=5"
+   ],
+   "date": "2026-10-20"
   }
  ]
 }
