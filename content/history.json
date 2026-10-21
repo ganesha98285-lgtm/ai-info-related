@@ -409,7 +409,9 @@
   "Stock Market Today: Dow Jumps, Oil Falls On U.S.-Iran Hopes;... #shorts",
   "Exclusive: Daytona, a startup building the ‘agentic cloud,’... #shorts",
   "Impressions: Call Of Duty: Modern Warfare 4 DMZ - CoD's... #shorts",
-  "Launch result of the Martian Moons eXploration (MMX)... #shorts"
+  "Launch result of the Martian Moons eXploration (MMX)... #shorts",
+  "Illinois man charged in $665K cryptocurrency scam targeting... #shorts",
+  "Qualcomm to cut jobs globally in 'performance-based' layoffs —... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -820,7 +822,9 @@
   "Stay till the end for the part people missed.",
   "Nobody saw this coming today.",
   "This changed in the last few hours.",
-  "Stay till the end for the part people missed."
+  "Stay till the end for the part people missed.",
+  "This is the story everyone is sharing.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3264,7 +3268,18 @@
   "Launch result of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10",
   "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples &nbsp;&nbsp; Phys.org See more headlines & perspectives on Google News",
   "Save this one so you can come back to it when the next update lands.",
-  "We cover this beat every single day, which means you will see the follow up here first."
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "Illinois man charged in $665K cryptocurrency scam targeting Escanaba resident",
+  "man $665K sparks arrest, charges &nbsp;&nbsp; The Detroit News",
+  "Save this one so you can come back to it when the next update lands.",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Qualcomm to cut jobs globally in 'performance-based' layoffs — CEO says move will build 'stronger performance culture' as company pivots to AI data center and edge produc",
+  "Tesla earnings loom after Musk calls SpaceX merger a 'good idea' &nbsp;&nbsp; CNBC SpaceX and Tesla Explore Merger to Create a De Facto Elon Inc.",
+  "&nbsp;&nbsp; The New York Times A Tesla-SpaceX Merger May Boost Musk’s Fortune by $110 Billion &nbsp;&nbsp; Bloomberg.com Elon Musk signals Tesla and SpaceX could merge.",
+  "Here's why he thinks it's a good idea."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6796,7 +6811,19 @@
   "px39396781": "2026-10-21",
   "px38398324": "2026-10-21",
   "px30095186": "2026-10-21",
-  "px15185383": "2026-10-21"
+  "px15185383": "2026-10-21",
+  "px35047533": "2026-10-21",
+  "px40409469": "2026-10-21",
+  "px34908797": "2026-10-21",
+  "px30730779": "2026-10-21",
+  "px34909816": "2026-10-21",
+  "px36167829": "2026-10-21",
+  "px34908994": "2026-10-21",
+  "px5896031": "2026-10-21",
+  "px40381989": "2026-10-21",
+  "px8927388": "2026-10-21",
+  "px35759386": "2026-10-21",
+  "px6996650": "2026-10-21"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -6817,8 +6844,8 @@
   "1-7": 9,
   "2-0": 9,
   "2-1": 9,
-  "2-2": 8,
-  "2-3": 8,
+  "2-2": 9,
+  "2-3": 9,
   "2-4": 8,
   "2-5": 8,
   "2-6": 8,
@@ -10061,6 +10088,22 @@
    "video_id": "XgYwfVdwRrk",
    "title": "Launch result of the Martian Moons eXploration (MMX)... #shorts",
    "hook": "Stay till the end for the part people missed.",
+   "date": "2026-10-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "MPkAjQS49lk",
+   "title": "Illinois man charged in $665K cryptocurrency scam targeting... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "ib3uNFIF7tc",
+   "title": "Qualcomm to cut jobs globally in 'performance-based' layoffs —... #shorts",
+   "hook": "This is the story everyone is sharing.",
    "date": "2026-10-21",
    "views": 0,
    "likes": 0
@@ -13850,6 +13893,26 @@
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZWhVQkVkb1pGckxWTFBIM2pxdllLb1VoQ0FKX21EZzNodzJkeWZwNDdqSDA5SWxuTDJ4eVJINUlLSTFXb3RUVUdZUm90ZlRFR25Ob2JZczVHSDlHUzN4SWdVWXhqRkRXcE5PRnFBSC1pTnhDZmg3SVNXaUxXWVFsNXZpVGpudUNMai04OU50eTdGVDZyd0V2VzJ2Y05jYk5XMlZ4cE9mcDVGS0ZUNnBPekd2UHhTWXNfMnNCM0ZzVFQ5UG9V?oc=5",
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BbjF0aFUtVEQtdTNWRXdVaGtLM21FM0VadXh3YVE2UG93OEZBbWVITWZQOU5pZUpBLTllOEZ0N0lRMGVwMGp1RS1ZR3ZqV3pRcDlYNmhlM09TdXh4Q2d6TU1Fd1Q?oc=5",
     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnAtTlB4QTQ3LTcwbEktaUEtemVaTTZCSUoyYmszdWUwZVFVN2N6anY0T1U4Y0g2bjR2ajdNSmdOcTh1UVdrSFhqUkw1cVRzLXVvWndQUG5QYU04OFQyQmJROExkVXRFSzZDVnN3dGVDN2ZROGVnWEF4akNId1RRYVgtMXU2Vmxrd19UMFdsaDZ3RElmQWdWSEdEbw?oc=5"
+   ],
+   "date": "2026-10-21"
+  },
+  {
+   "headline": "Illinois man charged in $665K cryptocurrency scam targeting Escanaba resident",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaXZseC1RMFM1ei1McHFISlBRZm9tMGw5blFCcV9vcDAydDRTZHk1eFUyaGxiVGlITXNGd0tkT19XenFPWU95aXBiT1ZUUGd5X0ZOOVo0Ty1MazN3ZmVGdGdVLWtYMUtiZkZCTHJkc0RPelRyWndtLThmcjRWc0pxSUg5dGlNMW1VRGZvZGY5VlZEb2kzMDZvVHFQSEFuNnVMOTBXWGdXVlkzRVh1WERVOC1jeXhvX0ctZTJoUE94QzJfNkN6UE96ZUhZMTVpZDZw?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ0dkeGRzeUlWdU9iTk5vN3NuUmF1T0RSWjhGWldLaW5hRGFUbHVsdEZKNEFNa0h6ZGRjVU1RVU15MFhYSzJ0ckZUVko1a1ZMVlBCdjN5eWQ5UDhSNEE4NFhSQlVzaWFFQkhZalZ3akRGQmI5MjZIUnJ1Wk1qd3pTVEpxVlBxOU0zZkt6bV9UZDhZRDdiSnlBdVlDTTJFcnJKcDZJVFowTHlvTVVQQWFwaTg4NFMwZw?oc=5",
+    "https://news.google.com/rss/articles/CBMiigJBVV95cUxNakF4U1dTNlpac3llZEc0MlRUWjAyLXMtVkJSTjNFYTBYNkp5NmdOVVRYd0lyVURVdkI2ODFUZ1ZkVHlwaC04a1R3Smh5cUNMXzU4RHpObXMtMnQ4YnN6MDU2dDdaaDVfQ1ZuZnFlY1ZoSVRIZjFIZ3JibGJZc3B2NEVaMzJTdnJXdkRWNnd0TlFKRndZNlVYcEJCLW1Kek1BWm5TTXp4X2xSc2ROcy1VNWJVdlVrTW5CSlBVbktSc3hKSVBEN3FOZ3owU2huVFFIWGpvWVVQOWhnbHFDc0p5dmFKVjBHSjM5WVhWczJrM1haeUdKNmpGb3lkMmU3Rlk4MXBYU3hCTl9mUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMU1QN2xMTXdacXBuZFg0SVA4TFRuOXVWUWZITFUxUDMtOHdQcUVKSUR3NlhMLXJMNVA4QlhIRnA1RVhVVjk2TWdtYThEUW8zaFBhX3lGT3RtdWVQOWJ6VlY2Z2NnNjRiLWV3czlNMDc3cTRzdzZpOW5nT0ZROFNrM2ItRzN0azBtMnVBbDhJTXpwUnJwUXlFRUJYdV9UanZiVm5COXF1RVltUlBl0gGyAUFVX3lxTE1BdUxQMnVsTk1uRWI5Z3lEazZTNGtSa1h4cUoxWHRudnc0UkNSaTJZUkhHeko0UGdJdWVnVlU3eEt1T0Z6ZFo1a0xBbVBjS1R3R2t0MUFweEViRDdwN2ZRUW1IRm5wRXFXcVZzaU13Tm5EbXBSczZSeUNuRENpSGhHMUdsaGF0Ym9yOVF5UVZ0akZwVUthZFhKczBoS3ktemEwcGlqWFh2RzBXMDlLS1kyd3c?oc=5"
+   ],
+   "date": "2026-10-21"
+  },
+  {
+   "headline": "Qualcomm to cut jobs globally in 'performance-based' layoffs — CEO says move will build 'stronger performance culture' as company pivots to AI data center and edge products",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rRTRZdEQyQ0tYemI0R0tuYi04TWhxWEVoRGx6M3h3MWpWTzhRdnpvZTk4R2tSV09GX2dNS0p6ckxOMkpDd3NCbEViY1ZtOUNOU0JjejU5VjhoVTRIRjZ2SHBiOG0wbXY0NmVBUmFUTDFWZ01LSmZraHN4TdIBgAFBVV95cUxPdzZSSklMOG1fb1hCcUpGSmpyVDAxVlZuXzZ4ZDEwdkJhX2xoWXdVb1V5Vkp0b0tkekhaVHhoa2szSC0tejZ6aTYtb1JJUWo4aG90ZTN5UURiS19sMGhCUHFxZUdhdk9rd3JaN0xRVVk3OGZ0VkhZSjFDMU11dUJIVw?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHBZbktySTVic0VXTVhHTnppUjJ2S2NXOGQ4NFlGTHJ6RlpOQmFBekppd2RmY0trZnJfWksyVGNvZXdjNzNULUFBaUcyZGFtV2RyUHFERFNkUmNGamQxTE02OV96RFJkak1hRnlVckwzd1ctZjlzRTYtZ1VFM3V6X2RDRQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU0Z6M3N2UnU3cWtFUGgzR3p3WEVGV3R6emJjZEJnSktKaFp5UE1DY0dndEtVQ2ZCTzZxdE4zdFhZcFBmOUxuR0lhWlBoRDBBUWVydmc0cTQ1R1dDSG9VbTVuZGM1cHdYOWFuYjE1d3lraUNodzRjQ2Q4cTg0eXBCNE1VbzRod2J5NmNEOUtRcElBUTNjNFZrR3RFVGl2WWFGaVRxWVYyaEk0THJZcnM3dGlZOVd2Vm5ueEVuRjljSE9jRHBobHU1bG1MVWwtTU9VUmppWHZn?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QWVdxTTZ0ZmdnYTJRVDNPR0h1QUFBTWMyU0hNLVFwZE00NmgxZ0hvbzUtdzgyb2MyM25yWkhtTWdOb3FFa0NKa1FodVl6dVRCXzVQS3JKaXFvMUg4Mk8tdHBiRzhFVmM?oc=5"
    ],
    "date": "2026-10-21"
   }
