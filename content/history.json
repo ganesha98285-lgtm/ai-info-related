@@ -415,7 +415,9 @@
   "To stop scammers, San Diego cracks down on ATMs that turn cash... #shorts",
   "Qualcomm layoffs to hit employees worldwide; CEO Cristiano... #shorts",
   "SpaceX will attempt 1st-ever double Starship rocket catch on... #shorts",
-  "From the Anime to the Game — Free Update Brings Edgerunners 2... #shorts"
+  "From the Anime to the Game — Free Update Brings Edgerunners 2... #shorts",
+  "Solidigm to Discontinue Review of Potential IPO, Reaffirming... #shorts",
+  "Asian shares wobble as tech rout boosts bonds, dents rate hike... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -832,7 +834,9 @@
   "Nobody saw this coming today.",
   "This changed in the last few hours.",
   "This just moved the whole market.",
-  "This just moved the whole market."
+  "This just moved the whole market.",
+  "This is the story everyone is sharing.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3309,7 +3313,17 @@
   "&nbsp;&nbsp; XBOX Wire Cyberpunk 2077's Edgerunners 2 Update (2.5) is out now!",
   "&nbsp;&nbsp; cyberpunk.net Cyberpunk 2077 Update 2.5 Leaks Early, Brings Console Mods and Dual-Wielding Pistols &nbsp;&nbsp; TechPowerUp Cyberpunk 2077’s surprise Xbox Pl",
   "That is the headline people are reacting to right now.",
-  "&nbsp;&nbsp; cyberpunk.net Cyberpunk 2077 Update 2.5 Leaks Early, Brings Console Mods and Dual-Wielding Pistols &nbsp;&nbsp; TechPowerUp Cyberpunk 2077’s surprise Xbox Play Anywhere rollout arrives just as Updat"
+  "&nbsp;&nbsp; cyberpunk.net Cyberpunk 2077 Update 2.5 Leaks Early, Brings Console Mods and Dual-Wielding Pistols &nbsp;&nbsp; TechPowerUp Cyberpunk 2077’s surprise Xbox Play Anywhere rollout arrives just as Updat",
+  "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value",
+  "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value &nbsp;&nbsp; SK hynix SK Hynix shares slide after chipma",
+  "IPO on Market Jitters &nbsp;&nbsp; WSJ",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value &nbsp;&nbsp; SK hynix SK Hynix shares slide after chipmaker scraps Solidigm IPO plans &nbsp;&nbsp; CNBC SK",
+  "Asian shares wobble as tech rout boosts bonds, dents rate hike bets",
+  "Asian Stocks to Slide on Tech Rout, Bonds Rally: Markets Wrap &nbsp;&nbsp; Bloomberg.com Stocks See Steepest Decline in Months Amid A.I.",
+  "Worries &nbsp;&nbsp; The New York Times CNBC Daily Open: AI spending fears haunt markets before Halloween &nbsp;&nbsp; CNBC S&P 500, Nasdaq end sharply lower as revived A",
+  "We are watching how this develops through the day.",
+  "Worries &nbsp;&nbsp; The New York Times CNBC Daily Open: AI spending fears haunt markets before Halloween &nbsp;&nbsp; CNBC S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff &nbsp;&nbsp; Reuters "
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6909,7 +6923,19 @@
   "px6324555": "2026-10-22",
   "px8124070": "2026-10-22",
   "px6943343": "2026-10-22",
-  "px6343837": "2026-10-22"
+  "px6343837": "2026-10-22",
+  "px6308559": "2026-10-23",
+  "px29465863": "2026-10-23",
+  "px7203415": "2026-10-23",
+  "px18924025": "2026-10-23",
+  "px5871241": "2026-10-23",
+  "px7563963": "2026-10-23",
+  "px10285713": "2026-10-23",
+  "px33530510": "2026-10-23",
+  "px7288867": "2026-10-23",
+  "px9019462": "2026-10-23",
+  "px6668619": "2026-10-23",
+  "px8308007": "2026-10-23"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -6936,8 +6962,8 @@
   "2-5": 9,
   "2-6": 9,
   "2-7": 9,
-  "3-0": 8,
-  "3-1": 8,
+  "3-0": 9,
+  "3-1": 9,
   "3-2": 8,
   "3-3": 8,
   "3-4": 8,
@@ -10223,6 +10249,22 @@
    "title": "From the Anime to the Game — Free Update Brings Edgerunners 2... #shorts",
    "hook": "This just moved the whole market.",
    "date": "2026-10-22",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "cqBH1GR3Q4E",
+   "title": "Solidigm to Discontinue Review of Potential IPO, Reaffirming... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-23",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "YLau-Cn2uLI",
+   "title": "Asian shares wobble as tech rout boosts bonds, dents rate hike... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-23",
    "views": 0,
    "likes": 0
   }
@@ -14071,6 +14113,25 @@
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVVdZQmhqekhneFdqd0tfczhEMmZzbl9lTmpLaGVjUkxkbklrX3JkME1SMEhaWElQOXAtR0ZQdC0xV0ZhUFQ1d2E5UkhSMWl1em4tTGJIUldRWG1pYzFqLWdHa0w1RmJ1RExIZFRDVFd3VUZ2endFNElhcGxYQzB6b9IBhgFBVV95cUxPc3BxblNvQ1g0T2c5NUNsWF8yNXdZeXdrNnpzSmdIU0o2NGhtUS1GaTNhajktYmVaTmxLODZRSkx6WUJpd0dpSm9MVFdYZDJTa0JENnhmZXdDT0JUZGsyWHBKd2Z5NFBGdnI0eHFqNlVBd1VhZld5bGwxZy1ZUW1GYlU3dnRnQQ?oc=5"
    ],
    "date": "2026-10-22"
+  },
+  {
+   "headline": "Solidigm to Discontinue Review of Potential IPO, Reaffirming Commitment to Long-Term Growth and Shareholder Value",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JaTBtQWlUSGt6SmpqNFZ1allza2YxcHpYLWlqWUxlMzZfRWlXN2sxWmNKVXJ4YzlUM0ZEYy1aczFxNmlORVdaOEJGa3g?oc=5",
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeExzTzQ4X3J2NmtBQzVYU1d1VVBPRElBY29ZNG9kTlpqd3Vlbk9qcUFCalFqN1ctUUdKV05OcHJ5bTZCcF92RG1SWXBvZm1ZS1FHZzBpMW5MeG1QTE9DLTZxSHZwblVLVjVzQTFJS2FONENkTWJhSWYzYzdHTUFOUy16X0pnR0ZEbnBId3I2dHk1S1hDSm42SHBWSDlGT05JN3drT3k1SmdTbDZ3ZjBiUC0tR0d0aEVvOS1UcnZCZw?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qdUY4TWhQNm5TaGJtcVp0eERZZ3QyUlJRcEtVTjVJNVU3U2JWcE5OZHNJZWJMU0NlQjVkOGc3TjdyRlVRRjlqS2F1MnBYaHVMZGNfcmtnVTdCWXVhaUZvZENjX1FNeWM?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZHdlcnRQQU9wNmQtZ1c0V3huVjJadkFKS0dwamZRRHltOURMYXRNcHQ3UkdOUVZGR08zRVc0ZHNqWUpWM01CNHdxXzJ1RUQ2ajkycTY0VFNCcUVrN0tKM0pMazJuWkVMclBYcU01MmNQbUw2dVIteWk4SWpVWFI2MWhmSklYREk?oc=5"
+   ],
+   "date": "2026-10-23"
+  },
+  {
+   "headline": "Asian shares wobble as tech rout boosts bonds, dents rate hike bets",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGVVVVZBVjRRcTNYSXJlNS0tV0E5MkEwOVlGcTh3anZ1eC16ZEdSYmp5ODRIcUo1T3BkU01vNkpTTmJxOUFELVFUUG9SS0o2SDNSWHQ5bE9PVGp3a29vLUROenZwc2FBTnhMQ3VOR1B4SVJiZjFvaDV6TjMwUlg3dUlQcmlkdUJXZU5PbXE2YWtrZXN1?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXp3YnNZOEN0MWQzbzVpYVNUWjFYZUs1aDVrbF9DVlktUm4wYUdHUUo0cmZFSXB6WUhtek1hNVRVd1F6MExBLWZmR3Riblp2UVRxZXg1Wi1yckx6UVJwVUxITUZxd1N4MzVRc19MYm9XdEtDVnExMHVCTU9KZUZ6Z1I2eFBCcE4tTld6Yk5hWUxqMTlFbERXV0xB?oc=5"
+   ],
+   "date": "2026-10-23"
   }
  ]
 }
