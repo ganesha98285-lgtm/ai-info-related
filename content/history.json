@@ -421,7 +421,9 @@
   "The U.S. stock market is fracturing into two camps, and it’s... #shorts",
   "Bloom Energy slides as Q3 beat-and-raise outweighed by cash... #shorts",
   "Solidigm confirms plans to build a fab in the US, abandons IPO... #shorts",
-  "How a junior college in Missouri produced two World Series... #shorts"
+  "How a junior college in Missouri produced two World Series... #shorts",
+  "A'ja Wilson, Breanna Stewart headline youth-infused All-WNBA teams #shorts",
+  "How to Watch Oregon vs. Illinois: TV Channel, Live Stream,... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -844,7 +846,9 @@
   "Stay till the end for the part people missed.",
   "Everyone is talking about this today.",
   "This is blowing up right now.",
-  "This is the story everyone is sharing."
+  "This is the story everyone is sharing.",
+  "Here is what just happened.",
+  "Here is what just happened."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3352,7 +3356,19 @@
   "Save this one so you can come back to it when the next update lands.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "A'ja Wilson, Breanna Stewart headline youth-infused All-WNBA teams",
+  "AI models may not be so opaque after all &nbsp;&nbsp; The Economist",
+  "We cover this beat every single day, which means you will see the follow up here first.",
+  "We are watching how this develops through the day.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "How to Watch Oregon vs. Illinois: TV Channel, Live Stream, Time - October 24, 2026",
+  "NYT Strands Hints for October 24, 2026 &nbsp;&nbsp; The New York Times Today’s NYT Strands Hints, Spangram and Answers for Saturday, Oct.",
+  "24, #965 &nbsp;&nbsp; CNET Today’s NYT ‘Strands’ Hints, Spangram and Answers for Friday, October 23, 2026 &nbsp;&nbsp; Parade Magazine Today’s NYT Strands answers, clues,",
+  "Reports are still coming in, so details may change.",
+  "24, #965 &nbsp;&nbsp; CNET Today’s NYT ‘Strands’ Hints, Spangram and Answers for Friday, October 23, 2026 &nbsp;&nbsp; Parade Magazine Today’s NYT Strands answers, clues, and hints on October 23 (puzzle #964) &nbsp;&nbsp"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6997,7 +7013,21 @@
   "px37451040": "2026-10-24",
   "px34445042": "2026-10-24",
   "px8224255": "2026-10-24",
-  "px8224608": "2026-10-24"
+  "px8224608": "2026-10-24",
+  "px8760492": "2026-10-24",
+  "px15566120": "2026-10-24",
+  "px6272891": "2026-10-24",
+  "px6279521": "2026-10-24",
+  "px9087325": "2026-10-24",
+  "px6272899": "2026-10-24",
+  "px8929392": "2026-10-24",
+  "px7040305": "2026-10-24",
+  "px29070184": "2026-10-24",
+  "px30177734": "2026-10-24",
+  "px39617924": "2026-10-24",
+  "px39617860": "2026-10-24",
+  "px35458006": "2026-10-24",
+  "px39522523": "2026-10-24"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -7030,8 +7060,8 @@
   "3-3": 9,
   "3-4": 9,
   "3-5": 9,
-  "3-6": 8,
-  "3-7": 8,
+  "3-6": 9,
+  "3-7": 9,
   "4-0": 8,
   "4-1": 8,
   "4-2": 8,
@@ -10358,6 +10388,22 @@
    "video_id": "xVd2hwXolyY",
    "title": "How a junior college in Missouri produced two World Series... #shorts",
    "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-24",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "LVsdl2UbBRk",
+   "title": "A'ja Wilson, Breanna Stewart headline youth-infused All-WNBA teams #shorts",
+   "hook": "Here is what just happened.",
+   "date": "2026-10-24",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "bkdpNgcnmqM",
+   "title": "How to Watch Oregon vs. Illinois: TV Channel, Live Stream,... #shorts",
+   "hook": "Here is what just happened.",
    "date": "2026-10-24",
    "views": 0,
    "likes": 0
@@ -14261,6 +14307,24 @@
    "urls": [
     "https://www.mlb.com/news/rays-2026-world-series-roster",
     "https://www.mlb.com/news/jacob-misiorowski-aaron-ashby-s-journey-from-juco-to-world-series"
+   ],
+   "date": "2026-10-24"
+  },
+  {
+   "headline": "A'ja Wilson, Breanna Stewart headline youth-infused All-WNBA teams",
+   "urls": [
+    "https://www.espn.com/wnba/story/_/id/50266916/aja-wilson-breanna-stewart-headline-youth-infused-all-wnba",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdlhJcEk5aFhZV2lNYXd6YWJBOGZ3XzJBVjlNQ2dBUGhIWGZybEpERndHR2kyLWVpbVNYVDltNUNBc0FVYlVkNE85MDlsVHBxbmJXZjdGd2xVUGZKVTh3ZUtEbVo5QXo1dnNTbXAwQzVYc0VzN2FaRXkwVkdoVTRWRjh2M0lDODY0ckRyUUFnRVQ3eTJQT0twWVdfak5IaE80U3c?oc=5"
+   ],
+   "date": "2026-10-24"
+  },
+  {
+   "headline": "How to Watch Oregon vs. Illinois: TV Channel, Live Stream, Time - October 24, 2026",
+   "urls": [
+    "https://www.argusleader.com/story/sports/college/south-dakota-state-university/2026/10/24/south-dakota-state-football-murray-state-where-to-watch/92375465007/",
+    "https://www.foxsports.com/stories/college-football/how-to-watch-oregon-vs-illinois-tv-channel-live-stream-time-october-24-2026",
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CUEFaWmVxX1pYYV85VGhYTXAzQlRMU1lPd3I1MDVhQk1jbzJ1SkpGNFVuWG9oX3J4dks5dWwzZTRMVG96MWFXMTQybzFpUWQ5WHJ5WGVJRnR4c2Y0eTdMM3l3REVoLWhwQmEwU2RqMmZSbFd4QVBsYzV0TQ?oc=5",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mRm1lSjNVTE9CbEVCeElnV0Zhdl9uZ3luVGtMU2JVQlVNTmRVMUxNMXZQNllteXd3T0F3MXFEUHJ4a01WeXo0UHVsWVR0eFBERHVpNnU0bzMwMmE5MjhrVEVncWNONGNlanJYNzUtOGRTU3FTNlBIMWNpeFFqdDQ?oc=5"
    ],
    "date": "2026-10-24"
   }
