@@ -420,7 +420,8 @@
   "Asian shares wobble as tech rout boosts bonds, dents rate hike... #shorts",
   "The U.S. stock market is fracturing into two camps, and it’s... #shorts",
   "Bloom Energy slides as Q3 beat-and-raise outweighed by cash... #shorts",
-  "Solidigm confirms plans to build a fab in the US, abandons IPO... #shorts"
+  "Solidigm confirms plans to build a fab in the US, abandons IPO... #shorts",
+  "How a junior college in Missouri produced two World Series... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -842,7 +843,8 @@
   "This is the story everyone is sharing.",
   "Stay till the end for the part people missed.",
   "Everyone is talking about this today.",
-  "This is blowing up right now."
+  "This is blowing up right now.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3343,7 +3345,14 @@
   "Solidigm confirms plans to build a fab in the US, abandons IPO plans — unfavorable stock market conditions and semiconductor share price trends reasons given",
   "Stock Market Today: Dow Opens Lower, Oil Prices Hit 5-Month High — Live Updates &nbsp;&nbsp; WSJ Dow tumbles more than 600 points as oil prices rise and market sell-off h",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "How a junior college in Missouri produced two World Series pitchers",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "This is the part most people scrolled past.",
+  "Save this one so you can come back to it when the next update lands.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -6978,7 +6987,17 @@
   "px10374886": "2026-10-23",
   "px6100899": "2026-10-23",
   "px37391485": "2026-10-23",
-  "px37217727": "2026-10-23"
+  "px37217727": "2026-10-23",
+  "px6278821": "2026-10-24",
+  "px40387826": "2026-10-24",
+  "px8060811": "2026-10-24",
+  "px7683445": "2026-10-24",
+  "px8342932": "2026-10-24",
+  "px8060866": "2026-10-24",
+  "px37451040": "2026-10-24",
+  "px34445042": "2026-10-24",
+  "px8224255": "2026-10-24",
+  "px8224608": "2026-10-24"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -7010,7 +7029,7 @@
   "3-2": 9,
   "3-3": 9,
   "3-4": 9,
-  "3-5": 8,
+  "3-5": 9,
   "3-6": 8,
   "3-7": 8,
   "4-0": 8,
@@ -10332,6 +10351,14 @@
    "title": "Solidigm confirms plans to build a fab in the US, abandons IPO... #shorts",
    "hook": "This is blowing up right now.",
    "date": "2026-10-23",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "xVd2hwXolyY",
+   "title": "How a junior college in Missouri produced two World Series... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-10-24",
    "views": 0,
    "likes": 0
   }
@@ -14228,6 +14255,14 @@
     "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPWURqODVyS3BuVkc5cjl0Rmx5UmpLZ3hBU2Y5M3FwbG05dGVadzRjVEZlN0pZcmNvUFVxRjlPMDY5czRPMzhWVXZjdHBfNVVSY2t2UDJoRm9VNlJYb2RIQUVMbTVIMHRybHFsWjVxRHJacU1MZWNyUG5sczFaeW9HcmU3T2k4UTBkZUdSQk1ubnF2ZUluTHhwQ2ZSLWxrQU1KSmNjWG9EanljMW1ma2dxaEp2RjIwMmpHUTB3MW5jMmhpUVZocTBpbUlKLWJFUDVYbEwtZnlDeF81VWZEM0E4Q2QtS0ZwSS03by1PS2F6Um1rQUtVNVpNQUNiVENNekxpRHA5MG53SDdYdlB4bTdhZWdDa2FfLThZb3JySjUxWnV2WkwzX256UTVB?oc=5"
    ],
    "date": "2026-10-23"
+  },
+  {
+   "headline": "How a junior college in Missouri produced two World Series pitchers",
+   "urls": [
+    "https://www.mlb.com/news/rays-2026-world-series-roster",
+    "https://www.mlb.com/news/jacob-misiorowski-aaron-ashby-s-journey-from-juco-to-world-series"
+   ],
+   "date": "2026-10-24"
   }
  ]
 }
