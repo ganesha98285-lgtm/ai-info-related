@@ -431,7 +431,9 @@
   "'The world's super company': Wall Street weighs SpaceX... #shorts",
   "Mike Alfred Says He Would Bet $1 Million Bitcoin Reaches... #shorts",
   "Trent Alexander-Arnold’s Real Madrid adventure is not working out #shorts",
-  "'I don't have the strength to fight AI': The young French... #shorts"
+  "'I don't have the strength to fight AI': The young French... #shorts",
+  "Microsoft makes new 'voluntary exit' offer to about a quarter... #shorts",
+  "Senegal hosts Africa’s first Olympic event as Nigeria leads... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -864,7 +866,9 @@
   "Stay till the end for the part people missed.",
   "This is blowing up right now.",
   "Here is what just happened.",
-  "This just moved the whole market."
+  "This just moved the whole market.",
+  "Stay till the end for the part people missed.",
+  "Here is the update you actually need."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3429,7 +3433,19 @@
   "We cover this beat every single day, which means you will see the follow up here first.",
   "'I don't have the strength to fight AI': The young French people turning to manual trades to beat automation &nbsp;&nbsp; Le Monde.fr",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Microsoft makes new 'voluntary exit' offer to about a quarter of its workforce, including some execs",
+  "Microsoft offers buyouts to 60,000 workers as it pours money into AI &nbsp;&nbsp; CBS News Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficienc",
+  "This is the part most people scrolled past.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Microsoft offers buyouts to 60,000 workers as it pours money into AI &nbsp;&nbsp; CBS News Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push &nbsp;&nbsp; CNBC Microsoft offers a quarte",
+  "Senegal hosts Africa’s first Olympic event as Nigeria leads startup funding",
+  "This startup’s self-driving excavators help dig up $600M in new funding &nbsp;&nbsp; TechCrunch",
+  "Save this one so you can come back to it when the next update lands.",
+  "Reports are still coming in, so details may change.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7159,7 +7175,18 @@
   "px19797268": "2026-10-26",
   "px40495901": "2026-10-26",
   "px6781906": "2026-10-26",
-  "px3831871": "2026-10-26"
+  "px3831871": "2026-10-26",
+  "px8347693": "2026-10-26",
+  "px7643343": "2026-10-26",
+  "px7552487": "2026-10-26",
+  "px8348311": "2026-10-26",
+  "px8141390": "2026-10-26",
+  "px8123999": "2026-10-26",
+  "px29826605": "2026-10-26",
+  "px39328494": "2026-10-26",
+  "px38943241": "2026-10-26",
+  "px34641671": "2026-10-26",
+  "px12080492": "2026-10-26"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -7202,8 +7229,8 @@
   "4-5": 9,
   "4-6": 9,
   "4-7": 9,
-  "5-0": 8,
-  "5-1": 8,
+  "5-0": 9,
+  "5-1": 9,
   "5-2": 8,
   "5-3": 8,
   "5-4": 8,
@@ -10600,6 +10627,22 @@
    "video_id": "iWNnCIBSUv4",
    "title": "'I don't have the strength to fight AI': The young French... #shorts",
    "hook": "This just moved the whole market.",
+   "date": "2026-10-26",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "gRgdFGufqsg",
+   "title": "Microsoft makes new 'voluntary exit' offer to about a quarter... #shorts",
+   "hook": "Stay till the end for the part people missed.",
+   "date": "2026-10-26",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Gj73a5gKSU0",
+   "title": "Senegal hosts Africa’s first Olympic event as Nigeria leads... #shorts",
+   "hook": "Here is the update you actually need.",
    "date": "2026-10-26",
    "views": 0,
    "likes": 0
@@ -14596,6 +14639,26 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSllzMEtjek02elBzQXFSYXEzbjI1YTBpS3lqWFVLRjk4SjR2Y2ZaWWIyXzhmSHZSa0xWdG9CaUdhaHpTeENhNmRwVHdBOE14SUR6MUZld1VMd2VPRG43cmUxLVZIRkNkbm12YlJUS2JvaFIxRDlmM3ZiUU1ZU1Z6UVQ0R2RxTFo2RHVWMG9TczA2YTcxYmZaUHNEZWtSMGlTWnBsRzlzRW5oWXhFbXlOOHdVQmt3dGpTWS1uTElNbWlUYzQ5UzRSc2ZvRDNJVlZDbnIyV2RjRktiRXNzNnBIQWp4SnYzaTM1RmZQUmg0bFZRckpiX1hvS21ocDhTbFZEaE04RExudGRrQnI1?oc=5",
     "https://en.wikipedia.org/wiki/M%C4%81ori_people"
+   ],
+   "date": "2026-10-26"
+  },
+  {
+   "headline": "Microsoft makes new 'voluntary exit' offer to about a quarter of its workforce, including some execs",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXJHaTJ5V1ZSN0VTUnlTaWg2a01sU21ybHExWjdCVDdEcU1QSUF0ZlVDRnd4NjRHOU1fdFl4SlNMc1hhQnN4ZDNiNi1JV2JJZmZ4S0N0SmdRVklSbjFQMnJqMnZjTy1WVTV4SGFZWnVDai1SaGw3RWJxbXR4NDZ6bTFtVUk4YjVvcFJIaHMwend2R1VoQ0JZeQ?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTmV3X3ZYbWdFZ1RVU3h3STlhQWhzRGhwYzBmejFuTkxLNFB6Z3B5WTQ4UXNPdTl6N21nTTdCUlZqTk4wSXdrZ2RtMUZyZGZDRld0dDJIWjFZd2NNS2lNSTJDV0l2aC1TUHhqaVltczYtUmZYODJ3MlNzeDhhcUtnNVlIYkJ4WXBjTjBVVndpbjJXMG11VDVJRWxjZmJqT1V0di1hVHl3ZGg0UkdzVU1DbS10NWd2OGs?oc=5",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXJHaTJ5V1ZSN0VTUnlTaWg2a01sU21ybHExWjdCVDdEcU1QSUF0ZlVDRnd4NjRHOU1fdFl4SlNMc1hhQnN4ZDNiNi1JV2JJZmZ4S0N0SmdRVklSbjFQMnJqMnZjTy1WVTV4SGFZWnVDai1SaGw3RWJxbXR4NDZ6bTFtVUk4YjVvcFJIaHMwend2R1VoQ0JZeQ?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXotVi1EdmVBTFpZcV9IVmNSeVQ5YnNoYnh4NFZNOElWMG5RcGhIMXIwUzhwYWZmYXR5SnZaaVRhMXVkRGdPUTlZbHRsMkdZZWYtOWlhMWRyQWxUSUd0dEQzRWxEa2dzSVphdFp5Z204bUc1TXVPTnc5b1VjWnJUNXplbzVmdUNoVjNyTER3?oc=5"
+   ],
+   "date": "2026-10-26"
+  },
+  {
+   "headline": "Senegal hosts Africa’s first Olympic event as Nigeria leads startup funding",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmpvY1pGQzRtcWpnV1JBQXNwUGowRmNUcEFfV3NBX3BFR3ptTjl1UUpDZm5ackljOE1Kb1FrOWtKdEk0V1FzVE5VNUdUc01rQkgtcGFuQkltZThqMTM5NGpQc2lJeW5MYnRsY041dzMySzdONWJGRWYwV2ZqRE9CTDlrZnd5WFFSMl9FdUliTEZzQUJXZk5paExQZEQzSVVOLV84alNFdw?oc=5",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNkFiU1FYZGlkMjdSWFp0bVJuVUpfTXRIVFdZZkh3ZUtpLTVhMmswZ2l3SU5IeGF6dkh1SlVKcjRWLVVwRkd0b2c2OGIwYVBndTVGMlRRWkdVczJReTJ1MDZnM1Y1UWE4ajUyUl9ENUNWMEgyNy1vbktiOGhrRzBoTGRxRl9CbHlHTHJBZFFhY1lZSkNLUGo4SjByZ1lxRzE2TlpOaDFidUxxLWFlaXJkUVdkWUV5MGwtRXFrXw?oc=5",
+    "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbkdKdXBsX1d4cUt4LVBSRmV3R21jVkRZSGNqcXVKby04MnlkVXNXREhkOHVsbU1Tdk1RdmNZY2NVdXFjdmpURXR1NE1NNWJRQzYzam5JM3Y4YUtnN29PR19DNGNCcWNRWjZuYlRwN1BONDEyZXhzQkliNXRjQmFZaEdaVDVqTWNMN2NCRG5RWlMtR2d6M05oTmc1RkVBNUt2MVdMcC1reEZoeEstR1pYVDRtTGRFaXIycVFHR0p4ZHd3elJINDB1ZnF4bUtBY19pUXRHblMzVUNsRlV4dzRtZ3FoNEhZMlR6N05QS3diMXRIWHRURVIwQ2ZERjh2dUYtVk42SEJZQkhtRzFjVEE?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdlhYRDhZUkZBOVl5OGlTcElCNW9TVzk5VTNCaUlVdWZxSS1xdWR2MnVJT0R3LVRWcGptcXFPMjZQX1BaSHIwUUQ5X0drTkRrT1lWNTFaVDhIYVRvaGZqSm1iekF6b2c0ZmFQTEd1bXJhaldNQnNNbU81X1hjUVY4UnBSOTdfaDM2SDZsNVQtWUJ4SU5aTlMxTHN4YlpvUjZEYVN4NU5wRUxEcTJUMC1HYms0ay11a2s?oc=5"
    ],
    "date": "2026-10-26"
   }
