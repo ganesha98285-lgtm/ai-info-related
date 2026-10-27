@@ -434,7 +434,9 @@
   "'I don't have the strength to fight AI': The young French... #shorts",
   "Microsoft makes new 'voluntary exit' offer to about a quarter... #shorts",
   "Senegal hosts Africa’s first Olympic event as Nigeria leads... #shorts",
-  "Brazilian Markets Convulse After Unexpected Election Result #shorts"
+  "Brazilian Markets Convulse After Unexpected Election Result #shorts",
+  "Stock Market Today: Dow and S&P 500 edge up, Nasdaq surges... #shorts",
+  "American Airlines hikes annual fees on rewards cards for first... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -870,7 +872,9 @@
   "This just moved the whole market.",
   "Stay till the end for the part people missed.",
   "Here is the update you actually need.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "Here is the update you actually need.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3454,7 +3458,16 @@
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Brazilian Markets Convulse After Unexpected Election Result &nbsp;&nbsp; The New York Times",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Stock Market Today: Dow and S&P 500 edge up, Nasdaq surges 1.3% as oil prices fall and chip stocks bounce for a second day",
+  "Stock Market Today: Dow and S&P 500 edge up, Nasdaq surges 1.3% as oil prices fall and chip stocks bounce for a second day &nbsp;&nbsp; MarketWatch S&P 500 posts back-to-",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "American Airlines hikes annual fees on rewards cards for first time since 2018",
+  "American Airlines hikes annual fees on rewards cards for first time since 2018 &nbsp;&nbsp; CNBC Credit card increases annual fee to $150 &nbsp;&nbsp; Cleveland.com Ameri",
+  "Save this one so you can come back to it when the next update lands.",
+  "That is the headline people are reacting to right now.",
+  "American Airlines hikes annual fees on rewards cards for first time since 2018 &nbsp;&nbsp; CNBC Credit card increases annual fee to $150 &nbsp;&nbsp; Cleveland.com American Airlines and Citi enhance the Citi / AAdvantag"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7203,7 +7216,18 @@
   "px35586935": "2026-10-27",
   "px12448022": "2026-10-27",
   "px37595372": "2026-10-27",
-  "px37545136": "2026-10-27"
+  "px37545136": "2026-10-27",
+  "px39710157": "2026-10-27",
+  "px16029663": "2026-10-27",
+  "px39710158": "2026-10-27",
+  "px34631452": "2026-10-27",
+  "px10350515": "2026-10-27",
+  "px39816564": "2026-10-27",
+  "px37902630": "2026-10-27",
+  "px35296696": "2026-10-27",
+  "px13067174": "2026-10-27",
+  "px37343553": "2026-10-27",
+  "px15828510": "2026-10-27"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -7249,8 +7273,8 @@
   "5-0": 9,
   "5-1": 9,
   "5-2": 9,
-  "5-3": 8,
-  "5-4": 8,
+  "5-3": 9,
+  "5-4": 9,
   "5-5": 8,
   "5-6": 8,
   "5-7": 8
@@ -10668,6 +10692,22 @@
    "video_id": "07EUsoqead4",
    "title": "Brazilian Markets Convulse After Unexpected Election Result #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-10-27",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "cVNqsfM1gNo",
+   "title": "Stock Market Today: Dow and S&P 500 edge up, Nasdaq surges... #shorts",
+   "hook": "Here is the update you actually need.",
+   "date": "2026-10-27",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "FhlvQBe8Zvw",
+   "title": "American Airlines hikes annual fees on rewards cards for first... #shorts",
+   "hook": "This just moved the whole market.",
    "date": "2026-10-27",
    "views": 0,
    "likes": 0
@@ -14694,6 +14734,24 @@
     "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMldGQm5jNDRzZnZkb3VrUkEwQzNKZm1tR09vSjhRdHpjX0w0RFFOWVp2ZmtRenc0M1NiR3cycUU5SzJOdlF3cmxTUFZ6TVNJOFhRd1pBNWxhRXZLdTlVVUJhQ1Aybm5iSTFweVJrVTF5Zmg5VUt6bzAxNzVkQXBUeHNUV21SY0JOOVc0dTlHek1JbktkSmRnV2ZkNTUwVDlCdVdZeFhicXlVcXpNeVRxa2hvNllHbW1iNmIwY040bTlLWFlEdTJUWF9qNGlNbXJpSVoxdV9qVl93UFdkYmZTSDZsUXUxQksxVndjSjNVeklsS1lzbkNBb01tOUpBVlR1NUdFSGR6bUpCOUtNUEVFQWhR?oc=5",
     "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
     "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
+   ],
+   "date": "2026-10-27"
+  },
+  {
+   "headline": "Stock Market Today: Dow and S&P 500 edge up, Nasdaq surges 1.3% as oil prices fall and chip stocks bounce for a second day",
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/stx-stock-surges-over-6-155446054.html",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZkdLT0QtQ2p0YTIwUkRTRWRJSFF1VUVxRW43RjRfZldlcFhtdFdjeVJmMVQzVUxhdWRnSXU2c19RWlBKY2paSW1vRFJ3SjhDaXdHc1hyWFlVMnV2a3ZUZkk0c1dXdkdra00zVmFYTlZKbXBWNWtxTGxsV2FFZnR6YzgtN3NzeUVJcmJackxfOGcyMUZhZXBPMkZIN0dGUVhmWHZWbVlwcjZwLWtSRjZrY1d0NUE2UQ?oc=5",
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqTDlic1FKMVhoYkNvVEtMRXp2RXdPT2sxdWRHdzZBMUlEMzlwSDFweGFBVVVWaGtOa0JuTml0b2VsamV0Yi1xVXhuM205SHRQWWVVXzBNenRRUngtZWk1bk9CZmJBM2phOGdoYmE4TWpkeDlobnZwUg?oc=5",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQzZjNjNPU0JVeFdraWZkQkRCbmZVbEc1S3lScGJ5a3g5TEJMSVdsSXhlWXpiVkY3SDJwUTg4N1JtSlVhM3A0VWNzOFg4bDgtVVhMUU1ZWlIzZml3cHF6eWxlMVg5MGZNdE9SRlBUWDh5ck1oVHhLQ1ZITUs3VXE4a01NRmQwdmM?oc=5"
+   ],
+   "date": "2026-10-27"
+  },
+  {
+   "headline": "American Airlines hikes annual fees on rewards cards for first time since 2018",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWTZTRWJtZnhILWstQmZ3UGhYRFlYRTVOdGcyY3dBcE94cGJqRjlEdGhiT1FYQXBBUUtaWnFTZHRENC1VYjZUT3RWdDlpTFZSbU5kQlRsZ3dSVXJrM2RDYW9zRVVuc1VFdmRJdzZtSElxVHkzeHdPLWlZRFlPNnZuVDFNSmVNd9IBiwFBVV95cUxONDMwR05BMHh2Z1BrbC1FamZrbDVBMVBQcEotd3lEQkMtXzZvNERMeUlWQ0VMZ0R5MHgyaWVtaDd6dXdHeDRvV0FiNEJoWlVIVkZoRVc0cUUtRGZ3bDI5RGtKV29UelNPalhsanZFSGdOOURwbExYYU5QSFhUQl9aZGJpU1J2M1ZlN09R?oc=5",
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE5XMjMwQ3ZOR05Zd1F0d1BxVmhMZ0w1dnVyU19XVkU4M1hmUDAzakViZEVpSEdaeFRNNVdvX2VGeU1ONG9IVlIyNHVjejNubDlwUXJhVVBnTU9mRk51WEtKUXdudVVhZ1VEWjhNY0R0NGZsVjFmV0ZxbUE5MHJGUQ?oc=5"
    ],
    "date": "2026-10-27"
   }
