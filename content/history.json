@@ -433,7 +433,8 @@
   "Trent Alexander-Arnold’s Real Madrid adventure is not working out #shorts",
   "'I don't have the strength to fight AI': The young French... #shorts",
   "Microsoft makes new 'voluntary exit' offer to about a quarter... #shorts",
-  "Senegal hosts Africa’s first Olympic event as Nigeria leads... #shorts"
+  "Senegal hosts Africa’s first Olympic event as Nigeria leads... #shorts",
+  "Brazilian Markets Convulse After Unexpected Election Result #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -868,7 +869,8 @@
   "Here is what just happened.",
   "This just moved the whole market.",
   "Stay till the end for the part people missed.",
-  "Here is the update you actually need."
+  "Here is the update you actually need.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3445,7 +3447,14 @@
   "Reports are still coming in, so details may change.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Brazilian Markets Convulse After Unexpected Election Result",
+  "Here is why it is getting so much attention.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Brazilian Markets Convulse After Unexpected Election Result &nbsp;&nbsp; The New York Times",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7186,7 +7195,15 @@
   "px39328494": "2026-10-26",
   "px38943241": "2026-10-26",
   "px34641671": "2026-10-26",
-  "px12080492": "2026-10-26"
+  "px12080492": "2026-10-26",
+  "px34276323": "2026-10-27",
+  "px40493364": "2026-10-27",
+  "px40461343": "2026-10-27",
+  "px17407489": "2026-10-27",
+  "px35586935": "2026-10-27",
+  "px12448022": "2026-10-27",
+  "px37595372": "2026-10-27",
+  "px37545136": "2026-10-27"
  },
  "thumb_styles": {
   "0-0": 9,
@@ -7231,7 +7248,7 @@
   "4-7": 9,
   "5-0": 9,
   "5-1": 9,
-  "5-2": 8,
+  "5-2": 9,
   "5-3": 8,
   "5-4": 8,
   "5-5": 8,
@@ -10644,6 +10661,14 @@
    "title": "Senegal hosts Africa’s first Olympic event as Nigeria leads... #shorts",
    "hook": "Here is the update you actually need.",
    "date": "2026-10-26",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "07EUsoqead4",
+   "title": "Brazilian Markets Convulse After Unexpected Election Result #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-10-27",
    "views": 0,
    "likes": 0
   }
@@ -14661,6 +14686,16 @@
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdlhYRDhZUkZBOVl5OGlTcElCNW9TVzk5VTNCaUlVdWZxSS1xdWR2MnVJT0R3LVRWcGptcXFPMjZQX1BaSHIwUUQ5X0drTkRrT1lWNTFaVDhIYVRvaGZqSm1iekF6b2c0ZmFQTEd1bXJhaldNQnNNbU81X1hjUVY4UnBSOTdfaDM2SDZsNVQtWUJ4SU5aTlMxTHN4YlpvUjZEYVN4NU5wRUxEcTJUMC1HYms0ay11a2s?oc=5"
    ],
    "date": "2026-10-26"
+  },
+  {
+   "headline": "Brazilian Markets Convulse After Unexpected Election Result",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVo2MjVwYzJKOENXM2V3VjJFLUsxQjh4Mkc3YXE3VFlMTlFLRVZqUFpjS2ZZYV9NX0dsUF80NnZ5b0RMM2NBNmZ1SUQ2eEZQT0RDWjN0NXNBb3llMmhaaFFScFFvcnlaRlR6b19aT3kweW9Nd2IxZDZZWDYzdVBsVlVkME5kVzZiMFAw?oc=5",
+    "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMldGQm5jNDRzZnZkb3VrUkEwQzNKZm1tR09vSjhRdHpjX0w0RFFOWVp2ZmtRenc0M1NiR3cycUU5SzJOdlF3cmxTUFZ6TVNJOFhRd1pBNWxhRXZLdTlVVUJhQ1Aybm5iSTFweVJrVTF5Zmg5VUt6bzAxNzVkQXBUeHNUV21SY0JOOVc0dTlHek1JbktkSmRnV2ZkNTUwVDlCdVdZeFhicXlVcXpNeVRxa2hvNllHbW1iNmIwY040bTlLWFlEdTJUWF9qNGlNbXJpSVoxdV9qVl93UFdkYmZTSDZsUXUxQksxVndjSjNVeklsS1lzbkNBb01tOUpBVlR1NUdFSGR6bUpCOUtNUEVFQWhR?oc=5",
+    "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+    "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"
+   ],
+   "date": "2026-10-27"
   }
  ]
 }
