@@ -443,7 +443,9 @@
   "Dropbox layoffs: Co-CEO Ashraf Alkarmi sends memo to employees... #shorts",
   "Security Incident Update (2026-10-30) #shorts",
   "Buckingham Palace 'blindsided' by Thomas Markle allegations as... #shorts",
-  "Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations:... #shorts"
+  "Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations:... #shorts",
+  "The stock market’s front-runners stumbled in October. Here’s... #shorts",
+  "Track next Vandenberg rocket launch after SpaceX helps set record #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -888,7 +890,9 @@
   "Here is the update you actually need.",
   "This is blowing up right now.",
   "Everyone is talking about this today.",
-  "Here is the update you actually need."
+  "Here is the update you actually need.",
+  "This is blowing up right now.",
+  "This is blowing up right now."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3522,7 +3526,16 @@
   "Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations: Exchange Uncovers ‘Additional Points Of Breach’ &nbsp;&nbsp; Yahoo Finance Bitcoin Drops on Binance Hack as S",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
   "That is the headline people are reacting to right now.",
-  "Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations: Exchange Uncovers ‘Additional Points Of Breach’ &nbsp;&nbsp; Yahoo Finance Bitcoin Drops on Binance Hack as Stock Selloff Also Weighs &nbsp;&nbsp; Bloomberg.co"
+  "Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations: Exchange Uncovers ‘Additional Points Of Breach’ &nbsp;&nbsp; Yahoo Finance Bitcoin Drops on Binance Hack as Stock Selloff Also Weighs &nbsp;&nbsp; Bloomberg.co",
+  "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
+  "Stock market today: Nasdaq dives over 3%, S&P 500 and Dow tank as AI reckoning grips Wall Street &nbsp;&nbsp; Yahoo Finance See more headlines & perspectives on Google Ne",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Track next Vandenberg rocket launch after SpaceX helps set record",
+  "SpaceX closes out October with 700th Falcon 9 launch to date &nbsp;&nbsp; Spaceflight Now Happy Halloween!",
+  "SpaceX launches 27 Starlink satellites to orbit from California (video) &nbsp;&nbsp; Space SpaceX Falcon 9 launch scheduled Friday from Vandenberg &nbsp;&nbsp; KSBY News",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "SpaceX launches 27 Starlink satellites to orbit from California (video) &nbsp;&nbsp; Space SpaceX Falcon 9 launch scheduled Friday from Vandenberg &nbsp;&nbsp; KSBY News SpaceX Rocket to Continue Vandenberg’s Busy Launch"
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7355,15 +7368,28 @@
   "px9169463": "2026-10-31",
   "px6803592": "2026-10-31",
   "px30284959": "2026-10-31",
-  "px7989706": "2026-10-31"
+  "px7989706": "2026-10-31",
+  "px27421026": "2026-10-31",
+  "px37551773": "2026-10-31",
+  "px32589424": "2026-10-31",
+  "px39889789": "2026-10-31",
+  "px35088680": "2026-10-31",
+  "px7812472": "2026-10-31",
+  "px32634052": "2026-10-31",
+  "px5896038": "2026-10-31",
+  "px6646611": "2026-10-31",
+  "px6646624": "2026-10-31",
+  "px7475265": "2026-10-31",
+  "px8132379": "2026-10-31",
+  "px6590939": "2026-10-31"
  },
  "thumb_styles": {
   "0-0": 10,
   "0-1": 10,
   "0-2": 10,
   "0-3": 10,
-  "0-4": 9,
-  "0-5": 9,
+  "0-4": 10,
+  "0-5": 10,
   "0-6": 9,
   "0-7": 9,
   "1-0": 9,
@@ -10892,6 +10918,22 @@
    "video_id": "WoPec4o1FK4",
    "title": "Binance Hack Sparks Bitcoin Sell-Off, $1.6B In Liquidations:... #shorts",
    "hook": "Here is the update you actually need.",
+   "date": "2026-10-31",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "r73ivx_6NJ8",
+   "title": "The stock market’s front-runners stumbled in October. Here’s... #shorts",
+   "hook": "This is blowing up right now.",
+   "date": "2026-10-31",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "TWpIIoE44RM",
+   "title": "Track next Vandenberg rocket launch after SpaceX helps set record #shorts",
+   "hook": "This is blowing up right now.",
    "date": "2026-10-31",
    "views": 0,
    "likes": 0
@@ -14997,6 +15039,26 @@
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONHgxRFdfWXRYM1N5X2IzSUNabV9uYjdUOGdVYUZoZFppdm4wZ2NZcjd3aHdyQ044NUxyTUttYzZDejRMcEl6b0hRcktZVVpwalROMGZSaWNHYmt1QjUtbmdtZmFBUHNhb1VHUlc3SElRcXl3bmVwUlJtdjAwbnpLeHdGLVlLSl9OZnVVbkxTLXhNVmVJc25SYmN0Rk95MWI1b29GTzhwRGJKZw?oc=5",
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzVFd2Y4VVJPaEdVQUNDa3RZTTBvM1ZlNGNldDBkXzNzZUpLdWkwdW5GNktYenRUZUZ6OGdoUHRic29CSXY2VS1EVXUySy1EUWppVU5tcVFJVFh6R3Nfd05ndk1OVUIzX3hPbkdncUUwRTA4MWJkS3BJb3ZIY01MVWRQdHZYcjBGWWROclVZSDVIMEgyR1dTZ2VkbXR6NG8xQlhQTmRRTzdhQUJ3RGM5LXRDbnhWREFsUGc?oc=5",
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41eXZCYVB1MGRuVTgwNXMwcmJwMU1DenZtSGxyNlBZTU40OUxtT0JBbjZtZ3NKUXFmZTM2R2swZTJudGNZTV9GaVBsM05jRjBUZ0ctSy1rMDd0UQ?oc=5"
+   ],
+   "date": "2026-10-31"
+  },
+  {
+   "headline": "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmNEai1SV3dYYlZwUk1QY3FtOXoxZTktbmpocFhsTzNfY0F0OVk2MHRBa2N4ZjEwUXQ3RWRyR250SlladGk0TXI5aF9wa1BHdDk4YkVacGFnTXJqaGswSTFHazB5MWxuNm5sMU1odjV4U0FXR01EQ3k5RmREM0F6d2VlQnh4U29TMXhvWG1VWmJqQjFfQWFvODZyX0djZ2ZHNjFrQzdOd0R1c0RSeHNOMEM0cUplbE5Ecm44Xzhn?oc=5",
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVEJYRTREa2JJM1FSeW1nTTVldXlmeElCanRweTcwcVpudjZ0WUtBVjU5RURERzdESU8tVV9GanJ3VHlBUlhkWjVmbG5ielVFbEx5cXNLX0M1Vk9XTU5nTUtLVm0xaDA4LTlaZ1BnS0Z0d1FrNXBHVTJHLVFYUExYQjhCNDVGRWhNWm0wOEFjbG05R2toV25YMlZ2LTEyUUVNR0t5R3A0WF9NZWw0Zk1LWjBUaFpWdHVHdVJqWmJ4UkMxaUJaX3NrS3M3eFBWQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTk03dElvM2tDV0U0NnJRNllsVkZzZmdrbE5feW4wZ3JrbUJSczNTX0lzb0JmSi1aU1ZpWE0zUHE5R3paTTJOY1lucEN0emo1MzdsT2VMVDZBVUV6VDJDdVlxRUszb1VfN1RSNUNfMXhZTXNYUkdCNTJmb1A3UFBHMEJidEQ4TmNKM0hpOVByUk9meE8tR1Jnd19rY2dFWm80cDZuWlZhbTdqMkhDU05BUmNZVXU2QzdoN1lGTDM3NmpJT0tORWxyQ1FvS2VZN2RRczIxeGUtMUJDOWtXSVlXdW1LVHpEMHM5bjQw?oc=5",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxPazB1dHJPRHJKeU5QNzhPOURnanNqQVVmWFE3UnI0NXdvOENmU2kyX1J5Mi1QV01VSTBkVngyb1ZsMWdhSU9XYkJYb19XQnZUalprQTA0enVHb0phV2xqT3U5OGtOMWttWTdlT0NSYlVkVVJNSTVzUkM2NkFrRzk3cUVsM2gtOFpoNTJyYnZGNA?oc=5"
+   ],
+   "date": "2026-10-31"
+  },
+  {
+   "headline": "Track next Vandenberg rocket launch after SpaceX helps set record",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTdyRkxlenhMc2F4NXlNRlpMNll1bFZjeDBNX3NjR0RSZzNPek9Gc3hfRW43MWE3QVhnNlZYLVcxRzNMQ3UyeldmYXRpcHRlNU9tdnlDY3VWaHJlb2dBYWdWZzd1NE1KODhRUWZESTVfN0xBQVRIMVpoMFNEYjBCNXMwTW9DcWNCaWk5RGRtOU1rUnkyeXE3NE5UdWowNU1JeUoxaFZPWVJia1FEb0Q2VFR1VUhsUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYm9CTG12eDgxUnQzTmRjVDdabUZrU1U1ZFNvSU1xNXFhdE05cVlOMDdZOEVxOXFrNUJoclN6eVZsT05QQ0pJcDdhenN3UzRBaTNKbEZhS1ZXZ0lzbTNoTlZ5NUtSeTNaMDFxNVhRXzJ6eGZ2ei1laTA5S1FVdmd0VFlWVjI4YVNSX195MjRfREF6cE9wM08xdWd0Uk8?oc=5",
+    "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQmY1Y2NUTkdldlpOY1dvYUhHa2Y1UXkwOWVRUGczeFFSVDIxdDY1MlRqZ2xqRkUycmRGVjlNbEZ5RkYtS3BlSFVwbmhFU0xZVFlOZnhXcTVySU12OXkyVVl4bnBaX2I4c3pEQUJsYlVxMUtXWnJpaHZ2YkJwVkJhbGVKQVNGcFdLdWY1al9sWFl6SkdkZmhreEx1aDhiZGZIN1lydkJIelRkREg4Xy1wV3BfM3pmcXFWQnZDU1ljMEpEVTZROHk3cU5ETVBpYVlyUWVJTA?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTdyRkxlenhMc2F4NXlNRlpMNll1bFZjeDBNX3NjR0RSZzNPek9Gc3hfRW43MWE3QVhnNlZYLVcxRzNMQ3UyeldmYXRpcHRlNU9tdnlDY3VWaHJlb2dBYWdWZzd1NE1KODhRUWZESTVfN0xBQVRIMVpoMFNEYjBCNXMwTW9DcWNCaWk5RGRtOU1rUnkyeXE3NE5UdWowNU1JeUoxaFZPWVJia1FEb0Q2VFR1VUhsUQ?oc=5"
    ],
    "date": "2026-10-31"
   }
