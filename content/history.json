@@ -454,7 +454,8 @@
   "A big sell-off collides with more Big Tech earnings and a... #shorts",
   "OpenAI Would Reportedly Like You to Use Its Pleasant New Term... #shorts",
   "Late Night with Seth Meyers: Bill Hader, Gabby Windey #shorts",
-  "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 -... #shorts"
+  "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 -... #shorts",
+  "PSG vs Lorient on November 28, 2026: kickoff time, TV channel... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -910,7 +911,8 @@
   "Everyone is talking about this today.",
   "This just moved the whole market.",
   "This changed in the last few hours.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "Stay till the end for the part people missed."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3607,7 +3609,11 @@
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
   "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 &nbsp;&nbsp; https://tech-insider.org/",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
-  "If you only remember one thing from the feed today, let it be this particular story right here."
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "PSG vs Lorient on November 28, 2026: kickoff time, TV channel and streaming in France and abroad",
+  "Night sky November 2026 — What to look for in the sky this month &nbsp;&nbsp; Space What’s Up: November 2026 Skywatching Tips from NASA &nbsp;&nbsp; NASA Science (.gov) N",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7536,7 +7542,13 @@
   "px8937985": "2026-11-03",
   "px38572229": "2026-11-03",
   "px39928166": "2026-11-03",
-  "px40161283": "2026-11-03"
+  "px40161283": "2026-11-03",
+  "px7580285": "2026-11-03",
+  "px8829553": "2026-11-03",
+  "px8530074": "2026-11-03",
+  "px7432209": "2026-11-03",
+  "px37364032": "2026-11-03",
+  "px4165833": "2026-11-03"
  },
  "thumb_styles": {
   "0-0": 10,
@@ -7554,7 +7566,7 @@
   "1-4": 10,
   "1-5": 10,
   "1-6": 10,
-  "1-7": 9,
+  "1-7": 10,
   "2-0": 9,
   "2-1": 9,
   "2-2": 9,
@@ -11161,6 +11173,14 @@
    "video_id": "0xPCzFpzlVQ",
    "title": "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 -... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-11-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "_DpeVXLAwTg",
+   "title": "PSG vs Lorient on November 28, 2026: kickoff time, TV channel... #shorts",
+   "hook": "Stay till the end for the part people missed.",
    "date": "2026-11-03",
    "views": 0,
    "likes": 0
@@ -15365,6 +15385,16 @@
     "https://www.espn.com/nfl/recap/_/gameId/401873031",
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnplQ0g3V3hya0xHVXJKSVQ1YVZQdm9UcG5sOFNFV25tT0RoQkM2c1NMS2pNTklvQlJ3UjhEaXBNU09YNHN3OWc4OEc5TllyOGhqTTNhLUpROHhzTkNWOHg4Q2hQZzR4RjZsM25sVHVLaTBqc19FWm9DQ0JmazhjZllkNXN3a1AwTDJ5cUtR?oc=5",
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjYtTERSWHVxM2xtWEc2bkYtdkE4Nk45WHBvdVdycmpKTEprR1pURVVIZkZJRXpDUzRRaTQ5WVRwRV9sNENyT0VmRWtDX1NmLWtBeVpqUUpzRHUwQjI4ZUxhNXBncEx5cnZZYkstTnRmQXlSbUdkUzFTdnBHUERKbUU0cw?oc=5"
+   ],
+   "date": "2026-11-03"
+  },
+  {
+   "headline": "PSG vs Lorient on November 28, 2026: kickoff time, TV channel and streaming in France and abroad",
+   "urls": [
+    "https://www.sortiraparis.com/en/what-to-do-in-paris/sport-wellness/articles/357190-psg-lorient-on-november-28-2026-kick-off-time-tv-channel-and-streaming-in-france-and-abroad",
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOTg3eTJleEFTMm1vTkpzOHo5cHUxd3E2cno0YWZMTElLcFBweTItaU12TVFuVGVGSWxNdzZaUE0yWjBEVzR6QWNWZzROal9oR0I5bnJTY2dHM0dyX1FfbXdFakllNTN6Sm1sanVzV3J1dE1uaXo0c1M3NXZtVFVMbVln?oc=5",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaVVWZXNxSXFDUmhYbGJFZjZIWlV0MElvbDZUc0pBR01Vbk44REpJVTZoRVdtdlpoc2hlNG1yYkdFbkYxR283alo3Q29raGk3bTBPMWZPS3lJblo3TERFdmZwSmRmb1A5YmkydURqbFRiY3JvQ0xqU1hlbzY2T21iY2lsSFN0NWNFXzBLUW1ad1l2OUoxcmRaOFBmUkZBQ0xfbTNHejJDa1J0a2ZN?oc=5",
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMFhCQmVhRW9ndFREajFHdTBsanM3dFpTNEZTcUo5UGwyYUxKRkp5Q1RWU1J4am5Tcmt2UFZYTGZYU1M0SFRkRGNSMV9GMk4ydTdub2lzM2hOTnQyeExTR3hjSl8weGZlTmdYbjRlNHM3OU9XZ3k3d1BhcDVPZ1dFR1BQY2plcUxFbHlxVVZfYmNUUHdxVmVZ?oc=5"
    ],
    "date": "2026-11-03"
   }
