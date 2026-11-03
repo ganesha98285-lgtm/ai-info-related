@@ -452,7 +452,9 @@
   "Farthest human-made object in space loses contact, goes nearly... #shorts",
   "Patrick Stewart on stage and screen #shorts",
   "A big sell-off collides with more Big Tech earnings and a... #shorts",
-  "OpenAI Would Reportedly Like You to Use Its Pleasant New Term... #shorts"
+  "OpenAI Would Reportedly Like You to Use Its Pleasant New Term... #shorts",
+  "Late Night with Seth Meyers: Bill Hader, Gabby Windey #shorts",
+  "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 -... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -906,7 +908,9 @@
   "You will want to hear this one.",
   "Here is the update you actually need.",
   "Everyone is talking about this today.",
-  "This just moved the whole market."
+  "This just moved the whole market.",
+  "This changed in the last few hours.",
+  "Nobody saw this coming today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3589,7 +3593,21 @@
   "November’s Night Sky Brings A Supermoon And A Rare Mars-Jupiter Meetup &nbsp;&nbsp; Forbes Taurids, Leonids and a Beaver Supermoon: Astronomical events for November 2026",
   "This is the part most people scrolled past.",
   "Details like these get quoted out of context all the time, so the original sources are linked below.",
-  "November’s Night Sky Brings A Supermoon And A Rare Mars-Jupiter Meetup &nbsp;&nbsp; Forbes Taurids, Leonids and a Beaver Supermoon: Astronomical events for November 2026 &nbsp;&nbsp; KCRA Eyes to the Skies: November feat"
+  "November’s Night Sky Brings A Supermoon And A Rare Mars-Jupiter Meetup &nbsp;&nbsp; Forbes Taurids, Leonids and a Beaver Supermoon: Astronomical events for November 2026 &nbsp;&nbsp; KCRA Eyes to the Skies: November feat",
+  "Late Night with Seth Meyers: Bill Hader, Gabby Windey",
+  "Gabrielle Lisa Williams is an French-American professional basketball player for the Golden State Valkyries of the Women's National Basketball Association (WNBA).",
+  "She was selected fourth overall by the Chicago Sky in the 2018 WNBA draft.",
+  "She was a EuroLeague champion in 2022, when she was named the Final Four MVP, and again in 2026.",
+  "Williams played forward in college for the UConn Huskies, and won",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 - https://tech-insider.org/",
+  "Reports are still coming in, so details may change.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 &nbsp;&nbsp; https://tech-insider.org/",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7499,7 +7517,26 @@
   "px7683361": "2026-11-02",
   "px7683270": "2026-11-02",
   "px29532359": "2026-11-02",
-  "px7683265": "2026-11-02"
+  "px7683265": "2026-11-02",
+  "px8628064": "2026-11-03",
+  "px5767870": "2026-11-03",
+  "px6784523": "2026-11-03",
+  "px26736912": "2026-11-03",
+  "px36956684": "2026-11-03",
+  "px35088437": "2026-11-03",
+  "px6528790": "2026-11-03",
+  "px6770459": "2026-11-03",
+  "px36262901": "2026-11-03",
+  "px39490212": "2026-11-03",
+  "px40199463": "2026-11-03",
+  "px5378125": "2026-11-03",
+  "px6995004": "2026-11-03",
+  "px6609247": "2026-11-03",
+  "px39019814": "2026-11-03",
+  "px8937985": "2026-11-03",
+  "px38572229": "2026-11-03",
+  "px39928166": "2026-11-03",
+  "px40161283": "2026-11-03"
  },
  "thumb_styles": {
   "0-0": 10,
@@ -7515,8 +7552,8 @@
   "1-2": 10,
   "1-3": 10,
   "1-4": 10,
-  "1-5": 9,
-  "1-6": 9,
+  "1-5": 10,
+  "1-6": 10,
   "1-7": 9,
   "2-0": 9,
   "2-1": 9,
@@ -11109,6 +11146,22 @@
    "title": "OpenAI Would Reportedly Like You to Use Its Pleasant New Term... #shorts",
    "hook": "This just moved the whole market.",
    "date": "2026-11-02",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Pmfbg-29mH8",
+   "title": "Late Night with Seth Meyers: Bill Hader, Gabby Windey #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-11-03",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "0xPCzFpzlVQ",
+   "title": "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 -... #shorts",
+   "hook": "Nobody saw this coming today.",
+   "date": "2026-11-03",
    "views": 0,
    "likes": 0
   }
@@ -15297,6 +15350,23 @@
     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTJsUEVVRXBWdU5CZS00VDQzOVRzYzV6QzR3SUdJRFU5cThUMUl5UDd1R3NDZVRkaGhpSV9nTUZjdjJfVlVzUGdUYzR1YjZreXluMGVMVUdObmN1WTc5WnI1UWVBdGZNcDU2NlJXZDhFT0Q1UndfMGxXNDdvQzZTNG40eHZqcm41ZENVZ21nUE1LTWZhdXhRR016bER5OHJrVDFkQW9XT0ZycmhYczVWb0F1Q0M4Q1M0TWl3Rno4SmU3X3VjeTQ3SA?oc=5"
    ],
    "date": "2026-11-02"
+  },
+  {
+   "headline": "Late Night with Seth Meyers: Bill Hader, Gabby Windey",
+   "urls": [
+    "https://www.imdb.com/it/news/ni66092204/?ref_=nm_nwr_1",
+    "https://en.wikipedia.org/wiki/Gabby_Williams"
+   ],
+   "date": "2026-11-03"
+  },
+  {
+   "headline": "Game Layoffs Hit 10,977 in 2026, Passing All of 2025 - https://tech-insider.org/",
+   "urls": [
+    "https://www.espn.com/nfl/recap/_/gameId/401873031",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnplQ0g3V3hya0xHVXJKSVQ1YVZQdm9UcG5sOFNFV25tT0RoQkM2c1NMS2pNTklvQlJ3UjhEaXBNU09YNHN3OWc4OEc5TllyOGhqTTNhLUpROHhzTkNWOHg4Q2hQZzR4RjZsM25sVHVLaTBqc19FWm9DQ0JmazhjZllkNXN3a1AwTDJ5cUtR?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjYtTERSWHVxM2xtWEc2bkYtdkE4Nk45WHBvdVdycmpKTEprR1pURVVIZkZJRXpDUzRRaTQ5WVRwRV9sNENyT0VmRWtDX1NmLWtBeVpqUUpzRHUwQjI4ZUxhNXBncEx5cnZZYkstTnRmQXlSbUdkUzFTdnBHUERKbUU0cw?oc=5"
+   ],
+   "date": "2026-11-03"
   }
  ]
 }
