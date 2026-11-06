@@ -464,7 +464,9 @@
   "Stock Market Today (Nov. 4, 2026): Stocks rise, oil collapses... #shorts",
   "Macroscope | The AI sell-off is a taste of things to come #shorts",
   "Congresswoman calls for artificial superintelligence ban after... #shorts",
-  "Terence Crawford names the man he would face if weight wasn't... #shorts"
+  "Terence Crawford names the man he would face if weight wasn't... #shorts",
+  "Top Democrats call to rein in AI buildout after midterms... #shorts",
+  "Jobs report today: Payrolls and wages were stronger than... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -930,7 +932,9 @@
   "Nobody saw this coming today.",
   "This just moved the whole market.",
   "This just moved the whole market.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "Here is what just happened.",
+  "This just moved the whole market."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3679,7 +3683,21 @@
   "If you only remember one thing from the feed today, let it be this particular story right here.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+  "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC &nbsp;&nbsp; CoinDesk",
+  "That is the short version, and the full reporting is linked in the description under this video.",
+  "This is the part most people scrolled past.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Jobs report today: Payrolls and wages were stronger than expected in October, pressuring Fed — live updates",
+  "Bitcoin drops below $76k on U.S.",
+  "regulatory uncertainty, hot jobs report &nbsp;&nbsp; Investing.com",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7677,7 +7695,23 @@
   "px8810060": "2026-11-06",
   "px6455112": "2026-11-06",
   "px40792623": "2026-11-06",
-  "px6650883": "2026-11-06"
+  "px6650883": "2026-11-06",
+  "px7817202": "2026-11-06",
+  "px7688131": "2026-11-06",
+  "px7953581": "2026-11-06",
+  "px7082923": "2026-11-06",
+  "px6473961": "2026-11-06",
+  "px7687826": "2026-11-06",
+  "px7082878": "2026-11-06",
+  "px40033213": "2026-11-06",
+  "px7646788": "2026-11-06",
+  "px7783037": "2026-11-06",
+  "px29817387": "2026-11-06",
+  "px6150141": "2026-11-06",
+  "px30205992": "2026-11-06",
+  "px19084696": "2026-11-06",
+  "px35234511": "2026-11-06",
+  "px28951888": "2026-11-06"
  },
  "thumb_styles": {
   "0-0": 10,
@@ -7705,8 +7739,8 @@
   "2-6": 10,
   "2-7": 10,
   "3-0": 10,
-  "3-1": 9,
-  "3-2": 9,
+  "3-1": 10,
+  "3-2": 10,
   "3-3": 9,
   "3-4": 9,
   "3-5": 9,
@@ -11382,6 +11416,22 @@
    "video_id": "dlSmKfilBM4",
    "title": "Terence Crawford names the man he would face if weight wasn't... #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-11-06",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Wk7zBaw38f4",
+   "title": "Top Democrats call to rein in AI buildout after midterms... #shorts",
+   "hook": "Here is what just happened.",
+   "date": "2026-11-06",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "t1xv3-7vjpE",
+   "title": "Jobs report today: Payrolls and wages were stronger than... #shorts",
+   "hook": "This just moved the whole market.",
    "date": "2026-11-06",
    "views": 0,
    "likes": 0
@@ -15680,6 +15730,26 @@
    "urls": [
     "https://boxingnewsonline.net/news/crawford-on-fight-he-takes-at-any-weight/",
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTTVqbUgyWFNLOGRlc1VnRjh5d0diSVpqS1dSUE4zZTkwUFRQQjFWT29RZzVOU2txMWFhZzYyc2dudjBzVTRNS3BDZEpNd3FWMkV4dVowRFU1OHN1TGZVX2hmWXk1WkV3Y184aklpaUM3bTZMblEtZFlrMDVwR0dxN2VNY3I3YTRB?oc=5"
+   ],
+   "date": "2026-11-06"
+  },
+  {
+   "headline": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcVV5ZzZtc1hmWWFEMkpxNjBfc1lkV3JEV3FzLWtkbk1yek1UVmhVYXRmTmxhaEZlbDl0VVFOYm94LUN1Ykp6clRhaHNGbW4xS2VGaVhOZjlvZllRWU5qSGd6SkNuUnRyZm1kbjNEQmlJVUJWTGxUNUNiaEkxdXNwMDVucmlwcW5hUFh4LXF1a0xnWGFjX2pxZ1lNXzFGUjhnSjYwaV91QzFIMEhNeTNwVFZTUWx2bGFHWXRyYw?oc=5",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUnJMOUJPV0oxUGNJRXRjQTlTSHZ1ck1pbGtOTS1PZ3M2MUJ2Mkk4VHlsMnBwSE1Wa3g3QS1wc0MxY2JBNFBuSVQ0ZzBTVDQ1VDNpaVI5MUNwdGNOTHR1MFRFOTVCQ1dGS1l4a095dkMtSVRVNXNsWU41UWRtbFNMQ1RtNVFYeXhaZ2pvdHZqZ2F3bUpLbGFFU2M1MA?oc=5",
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbDhrWk9OR1piaV9IZ2NoWW9oYzdfdVp6SkVZT3dscS13VVpWNFhVZ250TmtQRmpPNTRCWXBOSWYxU19CVk04M0Ywbm5pUFBDV2VLNlpPOVpVazNEck1JTzIxbFBLYTlZNGVEcnAtT3ZfcWEycVJfbWlzdzl6dXQ2TTl6MlFsVFRnQ0NVTnNIT2Y2SFdGNldDWUt5N09CYTJ4YWQwNG5XWGgzV0tQOFNvU1drZldhZ2hRcDZ6Y2lJOXU3RlY3?oc=5",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTduUTZvOU5uSk5YVTE5cERublV3QTdCSkRnbUo4SEpQSW9Ea2lzenZ1Tk1UcFNlM2EzNWtlaG9MdFUwT0t6UzlNbTd0dlB6U3gzT1BPeUc4dzAxckxiMDdJZERydlRrSWQ3aXlYTzE1SEVYc2syUXhjemhGenFiN00wYjVoOTFSbllibnVkRHFYRkpCVkFMVE5qWTJKSkxrWDhaVXZLR2R6YWpRWkdsOVBLWnlQRGFoUFE?oc=5"
+   ],
+   "date": "2026-11-06"
+  },
+  {
+   "headline": "Jobs report today: Payrolls and wages were stronger than expected in October, pressuring Fed — live updates",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmxXWG9HRTNES2REaHpmNGRTVEN6OUIzU0tPTFYtZjNfc0dDNE9RdzZjdDdpTlBqSkgwb0lMVnQxS1Fza3ZkNGhwWFZlZlRUVzBGQ1NOVlNMOGpQYUlMVU9FVW0wRURRTVFFVVpNUUxWSjlKSkJpRVpaclZyZmpWalJvWWtmNW9YR296QXFTWkZzeGpMem1JcVhDS1VIbzZUaVptZHBGdmNFS29IOHJqdjhPSzk?oc=5",
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWHBpaFhuNVgxWWF4WUlsWUN2UENoUHZHdXNYb0NiWUN5TXJBei1IbmwtdGJFZGFwWkVvcmtCcEZCdXEtUWg5cUFzZWl0bk9yelA0UzhoTTRWLWwxMGhFMUdkdVZhMXVDSV93SHR4bDd0M3VwUnZLQktLbGc0cm9ZUWI5N3IzX0pMYVE?oc=5",
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTzB6TDh4emNhWkoyMmY2czRvNFZmM0N3LTdhTjJoWnhSRWc0LURoSk1DSW1VZlVNTlhlVlpmLTZSTXhwVWRZdXp2U29xcmY0NWVHWHlJVkVtc2wzRFk5RjBGNk1ST2Q3YTNpdTVXMzV1VzVmT2VYVU1MenQzaFV5OWVCNVdyZw?oc=5",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iak1TdV9VYjNuOUVBc2I2RGdLNk9aX3dNc0U1QXBYUndsY2EwUlBHeV9ZQkZJWHRyblJSOEswSnEyUWtNbEpid0xQMEE2V0NOUmM3eWRQc2t1R3V0aWNBWUhqa1NKX0VZa3gtUmJENzNiTm1s0gF6QVVfeXFMUEpwaFM2dHFuNDlYaF9fX0hMYVBHbjNJVWlPSnNLYXVBdkhQM2N0SUFqWE8zSUN2eXdscXB5SFpkdTVIdzhtY2N4UnUwZXFDb3FPU3VHaGJyaDlub2p0d0lKWktxRjRnbHZOM2FQckQ5aXg3cDRBVUllalE?oc=5"
    ],
    "date": "2026-11-06"
   }
