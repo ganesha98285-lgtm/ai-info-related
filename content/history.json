@@ -478,7 +478,9 @@
   "Colts in Daniel Jones trade talks as multiple teams call about... #shorts",
   "NASA's destroyed Swift Observatory took one of the best-ever... #shorts",
   "Nvidia is about 6% of the S&P 500. If Jensen Huang is ousted,... #shorts",
-  "Skydance Details Cost Savings and Plans HBO Max-Paramount+... #shorts"
+  "Skydance Details Cost Savings and Plans HBO Max-Paramount+... #shorts",
+  "S&P 500 falls, dragged down by Nvidia sell-off and rate-hike... #shorts",
+  "JoBe Cerny Obituary Oct 30, 2026 #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -958,7 +960,9 @@
   "This is blowing up right now.",
   "Here is the update you actually need.",
   "Here is what just happened.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "Everyone is talking about this today.",
+  "This changed in the last few hours."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3787,7 +3791,18 @@
   "HBO Max-Paramount+ Bundle Set To Launch In Early 2027, David Ellison Confirms &nbsp;&nbsp; Deadline Skydance outlines its $6 billion in planned cost savings.",
   "Here's the breakdown &nbsp;&nbsp; CNBC Paramount Skydance: Q3 Earnings Snapshot &nbsp;&nbsp; Yahoo Finance Skydance details cost cuts, sets streaming bundle for early nex",
   "Reports are still coming in, so details may change.",
-  "Here's the breakdown &nbsp;&nbsp; CNBC Paramount Skydance: Q3 Earnings Snapshot &nbsp;&nbsp; Yahoo Finance Skydance details cost cuts, sets streaming bundle for early next year &nbsp;&nbsp; Reuters Skydance plans to bund"
+  "Here's the breakdown &nbsp;&nbsp; CNBC Paramount Skydance: Q3 Earnings Snapshot &nbsp;&nbsp; Yahoo Finance Skydance details cost cuts, sets streaming bundle for early next year &nbsp;&nbsp; Reuters Skydance plans to bund",
+  "S&P 500 falls, dragged down by Nvidia sell-off and rate-hike fears after hot inflation data: Live updates",
+  "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected — Live Updates &nbsp;&nbsp; WSJ Here's the inflation breakdown for October 2026 — in one chart",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "It is spreading fast across feeds and group chats.",
+  "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected — Live Updates &nbsp;&nbsp; WSJ Here's the inflation breakdown for October 2026 — in one chart &nbsp;&nbsp; CNBC Fed’s Waller opens door to half-",
+  "JoBe Cerny Obituary Oct 30, 2026",
+  "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan.",
+  "Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim, with Anandaraj, Lal, Rajpr",
+  "It revolves around a DSP being forced to reopen an unfinished case and sol",
+  "Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim, with Anandaraj, Lal, Rajpriyan, Suresh Mathiyalagan and Gajaraj in supportin",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7901,7 +7916,20 @@
   "px32710065": "2026-11-10",
   "px7841583": "2026-11-10",
   "px6622803": "2026-11-10",
-  "px17542799": "2026-11-10"
+  "px17542799": "2026-11-10",
+  "px4723783": "2026-11-10",
+  "px4723767": "2026-11-10",
+  "px31894371": "2026-11-10",
+  "px4723773": "2026-11-10",
+  "px20197139": "2026-11-10",
+  "px34969113": "2026-11-10",
+  "px39337417": "2026-11-10",
+  "px38374842": "2026-11-10",
+  "px31748897": "2026-11-10",
+  "px34204479": "2026-11-10",
+  "px8861902": "2026-11-10",
+  "px7575565": "2026-11-10",
+  "px10496259": "2026-11-10"
  },
  "thumb_styles": {
   "0-0": 10,
@@ -7943,8 +7971,8 @@
   "4-4": 10,
   "4-5": 10,
   "4-6": 10,
-  "4-7": 9,
-  "5-0": 9,
+  "4-7": 10,
+  "5-0": 10,
   "5-1": 9,
   "5-2": 9,
   "5-3": 9,
@@ -11718,6 +11746,22 @@
    "video_id": "owZe1DTwAnU",
    "title": "Skydance Details Cost Savings and Plans HBO Max-Paramount+... #shorts",
    "hook": "Nobody saw this coming today.",
+   "date": "2026-11-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "NVa5dQF0UVY",
+   "title": "S&P 500 falls, dragged down by Nvidia sell-off and rate-hike... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-11-10",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "3CKx_1Aak3s",
+   "title": "JoBe Cerny Obituary Oct 30, 2026 #shorts",
+   "hook": "This changed in the last few hours.",
    "date": "2026-11-10",
    "views": 0,
    "likes": 0
@@ -16153,6 +16197,24 @@
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbHNTeW1leWY0WFBxc0hFZHpGUjRqN2l3WF8xX282TWh3RzFlOFVQNVJrQ2Rlbkkxa1VzbWlYOXd5NUFES0lfUTB2RXBDTGYxemp6YnpyQmRkT2RETzVWZkhZcnY1b2QxTW5kRXd1ZGdBLUNZVExlM1U1U2pGb0NfRDVXTFd3SXBiRTZkMEtZeVlOUk90bXc5bnA5azh0bzBJR0xQdVhWd2piSnZQ?oc=5",
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeG1xX0FtVDdaTnNLMnVHU05lUXFZblVmeWNEUFVyenNOS18xajk0WXZuVnl5Q2lXYUgyVUt3eXd5cTJMRmdxVkI4aW1nSDVFZ3NCYkwyZ0lkbWltYVh2Sng1dmQ4dE1JZHlKaDhTUERlQWNjY2RZVmo5SzUxQjlVeHU4LXoydGtiUVZrWWFpWTdOanRqaWd4N3B3Y2RPRExDbUdnU3VqZw?oc=5",
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRHhyYjNVWWpZdFZocHZwaG93di1TSVZ1eDJxRnhMRnJNU1dlWGdONTJ0aFVRTEsxTVlsZXA5a0xMT2pvUjloc1pnejJtd1hWNnFnM3FmdWx3cFFKM3I2QVhvaGRrMnBaWHUzRE9YZzllZTFtMWFUNDR6WHBIT0FPbzhCTFBXOVNxbjVOYldELXlmaWFyZlk3S2xBTHA?oc=5"
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "headline": "S&P 500 falls, dragged down by Nvidia sell-off and rate-hike fears after hot inflation data: Live updates",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTFAycGFzVmI4Q3NSQ2ZMTC1DdDR0M2R3SG1OZm1DMHZ6OG9qa3dJUllpSThRa1RlYm5uWGZrVDE1VHJZU0xJdlBFRWpZSnhzU2hUMlJ1UDdJXzFxamNqTDE5bkgwUXowRV9JdUhyckdOclgyMHlaZFE2RlZR?oc=5",
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VWk50RzlXYlZaV1pUOVFBLXNSUjFaOVhYSUpvQ25CVm5UWE1EMkE3bjRYSWNqVVRKUC16T3pId3BLLTQzcW9KRTJOUHVseDZJT3JwQ195cnZjX0IyODU3MHZNeVBtYVd3V2dxMlR5ZEphWnhBeERj?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQREVVTENmTlJlY1Bnc0hHM044UjZReF9oT2s4c1lpSnVGdEtmYmN1eGZqRE5RSWszazktSkR0NmhpNW5hd2MzR1ZiSzNmdTU4UGI4aEFuMHpqSHZ3TVZnbjJRSlhBYWxsRk5sNERlSVhGM01RVlNfMW9hVkkwa3BsOHBJeGdxVWU4cmVxZDFrLTZnbW42NzFZOXBKOFhxTjNRYUFTUXVDS2ZLaUhZSElyT1VSOUFURGV0YWRwZ2ZqZy1feUdEdXdLaA?oc=5",
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTFAycGFzVmI4Q3NSQ2ZMTC1DdDR0M2R3SG1OZm1DMHZ6OG9qa3dJUllpSThRa1RlYm5uWGZrVDE1VHJZU0xJdlBFRWpZSnhzU2hUMlJ1UDdJXzFxamNqTDE5bkgwUXowRV9JdUhyckdOclgyMHlaZFE2RlZR?oc=5"
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "headline": "JoBe Cerny Obituary Oct 30, 2026",
+   "urls": [
+    "https://www.strangfuneral.org/obituaries/jobe-cerny?ttm_pid=212765924&ttm_affiliate=legacypro&ttm_affiliatetype=standard&ttm_campaign=legacy",
+    "https://en.wikipedia.org/wiki/Scene_(2026_film)"
    ],
    "date": "2026-11-10"
   }
