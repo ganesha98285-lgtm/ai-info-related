@@ -484,7 +484,8 @@
   "Toyota Revives Scion Brand With US-Legal Kei Truck, and... #shorts",
   "Cathie Wood’s ARK Invest Scoops Up Archer Aviation Shares... #shorts",
   "U.S. Stock Market Movements | NVIDIA (NVDA.US) rises nearly 4%... #shorts",
-  "Jensen Huang affair in D.C.: Resignation calls and moves to... #shorts"
+  "Jensen Huang affair in D.C.: Resignation calls and moves to... #shorts",
+  "Proximal Ventures raises debut fund to back startups bringing... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -970,7 +971,8 @@
   "This just moved the whole market.",
   "This is blowing up right now.",
   "Here is the update you actually need.",
-  "This is blowing up right now."
+  "This is blowing up right now.",
+  "Everyone is talking about this today."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3831,7 +3833,14 @@
   "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him &nbsp;&nbsp; The New York Times There has never been a corporate scandal like the Huan",
   "The spy scandal threatens decades of his life’s work.",
   "&nbsp;&nbsp; CNN Kudlow calls on Nvidia CEO to step down &nbsp;&nbsp; The Hill J",
-  "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him &nbsp;&nbsp; The New York Times There has never been a corporate scandal like the Huang affair &nbsp;&nbsp; The Economist Jensen Huang d"
+  "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him &nbsp;&nbsp; The New York Times There has never been a corporate scandal like the Huang affair &nbsp;&nbsp; The Economist Jensen Huang d",
+  "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
+  "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks &nbsp;&nbsp; Yahoo Finance",
+  "This is the part most people scrolled past.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -7990,7 +7999,19 @@
   "px8060558": "2026-11-11",
   "px8087201": "2026-11-11",
   "px8060565": "2026-11-11",
-  "px6474962": "2026-11-11"
+  "px6474962": "2026-11-11",
+  "px40675432": "2026-11-12",
+  "px39523821": "2026-11-12",
+  "px6687944": "2026-11-12",
+  "px30271546": "2026-11-12",
+  "px6868211": "2026-11-12",
+  "px13441331": "2026-11-12",
+  "px13443891": "2026-11-12",
+  "px10409941": "2026-11-12",
+  "px37658733": "2026-11-12",
+  "px27857910": "2026-11-12",
+  "px13443899": "2026-11-12",
+  "px30707063": "2026-11-12"
  },
  "thumb_styles": {
   "0-0": 10,
@@ -8038,7 +8059,7 @@
   "5-2": 10,
   "5-3": 10,
   "5-4": 10,
-  "5-5": 9,
+  "5-5": 10,
   "5-6": 9,
   "5-7": 9
  },
@@ -11856,6 +11877,14 @@
    "title": "Jensen Huang affair in D.C.: Resignation calls and moves to... #shorts",
    "hook": "This is blowing up right now.",
    "date": "2026-11-11",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "5Ku_2YYdRes",
+   "title": "Proximal Ventures raises debut fund to back startups bringing... #shorts",
+   "hook": "Everyone is talking about this today.",
+   "date": "2026-11-12",
    "views": 0,
    "likes": 0
   }
@@ -16347,6 +16376,16 @@
     "https://en.wikipedia.org/wiki/Jensen_Huang"
    ],
    "date": "2026-11-11"
+  },
+  {
+   "headline": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa3Q1b0J1U0Q1eGtaS3k4WlQyTms5SzZpVE1vdGJYaVl0NjNkWHJMTHVqR0RlSDV3TEpVc0RQS3U3SFYyUmdMZ09RMTFOem83WUpRRXlQRl94WXRwNl9pN0RkMEpiVkdhYlJyc1hHSG9tNEZDTFFzcmxHZlF4ZkxfNmNfblktejRkQnR1OWFGZXQ4N015djVZVWtn?oc=5",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kMnVLN1VaX3YtcG5WNk1uTkJ6XzNBX0J5eDZwR1F3clc5UUVDaXJXVkVxLWVvcERvelV5RHR4Z18zZzdVQVlXbGpjMDYxV0dFZ1RiVTU4bWhzQ1phX0RRRTBLMDY3dWNhbE1MWjk2VVNLNl9KeEE?oc=5",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXNEdkJxbUpzR0Z4UzBHczRMcHZPYTNGQ3VTV19jSjBkSkIwY0xQN3FCczV4U0hSb2JyTnJhUjNqZUFQSU15OUZoeW44T0dvd0hNTThsVlJLUmJUbFBSbVFuRF9YRVJBZXpsd2hsTmw0WExmNlBSakgwaVhQbGRkZ0lWZ29vOUZzMlgtSWFXTmJhbi1jeTh3Q013VmZZVHJCWDNKTVRKMDZjVXdGcGx4R3g0ZDZYdkVfaXd1M2JR?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlRzQUpxeXE0WUdkVERWLW1QM1AxWDhXM1l3Vld6RG1ZQnZGLW56REV5U1JLREVGSExIQW4yTnE4OWI1QU5pVjgtVzZfUXZSaEEwekQxUWpPQ2hzX1ZKYjNlNnItSFBBNlBSTWpKSDBMTzZObTUyTlo3bmZFcW1HTmU3MkNlcEwxdEw5OENXaVNEN25KVloxYl9JTmptVjI3Ry1ZTGtWdU5xTjBvQnprbEFjYmZjdw?oc=5"
+   ],
+   "date": "2026-11-12"
   }
  ]
 }
