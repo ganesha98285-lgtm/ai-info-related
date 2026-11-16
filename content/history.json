@@ -497,7 +497,9 @@
   "Stock Market on Nov. 13, 2026: Dow ends slightly higher, S&P... #shorts",
   "Inside Sam Altman’s $125 Million Property Portfolio #shorts",
   "GTA 6 physical copies have no discs, and some apparently have... #shorts",
-  "Vulcan rocket fails during launch, dealing major blow to... #shorts"
+  "Vulcan rocket fails during launch, dealing major blow to... #shorts",
+  "More than $540K in cryptocurrency recovered from fraud scheme... #shorts",
+  "Houston Rockets Get Amen Thompson Injury Update #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -996,7 +998,9 @@
   "Here is the update you actually need.",
   "Stay till the end for the part people missed.",
   "Nobody saw this coming today.",
-  "Everyone is talking about this today."
+  "Everyone is talking about this today.",
+  "This changed in the last few hours.",
+  "Here is what just happened."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -3922,7 +3926,21 @@
   "Here is why it is getting so much attention.",
   "It is worth watching how the reaction to this develops over the next couple of days.",
   "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors &nbsp;&nbsp; Ars Technica Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites &nbsp;&nbsp; Reuters Amazon l",
-  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "More than $540K in cryptocurrency recovered from fraud scheme involving Connecticut victim",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "That is the headline people are reacting to right now.",
+  "We are watching how this develops through the day.",
+  "More than $540K in cryptocurrency recovered from fraud scheme involving Connecticut victim &nbsp;&nbsp; Yahoo",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Houston Rockets Get Amen Thompson Injury Update",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Save this one so you can come back to it when the next update lands.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Details like these get quoted out of context all the time, so the original sources are linked below."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -8189,7 +8207,26 @@
   "px8692162": "2026-11-16",
   "px9305949": "2026-11-16",
   "px8141397": "2026-11-16",
-  "px27972896": "2026-11-16"
+  "px27972896": "2026-11-16",
+  "px40628114": "2026-11-16",
+  "px10140656": "2026-11-16",
+  "px3959695": "2026-11-16",
+  "px35167197": "2026-11-16",
+  "px19735224": "2026-11-16",
+  "px38025179": "2026-11-16",
+  "px31656535": "2026-11-16",
+  "px35525876": "2026-11-16",
+  "px29045374": "2026-11-16",
+  "px35044548": "2026-11-16",
+  "px31176723": "2026-11-16",
+  "px39687110": "2026-11-16",
+  "px39295344": "2026-11-16",
+  "px18879009": "2026-11-16",
+  "px18823686": "2026-11-16",
+  "px28733491": "2026-11-16",
+  "px13220437": "2026-11-16",
+  "px6520252": "2026-11-16",
+  "px9517850": "2026-11-16"
  },
  "thumb_styles": {
   "0-0": 11,
@@ -8202,8 +8239,8 @@
   "0-7": 11,
   "1-0": 11,
   "1-1": 11,
-  "1-2": 10,
-  "1-3": 10,
+  "1-2": 11,
+  "1-3": 11,
   "1-4": 10,
   "1-5": 10,
   "1-6": 10,
@@ -12158,6 +12195,22 @@
    "video_id": "_QLuHwKP3hA",
    "title": "Vulcan rocket fails during launch, dealing major blow to... #shorts",
    "hook": "Everyone is talking about this today.",
+   "date": "2026-11-16",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "aYALbdOqnL8",
+   "title": "More than $540K in cryptocurrency recovered from fraud scheme... #shorts",
+   "hook": "This changed in the last few hours.",
+   "date": "2026-11-16",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "HmA8WNLC6ac",
+   "title": "Houston Rockets Get Amen Thompson Injury Update #shorts",
+   "hook": "Here is what just happened.",
    "date": "2026-11-16",
    "views": 0,
    "likes": 0
@@ -16770,6 +16823,22 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZUxOYm5OblhQZDVfeDdldl90VHBYZ2VkUlFRT2J6a0Etc2NuM3B1RkgyUUpjSUFHNmNaMl9TN1dudUg1VDVjdUhGTzN2UFU1d2x0UGJWUGlhb1IwZWdOUzJtaDVhMG4ySmZEV2dtblhuaTVoRUNGNnNqZV9raDdaS0pYZjlpVElSRzlYWDNkQmppSFA5VDBCNXRtREQyUHEycjRIZEd0SkUxLUppN3ZpR2wxMA?oc=5",
     "https://news.google.com/rss/articles/CBMingFBVV95cUxPTGg4VG9qSF9TUkJLN3c3eXBVQnJ5V0c4cG40cWYxZThDS2dBeGMxb3RPdUJINlFyM1NBTzc1c3BFTVBNamd2VDJlTktpMGZ0SGtKTHhoSHdrNFQzUUdiMnNfMUw0V1Q5Sm9EOVNPOXRySmFqQ21ZeHI2SXhPY3JseHRvc21QTXV0UnE0Z2g4RGtPUVV5eWxTV3YzSktBUQ?oc=5"
+   ],
+   "date": "2026-11-16"
+  },
+  {
+   "headline": "More than $540K in cryptocurrency recovered from fraud scheme involving Connecticut victim",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV2NpQVRsc1NFakZLc3Ftb09jaTdLaUF0czRjcnBlaXZCSV9fOEVmN1pLaDZwemg1dW1aQVVfMndCMnpCcUVQN2xZdGNrNDA2Y2hPZnl4ell5Q2draDRyRkFsUzEzVlNUb05PeTVsYXNtY1VHWGx3eG5FMndZTWdjOUFPdDdiMWNBTHVNakRDdUN0TDhqNE1OWFBR?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb25Cbm9nTXo4TDlXNXo4bzd6NXZvOTVDSVhMSWNqZ2c0b25xZ3hob2o4Y2RxbXNVcjZWS2k0dHY3el9kekxBYThxdDBKWm1VT3NYRVdzRG44MFdhNS04UU0yMm0tdWhUbEZUcWFuTWM1Um5qQmlZcVJZSmpmOWxoWXd1VQ?oc=5",
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYm1QS3Yta3N5TVlodTdwLVF5NTVWTXRCZHJMRmZhM0Q3dW1Mc2xUSlFqUjZ6c1ZtNllkdGF3VUpiako4aVBMMmRPbXZZaHV0d2ZtelV3NllKSXEySS1ERjBrOTlGZ3ptSDlvNGRXQlFLN3ZXdXd1VnQ2aE9vSXBGajZHLTZOWnVrWVZuZE1zTmJaNXdlWTNtelhyZXRURWpfVV9sdExvbWx3RWdGQzQzaVliZDU4MTVhRkhVVzJKVzdCOUIzd1hUMmZTdlFYRzc2MF9Da1JTWGZpU3RHVmxoSEZn?oc=5"
+   ],
+   "date": "2026-11-16"
+  },
+  {
+   "headline": "Houston Rockets Get Amen Thompson Injury Update",
+   "urls": [
+    "https://sports.yahoo.com/articles/houston-rockets-amen-thompson-injury-222813199.html"
    ],
    "date": "2026-11-16"
   }
