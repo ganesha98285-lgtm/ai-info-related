@@ -514,7 +514,9 @@
   "Rockstar Says That GTA 6's Map Has Room To Expand For Future... #shorts",
   "Jensen Huang’s departure blasts big hole in AI startup... #shorts",
   "Ex-GM CEO on Mary Barra succession planning: 'It's going to be... #shorts",
-  "The lunar economy is blasting off, and Southern California... #shorts"
+  "The lunar economy is blasting off, and Southern California... #shorts",
+  "Texas Sports Academy tops TEFA voucher earnings by school with... #shorts",
+  "Live coverage: SpaceX to launch intelligence-gathering... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -1030,7 +1032,9 @@
   "This just moved the whole market.",
   "This changed in the last few hours.",
   "This changed in the last few hours.",
-  "This changed in the last few hours."
+  "This changed in the last few hours.",
+  "This just moved the whole market.",
+  "Here is the update you actually need."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -4052,6 +4056,19 @@
   "This is the part most people scrolled past.",
   "The lunar economy is blasting off, and Southern California companies are a big part of the launch &nbsp;&nbsp; Los Angeles Times",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Texas Sports Academy tops TEFA voucher earnings by school with $6.5M, state data shows",
+  "That is the headline people are reacting to right now.",
+  "We are watching how this develops through the day.",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "Texas Sports Academy tops TEFA voucher earnings by school with $6.5M, state data shows &nbsp;&nbsp; Click2Houston",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office &nbsp;&nbsp; Spaceflight Now",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
@@ -8458,7 +8475,19 @@
   "px35187586": "2026-11-21",
   "px8472441": "2026-11-21",
   "px8394094": "2026-11-21",
-  "px9039048": "2026-11-21"
+  "px9039048": "2026-11-21",
+  "px37317947": "2026-11-21",
+  "px40612292": "2026-11-21",
+  "px32822115": "2026-11-21",
+  "px39787566": "2026-11-21",
+  "px8224224": "2026-11-21",
+  "px8717010": "2026-11-21",
+  "px38997489": "2026-11-21",
+  "px8284318": "2026-11-21",
+  "px40797181": "2026-11-21",
+  "px40895519": "2026-11-21",
+  "px34364024": "2026-11-21",
+  "px12768311": "2026-11-21"
  },
  "thumb_styles": {
   "0-0": 11,
@@ -8488,8 +8517,8 @@
   "3-0": 11,
   "3-1": 11,
   "3-2": 11,
-  "3-3": 10,
-  "3-4": 10,
+  "3-3": 11,
+  "3-4": 11,
   "3-5": 10,
   "3-6": 10,
   "3-7": 10,
@@ -12563,6 +12592,22 @@
    "video_id": "8NFMf-D9tMk",
    "title": "The lunar economy is blasting off, and Southern California... #shorts",
    "hook": "This changed in the last few hours.",
+   "date": "2026-11-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "1_XSmOibBsE",
+   "title": "Texas Sports Academy tops TEFA voucher earnings by school with... #shorts",
+   "hook": "This just moved the whole market.",
+   "date": "2026-11-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "D4NUbTLWCfI",
+   "title": "Live coverage: SpaceX to launch intelligence-gathering... #shorts",
+   "hook": "Here is the update you actually need.",
    "date": "2026-11-21",
    "views": 0,
    "likes": 0
@@ -17325,6 +17370,24 @@
    "urls": [
     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNzV0aXZCblFNZ2JmTElLSkRzQjBfd2xNTUlzdmF4VE54ekxrQlMzYktfa2VkR3pHNFdOUmREOEVVS1RZSFZFaWpJeVJoY2czTVl6RFZPV3ptRFhTcmhPaGJzV0lqZ1g0MTZFdktmcFgwcXI5WU1zejY0RXM3eFFZTFI2M3cyMUxXbFFwb3FLRDNPSWNtcTJzaVUwLTBmUElaOVFmdDlqSnlfeXlmSk9SRy1qQzI0YThZUnNjX3ZHcXpZQnJrOGd0R1o1Tk1nYXE4bmxHUQ?oc=5",
     "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
+   ],
+   "date": "2026-11-21"
+  },
+  {
+   "headline": "Texas Sports Academy tops TEFA voucher earnings by school with $6.5M, state data shows",
+   "urls": [
+    "https://www.espn.com/college-football/story/_/id/50534624/week-12-college-football-uniforms-florida-state",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWl9lWTNyRXlXVzFHbXdlbHkzU3F2U3FZWU1uTFc5QnlKUGE0NWRsaXhScEMySjJFdTJOYUdwaG9LSVNfOGNaVmdQU3dFMmxzMWdKVFR3ME5ObDdMaWdhUks2Wnd0ZFBPNm1JaElkbHZMZ0dpQXZhbHNOZWp3eXc5Vy1oc0pNQ3RaYlZQRDJtQVVCOS1ORWVHcXdLeXhlMUNlc0hacnlUeDVBSUhUb29lWTZ1MGxMMGE0dnUtMkxoWEV2OW9aZ0N1eWJTNHBYSmdZQ3c?oc=5"
+   ],
+   "date": "2026-11-21"
+  },
+  {
+   "headline": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHFxSFk3SUpMZktiSGYwNE9hakNJMW55azMxSzhWYUlSbFBWMzdIdUg4bXVvNjZFWHI2OGNnOWY4OUxaM2lsZkxnbVNzTXNsLVlFUjlBNms1OHpPZDhMb2o0Y0pfam9ueVR3MzJMUXp6OXp6MnRtM0gwVmt5RXJXQzExblhXeF9mOGg1RUZpNmk0Nng3QUNmSzU2dnZNX2NTV3Y1MDBQbjhZWDljNksyMjFPMldlZXM4bUpnX1BRN08wMGNmdWtMT2JUU3E5VDhnTE01U2pGTURvWGQ0?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnVFa3d4TE9aU1ZGbHNHbFlqYUdNZnRnUi1zTFFnT3RKNmhOTWJHQmd0QTBPemJQSVhBSFB0TVo3SGh2OUc2TFpJTE82d0k5VEJYajVFQkZGbTJTb1loNmJfamQyU1J6WTR5SV8zOXczT0NWN0x5NnZjY2FkUk1pS3NTSHIySHNUY1RUbW0xcHJoQ2kwQnVobi1SS05EX2pidlFJSnY2YldSZU9tUVlIQjBCeXFWSFJLcEl3TWdfM3FwNmtTSFpHaw?oc=5",
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczdNTW85UVhDNlNobXNyZjV6aU0wd1NyUS1PaVkyb2g1MGc0aDFDZkxFMkpTRGxjVkRCcTF0bDlNN3FRSlVreXBZN1N6Q05JaUV4dnFYRzhjdjNUWTZEYk1kdFRMUHo1aXAtYXpTTjl2cy1MVGp4elVfT1NpS1BUT2hXeUdLbDZiTDZNLUdvSUhWZVBlYU41dXg4SXJVTDg2RWZWdTd4ekRHTHAzLXhpQjk3aWRIdGox?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmY5czRnVVAyek5iUm0xU0dTa3c3NG1jU2wxWUdMcDdpSWtFVVlHS3lIS0hSN0J0S1Z6NHhjLTdpZklkcG80em5ES0c0UVlpZi1wR1RFSTQxWnZmQW8wUkZpa1ZkZmZ4QTB2RVcwemFENHI5ajloWmlmeVZzeU5jVnY3QTZUcFdmNmlkNjBGZklQMkdpSWNWZVRJajFJQlk?oc=5"
    ],
    "date": "2026-11-21"
   }
