@@ -516,7 +516,8 @@
   "Ex-GM CEO on Mary Barra succession planning: 'It's going to be... #shorts",
   "The lunar economy is blasting off, and Southern California... #shorts",
   "Texas Sports Academy tops TEFA voucher earnings by school with... #shorts",
-  "Live coverage: SpaceX to launch intelligence-gathering... #shorts"
+  "Live coverage: SpaceX to launch intelligence-gathering... #shorts",
+  "The likely solution to the Riemann hypothesis by AI marks a... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -1034,7 +1035,8 @@
   "This changed in the last few hours.",
   "This changed in the last few hours.",
   "This just moved the whole market.",
-  "Here is the update you actually need."
+  "Here is the update you actually need.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -4069,6 +4071,13 @@
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
   "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office &nbsp;&nbsp; Spaceflight Now",
+  "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "The likely solution to the Riemann hypothesis by AI marks a turning point for mathematics",
+  "That is the headline people are reacting to right now.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Save this one so you can come back to it when the next update lands.",
+  "The likely solution to the Riemann hypothesis by AI marks a turning point for mathematics &nbsp;&nbsp; Le Monde.fr",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing."
  ],
  "idea_keys": [],
@@ -8487,7 +8496,18 @@
   "px40797181": "2026-11-21",
   "px40895519": "2026-11-21",
   "px34364024": "2026-11-21",
-  "px12768311": "2026-11-21"
+  "px12768311": "2026-11-21",
+  "px40955486": "2026-11-22",
+  "px37873185": "2026-11-22",
+  "px39307168": "2026-11-22",
+  "px5741019": "2026-11-22",
+  "px36633784": "2026-11-22",
+  "px8616779": "2026-11-22",
+  "px8431828": "2026-11-22",
+  "px3831743": "2026-11-22",
+  "px5741025": "2026-11-22",
+  "px34729772": "2026-11-22",
+  "px8474652": "2026-11-22"
  },
  "thumb_styles": {
   "0-0": 11,
@@ -8519,7 +8539,7 @@
   "3-2": 11,
   "3-3": 11,
   "3-4": 11,
-  "3-5": 10,
+  "3-5": 11,
   "3-6": 10,
   "3-7": 10,
   "4-0": 10,
@@ -12609,6 +12629,14 @@
    "title": "Live coverage: SpaceX to launch intelligence-gathering... #shorts",
    "hook": "Here is the update you actually need.",
    "date": "2026-11-21",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Ah6LSndD7pc",
+   "title": "The likely solution to the Riemann hypothesis by AI marks a... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-11-22",
    "views": 0,
    "likes": 0
   }
@@ -17390,6 +17418,14 @@
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmY5czRnVVAyek5iUm0xU0dTa3c3NG1jU2wxWUdMcDdpSWtFVVlHS3lIS0hSN0J0S1Z6NHhjLTdpZklkcG80em5ES0c0UVlpZi1wR1RFSTQxWnZmQW8wUkZpa1ZkZmZ4QTB2RVcwemFENHI5ajloWmlmeVZzeU5jVnY3QTZUcFdmNmlkNjBGZklQMkdpSWNWZVRJajFJQlk?oc=5"
    ],
    "date": "2026-11-21"
+  },
+  {
+   "headline": "The likely solution to the Riemann hypothesis by AI marks a turning point for mathematics",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRVdVdHVNNEI2T3RRTExId2xVWXlXTXRhOW5wOXUwNWMtbWpaUjk1MzhYTTExRll2RklULTJFZVVDbnpsT0hSXzgtRFVnVk9RSjY4Q3VPMDllY1RDUXRYcF93Ql9SLVVQOTNWOEFnMUkydDdacVlyMVZqWkhOajlpRUQtVHFGYU85dUJHaExCeUdCU3NXSEYxZEJXbVFHNkFycTZCY016Z1ZNSWE5U1l3TDJBVkdOdnRpdnR1ckNORFE1U1d6NjB3bVdCMnlzRy0xbnUzckR4eGJBdHN3UlFXMzhhSmJ6cjJmSDFOaWJpRQ?oc=5",
+    "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+   ],
+   "date": "2026-11-22"
   }
  ]
 }
