@@ -518,7 +518,9 @@
   "Texas Sports Academy tops TEFA voucher earnings by school with... #shorts",
   "Live coverage: SpaceX to launch intelligence-gathering... #shorts",
   "The likely solution to the Riemann hypothesis by AI marks a... #shorts",
-  "NFL Playoff Picture 2026: Updated AFC and NFC standings,... #shorts"
+  "NFL Playoff Picture 2026: Updated AFC and NFC standings,... #shorts",
+  "Uber Trades at 16 Times Forward Earnings and a 30% Discount to... #shorts",
+  "How Miami Heat’s GTA VI Vice City night sparked unprecedented... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -1038,7 +1040,9 @@
   "This just moved the whole market.",
   "Here is the update you actually need.",
   "This is the story everyone is sharing.",
-  "Nobody saw this coming today."
+  "Nobody saw this coming today.",
+  "This is the story everyone is sharing.",
+  "This is the story everyone is sharing."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -4087,6 +4091,14 @@
   "We cover this beat every single day, which means you will see the follow up here first.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "Plenty of people are still catching up on this one, so here is the short version worth knowing.",
+  "If you only remember one thing from the feed today, let it be this particular story right here.",
+  "Uber Trades at 16 Times Forward Earnings and a 30% Discount to Its All-Time High Stock Price. Here’s Why Robotaxis Make That a Mistake.",
+  "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters &nbsp;&nbsp; Yahoo Finance The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut &nb",
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "How Miami Heat’s GTA VI Vice City night sparked unprecedented $1.5M merch frenzy",
+  "How Miami Heat’s GTA VI Vice City night sparked unprecedented $1.5M merch frenzy &nbsp;&nbsp; The New York Times The Real-Life City That Inspires Grand Theft Auto VI &nbs",
+  "That is the short version, and the full reporting is linked in the description under this video.",
   "If you only remember one thing from the feed today, let it be this particular story right here."
  ],
  "idea_keys": [],
@@ -8534,7 +8546,17 @@
   "px12692039": "2026-11-22",
   "px8136220": "2026-11-22",
   "px39210399": "2026-11-22",
-  "px4621981": "2026-11-22"
+  "px4621981": "2026-11-22",
+  "px5924993": "2026-11-23",
+  "px5890242": "2026-11-23",
+  "px5890235": "2026-11-23",
+  "px5924991": "2026-11-23",
+  "px5890234": "2026-11-23",
+  "px34704262": "2026-11-23",
+  "px34704259": "2026-11-23",
+  "px27441494": "2026-11-23",
+  "px7271362": "2026-11-23",
+  "px6491817": "2026-11-23"
  },
  "thumb_styles": {
   "0-0": 11,
@@ -8568,8 +8590,8 @@
   "3-4": 11,
   "3-5": 11,
   "3-6": 11,
-  "3-7": 10,
-  "4-0": 10,
+  "3-7": 11,
+  "4-0": 11,
   "4-1": 10,
   "4-2": 10,
   "4-3": 10,
@@ -12672,6 +12694,22 @@
    "title": "NFL Playoff Picture 2026: Updated AFC and NFC standings,... #shorts",
    "hook": "Nobody saw this coming today.",
    "date": "2026-11-22",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "nfktTP0GmlQ",
+   "title": "Uber Trades at 16 Times Forward Earnings and a 30% Discount to... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-11-23",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "05X9tVA3Akw",
+   "title": "How Miami Heat’s GTA VI Vice City night sparked unprecedented... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-11-23",
    "views": 0,
    "likes": 0
   }
@@ -17469,6 +17507,24 @@
     "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-playoff-picture-2026-updated-afc-and-nfc-standings-bracket-tiebreakers-for-week-11"
    ],
    "date": "2026-11-22"
+  },
+  {
+   "headline": "Uber Trades at 16 Times Forward Earnings and a 30% Discount to Its All-Time High Stock Price. Here’s Why Robotaxis Make That a Mistake.",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZjc4cHQ0TnRGd25uNTM5MUw5Zk5WUUdIV09nY3ltNDNBR2pvemJNRl9TOTZnR2lNay1CdTl1RHhPZEhtVmdTWE1qdS1SZVVmWURldUhJTTgxTktCX0xsMTdPNGpKS0JkYV9fUXpaY0NqLWlBa0tlVElTSmpnV1NzVGZ3Z0RSWW9XTFkwVm9YdW5WOWNRQU92MzUyekxmNjZWUnkyZ1VNdl9FMy13eTN5SFhIVG14TG5DZHZyYVR2VUxwOHkzeWRz?oc=5",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZjc4cHQ0TnRGd25uNTM5MUw5Zk5WUUdIV09nY3ltNDNBR2pvemJNRl9TOTZnR2lNay1CdTl1RHhPZEhtVmdTWE1qdS1SZVVmWURldUhJTTgxTktCX0xsMTdPNGpKS0JkYV9fUXpaY0NqLWlBa0tlVElTSmpnV1NzVGZ3Z0RSWW9XTFkwVm9YdW5WOWNRQU92MzUyekxmNjZWUnkyZ1VNdl9FMy13eTN5SFhIVG14TG5DZHZyYVR2VUxwOHkzeWRz?oc=5",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlNPdE9xWncxZ0dJOHNQaWhXVlZ4QWNlRUVEeElvM2p0X3VGZllWN0U5dXRWZDBkc2Y2TkhTTGQyYXNYcU1KR1RINlBaODl5YXhfdG9VVEthN0FWSFZ5Z1VaVTVINGdDWENQMUxBMk5WM0hRNE82aUlwSm82UDR3WWE4dmpybW5RTi1STGJNYUEzaDhqaXBFZQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE04VWxtM0ZWSE4tdFNiQTdEcEw1S1N6c256cjQ3YUZxb0YwV29RUEttYWNRZGdOQjRmSzhLU0dfa3JGZGpRSFgtZElWVnFOb2h3RkhpUU05U3I2LTF1ZjNjZUViV1daME1McDRhR1h3RnBaTkgyQU9JQk1n?oc=5"
+   ],
+   "date": "2026-11-23"
+  },
+  {
+   "headline": "How Miami Heat’s GTA VI Vice City night sparked unprecedented $1.5M merch frenzy",
+   "urls": [
+    "https://apnews.com/article/grand-theft-auto-6-actors-0ef831c452fe3a3fd4909ea7069ec118",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU1B0eGlQWmZnd3BpMWgteHdhSHh3amdjVXRBMzQ4WHo5Q0VqWlRkYUlYY3NCN1c4Z1Itc2dBbG8yVXZPRXAyQ0lRc0V2S1VpcnVNU1ZmTk54Q2FHVEJFdjRKTmJfTm5WYzRndTE2aGpxR3BqZXZkcTFaNldNWGxHaVlXN1FUOThUSF9YeWtDZ2lrZjA2dzJZUjRiMlg5MzM5emc?oc=5"
+   ],
+   "date": "2026-11-23"
   }
  ]
 }
