@@ -522,7 +522,9 @@
   "Uber Trades at 16 Times Forward Earnings and a 30% Discount to... #shorts",
   "How Miami Heat’s GTA VI Vice City night sparked unprecedented... #shorts",
   "South Korea seeks broader account freezes and tighter rules on... #shorts",
-  "Commanders vs. Bengals injury report: Bad news for Treylon... #shorts"
+  "Commanders vs. Bengals injury report: Bad news for Treylon... #shorts",
+  "Ralph Fiennes Shades Robert Pattinson As New James Bond: ‘I’m... #shorts",
+  "Meet the Real-Life Partners of ‘The Hunger Games: Sunrise on... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -1046,7 +1048,9 @@
   "This is the story everyone is sharing.",
   "This is the story everyone is sharing.",
   "Here is the update you actually need.",
-  "This just moved the whole market."
+  "This just moved the whole market.",
+  "Stay till the end for the part people missed.",
+  "Here is the update you actually need."
  ],
  "ideas": [
   "Strategy overhauls bitcoin metrics",
@@ -4116,7 +4120,15 @@
   "We cover this beat every single day, which means you will see the follow up here first.",
   "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
   "If you only remember one thing from the feed today, let it be this particular story right here.",
-  "Details like these get quoted out of context all the time, so the original sources are linked below."
+  "Details like these get quoted out of context all the time, so the original sources are linked below.",
+  "Ralph Fiennes Shades Robert Pattinson As New James Bond: ‘I’m Still In Love With Daniel Craig’",
+  "Robert Douglas Thomas Pattinson is an English actor and producer.",
+  "Pattinson is known for his performances in both major studio productions and independent films, often portraying eccentric characters.",
+  "Included on yearly lists of the world's highest-paid actors, he was ranked by Time as one of the 100 most influential people in the world and featured in the Forbes Celeb",
+  "Meet the Real-Life Partners of ‘The Hunger Games: Sunrise on the Reaping’ Cast",
+  "The Hunger Games: Sunrise on the Reaping is a 2026 American dystopian film produced and directed by Francis Lawrence from a screenplay by Billy Ray and Michael Lesslie.",
+  "Based on the 2025 novel Sunrise on the Reaping by Suzanne Collins, it is the sixth installment in The Hunger Games film series, serving as the second prequel to The Hunge",
+  "This is the part most people scrolled past."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -8589,7 +8601,18 @@
   "px38452145": "2026-11-24",
   "px38845241": "2026-11-24",
   "px11538891": "2026-11-24",
-  "px32535222": "2026-11-24"
+  "px32535222": "2026-11-24",
+  "px9783691": "2026-11-24",
+  "px39638217": "2026-11-24",
+  "px37689193": "2026-11-24",
+  "px31967395": "2026-11-24",
+  "px11022709": "2026-11-24",
+  "px32535231": "2026-11-24",
+  "px7668148": "2026-11-24",
+  "px7668175": "2026-11-24",
+  "px7986649": "2026-11-24",
+  "px8058006": "2026-11-24",
+  "px7668150": "2026-11-24"
  },
  "thumb_styles": {
   "0-0": 11,
@@ -8627,8 +8650,8 @@
   "4-0": 11,
   "4-1": 11,
   "4-2": 11,
-  "4-3": 10,
-  "4-4": 10,
+  "4-3": 11,
+  "4-4": 11,
   "4-5": 10,
   "4-6": 10,
   "4-7": 10,
@@ -12758,6 +12781,22 @@
    "video_id": "QD0bO1xkUn0",
    "title": "Commanders vs. Bengals injury report: Bad news for Treylon... #shorts",
    "hook": "This just moved the whole market.",
+   "date": "2026-11-24",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "Pi-lm1luHZ8",
+   "title": "Ralph Fiennes Shades Robert Pattinson As New James Bond: ‘I’m... #shorts",
+   "hook": "Stay till the end for the part people missed.",
+   "date": "2026-11-24",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "BWEJTpgXZGU",
+   "title": "Meet the Real-Life Partners of ‘The Hunger Games: Sunrise on... #shorts",
+   "hook": "Here is the update you actually need.",
    "date": "2026-11-24",
    "views": 0,
    "likes": 0
@@ -17590,6 +17629,24 @@
    "urls": [
     "https://www.hogshaven.com/washington-commanders-injuries/456350/commanders-bengals-injury-report-treylon-burks-rachaad-white-bill-croskey-merritt",
     "https://www.bengals.com/news/bengals-commanders-week-11-2026-injury-report-monday-night-football"
+   ],
+   "date": "2026-11-24"
+  },
+  {
+   "headline": "Ralph Fiennes Shades Robert Pattinson As New James Bond: ‘I’m Still In Love With Daniel Craig’",
+   "urls": [
+    "https://www.imdb.com/news/ni66119991/",
+    "https://en.wikipedia.org/wiki/Robert_Pattinson"
+   ],
+   "date": "2026-11-24"
+  },
+  {
+   "headline": "Meet the Real-Life Partners of ‘The Hunger Games: Sunrise on the Reaping’ Cast",
+   "urls": [
+    "https://editorial.rottentomatoes.com/article/weekend-box-office-the-hunger-games-sunrise-on-the-reaping-week-1/",
+    "https://people.com/sunrise-on-the-reaping-cast-real-life-loves-12274423",
+    "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Sunrise_on_the_Reaping",
+    "https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping"
    ],
    "date": "2026-11-24"
   }
