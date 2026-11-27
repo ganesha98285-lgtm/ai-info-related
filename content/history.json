@@ -529,7 +529,9 @@
   "‘It’s go time’: Morgan Stanley shares 4 areas of the stock... #shorts",
   "Timeline: See when the major East Coast Thanksgiving week... #shorts",
   "China launches Pakistani astronaut to Tiangong space station,... #shorts",
-  "Apple Black Friday deals LIVE: Lowest prices on AirPods Pro,... #shorts"
+  "Apple Black Friday deals LIVE: Lowest prices on AirPods Pro,... #shorts",
+  "Ford reveals name for 2027 WEC LMDh challenger #shorts",
+  "China hails ‘complete success’ in historic space launch... #shorts"
  ],
  "hooks": [
   "Bitcoin return threshold",
@@ -1060,6 +1062,8 @@
   "Everyone is talking about this today.",
   "This changed in the last few hours.",
   "Stay till the end for the part people missed.",
+  "This is the story everyone is sharing.",
+  "Here is what just happened.",
   "This is the story everyone is sharing."
  ],
  "ideas": [
@@ -4161,7 +4165,19 @@
   "Apple Black Friday deals LIVE: Lowest prices on AirPods Pro, Apple Watch 12, MacBook Neo and more",
   "What to know before using AI agents for Black Friday shopping &nbsp;&nbsp; NPR Here Comes Santa Claude &nbsp;&nbsp; The Atlantic AI tools help brands curb Black Friday de",
   "That is the short version, and the full reporting is linked in the description under this video.",
-  "It is worth watching how the reaction to this develops over the next couple of days."
+  "It is worth watching how the reaction to this develops over the next couple of days.",
+  "Ford reveals name for 2027 WEC LMDh challenger",
+  "Ford reveals name for 2027 WEC LMDh challenger &nbsp;&nbsp; Motorsport.com Ford unveils GT41 Hypercar as it gears up for Le Mans showdown &nbsp;&nbsp; Fox Business Americ",
+  "Here is why it is getting so much attention.",
+  "This is the part most people scrolled past.",
+  "Ford reveals name for 2027 WEC LMDh challenger &nbsp;&nbsp; Motorsport.com Ford unveils GT41 Hypercar as it gears up for Le Mans showdown &nbsp;&nbsp; Fox Business America’s Race Team Returns &nbsp;&nbsp; Ford Racing For",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported.",
+  "China hails ‘complete success’ in historic space launch carrying Pakistani astronaut",
+  "FCC approves 1 million SpaceX data centers in space.",
+  "&nbsp;&nbsp; The Washington Post US authorizes SpaceX to deploy 1 million satellites for AI data centers in space &nbsp;&nbsp; CNN FCC green lights SpaceX’s plan to launc",
+  "Here is why it is getting so much attention.",
+  "&nbsp;&nbsp; The Washington Post US authorizes SpaceX to deploy 1 million satellites for AI data centers in space &nbsp;&nbsp; CNN FCC green lights SpaceX’s plan to launch 1 million ‘Starmind’ data center satellites &nbs",
+  "There is a lot of noise around this one, so we are sticking strictly to what the sources reported."
  ],
  "idea_keys": [],
  "idea_key_dates": {},
@@ -8680,7 +8696,19 @@
   "px8108850": "2026-11-26",
   "px35450991": "2026-11-26",
   "px31994495": "2026-11-26",
-  "px9490120": "2026-11-26"
+  "px9490120": "2026-11-26",
+  "px34449218": "2026-11-27",
+  "px16574141": "2026-11-27",
+  "px12152980": "2026-11-27",
+  "px39778277": "2026-11-27",
+  "px39778275": "2026-11-27",
+  "px13831831": "2026-11-27",
+  "px30306550": "2026-11-27",
+  "px7169899": "2026-11-27",
+  "px7169771": "2026-11-27",
+  "px7169780": "2026-11-27",
+  "px13737129": "2026-11-27",
+  "px5889728": "2026-11-27"
  },
  "thumb_styles": {
   "0-0": 11,
@@ -8725,8 +8753,8 @@
   "4-7": 11,
   "5-0": 11,
   "5-1": 11,
-  "5-2": 10,
-  "5-3": 10,
+  "5-2": 11,
+  "5-3": 11,
   "5-4": 10,
   "5-5": 10,
   "5-6": 10,
@@ -12906,6 +12934,22 @@
    "title": "Apple Black Friday deals LIVE: Lowest prices on AirPods Pro,... #shorts",
    "hook": "This is the story everyone is sharing.",
    "date": "2026-11-25",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "JGoYu9AC7AE",
+   "title": "Ford reveals name for 2027 WEC LMDh challenger #shorts",
+   "hook": "Here is what just happened.",
+   "date": "2026-11-27",
+   "views": 0,
+   "likes": 0
+  },
+  {
+   "video_id": "6wCyIFbLooA",
+   "title": "China hails ‘complete success’ in historic space launch... #shorts",
+   "hook": "This is the story everyone is sharing.",
+   "date": "2026-11-27",
    "views": 0,
    "likes": 0
   }
@@ -17803,6 +17847,24 @@
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTjJqQ0QxcVBwbVFjdThCcGN6YzlWTTQ1WmJKYXBSY3lYOGplUzF1TDljMVRheDBfSXp1ZzF4VFhUTGlCN0JTR2REZEs0ZWJWZVVoODRkdDU4aWVCeXlOdFhZTHliTW5xV3dLSDUyY2JaejlzNWRZdzBwRlRLV1JPVG12Zl80RlcyUlRhM2NFeVM?oc=5"
    ],
    "date": "2026-11-25"
+  },
+  {
+   "headline": "Ford reveals name for 2027 WEC LMDh challenger",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUp6a0VnRWNNVVR2bzdQR0pTUmswUmMyQTh3Z05TOTEycmtUQ05GRVcyNUhUWHA3Q2RzNFZFS3pkWUdoMGxsaWhmTzZuR21pZW5nU3BacktJTzVkVnMxREhpYm1VX21fSFVQSGpJc2VWZkowZDdGZktNVFl0a3Rqb0xudTNONi11d1luSUNnMWNzNzBuVlA4?oc=5",
+    "https://en.wikipedia.org/wiki/Martha_Firestone_Ford"
+   ],
+   "date": "2026-11-27"
+  },
+  {
+   "headline": "China hails ‘complete success’ in historic space launch carrying Pakistani astronaut",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWRGMWR3bjFJZmlWaVE5Si0zTk56UnpEcDNYS0gxalgyV2Q5ZVBiNWRoMVAycmRvVUlfN1Mydm00dlpZdWZsTkVPMGtabEZsQ3FlNC1QbXFSZTF1MXhMQ2p0R3JtRUg1VlEyUFc2aVBGVkMwWHFrZl9UanJfQkg3VkNMejE1ZEs4TUdNVE1KdkZELURVd0NHNnZaOHJRZUhCMUxyckJqMmZGUEl2enh2MmRVd2V5VnpnaUNpakx5QnVUSXdWUmc?oc=5",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcy1uWmpNVXJlZTFGVHlxQUNqSG1nRllpUnBTVWh2d2RZWUVqWF9oVlBEeW9KU0s2YUNQTk41ejFJLTlxMGJhZDA5QjVjZ2lYVmxmR0NwcUtHUHBxb0RpTEFNSm5XWGJEenlha05RYXlXSmVZdDEwaU1vdklmZlZITW1iSUdMUi03bFJwOWJDQ2JibmVPR09LXzRnc0NOVGVCZ1l3WU5udnpFT2FRMElKUm5KZy0?oc=5",
+    "https://news.google.com/rss/articles/CBMimAJBVV95cUxNa084a0JfVGNCYlR1N1A3SE9aSktyMG5GbnRyeTZHNEdIdTkteVdKX2FRRlRvOW9YVnVSQkRNR0Z4Tk5kRVZBV2xNM0J2MUs3a0FoTWpscm1pTl9tTW1wblBfd2U5amFrczYzSDlLQnBRSnowWFZENkxlVV91X0QwTnNsT0N4SGtoa2hMa01oS0I4TWh2TnpNOUdnZlQxcE03U19iODRKSW9mTXB4ZlhwcTBjcENlVHVGSVJsV0twVlp2Vk5LVFNWdHhWVjE1WHpzSWdWeC13OUN0cC1oYXpfeURNX2lqTXNPcUFkaEdVUGVzU1VCckU0amRublBwWlEzUlVPQy1WRmlnOXh2UTlQTW8tZW9TSEVU?oc=5",
+    "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNY3BHRGRHek85VnZGVktCTTU5bDRLSHptazVqc2FpR29QdlY3NzVXVnZfN2JuYWFxQTNVMFYteDBLRU9EdUFKWVRjVHhKd3RieXFDMG15UWZ2VHN5T1FnODVyb3F6QjY1WlM0R0tjQ2lqbGFUNEwwOHBnSy1xcmE2TG1FSWhNTjZsaVI4d245WUhzUXNCZHNMWXczOHdLWjlYSmxWTDJEdHIyMUtVQ0tkNTA2YnZkZUZDc0NjVHF2ZjkzRjU1Rm0zY2dCdUpjQnhwM0tMWDFKMEJEVHI1N0JRdGJhMUMtYlo3OW93YWctd0Qtek5HbVRudFVuRHZsQQ?oc=5"
+   ],
+   "date": "2026-11-27"
   }
  ]
 }
